@@ -1,0 +1,17 @@
+{
+    "name": "splendid/de_de",
+    "description": "German (Germany) language",
+    "version": "0.0.1",
+    "license": [
+        "OSL-3.0",
+    ],
+    "require": {
+        "magento/framework": "100.0.*"
+    },
+    "type": "magento2-language",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
