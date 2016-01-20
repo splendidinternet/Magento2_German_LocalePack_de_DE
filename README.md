@@ -17,4 +17,6 @@ bin/magento setup:di:compile
 ```
 
 # Installation mit Composer
-- gibt es noch nicht ...
+```bash
+composer require splendid/de_de
+```
