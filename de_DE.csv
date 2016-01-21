@@ -2285,8 +2285,8 @@ Something went wrong while saving the file(s).,Da lief was falsch beim Speichern
 Provided content must be valid base64 encoded data.,Bereitgestellter Inhalt muss mit Base64-codierte Daten gültig sein.
 Provided file name contains forbidden characters.,Der vorgesehene Dateiname enthält ungültige Zeichen.
 Link price must have numeric positive value.,Preis des Links muss einen numerischen positiven Wert besitzen.
-Number of downloads must be a positive integer.,#NAME?
-Sort order must be a positive integer.,#NAME?
+Number of downloads must be a positive integer.,Anzahl der Downloads muss eine positive ganze Zahl sein.
+Sort order must be a positive integer.,Sortierreihenfolge muss eine positive ganze Zahl sein.
 Link URL must have valid format.,Link URL muss gültiges Format besitzen.
 Provided file content must be valid base64 encoded data.,Der vorgesehene Dateiinhalt muss mit Base64-codierten Daten gültig sein.
 Sample URL must have valid format.,Sample-URL muss ein ungültiges Format besitzen.
@@ -2295,7 +2295,7 @@ Order item id cannot be null,Bestell-Artikel-ID darf nicht Null sein
 Product type of the product must be 'downloadable'.,Produkttyp des Produktes muss 'herunterladbar' sein.
 Provided link information is invalid.,Angegebene Link-Information ist ungültig.
 Invalid link type.,Ungültiges Link-Typ.
-Link title cannot be empty.,#NAME?
+Link title cannot be empty.,Der Titel des Links kann nicht leer sein
 There is no downloadable link with provided ID.,Es gibt keinen herunterladbaren Link mit der vorgesehen ID.
 Provided downloadable link is not related to given product.,"Vorausgesetzt, herunterladbarer Link steht nicht Bezug zu bestehenden Artikeln."
 Please specify product link(s).,Bitte Produktlink(s) angeben.
@@ -2322,29 +2322,29 @@ URL,URL
 Samples,Samples
 Add product preview files here.,Fügen Sie hier Produkt-Vorschaudateien hinzu.
 U,U
-Select all,#NAME?
+Select all,Alle wählen
 Unselect all,Alle abwählen
 "Go to <a href=""%1"">My Downloadable Products</a>","Gehe zu: <a href=""%1"">Meine herunterladbaren Produkte</a>"
-Downloadable Products,#NAME?
-Date,#NAME?
-Remaining Downloads,#NAME?
+Downloadable Products,Downloadartikel
+Date,Datum
+Remaining Downloads,Verbleibende Downloads
 View Order,Bestellung ansehen
-Start Download,#NAME?
+Start Download,Download starten
 You have not purchased any downloadable products yet.,Sie haben bisher keine herunterladbaren Produkte gekauft.
-download,#NAME?
-Attribute Properties,#NAME?
+download,Download
+Attribute Properties,Attribute Eigenschaften
 Default label,Standard Label
 Catalog Input Type for Store Owner,Katalog-Eingabetyp für Shop-Besitzer
-Values Required,#NAME?
-Decimal Number,#NAME?
+Values Required,Werte erforderlich
+Decimal Number,Dezimalzahl
 Integer Number,Integer-Nummer
 Letters,Buchstaben
 "Letters (a-z, A-Z) or Numbers (0-9)","Buchstaben (a-z, A-Z) oder Ziffern (0-9)"
-Text Field,#NAME?
-Text Area,#NAME?
+Text Field,Einzeiliges Textfeld
+Text Area,Mehrzeiliger Textbereich
 Yes/No,Ja/Nein
 "Input type ""%value%"" not found in the input types list.","Input-Typ ""%value%"" nicht gefunden in der Input-Typenliste."
-Entity object is undefined,#NAME?
+Entity object is undefined,Entitäten-Objekt ist nicht definiert
 """%1"" is not a valid image format","""%1"" ist kein gültiges Bildformat"
 """%1"" cannot contain more than %2 lines.","""%1"" kann nicht aus mehr als %2 Zeilen bestehen."
 Attribute group does not belong to provided attribute set,Attribut-Gruppe gehört nicht zum gelieferten Attribut-Set.
@@ -2364,17 +2364,17 @@ There was an error saving attribute set.,Es gab einen Fehler beim Speichern des 
 Default attribute set can not be deleted,Standard-Attribut-Set kann nicht gelöscht werden
 There was an error deleting attribute set.,Es trat ein Fehler beim Löschen des Attribut-Sets auf.
 Invalid entity_type specified: %1,Ungültiger Entity_type spezifiziert: %1
-Entity is not initialized,#NAME?
-Unknown parameter,#NAME?
+Entity is not initialized,Datensatz ist nicht initialisiert
+Unknown parameter,Unbekannter Parameter
 The attribute code '%1' is reserved by system. Please try another attribute code,"Der Attributcode ""% 1"" ist durch das System reserviert. Bitte versuchen Sie einen anderen Attributcode"
 An attribute code must not be more than %1 characters.,Ein Attribut-Code darf nicht länger als %1 Zeichen lang sein.
 Invalid default decimal value,Ungültiger Standard-Dezimalwert
 Invalid default date,Ungültiges Standarddatum
-Invalid entity supplied,#NAME?
+Invalid entity supplied,Ungültiger Datensatz angegeben
 Invalid backend model specified: ' .,Ungültiges Backend Model spezifiziert: ' .
 "Source model ""%1"" not found for attribute ""%2""","Source-Modell ""%1"" nicht gefunden für Attribut ""%2"""
 "The value of attribute ""%1"" must be unique","Der Wert des Attributs ""%1"" muss eindeutig sein"
-Invalid date,#NAME?
+Invalid date,Ungültiges Datum
 Empty attribute code,Leerer Attributcode
 Attribute %1 doesn't work with options,Attribut %1 arbeitet nicht mit Optionen
 Cannot save attribute %1,Kann Attribut %1 nicht speichern
@@ -2383,7 +2383,7 @@ Attribute %1 does not contain option with Id %2,Attribut %1 enthält nicht die O
 Cannot load options for attribute %1,Kann Optionen für Attribut %1 nicht laden
 Attribute set name is empty.,Attribut-Set Name ist leer.
 "An attribute set named ""%1"" already exists.","Ein Attribut-Set mit dem Namen ""%1"" ist bereits vorhanden."
-No options found.,#NAME?
+No options found.,Keine Optionen gefunden.
 Invalid entity supplied: %1,Ungültige Entität bereit gestellt: %1
 Attempt to add an invalid object,"Versuch, ein ungültiges Objekt hinzuzufügen"
 Invalid attribute identifier for filter (%1),Ungültige Attribut Kennung für Filter (%1)
@@ -2394,13 +2394,13 @@ Invalid foreign key,Ungültiger Fremdschlüssel
 Invalid entity type,Ungültiger Entitätstyp
 Invalid attribute type,Ungültiger Attributstyp
 A joined field with this alias is already declared.,Ein verknüpftes Feld mit diesem Alias ist bereits deklariert.
-Invalid joint fields,#NAME?
+Invalid joint fields,Ungültige gemeinsame Felder
 A joint field with this alias (%1) is already declared.,Ein verbundenes Feld mit diesem Alias (%1) ist bereits deklariert.
 Data integrity: No header row found for attribute,Datenintegrität: Keine Kopfzeile für das Attribut gefunden
 Invalid attribute name: %1,Ungültiger Attributname: %1
 Invalid character encountered in increment ID: %1,Ungültige Zeichen im Schritt ID aufgetreten: %1
-The current module pathname is undefined.,#NAME?
-The current module EAV entity is undefined.,#NAME?
+The current module pathname is undefined.,Der Pfadname des Moduls ist nicht definiert
+The current module EAV entity is undefined.,Die EAV entity des Moduls ist nicht definiert
 The form code is not defined.,Form-Code ist nicht definiert
 The entity instance is not defined.,Die Entitätsinstanz ist nicht definiert.
 Invalid form type.,Ungültiger Formulartyp
@@ -2444,8 +2444,8 @@ Edit Template,Vorlage bearbeiten
 Edit System Template,Systemvorlage bearbeiten
 New Template,Neue Vorlage
 New System Template,Neue Systemvorlage
-Email Templates,#NAME?
-Email Preview,#NAME?
+Email Templates,E-Mail-Vorlagen
+Email Preview,E-Mail-Vorschau
 An error occurred. The email template can not be opened for preview.,Ein Fehler ist aufgetreten. Die E-Mail-Vorlage kann nicht für die Vorschau geöffnet werden.
 This email template no longer exists.,Diese E-Mail-Vorlage existiert nicht mehr.
 You saved the email template.,Sie haben die E-Mail-Vorlage gespeichert.
@@ -2464,7 +2464,7 @@ Custom2 Contact Email,Eigener Kontakt E-Mail 2
 Store Name,Store Name
 Store Phone Number,Store Telefonnummer
 Store Hours,Geschäftszeiten
-Region/State,#NAME?
+Region/State,Bundesland
 Street Address 1,Adresse Straße 1
 Street Address 2,Adresse Straße 2
 Store Contact Information,Store Kontaktinformation
@@ -2479,12 +2479,12 @@ Contents of %s could not be loaded or is empty,Inhalte von %s konnten nicht gela
 """file"" parameter must be specified and must not be empty","""file"" Parameter muss angegeben sein und darf nicht leer sein"
 Design params must be set before calling this method,Design-Parameter muss vor dem Aufrufen dieser Methode festgelegt werden
 <pre>' . . . . '</pre>,<pre>' . . . . '</pre>
-CSS inlining error:,#NAME?
+CSS inlining error:,CSS inline Fehler:
 Error filtering template: %s,Fehler beim filtern der Vorlage: %s
 "We're sorry, an error has occurred while generating this email.",Leider ist ein Fehler aufgetreten beim Erzeugen diese E-Mail.
-Invalid sender data,#NAME?
+Invalid sender data,Ungültige Absender Daten
 Load default template,Standardvorlage laden
-Template,#NAME?
+Template,Vorlage
 Are you sure you want to strip tags?,"Sind Sie sicher, dass Sie diese Tags auschneiden wollen?"
 Are you sure you want to delete this template?,"Sind Sie sicher, dass Sie diese Vorlage löschen möchten?"
 The template did not load. Please review the log for details.,Die Vorlage wurde nicht geladen. Bitte überprüfen Sie das Protokoll für Details.
@@ -2493,7 +2493,7 @@ Encryption Key,Kodierungsschlüssel
 New Encryption Key,Neuer Kodierungsschlüssel
 The encryption key is used to protect passwords and other sensitive data.,"Der Kodierungsschlüssel wird verwendet, um Passwörter und andere sensible Daten zu schützen."
 Auto-generate a Key,Einen Schlüssel automatisch generieren
-The generated key will be displayed after changing.,#NAME?
+The generated key will be displayed after changing.,Der erzeugte Schlüssel wird nach der Änderung angezeigt.
 New Key,Neuer Schlüssel
 Deployment configuration file is not writable.,Deployment-Konfigurationsdatei ist nicht beschreibbar.
 Please enter an encryption key.,Bitte geben Sie einen Kodierungsschlüssel ein.
@@ -2505,7 +2505,7 @@ Europe First Priority,Europa First Priorität
 2 Day,2 Tage
 2 Day AM,2 Tage AM
 3 Day Freight,3 Tage-Fracht
-Express Saver,#NAME?
+Express Saver,Express Saver
 Ground,Grund
 First Overnight,First über Nacht-Zustellung
 Home Delivery,Hauszustellung
@@ -2521,7 +2521,7 @@ Standard Overnight,Standard über Nacht-Zustellung
 Freight,Fracht
 National Freight,nationale Fracht
 Regular Pickup,regelmäßige Abholung
-Request Courier,#NAME?
+Request Courier,Kurier anfordern
 Drop Box,Briefkasten
 Business Service Center,Business Service Center
 Station,Station
@@ -2531,11 +2531,11 @@ FedEx Box,FedEx Box
 FedEx Tube,FedEx Tube
 FedEx 10kg Box,FedEx 10kg Box
 FedEx 25kg Box,FedEx 25kg Box
-Your Packaging,#NAME?
-Not Required,#NAME?
-Adult,#NAME?
-Direct,#NAME?
-Indirect,#NAME?
+Your Packaging,Ihre Verpackung
+Not Required,Nicht erforderlich
+Adult,Erwachsener
+Direct,Direkt
+Indirect,Indirekt
 For some reason we can't retrieve tracking info right now.,Aus irgendeinem Grund können wir die Trackinginformation jetzt gerade nicht bereitstellen
 status,Status
 Empty response,Leere Antwort
@@ -2582,22 +2582,22 @@ There are no grouped products.,Dort sind keine gruppierten Produkte.
 Default Qty,Standardmenge
 Starting at,Startet am
 Grouped product items,Gruppiert Produkte - Artikel
-Export Settings,#NAME?
-Entity Type,#NAME?
-Export File Format,#NAME?
+Export Settings,Export-Einstellungen
+Entity Type,Datensatztyp
+Export File Format,Dateiformat für Export
 We can't filter an attribute with no attribute options.,Wir können ein Attribut ohne Attribut-Optionen nicht filtern.
 Attribute Label,Attribut-Label
 Filter,Filter
 Unknown attribute filter type,Unbekannter Attribut Filtertyp
-Check Data,#NAME?
-Import Settings,#NAME?
-Import Behavior,#NAME?
+Check Data,Daten prüfen
+Import Settings,Import-Einstellungen
+Import Behavior,Import-Verhalten
 ,
 Allowed Errors Count,Erlaubte Fehleranzahl
 Please specify number of errors to halt import process,"Bitte geben Sie Anzahl von Fehlern an, um den Importvorgang zu stoppen"
 Field separator,Feldtrenner
 Multiple value separator,Mehrere Werte Trenner
-File to Import,#NAME?
+File to Import,Datei für den Import
 Select File to Import,Wählen Sie die zu importierende Datei
 Images File Directory,Bilderdateiverzeichnis
 "For Type ""Local Server"" use relative path to Magento installation,e.g. var/export, var/import, var/export/some/dir","Für den Typ ""Local Server"" verwenden Sie den relativen Pfad zur Magento-Installation, z.B. var/export, var/import, var/export/some/dir"
@@ -2608,8 +2608,8 @@ History,Historie
 Import History,Import-Historie
 Import history,Import-Historie
 There is no sample file for this entity.,Es gibt keine Beispieldatei für diese Entität.
-Maximum error count has been reached or system error is occurred!,#NAME?
-Import successfully done,#NAME?
+Maximum error count has been reached or system error is occurred!,Maximale Fehleranzahl erreicht oder Systemfehler ist aufgetreten!
+Import successfully done,Import erfolgreich abgeschlossen
 This file is empty. Please try another one.,Diese Datei ist leer. Bitte versuchen Sie eine andere.
 Data validation is failed. Please fix errors and re-upload the file..,Datenüberprüfung fehlgeschlagen. Bitte korrigieren Sie Fehler und laden Sie die Datei ..
 "File is valid! To start import process press ""Import"" button","Die Datei ist nicht gültig! Um den Importvorgang zu starten, drücken Sie den Button ""Import"""
@@ -2617,12 +2617,12 @@ Data validation is failed. Please fix errors and re-upload the file..,Datenüber
 "Checked rows: %1, checked entities: %2, invalid rows: %3, total errors: %4","Geprüfte Zeilen: %1, geprüft Einheiten: %2, ungültige Zeilen: %3, Gesamtfehler: %4"
 The file was not uploaded.,Die Datei wurde nicht hochgeladen.
 "Sorry, but the data is invalid or the file is not uploaded.","Entschuldigung, aber die Daten sind ungültig oder die Datei ist nicht hochgeladen."
-Show more,#NAME?
-Additional data,#NAME?
+Show more,Zeig mehr
+Additional data,Zusatzinformation
 Following Error(s) has been occurred during importing process:,Folgende(r) Fehler ist/sind beim Import aufgetreten:
 Only first 100 errors are displayed here.,Nur die ersten 100 Fehler werden hier angezeigt.
 Download full report,Download des vollständigen Berichts
-in rows:,#NAME?
+in rows:,in Zeilen:
 Make sure your file isn't more than %1M.,"Stellen Sie sicher, dass Ihre Datei nicht größer ist als %1M."
 We can't provide the upload settings right now.,Wir können die Upload-Einstellungen jetzt gerade nicht bereitstellen.
 "Created: %1, Updated: %2, Deleted: %3","Erstellt: %1, Update: %2, Gelöscht: %3"
@@ -2633,28 +2633,28 @@ Please enter a correct entity.,Bitte geben Sie eine korrekte Einheit ein.
 The adapter object must be an instance of %1.,Das Adapter-Objekt muss eine Instanz von %1 sein.
 Please correct the file format.,Bitte korrigieren Sie das Dateiformat.
 Begin export of %1,Beginne Export von %1
-There is no data for the export.,#NAME?
+There is no data for the export.,Es gibt keine Daten für den Export.
 Exported %1 rows.,Exportierte %1 Zeilen.
-The export is finished.,#NAME?
+The export is finished.,Der Export ist abgeschlossen.
 Please provide filter data.,Bitte stellen Sie Filterdaten bereit.
 We can't determine the attribute filter type.,Wir  können das Attribut Filtertyp nicht ermitteln.
 Entity is unknown,Einheit ist unbekannt
 We can't identify this file format.,Wir können dieses Dateiformat nicht identifizieren.
 "Please correct the value for ""%1"" column.","Bitte korrigieren Sie die Wert für Spalte ""%1""."
 Please specify the writer.,Bitte spezifizieren Sie den Schreiber.
-The destination file path must be a string.,#NAME?
-The destination directory is not writable.,#NAME?
-Destination file is not writable,#NAME?
-The header column names are already set.,#NAME?
+The destination file path must be a string.,Der Zieldateipfad muss ein String sein .
+The destination directory is not writable.,Das Zielverzeichnis ist nicht beschreibbar.
+Destination file is not writable,Zieldatei ist nicht beschreibbar
+The header column names are already set.,Die Header- Spalte-Namen sind bereits eingestellt .
 Data validation is failed. Please fix errors and re-upload the file.,Datenüberprüfung  fehlgeschlagen. Bitte korrigieren Sie Fehler und laden Sie die Datei neu.
-in rows,#NAME?
-The validation is complete.,#NAME?
+in rows,in Zeilen
+The validation is complete.,Die Validierung ist abgeschlossen.
 This file does not contain any data.,Diese Datei enthält keine Daten.
 "Begin import of ""%1"" with ""%2"" behavior","Beginne Import von ""%1"" mit ""%2"" -Verhalten"
-The import was successful.,#NAME?
+The import was successful.,Der Import war erfolgreich.
 The file you uploaded has no extension.,Die hochgeladene Datei hat keine Erweiterung.
 The source file moving process failed.,Der Bewegungsprozess der Quelldatei ist fehlgeschlagen.
-Begin data validation,#NAME?
+Begin data validation,Beginnen Sie die Datenüberprüfung
 Import data validation is complete.,Importdaten-Überprüfung ist abgeschlossen.
 The behavior token for %1 is invalid.,Der Behavior-Token für %1 ist ungültig.
 Please enter a correct entity model,Bitte geben Sie eine korrektes Entitätsmodell ein
@@ -2694,19 +2694,19 @@ Some Exception Message,Eine Ausnahmemeldung
 Test Phrase,Test-Satz
 Integrations,Integrationen
 Add New Integration,Neue Integration hinzufügen
-API,#NAME?
+API,API
 Save & Activate,Speichern und Aktivieren
 New Integration,Neue Integration
 Edit Integration '%1',Integration '%1' bearbeiten
 Integration Info,Integration Info
-Callback URL,#NAME?
+Callback URL,Callback URL
 Enter URL where Oauth credentials can be sent when using Oauth for token exchange. We strongly recommend using https://.,"URL eingeben wo Oauth Anmeldeinformationen gesendet werden könne, wenn Oauth für den Tokenwechsel benutzt wird. Wir empfehlen dringend https:// zu benutzen."
 Identity link URL,Identitäts-Link URL
 URL to redirect user to link their 3rd party account with this Magento integration credentials.,URL um Nutzer zu ihrem Drittpartei-Konto umzuleiten mit den Anmeldeinformationen dieser Magento-Integration
 Integration Details,Integrationsdetails
 Integration Tokens for Extensions,Integrations-Token für Extensions
 Uninstall the extension to remove this integration,Deinstallieren Sie die Extension um diese Integration zu entfernen
-Activate,#NAME?
+Activate,Aktivieren
 Reauthorize,neu bevollmächtigen
 Uninstall the extension to remove integration '%1'.,Deinstallieren Sie die Extension um die Integration '%1' zu entfernen.
 This integration no longer exists.,Diese Einbindung ist nicht mehr vorhanden.
@@ -2717,32 +2717,32 @@ Internal error. Check exception log for details.,Interner Fehler. Überprüfen S
 "Edit ""%1"" Integration","Integration ""%1"" bearbeiten"
 Warning! Integrations not using HTTPS are insecure and potentially expose private or personally identifiable information,Warnung! Integrationen die nicht HTTPS verwenden sind unsicher und geben möglicherweise private oder persönliche Informationen preis.
 The integration '%1' has been saved.,Die Integration '%1' wurde gespeichert.
-The integration was not saved.,#NAME?
+The integration was not saved.,Die Integration wurde nicht gespeichert
 The integration '%1' has been re-authorized.,Die Integration '%1' wurde neu autorisiert.
 The integration '%1' has been activated.,Die Integration '%1' wurde aktiviert.
 Integration '%1' has been sent for re-authorization.,Integration '%1' wurde für die Wiederzulassung versendet.
 Integration '%1' has been sent for activation.,Integration '%1' wurde für die Aktivierung versendet.
-This user has no tokens.,#NAME?
+This user has no tokens.,Dieser Benutzer hat keine Token.
 The tokens could not be revoked.,Die Token konnten nicht widerrufen werden.
 "Sorry, something went wrong granting permissions. You can find out more in the exceptions log.","Entschuldigen Sie, ist etwas schief gelaufen beim Erteilen der Berechtigungen. Sie können mehr erfahren im Ausnahme-Protokoll."
 Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.,Da lief was falsch beim Löschen von Rollen und Berechtigungen. Sie können mehr erfahren im Ausnahme-Protokoll.
 This customer has no tokens.,Dieser Kunde hat keine Token.
 Integration with name '%1' exists.,Integration mit dem Namen '%1' existiert.
 Integration with ID '%1' does not exist.,Integration mit ID '%1' ist nicht vorhanden.
-Invalid Callback URL,#NAME?
+Invalid Callback URL,Ungültige Callback URL
 Invalid Rejected Callback URL,Ungültige Callback URL zurückgewiesen
 Incorrect timestamp value in the oauth_timestamp parameter,Falsche Zeitstempelwert im oauth_timestamp Parameter
 The nonce is already being used by the consumer with ID %1,Der Einmalwert wird bereits durch den Verbraucher mit der ID %1 verwendet
 An error occurred validating the nonce,Ist ein Fehler aufgetreten bei der Validierung des Einmalwerts
 Cannot convert to access token due to token is not request type,"Kann nicht zu einem Zugangstoken  konvertiert werden, da der Token nicht der anzuforderte Typ ist"
-Consumer key has expired,#NAME?
+Consumer key has expired,Verbraucherschlüssel abgelaufen
 Cannot create request token because consumer token is not a verifier token,"angeforderter Token kann nicht erstellt werden, weil Verbraucher Token kein Prüf-Token ist"
 Request token is not associated with the specified consumer,Angefragter Token ist dem angegeben Verbraucher nicht zugeordnet
 Token is already being used,Token wird bereits verwendet
 Cannot get access token because consumer token is not a request token,"Kann Zugriffstoken nicht bekommen, weil Verbraucher-Token kein angeforderter Token ist"
 Token is not associated with the specified consumer,Token ist nicht mit dem angegebenen Verbraucher zugeordnet
 Token is not an access token,Token ist kein Zugriffstoken
-Access token has been revoked,#NAME?
+Access token has been revoked,Zugriffstoken wurde widerrufen
 Consumer key is not the correct length,Benutzerschlüssel hat nicht die korrekte Länge
 A consumer having the specified key does not exist,Ein Verbraucher mit dem angegebenen Schlüssel ist nicht vorhanden
 Verifier is invalid,Prüfer ist ungültig
@@ -2760,11 +2760,11 @@ Invalid token to except,Ungültiger Token mit der Ausnahme
 Integration with ID '%1' doesn't exist.,Integration mit ID '%1' existiert nicht.
 A token with consumer ID 0 does not exist,Ein Token mit der Verbraucher-ID 0 existiert nicht
 The integration you selected asks you to approve access to the following:,"Die ausgewählte Integration fordert Sie auf, den Zugang zu  Folgendem zu genehmigen:"
-No permissions requested,#NAME?
+No permissions requested,Keine Berechtigungen angefordert
 Are you sure ?,Sind Sie sicher?
 Are you sure you want to delete this integration? You can't undo this action.,"Sind Sie sicher, dass Sie diese Integration löschen wollen? Sie können diese Aktion nicht mehr rückgängig machen."
 Please setup or sign in into your 3rd party account to complete setup of this integration.,"Bitte setzen Sie oder melden Sie sich in Ihrem Drittpartei-Konto an, um das Setup dieser Integration zu vervollständigen."
-Available APIs,#NAME?
+Available APIs,Verfügbare APIs
 Resource Access,Ressourcenzugriff
 Custom,Benutzerdefiniert
 Resources,Ressourcen
@@ -2772,8 +2772,8 @@ Filterable (with results),Filtrierbar (mit Resultaten)
 Filterable (no results),Filtrierbar (keine Resultate)
 Use in Layered Navigation,In Layered Navigation verwenden
 "Can be used only with catalog input type Dropdown, Multiple Select and Price","Kann nur mit Katalog-Eingangstyp Dropdown, Multiple Select und Preis verwendet werden"
-Use in Search Results Layered Navigation,#NAME?
-Position in Layered Navigation,#NAME?
+Use in Search Results Layered Navigation,Filternavigation auf Suchergebnisseiten verweden
+Position in Layered Navigation,Position in Filternavigation
 Position of attribute in layered navigation block,Position des Attributs im Layered Navigation Block
 item,Artikel
 items,Artikel
@@ -2783,23 +2783,23 @@ Magento Marketplace,Magento Marktplatz
 Platinum Partners,Platin Partner
 "Representing Magento's highest level of partner engagement, Magento Platinum Partners have established themselves as leaders and innovators of key products and services designed to help merchants and brands grow their business. Magento reserves the Platinum level for select trusted partners that are committed to offering integrations of commerce features, functions, and tools, as well as back-end systems and operations, to extend and enhance the power of the Magento commerce platform.","Stellvertretend für Magentos hohes Partner-Engagement haben die Magento Platin-Partner sich als die führenden und innovativsten Unternehmen der wichtigsten Produkte und Dienstleistungen bewährt, um Händlern und Marken ihr tägliches Geschäft zu gewährleisten. Magento behält sich das Platin-Level für ausgewählte Partner vor, die mit Integration von Commerce-Funktionen, Funktionen und Tools sowie Backend-Systemen und Operationen arbeiten, um die Leistung des Magento Commerce-Plattform zu verbessern."
 Featured Platinum Partners,Ausgewählte Platinum-Partner
-Partner search,#NAME?
+Partner search,Partnersuche
 "Magento has a thriving ecosystem of technology partners to help merchants and brands deliver the best possible customer experiences. They are recognized as experts in eCommerce, search, email marketing, payments, tax, fraud, optimization and analytics, fulfillment, and more. Visit the Magento Partner Directory to see all of our trusted partners.","Magento hat ein blühendes Ökosystem von Technologiepartnern, um Händlern und Marken zu helfen, das bestmögliche Kundenerlebnis zu liefern. Sie werden als Experten im eCommerce, Suche, E-Mail Marketing, Zahlungen, Steuern, Betrug, Optimierung und Analyse, Erfüllung und mehr anerkannt. Besuchen Sie die Magento-Partnerverzeichnis von allen unseren Partnern"
-More Partners,#NAME?
+More Partners,Weitere Partner
 Extensions and Themes are an essential component of the Magento Ecosystem. Please visit the Magento Marketplace to see the latest innovations that developers have created to enhance your Magento Store.,"Extensions und Themes sind ein wesentlicher Bestandteil des Magento Ökosystems. Bitte besuchen Sie den Magento Marktplatzum die neuesten Innovationen zu sehen, die Entwickler geschaffen haben, um Ihren Magento Shop zu verbessern ."
 Visit Magento Marketplaces,Magento Marktplätze besuchen
 Read More,Weiterlesen
 Partner Page,Partnerseite
-No partners were found,#NAME?
-Synchronize,#NAME?
+No partners were found,Keine Partner gefunden
+Synchronize,Synchronisieren
 Synchronizing %1 to %2,Synchronisieren %1 zu %2
-Synchronizing...,#NAME?
+Synchronizing...,Synchronisiere …
 The timeout limit for response from synchronize process was reached.,Das Zeitlimit für die Antwort vom Synchronisierungsprozess wurde erreicht.
 File %1 is not readable,Datei %1 ist nicht lesbar
-File System,#NAME?
+File System,Dateisystem
 "database ""%1""","Datenbank ""%1"""
 Parent directory does not exist: %1,Übergeordnete Verzeichnis existiert nicht: %1
-File system,#NAME?
+File system,Dateisystem
 "Unable to save file ""%1"" at ""%2""","Nicht in der Lage Datei ""%1"" in ""%2"" zu speichern"
 Wrong file info format,Falsches Datei-Info-Format
 "Path ""%value%"" is protected and cannot be used.","Pfad ""%value%"" ist geschützt, und kann nicht verwendet werden."
@@ -2811,10 +2811,10 @@ Unable to save file: %1,Speichern der Datei nicht möglich: % 1
 "To see product price, add this item to your cart. You can always remove it later.","Um den Produktpreis zu sehen, fügen Sie diesen Artikel zu Ihrem Warenkorb hinzu. Sie können ihn jederzeit wieder entfernen."
 On Gesture,auf Geste
 In Cart,Im Warenkorb
-Before Order Confirmation,#NAME?
-Order total will be displayed before you submit the order,#NAME?
+Before Order Confirmation,Vor Auftragsbestätigung
+Order total will be displayed before you submit the order, Die Auftragssumme wird angezeigt, bevor Sie die Bestellung aufgeben
 You will see the order total before you submit the order.,"Sie werden die Auftragssumme sehen, bevor Sie den Auftrag übermitteln."
-Actual Price,#NAME?
+Actual Price,Aktueller Preis
 Ship to Multiple Addresses,an mehrere Adressen versenden
 Billing Information - %1,Rechnungsinformationen - %1
 Review Order - %1,Bestellung bewerten - %1
@@ -2825,32 +2825,32 @@ Edit Shipping Address,Liederadresse bearbeiten
 Create Billing Address,Rechnungsadresse erstellen
 Create Shipping Address,Lieferadresse erstellen
 Data saving problem,Datenspeicherung Problem
-We cannot open the overview page.,#NAME?
+We cannot open the overview page.,Wir können die Übersichtsseite nicht öffnen.
 Please agree to all Terms and Conditions before placing the order.,Bitte stimmen Sie den Geschäftsbedingungen vor der Bestellung zu.
 Order place error,Bestellort-Fehler
 Maximum qty allowed for Shipping to multiple addresses is %1,Die maximal erlaubte Menge für den Versand an mehrere Adressen  ist %1
 Please check shipping address information.,Überprüfen Sie bitte die Lieferadresseninformation.
 Please check billing address information.,Bitte überprüfen Sie die Rechnungsadresse.
-Please select shipping methods for all addresses.,#NAME?
-A payment method is not defined.,#NAME?
+Please select shipping methods for all addresses.,Bitte wählen Sie Versandmethoden für alle Adressen .
+A payment method is not defined.,Eine Zahlungsmethode ist nicht definiert.
 The requested payment method is not available for multishipping.,Die aufgerufene Zahlungsmethode ist für multishipping nicht verfügbar.
-Item not found or already ordered,#NAME?
+Item not found or already ordered,#Artikel nicht gefunden oder bereits bestellt
 Please specify a payment method.,Bitte geben Sie eine Zahlungsmethode an.
 Please check shipping addresses information.,Bitte überprüfen Sie die Lieferadress-Informationen.
 Please specify shipping methods for all addresses.,Bitte geben Versand-Methoden für alle Adressen an.
-Select Addresses,#NAME?
+Select Addresses,Adressen auswählen
 Shipping Information,Versandinformationen
 Billing Information,Rechnungsinformationen
-Place Order,#NAME?
+Place Order,Jetzt kaufen
 Order Success,Bestell-Erfolg
 Default Billing,Standard Rechnung
-Default Shipping,#NAME?
-Select Address,#NAME?
-Back to Billing Information,#NAME?
+Default Shipping,Standard Versand
+Select Address,Adresse auswählen
+Back to Billing Information,Zurück zu den Rechnungsinformationen
 Please select a shipping address for applicable items.,Bitte wählen Sie eine Lieferadresse für die gewählten Artikel.
-Send To,#NAME?
+Send To,Senden an
 A shipping selection is not applicable.,Eine Versand Auswahl entfällt.
-Remove Item,#NAME?
+Remove Item,Artikel entfernen
 Go to Shipping Information,Gehe zu den Versandinformationen
 Update Qty &amp; Addresses,Aktualisiere Qty &amp; Addressen
 Enter a New Address,Geben Sie eine neue Adresse ein
@@ -2859,11 +2859,11 @@ Payment Method,Zahlmethode
 Go to Review Your Order,Ihre Bestellung überprüfen
 Back to Shipping Information,Zurück zu den Versandinformationen
 Other items in your order,Andere Artikel in Ihrer Bestellung
-Edit Items,#NAME?
-Shipping is not applicable.,#NAME?
-Check Out with Multiple Addresses,#NAME?
+Edit Items,Artikel bearbeiten
+Shipping is not applicable.,Versand wird nicht erhoben.
+Check Out with Multiple Addresses,Zur Kasse mit mehreren Adressen
 Address %1 <span>of %2</span>,Addresse %1 <span>von %2</span>
-Shipping To,#NAME?
+Shipping To,Versand nach
 Shipping Method,Versandmethode
 Order Review,Bestell-Bewertung
 Grand Total:,Gesamtsumme:
@@ -2871,16 +2871,16 @@ Submitting order information...,Übermitteln der Bestellung-Informationen ...
 "Sorry, no quotes are available for this order right now.","Entschuldigen Sie, es sind momentan keine Angebote zu dieser Bestellung verfügbar."
 Continue to Billing Information,Weiter zur Rechnungsinformation
 Back to Select Addresses,Zurück zur Adressenwahl
-Thank you for your purchase!,#NAME?
+Thank you for your purchase!,Vielen Dank für Ihren Einkauf!
 Thanks for your order. We'll email you order details and tracking information.,Vielen Dank für Ihre Bestellung. Wir werden Ihnen eine E-Mail mit Details und Tracking-Informationen zusenden.
 Your order numbers are:,Ihre Bestellnummern sind:
-Your order number is:,#NAME?
+Your order number is:,Ihre Bestellnummer lautet:
 "No New Relic Application ID configured, cannot continue with Cron Event reporting","Keine New Relic Anwendungs-ID konfiguriert, kann nicht mit Cron Ereignisbericht weitermachen"
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","Die New Relic Integration erfordert den newrelic-php5 Stellvertreter, der nicht installiert ist. Weitere Informationen zur Installation <a target=""_blank"" href=""%1"">hier</a>."
-Delete Selected Problems,#NAME?
-Unsubscribe Selected,#NAME?
+Delete Selected Problems,Ausgewählte Probleme Löschen
+Unsubscribe Selected,Ausgewählte Abmelden
 Save Newsletter,Newsletter speichern
-Save and Resume,#NAME?
+Save and Resume,Speichern und fortsetzen
 View Newsletter,Newsletter anzeigen
 Edit Newsletter,Newsletter ändern
 Queue Information,Warteschlangeninformation
@@ -2893,51 +2893,51 @@ Start,Start
 Pause,Pause
 Do you really want to cancel the queue?,Wollen Sie die Warteschlange wirklich abbrechen?
 Resume,Fortsetzen
-Newsletter Templates,#NAME?
+Newsletter Templates,Newsletter Vorlagen
 Return HTML Version,Zurück zur HTML-Version
-Save As,#NAME?
+Save As,Speichern unter
 Edit Newsletter Template,Newsletter-Vorlage bearbeiten
 New Newsletter Template,Neue Newsletter-Vorlage
 No Templates Found,Keine Vorlagen gefunden
-Added,#NAME?
-Updated,#NAME?
-Sender,#NAME?
-Template Type,#NAME?
+Added,Hinzugefügt
+Updated,Aktualisiert
+Sender,Absender
+Template Type,Vorlagentyp
 Queue Newsletter,Warteschlange Newsletter
 We unsubscribed the people you identified.,"Wir haben  die Personen, die Sie  identifiziert haben, abbestellt."
 The problems you identified have been deleted.,Die von Ihnen festgestellten Probleme wurden gelöscht.
-Newsletter Problems Report,#NAME?
-Newsletter Problem Reports,#NAME?
+Newsletter Problems Report,Newsletter Problem-Bericht
+Newsletter Problem Reports,Newsletter Problem-Berichte
 Newsletter Queue,Newsletter-Warteschlange
 Edit Queue,Warteschlange bearbeiten
 Please correct the newsletter template and try again.,"Bitte korrigieren Sie die Newsletter-Vorlage, und versuchen Sie es erneut."
 You saved the newsletter queue.,Die Newsletter Warteschlange wurde gespeichert.
-Newsletter Subscribers,#NAME?
-Subscribers,#NAME?
+Newsletter Subscribers,Newsletter Abonnenten
+Subscribers,Abonnenten
 Please select one or more subscribers.,Bitte wählen Sie einen oder mehrere Abonnenten.
 Total of %1 record(s) were deleted.,Insgesamt wurden %1 Eintragung(en)  gelöscht.
-The newsletter template has been deleted.,#NAME?
+The newsletter template has been deleted.,Die Newsletter-Vorlage wurde gelöscht.
 We can't delete this template right now.,Wir  können diese Vorlage jetzt nicht löschen.
 Create Newsletter Template,Newsletter Vorlage erstellen
-The newsletter template has been saved.,#NAME?
+The newsletter template has been saved.,Die Newsletter-Vorlage wurde gespeichert.
 Something went wrong while saving this template.,Da lief was falsch beim Speichern dieser Vorlage.
-Newsletter Subscription,#NAME?
+Newsletter Subscription,Newsletter Abonnement
 Something went wrong while saving your subscription.,Da lief was falsch beim Speichern Ihres Abonnements.
 We saved the subscription.,Das Abonnement wurde gespeichert.
 We removed the subscription.,Das Abonnement wurde entfernt.
-Your subscription has been confirmed.,#NAME?
+Your subscription has been confirmed.,Ihre Anmeldung wurde bestätigt.
 This is an invalid subscription confirmation code.,Das ein ungültiger Abonnement Bestätigungscode.
-This is an invalid subscription ID.,#NAME?
-This email address is already assigned to another user.,#NAME?
+This is an invalid subscription ID.,Dies ist eine ungültige Abonnement ID .
+This email address is already assigned to another user.,Diese E-Mail -Adresse ist bereits einem anderen Benutzer zugeordnet.
 "Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.","Entschuldigung, aber der Administrator verweigert ein Abonnement für Gäste. Bitte <a href=""%1""> registrieren </a>."
-Please enter a valid email address.,#NAME?
-The confirmation request has been sent.,#NAME?
-Thank you for your subscription.,#NAME?
+Please enter a valid email address.,Bitte geben Sie eine gültige E-Mail-Adresse ein.
+The confirmation request has been sent.,Die Bestätigungsanfrage wurde gesendet.
+Thank you for your subscription.,Vielen Dank für Ihre Anmeldung.
 There was a problem with the subscription: %1,Es gab ein Problem mit dem Abonnement: %1
 Something went wrong with the subscription.,Da lief was falsch mit dem Abonnement.
 You unsubscribed.,Sie haben sich abgemeldet.
 Something went wrong while unsubscribing you.,Etwas ist während Ihrer Abmeldung schiefgelaufen.
-Cancelled,#NAME?
+Cancelled,Abgebrochen
 There are no subscribers selected.,Es sind keine Abonnenten ausgewählt.
 You selected an invalid queue.,Sie haben eine ungültige Warteschlange ausgewählt.
 We cannot mark as received subscriber.,Wir können die  empfangenen Abonnenten nicht markieren.
@@ -2945,13 +2945,13 @@ Duplicate template code,Doppelter Vorlagen-Code
 "Follow this link to unsubscribe <!-- This tag is for unsubscribe link  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>","Folgen Sie diesem Link um sich abzumelden <!-- Dieser tag ist für den Abmeldelink --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>"
 Choose Store View:,Store View wählen:
 Newsletter Message Preview,Newsletter-Nachricht Vorschau
-Add to Queue,#NAME?
+Add to Queue,Zur Warteschlange hinzufügen
 Are you sure that you want to strip all tags?,"Sind Sie sicher, dass Sie alle Tags entfernen wollen?"
 Please enter a new template name.,Bitte geben Sie einen neuen Vorlagennamen ein.
-Copy,#NAME?
-Sign Up for Our Newsletter:,#NAME?
-Enter your email address,#NAME?
-Subscribe,#NAME?
+Copy,Kopieren
+Sign Up for Our Newsletter:,In den Newsletter eintragen
+Enter your email address,eben Sie Ihre E-Mail-Adresse ein
+Subscribe,Abonnieren
 Make Check payable to:,Machen Sie den Scheck zahlbar an:
 Send Check to:,Senden Sie den Scheck an:
 Purchase Order Number,Bestellnummer
@@ -2960,7 +2960,7 @@ Purchase Order Number: %1,Bestellnummer %1
 Make Check payable to,Machen Sie den Scheck zahlbar an
 Send Check to,Sende Scheck an
 Shipping Price,Versandkosten
-Export CSV,#NAME?
+Export CSV,CSV exportieren
 Store Pickup,Abholung im Geschäft
 Weight vs. Destination,Gewicht vs. Bestimmungsort
 Price vs. Destination,Preis vs. Bestimmungsort
@@ -2970,8 +2970,8 @@ Order Subtotal (and above),Bestellung Zwischensumme (und drüber)
 # of Items (and above),# von Artikel (und drüber)
 Please correct Table Rate code type: %1.,Bitte Table rate Codetyp korrigieren: %1.
 Please correct Table Rate code for type %1: %2.,Bitte Table rate Code korrigieren für Typ %1: %2.
-Per Order,#NAME?
-Per Item,#NAME?
+Per Order,Pro Bestellung
+Per Item,Pro Artikel
 Please correct Table Rates File Format.,Bitte Table Rate Datei-Format korrigieren.
 Something went wrong while importing table rates.,Etwas ist schiefgelaufen beim Importieren der Table Rates.
 We couldn't import this file because of these errors: %1,Diese Datei konnte nicht importiert aufgrund des Fehlers: %1
@@ -2981,13 +2981,13 @@ Please correct Table Rates format in the Row #%1.,Bitte korrigieren Sie das Tabl
 "Please correct %1 ""%2"" in the Row #%3.","Bitte korrigieren %1 ""%2"" in Reihe #%3."
 "Please correct Shipping Price ""%1"" in the Row #%2.","Bitte Versandkosten korrigieren ""%1"" in Reihe #%2."
 "Duplicate Row #%1 (Country ""%2"", Region/State ""%3"", Zip ""%4"" and Value ""%5"")","Reihe duplizieren #%1 (Land ""%2"", Region/Bundesland ""%3"", PLZ ""%4"" und Wert ""%5"")"
-Free Shipping,#NAME?
+Free Shipping,Versandkostenfrei
 For matching items only,Nur für passende Artikel
-For shipment with matching items,#NAME?
+For shipment with matching items,Für Versand mit passenden Artikeln
 Export VCL for Varnish,VCL für Varnish exportieren
 "Ttl value ""%1"" is not valid. Please use only numbers equal or greater than zero.","Ttl-Wert ""%1"" ist nicht gültig. Bitte verwenden Sie nur Zahlen gleich oder größer als Null."
-Built-in Application (Not Recommended for Production Use),#NAME?
-Varnish Caching,#NAME?
+Built-in Application (Not Recommended for Production Use),Interne Anwendung ( nicht empfohlen für den Einsatz in einer Production Umgebung )
+Varnish Caching,Varnish Caching
 We cannot retrieve the payment method model object.,Zahlungsmethoden Model-Objekt kann nicht abgerufen werden.
 We cannot retrieve the payment info model object.,Zahlungsinformations-Model-Objekt kann nicht abgerufen werden.
 Switch/Solo/Maestro Issue Number,Switch/Solo/Maestro Issue Nummer
@@ -2997,8 +2997,8 @@ Command %1 does not exist.,Befehl %1 existiert nicht.
 Wrong gateway response format.,Falsches Gateway-Antwortformat.
 Validator for field %1 does not exist.,Prüfer für Feld %1 existiert nicht.
 Discount,Rabatt
-All Allowed Countries,#NAME?
-Specific Countries,#NAME?
+All Allowed Countries,Alle Länder erlaubt
+Specific Countries,Spezifische Länder
 The payment method you requested is not available.,Dievon Ihnen angeforderte Zahlungsmethode ist nicht verfügbar.
 The payment disallows storing objects.,#REF!
 We cannot retrieve the payment method code.,Der Zahlungsmethodencode kann nicht abgerufen werden.
@@ -3011,14 +3011,14 @@ The refund action is not available.,Die Erstattungs-Aktion ist nicht verfügbar.
 The void action is not available.,Die Leer-Aktion ist nicht verfügbar.
 The payment review action is unavailable.,Die Zahlungsbewertungs-Aktion ist nicht verfügbar.
 The credit card number doesn't match the credit card type.,Die Kreditkartennummer entspricht nicht dem Kreditkartentyp.
-Invalid Credit Card Number,#NAME?
+Invalid Credit Card Number,Ungültige Kreditkartennummer
 This credit card type is not allowed for this payment method.,Dieser Kreditkartentyp ist für diese Zahlungsmethode nicht erlaubt.
 Please enter a valid credit card verification number.,Bitte geben Sie eine gültige Kreditkarten-Prüfnummer ein.
 Please enter a valid credit card expiration date.,Bitte geben Sie ein gültiges Kreditkarten-Ablaufdatum ein.
 %1 class doesn't implement \Magento\Payment\Model\MethodInterface,%1 Klasse implementiert nicht \Magento\Payment\Model\MethodInterface
-Switch/Solo/Maestro Only,#NAME?
-Issue Number,#NAME?
-Start Date,#NAME?
+Switch/Solo/Maestro Only,Nur Switch/Solo/Maestro
+Issue Number,Vorgangsnummer
+Start Date,Startdatum
 is not available. You still can process offline actions.,ist nicht verfügbar. Sie können immer noch offline Aktionen durchführen.
 We'll ask for your payment details before you place an order.,"Wir werden Sie nach Ihren Zahlungsdetails fragen, bevor Sie Ihre Bestellung aufgeben."
 Credit Card Information,Kreditkarten-Informationen
@@ -3028,8 +3028,8 @@ Billing Agreement #%1,Rechnungsvereinbarung #%1
 Related Orders,Ähnliche Bestellungen
 Billing Agreement View,Rechnungsvereinbarung ansehen
 View Transaction Details,Transaktionsdetails ansehen
-Reference Information,#NAME?
-Transaction Information,#NAME?
+Reference Information,Referenzinformation
+Transaction Information,Transaktionsinformation
 PayPal Fee Information,PayPal Gebühren Informationen
 PayPal Settlement Reports,PayPal Regelungen
 We are connecting to the PayPal SFTP server to retrieve new reports. Are you sure you want to continue?,"Wir verbinden mit dem PayPal SFTP-Server um neue Berichte abzurufen. Bist du dir sicher, dass du weitermachen willst?"
@@ -3037,7 +3037,7 @@ Fetch Updates,Updates vollziehen
 button_label,button_label
 sandbox_button_label,sandbox_button_label
 Help,Hilfe
-View Demo,#NAME?
+View Demo,Demo zeigen
 See terms,#NAME?
 You will be redirected to the PayPal website.,Sie werden auf die PayPal-Website umgeleitet.
 You will be redirected to the PayPal website when you place an order.,"Sie werden auf die PayPal-Website umgeleitet, wenn Sie eine Bestellung aufgeben."
@@ -3048,7 +3048,7 @@ We can't cancel the billing agreement.,Die Abrechnungsvereinbarung konnte nicht 
 You deleted the billing agreement.,Sie haben die Abrechnungsvereinbarung gelöscht.
 We can't delete the billing agreement.,Die Abrechnungsvereinbarung konnte nicht gelöscht werden.
 Reports,Berichte
-View Transaction,#NAME?
+View Transaction,Transkation anzeigen
 We found nothing to fetch because of an empty configuration.,Wir konnten nichts holen aufgrund einer leeren Konfiguration.
 "We fetched %1 report rows from ""%2@%3.""","Wir haben %1 Berichtszeilen aus ""%2 @% 3."" abgerufen"
 "We can't fetch reports from ""%1@%2.""","Die Berichte können nicht aus ""%1@%2."" geholt werden"
@@ -3076,13 +3076,13 @@ The PayPal gateway rejected the request. %1,Das PayPal-Gateway lehnt den Antrag 
 I'm sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.,"Entschuldigung - aber wir waren nicht in der Lage, Ihre Zahlung zu verarbeiten. Bitte versuchen Sie eine andere Zahlungsmethode oder kontaktieren Sie uns, damit wir Sie unterstützen."
 I'm sorry - but we are not able to complete your transaction. Please contact us so we can assist you.,"Entschuldigung - aber wir sind nicht in der Lage, die Transaktion abzuschließen. Bitte kontaktieren Sie uns, damit wir Ihnen helfen können."
 The payment method code is not set.,Die Zahlungsmethode-Code ist nicht eingestellt.
-The reference ID is not set.,#NAME?
+The reference ID is not set.,Die Referenz-ID ist nicht gesetzt.
 Unable to save Billing Agreement:,"Nicht in der Lage, die Abrechnungs-Vereinbarung zu speichern:"
-The customer ID is not set.,#NAME?
+The customer ID is not set.,Die Kunden-ID ist nicht gesetzt.
 The Billing Agreement status is not set.,Der Abrechnungsvereinbarungs-Status ist nicht gesetzt.
 The PayPal certificate does not exist.,Das PayPal-Zertifikat ist nicht vorhanden.
-We prefer PayPal (150 X 60),#NAME?
-We prefer PayPal (150 X 40),#NAME?
+We prefer PayPal (150 X 60),Wir bevorzugen PayPal (150 X 60)
+We prefer PayPal (150 X 40),Wir bevorzugen PayPal (150 X 40)
 Now accepting PayPal (150 X 60),Akzeptiert nun PayPal (150 X 60)
 Now accepting PayPal (150 X 40),Akzeptiert nun PayPal (150 X 40)
 Payments by PayPal (150 X 60),Zahlungen durch Paypal (150 X 60)
@@ -3096,9 +3096,9 @@ Sale,Verkauf
 For Virtual Quotes Only,Für virtuelle Zitate allein
 Auto,Auto
 Ask Customer,Kunden fragen
-IPN (Instant Payment Notification) Only,#NAME?
-API Signature,#NAME?
-API Certificate,#NAME?
+IPN (Instant Payment Notification) Only,Nur IPN ( sofortige Zahlungsbestätigung )
+API Signature,#API Signatur
+API Certificate,API Zertifikat
 The ordering amount of %1 is pending approval on the payment gateway.,Der Bestellmenge %1 ist vorbehaltlich der Zustimmung auf dem Zahlungs-Gateway.
 Ordered amount of %1,Bestellte Menge von %1
 We'll authorize the amount of %1 as soon as the payment gateway approves it.,"Wir werden die Menge von %1 genehmigen, sobald das Zahlung Gateway dies genehmigt."
@@ -3157,7 +3157,7 @@ Matched Address only (no ZIP),Nur übereinstimmende Adresse (kein ZIP)
 Matched Address only (no ZIP) International,Nur übereinstimmende Adresse (kein ZIP) International
 No Details matched,Keine Details übereinstimmend
 No Details matched. International,Keine Details übereinstimmend. International
-Exact Match.,#NAME?
+Exact Match.,Genaue Übereinstimmung.
 Exact Match. Address and Postal Code. International,Genaue Übereinstimmung. Adresse und Postleitzahl. International
 Exact Match. Address and Postal Code. UK-specific,Genaue Übereinstimmung. Adresse und Postleitzahl. UK-spezifisch
 N/A. Not allowed for MOTO (Internet/Phone) transactions,N/A. Nicht für MOTO (Internet / Phone) Transaktionen erlaubt
@@ -3172,16 +3172,16 @@ Matched whole nine-didgit ZIP (no Address),Nur übereinstimmende ganze neunstell
 Yes. Matched Address and five-didgit ZIP,Ja. Übereinstimmende-Adresse und fünfstellige PLZ
 All the address information matched,Alle Adressinformationen abgestimmt
 None of the address information matched,Keine der Adressinformationen abgestimmt
-Part of the address information matched,#NAME?
+Part of the address information matched,Die Adressinformationen stimmen teilweise überein.
 N/A. The merchant did not provide AVS information,N/A. Der Händler liefert keine AVS Informationen
 "N/A. Address not checked, or acquirer had no response. Service not available",N/A. Adresse nicht überprüft oder Erwerber hatte keine Antwort. Dienst nicht verfügbar
-Matched (CVV2CSC),#NAME?
-No match,#NAME?
+Matched (CVV2CSC),(CVV2CSC) angeglichen
+No match,Keine Anpassung
 N/A. Not processed,N/A. Nicht verarbeitet
 N/A. Service not supported,N/A. Service nicht unterstützt
 N/A. Service not available,N/A. Service nicht verfügbar
 N/A. No response,N/A. Keine Antwort
-Matched (CVV2),#NAME?
+Matched (CVV2),(CVV2) angeglichen
 N/A. The merchant has not implemented CVV2 code handling,N/A. Der Händler hat die CVV2 Code-Handhabung nicht implementiert
 N/A. Merchant has indicated that CVV2 is not present on card,"N/A. Händler hat angedeutet, dass CVV2 auf der Karte nicht vorhanden ist"
 CNPJ,CNPJ
@@ -3203,31 +3203,31 @@ You need an authorization transaction to void.,"Sie benötigen eine Autorisierun
 We can't issue a refund transaction because there is no capture transaction.,"Wir können keine Rückerstattung vornehmen, weil es keine Capture-Transaktion gibt."
 We cannot create a target file for reading reports.,Wir können keine Zieldatei erstellen für das Lesen von Berichten.
 Report Date,Reportdatum
-Merchant Account,#NAME?
-Transaction ID,#NAME?
-Invoice ID,#NAME?
-PayPal Reference ID,#NAME?
-PayPal Reference ID Type,#NAME?
-Event Code,#NAME?
-Event,#NAME?
+Merchant Account,Händler-Konto
+Transaction ID,Transaktionsnummer
+Invoice ID,Rechnungs-ID
+PayPal Reference ID,PayPal Referenz-ID
+PayPal Reference ID Type,PayPal Referenz-ID Art
+Event Code,Vorgangscode
+Event,Vorgang
 Finish Date,Enddatum
 Debit or Credit,Lastschrift oder Kredit
 Gross Amount,Bruttobetrag
 Fee Debit or Credit,Gebühr Lastschrift oder Kredit
-Fee Amount,#NAME?
-Order ID,#NAME?
+Fee Amount,Gebühren
+Order ID,Auftragsnummer
 Preapproved Payment ID,Vorgenehmigte Zahlungs-ID
 Subscription ID,Abonnement ID
-Credit,#NAME?
+Credit,Kredit
 Debit,Lastschrift
 ACH Deposit (Hold for Dispute or Other Investigation),ACH Kaution (Halten für Dispute oder andere Untersuchungen)
 ACH Deposit (Reversal),ACH Kaution (Storno)
 ACH Funding for Funds Recovery from Account Balance,ACH Finanzierung für Fonds Erholung des Kontenstands
-ACH Withdrawal,#NAME?
-"Account-to-Account Payment, initiated by PayPal",#NAME?
+ACH Withdrawal,ACH Abbuchung
+"Account-to-Account Payment, initiated by PayPal",Account-zu-Account Zahlung, ausgelöst durch PayPal
 Auction Payment other than through eBay,Auktions Zahlung in anderer Weise als über eBay
 AutoSweep,AutoSweep
-Available Balance,#NAME?
+Available Balance,Verfügbares Guthaben
 Balance Manager Account Bonus,Ausgleichs-Manager Konto-Bonus
 Bonus for first ACH Use,Bonus für die erste ACH Nutzung
 Buyer Credit Payment,Käuferkredit Zahlung
@@ -3245,12 +3245,12 @@ Fee: Mass Pay Request,Gebühr: Sammelzahlung anfordern
 Fee: Web Site Payments Pro Account Monthly,Gebühr: Webseitenzahlungen pro Account monatlich
 Fee: WorldLink Check Withdrawal,Gebühr: Worldlink prüfen Widerrufsrecht
 Funding,Finanzierung
-General (Authorization),#NAME?
+General (Authorization),Allgemein (Autorisation)
 General (Dividend),Allgemein (Dividende)
 General (Funds Transfer from PayPal Account to Another),Allgemein (Kapitaltransfer von einem PayPal Konto auf ein anderes)
 General (Purchase with a credit card),Allgemein (Kauf mit Kreditkarte)
 General Adjustment without businessrelated event,Allgemeine Einstellung ohne unternehmensbezogenes Ereignis
-General Currency Conversion,#NAME?
+General Currency Conversion,Allgemeine Währungsumrechnung
 General Funding of PayPal Account,Allgemeine Finanzierung des PayPal-Kontos
 General Redemption,Allgemeine Rücknahme
 General Withdrawal from PayPal Account,Allgemeine Rücknahme vom PayPal-Konto
@@ -3260,7 +3260,7 @@ General: Withdrawal from PayPal Account,Allgemein: Rücknahme des PayPal-Kontos
 General: Withdrawal to Non-Bank Entity,Allgemein: Widerrufsrecht an Nichtbanken Entitäten
 General: adjustment of a type not belonging to the other T12xx categories,Allgemein: Einstellungen eines Typs gehört nicht den anderen T12xx Kategorien an
 General: bonus of a type not belonging to the other T08xx categories,Allgemein: Bonus von einer Art nicht gehört nicht den anderen T08xx Kategorien an
-General: event not yet categorized,#NAME?
+General: event not yet categorized,Allgemein: Vorgang noch nicht kategorisiert
 General: non-payment fee of a type not belonging to the other T01xx categories,Allgemein: Nichtzahlung Gebühr von einer Art gehört nicht den anderen T01xx Kategorien an
 General: received payment of a type not belonging to the other T00xx categories,Allgemein: Zahlung eines Typs zu erhalten gehört nicht den anderen T00xx Kategorien an.
 General: reversal of a type not belonging to the other T11xx categories,Allgemein: Umkehrung eines Typ  gehört nicht den anderen T11xx Kategorien an
@@ -3272,14 +3272,14 @@ Hold for Dispute Investigation,Halten für Streit-Untersuchungen
 Incentive,Anreiz
 Mass Pay Payment,Sammelzahlung
 Merchant Referral Bonus,Empfehlungsbonus
-Mobile Payment (made via a mobile phone),#NAME?
-Negative Balance,#NAME?
+Mobile Payment (made via a mobile phone),Mobiler Zahlungsvorgang (via Handy)
+Negative Balance,Negativer Kontostand
 Open Authorization,Autorisierung öffnen
 PayPal Balance Manager function of PayPal account,PayPal Ausgleichs-Manager-Funktion des PayPal-Kontos
 PayPal Buyer Warranty Bonus,PayPal-Käufer Garantie Bonus
 PayPal Debit Card Cash Advance,PayPal Kreditkarten- Barkredit
 PayPal Debit Card Withdrawal from ATM,PayPal Kreditkarten-Rücknahme von ATM
-PayPal Protection Bonus,#NAME?
+PayPal Protection Bonus,PayPal Schutzbonus
 Payment Refund initiated by merchant,Zahlungsrückerstattung durch Händler initiiert
 Points Incentive Redemption,Anreizpunkte Rücknahme
 Postage Payment to either USPS or UPS,Porto Zahlung entweder an USPS oder UPS
@@ -3303,12 +3303,12 @@ The PayPal certificate file is empty.,Die PayPal-Zertifikatsdatei ist leer.
 Header (center),Kopfzeile (Mitte)
 Sidebar (right),Sidebar (rechts)
 Near PayPal Credit checkout button,In der Nähe des PayPal Kredit Checkout Buttons
-Every 3 days,#NAME?
-Every 7 days,#NAME?
-Every 10 days,#NAME?
-Every 14 days,#NAME?
-Every 30 days,#NAME?
-Every 40 days,#NAME?
+Every 3 days,Alle 3 Tage
+Every 7 days,Alle 7 Tage
+Every 10 days,Alle 10 Tage
+Every 14 days,Alle 14 Tage
+Every 30 days,Alle 30 Tage
+Every 40 days,Alle 40 Tage
 No Logo,Kein Logo
 Yes (PayPal recommends this option),Ja (PayPal empfiehlt diese Option)
 Created billing agreement #%1.,Erstellte Abrechnungsvereinbarung #%1.
@@ -3329,10 +3329,10 @@ Important:,Wichtig:
 "Once you log into your PayPal Payflow Link account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","Sobald Sie in Ihrem PayPal Payflow Link Konto anmelden, navigieren Sie zu den Service-Einstellungen - Hosting Checkout Seiten - Set Up-Menü und stellen Sie die unten beschriebenen Optionen ein."
 Billing Agreement #,Abrechnungs-Vereinbarung #
 Agreement Information,Vereinbarungs-Informationen
-Reference ID:,#NAME?
-Status:,#NAME?
-Created:,#NAME?
-Updated:,#NAME?
+Reference ID:,Referenz ID
+Status:,Status
+Created:,Erstellt:
+Updated:,Aktualisiert:
 Payment Method:,Zahlmethode:
 Ship To,Versenden an
 Order Status,Bestellstatus
@@ -3350,13 +3350,13 @@ Edit Payment Information,Zahlungsinformationen bearbeiten
 Items in Your Shopping Cart,Artikel in Ihrem Einkaufswagen
 Edit Shopping Cart,Warenkorb bearbeiten
 Please update order data to get shipping methods and rates,"Bitte aktualisieren Sie Ihre Bestelldaten, um Versandarten und -Preise zu erhalten"
-Checkout with PayPal,#NAME?
+Checkout with PayPal,Mit PayPal bezahlen
 Please do not refresh the page until you complete payment.,"Bitte die Seite nicht aktualisieren, bis Sie die Bezahlung vervollständigt haben."
 You will be required to enter your payment details after you place an order.,"Sie werden gebten, Ihre Zahlungsinformationen einzugeben, nachdem Sie Ihre Bestellung aufgeben haben."
-Additional Options,#NAME?
+Additional Options,Zusatzoptionen
 -- Please Select Billing Agreement--,-- Bitte wählen Sie die Rechnungsvereinbarung--
 Acceptance Mark,Akzeptanzzeichen
-What is PayPal?,#NAME?
+What is PayPal?,Was ist PayPal?
 Sign a billing agreement to streamline further purchases  with PayPal.,"Zeichnen Sie eine Rechnungsvereinbarung ab, um weitere Einkäufe bei PayPal zu ermöglichen."
 Your shopping cart has been updated with new prices.,Ihr Warenkorb wurde mit neuen Preisen aktualisiert.
 We cannot load the configuration from file %1.,Wir können die Konfiguration aus der Datei% 1 nicht laden.
@@ -3375,13 +3375,13 @@ You will no longer receive stock alerts for this product.,Sie werden keine weite
 The product was not found.,Der Artikel wurde nicht gefunden.
 You will no longer receive stock alerts.,Sie werden Lagerbestand-Benachrichtigung nicht mehr erhalten.
 Price change alert! We wanted you to know that prices have changed for these products:,"Preisänderungsbenachrichtigung! Wir wollten Sie wissen lassen, dass sich die Preise für dieses Produkte verändert haben:"
-Price:,#NAME?
+Price:,Preis:
 Click here to stop alerts for this product.,"Klicken Sie hier, um Benachrichtigungen für dieses Produkt zu stoppen."
 Unsubscribe from all price alerts,Preis-Benachrichtigung abbestellen 
 In stock alert! We wanted you to know that these products are now available:,"Auf Lager-Benachrichtigung! Wir wollten Sie wissen lassen, dass diese Produkte ab sofort verfügbar sind:"
 Unsubscribe from all stock alerts,Von allen Bestands-Benachrichtigung abmelden.
-Url,#NAME?
-Preview Image,#NAME?
+Url,Url
+Preview Image,Bild-Vorschau
 Get Video Information,Erhalte Video-Informationen
 YouTube and Vimeo supported.,YouTube- und Vimeo-unterstützt.
 "Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","Vimeo-unterstützt.<br />Um YouTube-Video hinzuzufügen, bitte zuerst <a href=""%1"">YouTube API Schlüssel eingeben</a> ."
@@ -3397,7 +3397,7 @@ Uploader:,Uploader:
 Duration:,Dauer:
 Cart %1 doesn't contain products,Einkaufswagen 1% enthält keine Produkte
 Could not apply coupon code,Konnte Gutschein-Code nicht anwenden
-Coupon code is not valid,#NAME?
+Coupon code is not valid,Rabattcode ist ungültig
 Could not delete coupon code,Gutscheincode konnte nicht gelöscht werden
 The requested Payment Method is not available.,Die gewünschte Zahlungsmethode ist nicht verfügbar.
 We found an invalid request for adding product to quote.,Wir haben eine ungültige Anfrage für das Hinzufügen von Produkt zum Zitieren gefunden.
@@ -3407,7 +3407,7 @@ The address model is not defined.,Das Adressmodell ist nicht definiert.
 The address total model should be extended from \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.,Das Adress-Gesamtmodell sollte erweitert werden von \Magento\Quote\Modell\Quote\Address\Gesamt\AbstractTotal.
 Grand Total,Gesamtsumme
 Shipping & Handling (%1),Versand & Bearbeitung (%1)
-Shipping & Handling,#NAME?
+Shipping & Handling,Versand & Bearbeitung
 We found an invalid item option format.,Wir haben ein ungültiges Artikel-Optionsformat gefunden.
 An item option with code %1 already exists.,Eine Artikel-Option mit dem Code %1 existiert bereits.
 Item qty declaration error,Arikel-Menge Deklarationsfehler
@@ -3443,7 +3443,7 @@ Customers by number of orders,"Kunden, nach der Anzahl der Bestellungen"
 Customers by Orders Total,"Kunden, nach Gesamtbestellungen"
 Date Used,Datum verwendet
 Period,Periode
-Empty Rows,#NAME?
+Empty Rows,Leere Zeilen
 Invalid date specified,Ungültiges Datum angegeben
 We can't find records for this period.,Wir können die Datensätze für diesen Zeitraum nicht finden.
 Show Reviews,Bewertungen anzeigen
@@ -3453,8 +3453,8 @@ Link,Link
 Purchases,Käufe
 CSV,CSV
 Excel XML,Excel XML
-Low stock,#NAME?
-Products Ordered,#NAME?
+Low stock,Geringer Lagerbestand
+Products Ordered,Bestellte Artikel
 Most Viewed,Am häufigsten angesehen
 Show Report,Bericht anzeigen
 Interval,Intervall
@@ -3468,7 +3468,7 @@ Order Quantity,Bestellmenge
 Coupons Usage Report,Gutschein-Nutzungsbericht
 Coupon Code,Gutscheincode
 Price Rule,Preisregel
-Uses,#NAME?
+Uses,Verwendungen
 Sales Subtotal,Verkäufe Zwischensumme
 Sales Discount,Verkäufe Rabatt
 Sales Total,Verkäufe gesamt
@@ -3480,7 +3480,7 @@ Unpaid Invoices,unbezahlte Rechnungen
 Total Refunded Report,Gesamt Erstattet Bericht
 Refunded Orders,Erstattete Bestellungen
 Total Refunded,Gesamterstattet
-Online Refunds,#NAME?
+Online Refunds,Online Rückerstattungen
 Offline Refunds,Offline Rückerstattungen
 Total Ordered Report,Bericht gesamte Bestellungen
 Sales Items,Verkäufe Artikel
@@ -3494,14 +3494,14 @@ Total Sales Shipping,Gesamte Verkäufe versandt
 Total Shipping,Gesamtversand
 Order Taxes Report Grouped by Tax Rate,Bericht Bestell-Steuern gruppiert durch Steuersatz
 Rate,Satz
-Tax Amount,#NAME?
+Tax Amount,Steuerbetrag
 Abandoned carts,verlassene Wagen
 Applied Coupon,Angewandter Gutschein
 IP Address,IP Addresse
 Items in Cart,Artikel im Warenkorb
 Products in carts,Artikel in Warenkörben
 Carts,Warenkörbe
-Wish Lists,#NAME?
+Wish Lists,Wunschlisten
 Wish List Purchase,Wunschzettel-Kauf
 Wish List vs. Regular Order,Wunschzettel vs. Reguläre Bestellung
 Times Deleted,Zeiten gelöscht
@@ -3509,10 +3509,10 @@ Index type is not valid,Index-Typ ist nicht gültig
 "Last updated: %1. To refresh last day's <a href=""%2"">statistics</a>, click <a href=""%3"">here</a>.","Letztes Update: %1. Um die letzten Tagen zu aktualisieren <a href=""%2"">statistics</a>, <a href=""%3"">hier klicken</a>."
 New Accounts Report,Neue Konten Bericht
 Customers by Number of Orders,Kunden nach Anzahl der Bestellungen
-Order Count Report,Bestell-Zähl Report
-Order Total Report,#NAME?
-Downloads Report,#NAME?
-Low Stock,#NAME?
+Order Count Report,Bestell-Zahl Bericht
+Order Total Report,Bestellgesamtbetrag Bericht
+Downloads Report,Downloads Bericht
+Low Stock,Geringer Lagerbestand
 Low Stock Report,Geringer Bestand Bericht
 Ordered Products Report,#NAME?
 Products Most Viewed Report,Meist angesehene Produkte Bericht
