@@ -8,12 +8,14 @@ Es gibt hier https://crowdin.com/project/magento-2/de auch einen Ansatz für die
 Und für Magento 1.x gibt es weiterhin das deutsche Sprachpaket von Rico Neitzel: https://github.com/riconeitzel/German_LocalePack_de_DE
 
 # Installation
- - Alle Dateien nach `/app/n18i/splendid/de_DE/` kopieren
+ - Alle Dateien nach `/app/i18n/splendid/de_DE/` kopieren
+
+Aus dem Magento-Root-Verzeichnis folgende Befehle aufrufen:
 ```bash
-bin/magento setup:static-content:deploy de_DE
-bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy de_DE
+php bin/magento setup:upgrade
 rm -rf var/di
-bin/magento setup:di:compile
+php bin/magento setup:di:compile
 ```
 
 # Installation mit Composer
