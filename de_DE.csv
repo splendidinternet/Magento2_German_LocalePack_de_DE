@@ -3811,7 +3811,7 @@ Refund Shipping,Versand erstatten
 Update Qty's,Menge(n) aktualisieren
 Refund,Rückerstattung
 Refund Offline,Rückerstattung offline
-Paid Amount,Bezahlter Betrag
+Paid Amount,Gezahlter Betrag
 Refund Amount,Rückerstattungsbetrag
 Shipping Amount,Versandmenge
 Shipping Refund,Versand-Rückerstattung
@@ -5451,7 +5451,6 @@ Theme layout title,Theme-Layout-Titel
 2 columns with left bar,2 Spalten mit Spalte links
 Catalog New Products List,Liste von neuen Katalogprodukten
 List of Products that are set as New,"Liste der Produkte, die als neu festgelegt sind"
-Display Type,Anzeigetyp
 "All products - recently added products, New products - products marked as new","Alle Produkte - kürzlich hinzugefügt Produkte, neue Produkte - als neu markierte Produkte"
 All products,Alle Produkte
 New products,Neue Produkte
