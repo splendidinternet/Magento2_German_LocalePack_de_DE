@@ -5396,7 +5396,7 @@ Require Customer's Billing Address,Erfordert die Kundenrechnungsadresse
 This feature needs be enabled first for the merchant account through PayPal technical support.,Diese Funktion muss zunächst für das Händler-Konto über den technischen PayPal Support aktiviert sein.
 Billing Agreement Signup,Abrechnungsvereinbarung Anmelden
 "Whether to create a billing agreement, if there are no active billing agreements available.","Um eine Abrechnungsvereinbarung zu erstellen, wenn es keine aktive Abrechnungsvereinbarungen gibt."
-Merchants need to apply to PayPal for enabling billing agreements feature. Do not enable this option until PayPal confirms that billing agreements are enabled for your merchant account.,Händler müssen PayPal beantragen um die Abrechnungsvereinbarungen Funktion anzuwenden. Aktivieren Sie diese Option nicht, bis PayPal bestätigt, dass die Abrechnungsvereinbarungen für Ihr Händler-Konto aktiviert ist.
+"Merchants need to apply to PayPal for enabling billing agreements feature. Do not enable this option until PayPal confirms that billing agreements are enabled for your merchant account.","Händler müssen PayPal beantragen um die Abrechnungsvereinbarungen Funktion anzuwenden. Aktivieren Sie diese Option nicht, bis PayPal bestätigt, dass die Abrechnungsvereinbarungen für Ihr Händler-Konto aktiviert ist."
 Skip Order Review Step,Überspringen Bestell-Bewertungs-Schritt
 PayPal Billing Agreement Settings,PayPal Abrechnungsvereinbarung Einstellungen
 Will appear as a payment option only for customers who have at least one active billing agreement.,"Wird als Zahlungsoption nur für Kunden erscheinen, die mindestens eine aktive Abrechnungsvereinbarung haben."
