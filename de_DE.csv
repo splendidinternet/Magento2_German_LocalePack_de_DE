@@ -2285,8 +2285,8 @@ Something went wrong while saving the file(s).,Da lief was falsch beim Speichern
 Provided content must be valid base64 encoded data.,Bereitgestellter Inhalt muss mit Base64-codierte Daten gültig sein.
 Provided file name contains forbidden characters.,Der vorgesehene Dateiname enthält ungültige Zeichen.
 Link price must have numeric positive value.,Preis des Links muss einen numerischen positiven Wert besitzen.
-Number of downloads must be a positive integer.,Anzahl der Downloads muss einen positiven Wert haben.
-Sort order must be a positive integer.,Sorierreihenfolge muss eine positive ganze Zahl sein.
+Number of downloads must be a positive integer.,Anzahl der Downloads muss eine positive ganze Zahl sein.
+Sort order must be a positive integer.,Sortierreihenfolge muss eine positive ganze Zahl sein.
 Link URL must have valid format.,Link URL muss gültiges Format besitzen.
 Provided file content must be valid base64 encoded data.,Der vorgesehene Dateiinhalt muss mit Base64-codierten Daten gültig sein.
 Sample URL must have valid format.,Sample-URL muss ein ungültiges Format besitzen.
@@ -2295,7 +2295,7 @@ Order item id cannot be null,Bestellartikelnummer darf nicht Null sein
 Product type of the product must be 'downloadable'.,Produkttyp des Produktes muss 'herunterladbar' sein.
 Provided link information is invalid.,Angegebene Link-Information ist ungültig.
 Invalid link type.,Ungültiger Link-Typ.
-Link title cannot be empty.,Titel des Links kann nicht leer sein.
+Link title cannot be empty.,Der Titel des Links kann nicht leer sein
 There is no downloadable link with provided ID.,Es gibt keinen herunterladbaren Link mit der vorgesehen ID.
 Provided downloadable link is not related to given product.,Angegebener herunterladbarer Link bezieht sich nicht auf das gegebene Produkt.
 Please specify product link(s).,Bitte Produktlink(s) angeben.
@@ -2324,8 +2324,8 @@ Add product preview files here.,Fügen Sie hier Produkt-Vorschaudateien hinzu.
 U,U
 Select all,Alle auswählen
 Unselect all,Alle abwählen
-"Go to <a href=""%1"">My Downloadable Products</a>","Gehe zu: <a href=""%1"">Meine herunterladbaren Produkte</a>"
-Downloadable Products,Herunterladbare Produkte
+"Go to <a href=""%1"">My Downloadable Products</a>","Gehe zu: <a href=""%1"">Meine Downloadartikel</a>"
+Downloadable Products,Downloadartikel
 Date,Datum
 Remaining Downloads,Verbleibende Downloads
 View Order,Bestellung ansehen
@@ -2364,13 +2364,13 @@ There was an error saving attribute set.,Es gab einen Fehler beim Speichern des 
 Default attribute set can not be deleted,Standard-Attributset kann nicht gelöscht werden
 There was an error deleting attribute set.,Es trat ein Fehler beim Löschen des Attributsets auf.
 Invalid entity_type specified: %1,Ungültiger Entity_type spezifiziert: %1
-Entity is not initialized,Einheit ist nicht initialisiert
+Entity is not initialized,Datensatz ist nicht initialisiert
 Unknown parameter,Unbekannter Parameter
 The attribute code '%1' is reserved by system. Please try another attribute code,"Der Attributcode ""% 1"" ist durch das System reserviert. Bitte versuchen Sie einen anderen Attributcode"
 An attribute code must not be more than %1 characters.,Ein Attribut-Code darf nicht länger als %1 Zeichen lang sein.
 Invalid default decimal value,Ungültiger Standard-Dezimalwert
 Invalid default date,Ungültiges Standarddatum
-Invalid entity supplied,Ungültige Einheit geliefert
+Invalid entity supplied,Ungültiger Datensatz angegeben
 Invalid backend model specified: ' .,Ungültiges Backend Model spezifiziert: ' .
 "Source model ""%1"" not found for attribute ""%2""","Source-Modell ""%1"" nicht gefunden für Attribut ""%2"""
 "The value of attribute ""%1"" must be unique","Der Wert des Attributs ""%1"" muss eindeutig sein"
@@ -2399,8 +2399,8 @@ A joint field with this alias (%1) is already declared.,Ein verbundenes Feld mit
 Data integrity: No header row found for attribute,Datenintegrität: Keine Kopfzeile für das Attribut gefunden
 Invalid attribute name: %1,Ungültiger Attributname: %1
 Invalid character encountered in increment ID: %1,Ungültige Zeichen im Schritt ID aufgetreten: %1
-The current module pathname is undefined.,Der aktuelle Modul-Pfadname ist undefiniert.
-The current module EAV entity is undefined.,Die aktuelle Modul-EAV-Einheit ist undefiniert.
+The current module pathname is undefined.,Der Pfadname des Moduls ist nicht definiert
+The current module EAV entity is undefined.,Die EAV-Entity des Moduls ist nicht definiert
 The form code is not defined.,Form-Code ist nicht definiert
 The entity instance is not defined.,Die Entitätsinstanz ist nicht definiert.
 Invalid form type.,Ungültiger Formulartyp
@@ -2499,30 +2499,30 @@ Deployment configuration file is not writable.,Deployment-Konfigurationsdatei is
 Please enter an encryption key.,Bitte geben Sie einen Kodierungsschlüssel ein.
 The encryption key has been changed.,Der Kodierungsschlüssel wurde geändert.
 "This is your new encryption key: <span style=""font-family:monospace;"">%1</span>. Be sure to write it down and take good care of it!","Das ist Ihr neuer Kodierungsschlüssel: <span style=""font-family: Monospace;"">%1</span>. Achten Sie darauf, ihn aufzuschreiben und ihn gut zu bewahren!"
-Europe First Priority,Europe First Priority
-1 Day Freight,1 Day Freight
-2 Day Freight,2 Day Freight
-2 Day,2 Day
-2 Day AM,2 Day AM
-3 Day Freight,3 Day Freight
+Europe First Priority,Europa First Priorität
+1 Day Freight,1 Tag-Fracht
+2 Day Freight,2 Tage-Fracht
+2 Day,2 Tage
+2 Day AM,2 Tage Vormittags
+3 Day Freight,3 Tage-Fracht
 Express Saver,Express Saver
-Ground,Ground
-First Overnight,First Overnight
-Home Delivery,Home Delivery
+Ground,Grund
+First Overnight,Übernacht-Zustellung
+Home Delivery,Hauszustellung
 International Economy,International Economy
 Intl Economy Freight,International Economy Freight
 International First,International First
-International Ground,International Ground
-International Priority,International Priority
-Intl Priority Freight,International Priority Freight
-Priority Overnight,Priority Overnight
-Smart Post,Smart Post
-Standard Overnight,Standard Overnight
-Freight,Freight
-National Freight,National Freight
-Regular Pickup,Regular Pickup
-Request Courier,Request Courier
-Drop Box,Drop Box
+International Ground,Internationaler Grund
+International Priority,International Priorität
+Intl Priority Freight,International Priorität Fracht
+Priority Overnight,Priorität über Nacht-Zustellung
+Smart Post,Smartpost
+Standard Overnight,Standard über Nacht-Zustellung
+Freight,Fracht
+National Freight,nationale Fracht
+Regular Pickup,regelmäßige Abholung
+Request Courier,Kurier anfordern
+Drop Box,Briefkasten
 Business Service Center,Business Service Center
 Station,Station
 FedEx Envelope,FedEx Envelope
@@ -2583,16 +2583,15 @@ Default Qty,Standardmenge
 Starting at,Startet von
 Grouped product items,Gruppiert Produkte - Artikel
 Export Settings,Export-Einstellungen
-Entity Type,Entitätstyp
-Export File Format,Exportdatei-Format
+Entity Type,Datensatztyp
+Export File Format,Dateiformat für Export
 We can't filter an attribute with no attribute options.,Wir können ein Attribut ohne Attribut-Optionen nicht filtern.
 Attribute Label,Attribut-Label
 Filter,Filter
-Unknown attribute filter type,Unbekannter Attribut-Filtertyp
+Unknown attribute filter type,Unbekannter Attribut Filtertyp
 Check Data,Daten prüfen
 Import Settings,Importeinstellungen
 Import Behavior,Importverhalten
-,
 Allowed Errors Count,Erlaubte Fehleranzahl
 Please specify number of errors to halt import process,"Bitte geben Sie Anzahl von Fehlern an, um den Importvorgang zu stoppen"
 Field separator,Feldtrenner
@@ -2607,9 +2606,9 @@ Import/Export,Import/Export
 History,Historie
 Import History,Import-Historie
 Import history,Import-Historie
-There is no sample file for this entity.,Es gibt keine Beispieldatei für diese Einheit.
+There is no sample file for this entity.,Es gibt keine Beispieldatei für diesen Datensatz.
 Maximum error count has been reached or system error is occurred!,Maximale Fehleranzahl erreicht oder Systemfehler ist aufgetreten!
-Import successfully done,Import wurde erfolgreich durchgeführt.
+Import successfully done,Import erfolgreich abgeschlossen
 This file is empty. Please try another one.,Diese Datei ist leer. Bitte versuchen Sie eine andere.
 Data validation is failed. Please fix errors and re-upload the file..,Datenüberprüfung fehlgeschlagen. Bitte korrigieren Sie Fehler und laden Sie die Datei ..
 "File is valid! To start import process press ""Import"" button","Die Datei ist nicht gültig! Um den Importvorgang zu starten, drücken Sie den Button ""Import"""
@@ -2633,7 +2632,7 @@ Please enter a correct entity.,Bitte geben Sie eine korrekte Entität ein.
 The adapter object must be an instance of %1.,Das Adapter-Objekt muss eine Instanz von %1 sein.
 Please correct the file format.,Bitte korrigieren Sie das Dateiformat.
 Begin export of %1,Beginne Export von %1
-There is no data for the export.,Es gibt keine Daten für den Export
+There is no data for the export.,Es gibt keine Daten für den Export.
 Exported %1 rows.,Exportierte %1 Zeilen.
 The export is finished.,Der Export ist abgeschlossen.
 Please provide filter data.,Bitte stellen Sie Filterdaten bereit.
@@ -2860,14 +2859,14 @@ Go to Review Your Order,Ihre Bestellung überprüfen
 Back to Shipping Information,Zurück zu den Versandinformationen
 Other items in your order,Andere Artikel in Ihrer Bestellung
 Edit Items,Artikel bearbeiten
-Shipping is not applicable.,Versand wird nicht erhoben
+Shipping is not applicable.,Versand wird nicht erhoben.
 Check Out with Multiple Addresses,Check-out mit mehreren Adressen
 Address %1 <span>of %2</span>,Addresse %1 <span>von %2</span>
 Shipping To,Versand an
 Shipping Method,Versandmethode
 Order Review,Bestellungsüberprüfung
 Grand Total:,Gesamtsumme:
-Submitting order information...,Übermitteln der Bestellungsinformationen ...
+Submitting order information...,Übermitteln der Bestellungsinformationen...
 "Sorry, no quotes are available for this order right now.","Entschuldigung, es sind momentan keine Angebote zu dieser Bestellung verfügbar."
 Continue to Billing Information,Weiter zu Rechnungsinformationen
 Back to Select Addresses,Zurück zur Adressenauswahl
@@ -3812,7 +3811,7 @@ Refund Shipping,Versand erstatten
 Update Qty's,Menge(n) aktualisieren
 Refund,Rückerstattung
 Refund Offline,Rückerstattung offline
-Paid Amount,Bezahlter Betrag
+Paid Amount,Gezahlter Betrag
 Refund Amount,Rückerstattungsbetrag
 Shipping Amount,Versandmenge
 Shipping Refund,Versand-Rückerstattung
@@ -5452,7 +5451,6 @@ Theme layout title,Theme-Layout-Titel
 2 columns with left bar,2 Spalten mit Spalte links
 Catalog New Products List,Liste von neuen Katalogprodukten
 List of Products that are set as New,"Liste der Produkte, die als neu festgelegt sind"
-Display Type,Anzeigetyp
 "All products - recently added products, New products - products marked as new","Alle Produkte - kürzlich hinzugefügt Produkte, neue Produkte - als neu markierte Produkte"
 All products,Alle Produkte
 New products,Neue Produkte
@@ -6492,3 +6490,4 @@ Account,Konto
 Email Templates,E-Mail-Vorlagen
 Invoices,Rechnungen
 We couldn't find any records.,Es wurden keine Einträge gefunden.
+Display Type,Anzeigetyp
