@@ -167,7 +167,7 @@
 %1 was deducted because of refund.,%1 wurde wegen Rückerstattung abgezogen.
 %1 was not found in algorithms,%1 wurde nicht in Algorithmen gefunden
 %1 was updated in your shopping cart.,%1 wurde in Ihrem Warenkorb aktualisiert.
-%1 with %2 discount each,%1 mit jeweils %2 Rabatt 
+%1 with %2 discount each,%1 mit jeweils %2 Rabatt
 %1 x %2,%1 x %2
 %1; rev #%2,%1: Revision #%2
 %1' file extension is not supported,%1-Dateierweiterung wird nicht unterstützt
@@ -440,7 +440,7 @@ Add New Option,Neue Option hinzufügen
 Add New Page,Neue Seite hinzufügen
 Add New Product Template,Neue Produktvorlage hinzufügen
 Add New Rate,Neuen Kurs hinzufügen
-Add New Rating,Neue Bewertung hinzufügen 
+Add New Rating,Neue Bewertung hinzufügen
 Add New Role,Neue Rolle hinzufügen
 Add New Row,Neue Zeile hinzufügen
 Add New Rule,Neue Regel hinzufügen
@@ -494,7 +494,7 @@ Add Tax,Steuer hinzufügen
 Add Tier,Stufe hinzufügen
 Add to Cart,Zum Warenkorb hinzufügen
 Add to Column Options,Spaltenoptionen hinzufügen
-Add to Compare,Zum Vergleichen hinzufügen
+Add to Compare,Zur Vergleichsliste hinzufügen
 Add to Gift Registry,Zur Geschenkeliste hinzufügen
 Add To Order,Zu Bestellung hinzufügen
 Add to Order,Zur Bestellung hinzufügen
@@ -518,7 +518,7 @@ Add/Update,Hinzufügen/Aktualisieren
 Add/Update Complex Data,Hinzufügen/Aktualisieren komplexer Daten
 Added,Hinzugefügt
 Added for spent money according to reward exchange rates.,Gemäß dem Belohnungskurs dem ausgegebenen Geld hinzugefügt
-Added On,Hinzugefügt 
+Added On,Hinzugefügt
 Additional Address Entries,Zusätzliche Adresseinträge
 Additional Attribute Table,Tabelle zusätzlicher Attribute
 Additional Cache Management,Zusätzliches Cache-Management
@@ -535,7 +535,7 @@ Address Information,Adressinformationen
 Address is empty.,Adresse ist leer
 Address Templates,Adress-Vorlagen
 Address Type,Adresstyp
-Address Verification,Adressverifizierung  
+Address Verification,Adressverifizierung
 Address Verification System Response,Adressüberprüfung-Systemantwort
 Addresses,Adressen
 Adjust final price to discount value,Endpreis an Rabattwert anpassen
@@ -589,7 +589,7 @@ Alert subscription has been saved.,Benachrichtigungsabonnement wurde gespeichert
 All,Alle
 ALL,ALLE
 All,Alle
-All,Alle 
+All,Alle
 All Allowed Countries,Alle erlaubten Länder
 All Cache,Alle Caches
 All Configurable Cron Jobs,Alle konfigurierbaren Cron-Jobs
@@ -943,7 +943,7 @@ AutoSweep,AutoSweep
 Availability,Verfügbarkeit
 Availability:,Verfügbarkeit:
 Availability: Out of stock.,Verfügbarkeit: Nicht auf Lager
-available,Verfügbar  
+available,Verfügbar
 Available,Verfügbar
 Available APIs,Verfügbare APIs
 Available Balance,Verfügbares Guthaben
@@ -998,8 +998,8 @@ Balance History,Guthabenverlauf
 Balance limit is %1.,Guthabenlimit ist %1.
 Balance Manager Account Bonus,Ausgleichsmanager-Kontobonus
 Balance Update Email,Guthabenupdate-E-Mail
-Bank Transfer Payment,Zahlung per Banküberweisung 
-Banner,Banner 
+Bank Transfer Payment,Zahlung per Banküberweisung
+Banner,Banner
 Banner Block Template,Banner-Blockvorlage
 Banner Default Content for All Store Views,Banner-Standardinhalt für alle Store Views
 Banner Information,Banner-Informationen
@@ -1015,7 +1015,7 @@ Base currency,Basiswährung
 Base Currency,Basiswährung
 "Base currency is used for all online payment transactions. If you have more than one store view the base currency scope is defined by the catalog price scope (""""Catalog"""" > """"Price"""" > """"Catalog Price Scope"""").","Die Basiswährung wird für alle Online-Transaktionen verwendet. Wenn Sie mehr als eine Store-View haben, wird der Basiswährungs-Geltungsbereich durch den Katalogpreis-Geltungsbereich definiert (""""Katalog"""" > """"Preis"""" > """"Katalogpreis-Geltungsbereich"""")."
 "Base currency is used for all online payment transactions. If you have more than one store view, the base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").","Basiswährung wird für alle Online-Transaktionen verwendet. Wenn Sie mehr als eine Store-View haben, wird der Basiswährungs-Geltungsbereich durch den Katalogpreis-Geltungsbereich definiert (""Katalog""> ""Preis""> ""Katalogpreis-Geltungsbereich"")."
-Base Link URL,Basis-Link-URL 
+Base Link URL,Basis-Link-URL
 Base Only,Nur Basis
 Base Secure URL,Basis Secure URL
 Base Unsecure URL,Basis Unsecure URL
@@ -1063,7 +1063,7 @@ Billing Address,Rechnungsadresse
 Billing Address:,Rechnungsadresse:
 Billing Address:,Rechnungsadresse:
 Billing Address:,Rechnungsadresse:
-Billing Agreement,Abrechnungsvereinbarung 
+Billing Agreement,Abrechnungsvereinbarung
 Billing Agreement #,Abrechnungsvereinbarung #
 Billing Agreement # %1,Abrechnungsvereinbarung #%1
 Billing Agreement #%1,Abrechnungsvereinbarung #%1
@@ -1339,7 +1339,7 @@ Check Gift Card status and balance,Geschenkkartenstatus und -guthaben überprüf
 Check here to link an RSS feed to your Wish List.,Einen RSS-Feed mit Ihrem Wunschzettel verknüpfen.
 Check items to add to the cart or,"Markieren Sie die Artikel, um Sie dem Warenkorb hinzuzufügen oder"
 Check out now and earn %1 for this order.,Gehen Sie jetzt zur Kasse und erhalten Sie %1 für diese Bestellung.
-Check Out with Multiple Addresses,Check-out mit mehreren Adressen
+Check Out with Multiple Addresses,Checkout mit mehreren Adressen
 Check status and balance,Status und Guthaben überprüfen
 Check the status of orders,Überprüfen Sie den Status der Bestellungen
 Checkbox Text,Checkbox-Text
@@ -1648,7 +1648,7 @@ Country Specific Settings,Länderspezifische Einstellungen
 Country/State,Land/Bundesland
 Coupon,Gutschein
 Coupon Code,Gutscheincode
-Coupon code is not valid,Gutscheincode ist nicht gültig
+Coupon code is not valid,Gutscheincode ist ungültig
 Coupon Qty,Gutscheinanzahl
 Coupon Redemption,Gutscheinrücknahme
 Coupon Use Limit,Gutscheinverwendungslimit
@@ -1691,7 +1691,7 @@ Create New Status,Neuen Status erstellen
 Create New Value,Neuen Wert erstellen
 Create New Wish List,Neue Wunschliste erstellen
 Create Newsletter Template,Newsletter-Vorlage erstellen
-Create Order,Bestellung aufgeben
+Create Order,Bestellung erstellen
 Create Packages,Pakete erstellen
 Create Permanent Redirect for old URL,Permanente Umleitung für die alte URL erstellen
 Create Permanent Redirect for URLs if URL Key Changed,"Permanent Redirect für URLs erstellen, wenn sich der URL-Key geändert hat"
@@ -1727,7 +1727,7 @@ Credit Card Settings,Kreditkarten-Einstellungen
 Credit card successfully added,Kreditkarte erfolgreich hinzugefügt
 Credit card successfully deleted,Kreditkarte erfolgreich gelöscht.
 Credit Card Type,Kreditkartentyp
-Credit card type,Kreditkartentyp 
+Credit card type,Kreditkartentyp
 Credit card type is not allowed for this payment method.,Kreditkartentyp ist für diese Zahlungsmethode nicht erlaubt.
 Credit card type is not allowed for your country.,Kreditkartentyp ist in Ihrem Land nicht erlaubt.
 Credit Card Types,Kreditkartentypen
@@ -2010,8 +2010,8 @@ Default Product Listing Sort by does not exist in Available Product Listing Sort
 Default Product Price,Standardproduktpreis
 Default Qty,Standardmenge
 Default Quantity,Standardmenge
-Default Recently Compared Products Count,Standardanzahl kürzlich verglichener Produkte 
-Default Recently Viewed Products Count,Standardanzahl kürzlich angesehener Produkte 
+Default Recently Compared Products Count,Standardanzahl kürzlich verglichener Produkte
+Default Recently Viewed Products Count,Standardanzahl kürzlich angesehener Produkte
 Default Response Charset,Standardantwort-Zeichensatz
 Default Robots,Standard-Roboter
 Default Rule Label for All Store Views,Standardregel-Label für alle Store Views
@@ -2301,7 +2301,7 @@ Edit My Credit Cards,Meine Kreditkarten bearbeiten
 Edit Newsletter,Newsletter ändern
 Edit Newsletter Template,Newsletter-Vorlage bearbeiten
 Edit Order,Bestellung bearbeiten
-Edit Order #%1,Bestellung #%1 bearbeiten 
+Edit Order #%1,Bestellung #%1 bearbeiten
 Edit Order %1 %2 Address,Bestellung %1 %2 Addresse bearbeiten
 Edit Order Status,Bestellstatus bearbeiten
 Edit Page,Seite bearbeiten
@@ -2315,7 +2315,7 @@ Edit Product Attribute,Produktattribut bearbeiten.
 Edit Product Template '%1',"Produktvorlage ""%1"" bearbeiten"
 Edit Product Template Name,Produktvorlagenname bearbeiten
 Edit Queue,Warteschlange bearbeiten
-Edit Rating #%1,Bewertung #%1 bearbeiten 
+Edit Rating #%1,Bewertung #%1 bearbeiten
 Edit Return Item Attribute,Rückgabeartikelattribut bearbeiten
 "Edit Return Item Attribute ""%1""","Rückgabeartikelattribut ""%1"" bearbeiten"
 Edit Review,Bewertung bearbeiten
@@ -2366,7 +2366,7 @@ Email address,E-Mail-Adresse
 Email Address,E-Mail-Adresse
 "Email address impact. The customer uses a free email provider, or the email address is risky",E-Mail-Adressen-Auswirkung. Der Kunde verwendet einen kostenlosen E-Mail-Provider oder die E-Mail-Adresse ist riskant.
 "Email addresses, separated by commas","E-Mail-Adressen, durch Komma getrennt"
-Email Associated with PayPal Merchant Account,Einem PayPal-Händler-Konto zugeordnete E-Mail 
+Email Associated with PayPal Merchant Account,Einem PayPal-Händler-Konto zugeordnete E-Mail
 Email Associated with PayPal Merchant Account (Optional),Einem PayPal-Händler-Konto zugeordnete E-Mail (Optional)
 Email Copy of Credit Memo,Kopie der Gutschrift als E-Mail senden
 Email Copy of Invoice,Rechungskopie per E-Mail senden
@@ -2618,7 +2618,7 @@ exec function is disabled.,exec-Funktion ist deaktiviert
 Executed At,Ausgeführt bei
 Execution Time,Durchführungszeit
 "Existing quantity of ""%1"" product in the cart has been replaced with quantity %2 just requested.","Vorhandene Anzahl von ""%1"" Produkten im Warenkorb wurde mit der soeben angeforderten Anzahl %2 ersetzt."
-exists,existiert  
+exists,existiert
 Expand,Erweitern
 Expand All,Alles erweitern
 Experiment Code,Experiment-Code
@@ -2968,7 +2968,7 @@ Gift Card,Geschenkkartenkonto generieren bei Bestellartikel
 "Gift Card ""%1"" was redeemed.","Geschenkkarte ""%1"" wurde eingelöst."
 "Gift Card ""%1"" was removed.","Geschenkkarte ""%1"" wurde entfernt."
 Gift Card (%1),Geschenkkarte (%1)
-Gift Card Account,Geschenkkartenkonto  
+Gift Card Account,Geschenkkartenkonto
 Gift card account %1 balance is lower than the charged amount.,Saldo des Geschenkkartenkontos %1 ist niedriger als der zu zahlende Betrag.
 Gift card account %1 has a zero balance.,Geschenkkartenkonto %1 hat ein Nullsaldo.
 Gift card account %1 is expired.,Geschenkkartenkonto %1 ist abgelaufen.
@@ -2994,7 +2994,7 @@ Gift Card Notification Email Template,Vorlage für Geschenkkartenbenachrichtigun
 Gift Card Recipient,Geschenkkartenempfänger
 Gift Card Redeemed: %1. For customer #%2.,Geschenkkarte eingelöst: %1 Für Kunde #%2
 Gift Card Sender,Absender für Geschenkkarten
-Gift Card Template,Vorlage für Geschenkkarten  
+Gift Card Template,Vorlage für Geschenkkarten
 Gift Card Type,Geschenkkartentyp
 Gift Card: %1,Geschenkkarte %1
 Gift Cards,Geschenkkarten
@@ -3025,13 +3025,13 @@ Gift Registry Items Updated,Geschenkelisteartikel aktualisiert
 Gift Registry Properties,Geschenkelisteneigenschaften
 Gift Registry Quick Search Form,Geschenkelisten-Schnellsucheformular
 Gift Registry Search,Geschenkelistensuche
-Gift Registry Sharing,Teilen von Geschenkelisten 
+Gift Registry Sharing,Teilen von Geschenkelisten
 Gift Registry Type,Geschenkelistentyp
 Gift Registry Types,Geschenkelistentypen
 Gift Registry Update,Geschenkelistenupdate
 Gift Registry:,Geschenkeliste:
 Gift Wrap Design,Geschenkpapierdesign
-Gift Wrapping,Geschenkverpackung  
+Gift Wrapping,Geschenkverpackung
 Gift Wrapping Design,Geschenkverpackungsdesign
 Gift Wrapping for the Entire Order,Geschenkverpackung für die gesamte Bestellung
 Gift Wrapping Information,Geschenkverpackungsinformationen
@@ -3245,7 +3245,7 @@ Import path %1 not exists,Importpfad %1 existiert nicht
 Import Service,Import-Service
 Import Settings,Importeinstellungen
 Import successfully done,Import erfolgreich abgeschlossen
-Import Tax Rates,Steuersätze importieren 
+Import Tax Rates,Steuersätze importieren
 Import/Export,Import/Export
 Important:,Wichtig:
 Important:,Wichtig:
@@ -3914,7 +3914,7 @@ Max Emails Allowed to be Sent,Maximal erlaubte Anzahl an E-Mail-Versendungen
 Max file size to upload %1M,Maximale Dateigröße für den Upload %1M
 Max image size %1M,Maximale Bildgröße %1M
 Max Invitations Allowed to be Sent at One Time,Maximal erlaubte Anzahl von Einladungen zu einer Zeit.
-Max Products Sent in 1 Hour,Maximal versandte Produkte in 1 Stunde 
+Max Products Sent in 1 Hour,Maximal versandte Produkte in 1 Stunde
 Max Recipients,Maximale Empfänger
 Max. Downloads,Max. Downloads
 Maximal Depth,Maximale Tiefe
@@ -4010,7 +4010,7 @@ Method %s does not exist on jQuery.decorate,Methode %s nicht auf jQuery.decorate
 Method Name,Methodenname
 Minify CSS Files,CSS-Dateien minifizieren
 Minify Html,Html minifizieren
-Minify JavaScript Files,JavaScript-Dateien minifizieren 
+Minify JavaScript Files,JavaScript-Dateien minifizieren
 Minimal Query Length,Minimale Abfragelänge
 Minimal value,Minimalwert
 Minimum,Minimum
@@ -4064,7 +4064,7 @@ More than one default website is defined,Mehr als eine Standard-Webseite ist def
 More than one node matching the query: %1,Mehr als ein Node stimmt mit der Abfrage überein: %1
 Most Viewed,Am häufigsten angesehen
 Most Viewed Products,Meistgesehene Produkte
-Most Viewed Products Report,Bericht über am meisten angesehene Artikel 
+Most Viewed Products Report,Bericht über am meisten angesehene Artikel
 Move,Verschieben
 Move Selected to Wish List,Auswahlen auf die Wunschliste verschieben
 Move to Archive,Im Archiv ablegen
@@ -4250,7 +4250,7 @@ New Store View,Neuer Store View
 New Subcategory,Neue Unterkategorie
 New System Template,Neue Systemvorlage
 New Tax Rate,Neuer Steuersatz
-New Tax Rule,Neue Steuerregel 
+New Tax Rule,Neue Steuerregel
 New Template,Neue Vorlage
 New Terms and Conditions,Neue Allgemeine Geschäftsbedingungen (AGB)
 New Theme,Neues Theme
@@ -4273,7 +4273,7 @@ Newsletter Subscription,Newsletter-Abonnement
 Newsletter Subscriptions,Newsletter Abonnements
 Newsletter Templates,Newsletter-Vorlagen
 Newsletters,Newsletter
-Next,Nächster
+Next,Weiter
 Next Day Air,Next Day Air
 Next Day Air Early AM,Next Day Air Early AM
 Next Day Air Early AM Letter,Next Day Air Early AM Letter
@@ -4282,7 +4282,7 @@ Next Day Air Letter,Next Day Air Letter
 Next Day Air Saver,Next Day Air Saver
 Next Day Air Saver Letter,Next Day Air Saver Letter
 Next page,Nächste Seite
-Next/Previous,Nächster/Vorheriger
+Next/Previous,Weiter/Zurück
 Nickname,Nickname
 No,Nein
 no,Nein
@@ -4600,7 +4600,7 @@ Ordered Quantity,Bestellte Menge
 Ordered:,Bestellt:
 Orders,Bestellungen
 Orders and Returns,Bestellungen und Rücksendungen
-Orders and Returns Search Form,Suchformular für Bestellungen und Rücksendungen 
+Orders and Returns Search Form,Suchformular für Bestellungen und Rücksendungen
 Orders Cron Settings,Bestellungs-Cron-Einstellungen
 "Orders, Invoices, Credit Memos Display Settings","Anzeigeeinstellungen für Bestellungen, Rechnungen, Gutschriften"
 "Orders, Invoices, Shipments, Credit Memos Archiving","Archivierung von Bestellungen, Rechnungen, Sendungen und Gutschriften"
@@ -5261,7 +5261,7 @@ Position Behavior,Positionsverhalten
 Position in Layered Navigation,Position in Layered Navigation
 Position of attribute in layered navigation block,Position des Attributs im Layered Navigation-Block
 Position of Watermark for %1,Wasserzeichenposition für %1
-Positive list. The customer is on your positive list. Decision Manager Developer Guide Using the Simple Order AP  January 201 10 Appendix  Information and Reply Code,Positivliste. Der Kunde ist auf Ihrer Positivliste. 
+Positive list. The customer is on your positive list. Decision Manager Developer Guide Using the Simple Order AP  January 201 10 Appendix  Information and Reply Code,Positivliste. Der Kunde ist auf Ihrer Positivliste.
 Postage Payment to either USPS or UPS,Porto-Zahlung entweder an USPS oder UPS
 Postcode AVS check,Postleitzahl AVS-Check
 Posted on,Veröffentlicht am
@@ -5279,7 +5279,7 @@ Preview Image,Vorschaubild
 Preview is not available.,Vorschau ist nicht verfügbar
 Preview Sale,Verkaufsvorschau
 Preview Template,Vorlagenvorschau
-Previous,Vorheriger
+Previous,Zurück
 Previous page,Vorherige Seite
 Price,Preis
 Price (percentage),Preis (Prozentsatz)
@@ -5376,7 +5376,7 @@ Priority Mail Window Flat Rate Envelope Hold For Pickup,Priority Mail Window Fla
 Priority Overnight,Priorität über Nacht-Zustellung
 Privacy and Cookie Policy,Datenschutz und Cookie-Richtlinien
 Privacy Settings,Privatsphäreeinstellungen
-Private,Privat 
+Private,Privat
 Private Key,Privater Schlüssel
 Private Sales: Login and Register,Privatverkäufe: Anmelden und Registrieren
 Private Sales: Login Only,Privatverkäufe: Nur Anmelden
@@ -5394,7 +5394,7 @@ Product %1,Produkte %1
 Product %1 doesn't have linked %2 as %3,Produkt %1 ist nicht als %3 mit %2 verlinkt.
 Product %1%2%3%4%5%6%7,Produkt %1%2%3%4%5%6%7
 Product Alerts,Produktwarnungen
-Product alerts cron warnings,Cron-Warnungen zu Produktbenachrichtigungen 
+Product alerts cron warnings,Cron-Warnungen zu Produktbenachrichtigungen
 Product Alerts Run Settings,Produktalarm-Einstellungen
 Product already has this option,Produkt besitzt diese Option bereits
 Product Attribute,Produktattribut
@@ -5484,8 +5484,8 @@ Products Options,Produktoptionen
 Products Ordered,Bestellte Artikel
 Products per Page on Grid Allowed Values,Zulässige Werte für Artikel pro Seite als Raster
 Products per Page on Grid Default Value,Standardwert Artikel pro Seite als Raster
-Products per Page on List Allowed Values,Zulässige Werte für Artikel pro Seite als Liste 
-Products per Page on List Default Value,Standardwert für Artikel pro Seite als Liste 
+Products per Page on List Allowed Values,Zulässige Werte für Artikel pro Seite als Liste
+Products per Page on List Default Value,Standardwert für Artikel pro Seite als Liste
 Products Quantity,Produktanzahl
 Products Report,Produktbericht
 Products Requiring Attention,"Produkte, die Aufmerksamkeit benötigen"
@@ -5550,7 +5550,7 @@ Qty to Refund,Zu erstattende Menge
 Qty to Ship,Zu versendene Menge
 Qty Uses Decimals,Menge mit Dezimalzahlen
 Quantity,Menge
-quantity,Anzahl  
+quantity,Anzahl
 Quantity in cart,Menge im Warenkorb
 Quantity To Return,Anzahl zur Rückgabe
 Quantity was recalculated from %1 to %2,Menge wurde von %1 zu %2 geändert.
@@ -5886,7 +5886,7 @@ Reward Voucher Redemption,Belohnungsgutschein-Einlösung
 Rewarded Reviews Submission Quantity Limit,Maximale Punkte für die Absendung einer Bewertung
 Rewards Points Balance Redemption Threshold,Schwellenwert für Belohnungspunkterückzahlung
 Risk Factor,Risikofaktor
-Risk Factor Q,Risikofaktor Q 
+Risk Factor Q,Risikofaktor Q
 Risk Factor V,Risikofaktor V
 Risk Score,Risikowert
 "Risky order. The transaction, customer, and merchant information show multiple high-risk correlations","Riskante Bestellung. Transaktion, Kunde und Händlerinformationen weisen mehrere Korrelationen hohen Risikos auf."
@@ -6088,7 +6088,7 @@ Searchable,Suchbar
 Sec,Sek
 Secret Key,Geheimschlüssel
 Section,Sektion
-Secure Base Link URL,Sichere Basis-Link-URL 
+Secure Base Link URL,Sichere Basis-Link-URL
 Secure Base URL,Sichere Basis-URL
 Secure Base URL for Static View Files,Sichere Basis-URL für Dateien der statischen Ansicht
 Secure Base URL for User Media Files,Sichere Basis-URLs für Benutzermediendateien
@@ -6184,14 +6184,14 @@ Send Gift Card,Geschenkkarte senden
 Send Gift Receipt,Geschenkbeleg senden
 Send Invitation,Einladung senden
 Send Invitations,Einladungen senden
-Send Invoice Comment Email Copy To,Sende Rechnungskommentar-E-Mail in Kopie an 
+Send Invoice Comment Email Copy To,Sende Rechnungskommentar-E-Mail in Kopie an
 Send Invoice Comments Email Copy Method,"""Sende Rechnungskommentar-E-Mail in Kopie""-Methode"
 Send Invoice Email Copy Method,"""Sende Rechnungs-E-Mail in Kopie""-Methode"
-Send Invoice Email Copy To,Sende Rechnungs-E-Mail in Kopie an 
-Send Order Comment Email Copy To,Sende Bestellkommentar-E-mail in Kopie an 
+Send Invoice Email Copy To,Sende Rechnungs-E-Mail in Kopie an
+Send Order Comment Email Copy To,Sende Bestellkommentar-E-mail in Kopie an
 Send Order Comments Email Copy Method,"""Sende Bestellkommentar-E-Mail in Kopie""-Methode"
 Send Order Email Copy Method,"""Sende Bestellungs-E-Mail in Kopie""-Methode"
-Send Order Email Copy To,Sende Bestellungs-E-Mail in Kopie an 
+Send Order Email Copy To,Sende Bestellungs-E-Mail in Kopie an
 Send Payment Failed Email Copy Method,"""Sende E-Mail zu fehlgeschlagener Zahlung in Kopie""-Methode"
 Send Payment Failed Email Copy To,Sende E-Mail zu fehlgeschlagener Zahlung in Kopie an
 Send RMA Authorization Email Copy Method,"""RMA-Autorisierungs-E-Mail-Kopie senden""-Methode"
@@ -6203,7 +6203,7 @@ Send Selected,Ausgewähltes senden
 Send Shipment Comment Email Copy To,Sende Versandkommentar-E-Mail in Kopie an
 Send Shipment Comments Email Copy Method,"""Sende Versandkommentar-E-Mail in Kopie""-Methode"
 Send Shipment Email Copy Method,"""Sende Versandinformationen in Kopie""-Methode"
-Send Shipment Email Copy To,Sende Versandinformationen-E-Mail in Kopie an 
+Send Shipment Email Copy To,Sende Versandinformationen-E-Mail in Kopie an
 Send this invitation now and earn %s when your invitee signs up on our site.,"Diese Einladung jetzt senden und %s erhalten, wenn die Person sich auf unserer Seite anmeldet."
 Send To,Senden an
 Send to Google,An Google senden
@@ -6263,7 +6263,7 @@ Share Wish List,Wunschzettel teilen
 Shareable,Gemeinsam nutzbar
 Sharing,Teilen
 Sharing Information,Informationen zum Teilen
-Ship,Versenden  
+Ship,Versenden
 Ship Bundle Items,Bündelartikel-Versand
 Ship Date,Versanddatum
 Ship From,Versand von
@@ -6278,7 +6278,7 @@ Ship to this address,An diese Adresse senden
 Ship to:,Versenden an:
 Ship-to Name,Versand an Name
 Shipment,Versandmethode kann nicht aktualisiert werden.
-Shipment #,Lieferung # 
+Shipment #,Lieferung #
 Shipment #%1,Versand #%1
 Shipment #%1 | %3 (%2),Sendung #%1 | %3 (%2)
 Shipment #%1 comment added,Sendung #%1 Kommentar hinzugefügt
@@ -6327,7 +6327,7 @@ Shipping Labels are not allowed.,Versandetiketten sind nicht erlaubt.
 Shipping labels is not available.,Versandetiketten sind nicht verfügbar.
 Shipping Method,Versandmethode
 Shipping method is not applicable for empty cart,Versandverfahren ist nicht für leeren Warenkorb anwendbar.
-Shipping Method:,Versand-Methode:
+Shipping Method:,Versandmethode:
 Shipping Methods,Versandmethoden
 Shipping Origin,Versandherkunft
 Shipping Policy,Versandbedingungen
@@ -6439,7 +6439,7 @@ Size for %1,Größe für %1
 Size(bytes),Größe (Byte)
 Skip Category Selection,Kategorie-Auswahl überspringen
 Skip image uploading at this time,Bild-Upload zu diesem Zeitpunkt überspringen
-Skip Order Review Step,Bestellbewertungs-Schritt überspringen 
+Skip Order Review Step,Bestellbewertungs-Schritt überspringen
 Skip price at this time,Preis zu diesem Zeitpunkt überspringen
 Skip quantity at this time,Menge zu diesem Zeitpunkt überspringen
 Skip to Content,Direkt zum Inhalt
@@ -6665,7 +6665,7 @@ Static,Statisch
 Static block and products,Statische Blöcke und Produkte
 Static block only,Nur statische Blöcke
 Static Blocks,Statische Blöcke
-Static Files Settings,Einstellungen für statische Dateien 
+Static Files Settings,Einstellungen für statische Dateien
 Static Types,Statische Typen
 Station,Station
 Statistics,Statistiken
@@ -6680,7 +6680,7 @@ Step 1: Select Attributes,Schritt 1: Attribute auswählen
 Step 2: Attribute Values,Schritt 2: Attributwerte
 "Step 3: Bulk Images, Price, and Quantity","Schritt 3: Massenbilder, Preis und Menge"
 Step 4: Summary,Schritt 4: Zusammenfassung
-Stock,Lagerbestand  
+Stock,Lagerbestand
 Stock Alert Email Template,Lagerbestandalarm E-Mail Vorlage
 Stock Availability,Lagerverfügbarkeit
 "Stock Item with id ""%1"" does not exist.","Lagerartikel mit ID ""%1"" existiert nicht."
@@ -6754,7 +6754,7 @@ Submit Invoice,Rechnung übermitteln
 Submit Invoice and Shipment,Rechnung und Sendung übermitteln
 Submit Order,Bestellung übermitteln
 Submit Returns,Rückgaben absenden
-Submit Review,Bewertung abgeben.
+Submit Review,Bewertung abschicken
 Submit Shipment,Versand übermitteln
 Submitted on %1,Abgegeben am %1
 Submitting order information...,Übermitteln der Bestellungsinformationen...
@@ -6821,7 +6821,7 @@ Switch/Solo/Maestro Only,Switch/Solo/Nur Maestro
 Switch/Solo/Maestro Start Date,Switch/Solo/Maestro-Startdatum
 Symbols Used in CAPTCHA,Verwendete Symbole im CAPTCHA
 Synchronization of media storages has been completed.,Synchronisation der Medienspeicher wurde abgeschlossen.
-Synchronize,Synchronisieren  
+Synchronize,Synchronisieren
 Synchronizing %1 to %2,Synchonisiert %1 zu %2
 Synchronizing...,Synchronisiert...
 Synonym,Synonym
@@ -8214,7 +8214,7 @@ We can't save the form type right now.,Wir können diesen Form-Typen zur Zeit ni
 We can't save the gift wrapping right now.,Wir können die Geschenkverpackung zur Zeit nicht speichern.
 We can't save the invoice right now.,Die Rechnung kann momentan nicht gespeichert werden.
 We can't save the product rule right now.,Wir können die Produktregel zur Zeit nicht speichern.
-We can't save the scheduled operation right now.,Wir können diese vorgesehene Transaktion zur Zeit nicht speichern. 
+We can't save the scheduled operation right now.,Wir können diese vorgesehene Transaktion zur Zeit nicht speichern.
 We can't save the segment right now.,Wir können diesen Abschnitt zur Zeit nicht speichern.
 We can't save the shipment right now.,Wir können die Sendung jetzt nicht speichern.
 We can't save this customer.,Wir können diesen Kunden nicht speichern.
@@ -8249,7 +8249,7 @@ We can't update the transaction details.,Wir konnten die Transaktionsdetails nic
 We can't update the Wish List right now.,Der Wunschzettel kann zurzeit nicht aktualisiert werden.
 We can't update these gift registry items right now.,Wir können diese Geschenkeliste Produkte zur Zeit nicht aktualisieren.
 We can't update your Wish List right now.,Wir können Ihren Wunschzettel jetzt nicht aktualisieren.
-We can't upload the CSS file right now.,Die CSS-Datei kann zurzeit nicht hochgeladen werden. 
+We can't upload the CSS file right now.,Die CSS-Datei kann zurzeit nicht hochgeladen werden.
 We can't upload the file right now.,Wir können die Datei zurzeit nicht hochladen.
 We can't upload the JS file right now.,Die JS-Datei kann zurzeit nicht hochgeladen werden.
 We can't void the credit memo.,Wir können die Gutschrift nicht stornieren.
@@ -8407,14 +8407,14 @@ We'll ask for your payment details before you place an order.,"Wir werden Sie na
 We'll authorize the amount of %1 as soon as the payment gateway approves it.,"Wir werden die Menge von %1 genehmigen, sobald das Zahlungs-Gateway dies genehmigt."
 We'll email you a link to reset your password.,"Wir haben Ihnen eine Link geschickt, um Ihr Password neu zu setzen."
 We'll email you an order confirmation with details and tracking info.,Wir schicken Ihnen per E-Mail eine Bestellbestätigung mit Details und Informationen zur Sendeverfolgung.
-We'll send your order confirmation here.,Wir werden Ihre Auftragsbestätigung hier versenden.
+We'll send your order confirmation here.,Wir werden Ihre Bestellbestätigung an diese E-Mail senden.
 We'll use the default description above if you leave this empty.,"Obige Standardbeschreibung wird verwendet, wenn Sie diese leer lassen."
 We'll use the default error above if you leave this empty.,"Wir werden den obigen Standardfehler nutzen, wenn Sie dies leer lassen."
 "We're sorry, an error has occurred while generating this email.",Bei der Generierung dieser E-Mail ist ein Fehler aufgetreten.
 We're unable to delete the segement.,Wir sind nicht in der Lage diesen Abschnitt zu löschen.
 We're unable to send the password reset email.,"Wir sind nicht in der Lage, die E-Mail für die Passwortzurücksetzung zu schicken."
 Web,Web
-Web Services Configuration,Konfiguration von Web Services 
+Web Services Configuration,Konfiguration von Web Services
 Web Site,Website
 Web Site Information,Website-Informationen
 Web-Services URL (Production),Web-Services URL (Production)
@@ -8706,7 +8706,7 @@ You have no default billing address in your address book.,Sie haben keine Standa
 You have no default shipping address in your address book.,Sie haben keine Standardversandadresse in Ihrem Adressbuch.
 You have no items in your shopping cart.,Sie haben keine Artikel im Warenkorb
 You have no items in your wish list.,Sie haben keine Artikel auf Ihrem Wunschzettel.
-You have no items to compare.,Sie haben keine Artikel zum Vergleichen
+You have no items to compare.,Sie haben keine Artikel in Ihrer Vergleichsliste
 You have no other address entries in your address book.,Sie haben keine anderen Adresseinträge in Ihrem Adressbuch.
 You have not canceled the item.,Sie haben den Artikel nicht gelöscht.
 You have not entered a product SKU.,Sie haben keine Produkt SKU angegeben.
@@ -8754,7 +8754,7 @@ You need more permissions to do this.,Sie benötigen mehr Berechtigungen für di
 You need more permissions to perform a rollback.,"Sie benöltigen mehr Berechtigungen, um ein Rollback durchzuführen."
 You need more permissions to save this item.,Ihre Berechtigungen reichen nicht aus um diesen Artikel zu speichern.
 You need more permissions to save this setting.,Ihre Berechtigungen reichen nicht aus um diese Einstellungen zu speichern.
-You need more permissions to set All Scopes to a Role.,Ihre Berechtigungen reichen nicht aus um alle Bereiche zur Rolle hinzuzufügen. 
+You need more permissions to set All Scopes to a Role.,Ihre Berechtigungen reichen nicht aus um alle Bereiche zur Rolle hinzuzufügen.
 You need more permissions to view this item.,Ihre Berechtigungen reichen nicht aus um diesen Artikel zu sehen.
 You need to choose options for your item.,Sie müssen Optionen für Ihren Artikel wählen.
 "You need to create a simple product for each configuration (Ex: a product for each color).""",Sie müssen einen einfachen Artikel für jede Einstellung anlegen. (z.B: ein Produkt für jede Farbe).
@@ -8862,7 +8862,7 @@ You're reviewing:,Sie bewerten:
 You've been sent a gift card for use at %store_name and it is now ready to be used for purchases.,Sie haben eine Geschenkkarte für %store_name erhalten. Diese kann nun für Ihre Einkäufe genutzt werden.
 You've met your limit of %1 sends in an hour.,Sie haben Ihr Limit von %1 Sendungen pro Stunde erreicht.
 Your balance is %1.,Ihr Kontostand beträgt %1.
-Your balance is:,Ihr Kontostand beträgt: 
+Your balance is:,Ihr Kontostand beträgt:
 Your billing agreement # is:,Ihre Abrechnungsvereinbarungsnummer ist:
 Your billing agreement # is: %1.,Ihre Rechnungsvereinbarungsnummer ist: %1.
 Your credit card will be charged for,Ihre Kreditkarte wird belastet mit
@@ -8923,7 +8923,7 @@ ZIP,PLZ
 ZIP Code,PLZ
 Zip/Post Code,PLZ/Postleitzahl
 ZIP/Post Code,PLZ / Postleitzahl
-Zip/Post is Range,PLZ /Postleitzahl als Bereich 
+Zip/Post is Range,PLZ /Postleitzahl als Bereich
 Zip/Postal Code,Postleitzahl
 ZIP/Postal Code,PLZ/Postleitzahl
 Zip/Postal Code is Optional for,PLZ / Postleitzahl ist optional für
