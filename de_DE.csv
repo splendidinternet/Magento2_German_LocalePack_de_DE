@@ -1,6 +1,4 @@
-FALSCH,FALSCH
 1,1
-WAHR,WAHR
 20,20
 30,30
 50,50
@@ -291,6 +289,7 @@ A group with the same name already exists.,Eine Gruppe mit diesem Namen existier
 A hold action is not available.,Eine Halte-Aktion ist nicht verfügbar.
 A joined field with this alias is already declared.,Ein verknüpftes Feld mit diesem Alias ist bereits deklariert.
 A joint field with this alias (%1) is already declared.,Ein verbundenes Feld mit diesem Alias (%1) ist bereits deklariert.
+A letter with further instructions will be sent to your email.,Eine Nachricht mit weiteren Anweisungen wird an Ihre E-Mail gesendet.
 A login and a password are required.,Ein Login und ein Passwort sind erforderlich.
 A name is required.,Ein Name ist erforderlich.
 A payer is not identified.,Ein Zahler ist nicht identifiziert.
@@ -325,6 +324,7 @@ Abandoned Carts,Aufgegebene Warenkörbe
 Ability for buyer to purchase without PayPal account.,"Möglichkeit für Käufer, ohne PayPal-Account zu kaufen"
 About the calendar,Über den Kalender
 About Us,Über uns
+About us,Über uns
 About Your Invoice,Über Ihre Rechnung
 About Your Order,Über Ihre Bestellung
 About Your Refund,Über Ihre Rückerstattung
@@ -492,7 +492,7 @@ Add Subcategory,Unterkategorie hinzufügen
 Add Swatch,Farbfeld hinzufügen
 Add Tax,Steuer hinzufügen
 Add Tier,Stufe hinzufügen
-Add to Cart,In den Warenkorb legen
+Add to Cart,Zum Warenkorb hinzufügen
 Add to Column Options,Spaltenoptionen hinzufügen
 Add to Compare,Zum Vergleichen hinzufügen
 Add to Gift Registry,Zur Geschenkeliste hinzufügen
@@ -1661,6 +1661,7 @@ Coupons Usage Report,Gutschein-Nutzungsbericht
 Coupons/Discounts,Gutscheine/Rabatte
 CPF,CPF
 Create,Erstellen
+Create Account,Konto erstellen
 Create an Account,Ein Konto erstellen
 Create an account on our site now and earn %1.,Einen Account auf unserer Seite erstellen und %1 erhalten.
 Create Backup,Backup erstellen
@@ -2293,6 +2294,7 @@ Edit Gift Registry,Geschenkeliste bearbeiten
 "Edit Gift Wrapping ""%1""","Geschenkverpackung ""%1"" bearbeiten"
 Edit Group,Gruppe bearbeiten
 Edit Integration '%1',Integration '%1' bearbeiten
+Edit item,Artikel bearbeiten
 Edit item parameters,Artikelparameter bearbeiten
 Edit Items,Artikel bearbeiten
 Edit My Credit Cards,Meine Kreditkarten bearbeiten
@@ -2810,7 +2812,7 @@ For category,Für Kategorie
 For Checkout,Für Checkout
 For CMS page,Für CMS-Seite
 For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.,"Um korrekte URLs während des Crons-Vorgangs zu generieren, stellen Sie bitte sicher, dass Web > sichere und unsiche Basis-URLs explizit gesetzt sind."
-For delivery questions.,Für Fragen zur Lieferung
+For delivery questions.,Für Rückfragen zum Versand.
 for greater than,für mehr als
 For internal use,Für internen Gebrauch
 For matching items only,Nur für passende Artikel
@@ -3047,6 +3049,7 @@ Go back,Zurück
 Go back to product details,Zurück zu Produktdetails
 "Go to <a href=""%1"">My Downloadable Products</a>","Gehe zu: <a href=""%1"">Meine Downloadartikel</a>"
 Go to Archive,Gehe zu Archiv
+Go to Checkout,Zur Kasse gehen
 Go to Details Page,Zur Detailseite gehen
 Go to Home Page,Zur Homepage
 Go to Review Your Order,Ihre Bestellung überprüfen
@@ -3616,6 +3619,7 @@ item,Artikel
 item,Artikel
 Item %1 %2 %3:,Artikel %1 %2 %3:
 Item Condition,Artikelzustand
+Item in Cart,Artikel im Warenkorb
 Item not found or already ordered,Artikel nicht gefunden oder schon bestellt
 Item ordered qty,Bestellte Artikelmenge
 Item Price,Artikelpreis
@@ -4078,6 +4082,7 @@ Multishipping Settings,Multishipping Einstellungen
 Must be category model instance or its id.,Muss Instanz oder ID des Kategoriemodells sein
 Must be in the allowed values list,Muss in der Liste der zugelassenen Werte sein
 My Account,Mein Konto
+My billing and shipping address are the same,Gleiche Adresse für Bestellung und Versand
 My Cart,Mein Warenkorb
 My Cart (%1 items),Mein Warenkorb (%1 Artikel)
 My Cart (1 item),Mein Warenkorb (1 Artikel)
@@ -4571,6 +4576,7 @@ Order Statuses,Bestellstatus
 Order Statuses to be Archived,Bestellstatus zum Archivieren
 Order Subtotal (and above),Bestellungs-Zwischensumme (und höher)
 Order Success,Bestell-Erfolg
+Order Summary,Zusammenfassung der Bestellung
 Order Taxes Report Grouped by Tax Rate,"Bericht über Bestellungssteuern, gruppiert nach Steuersätzen"
 Order Taxes Report Grouped by Tax Rates,"Bericht über Bestellungssteuern, gruppiert nach Steuersätzen"
 Order Total,Bestellsumme
@@ -5079,6 +5085,7 @@ Please enter the message.,Bitte geben Sie die Nachricht ein
 Please enter the password to confirm rollback.,"Bitte geben Sie das Passwort ein, um das Rollback zu bestätigen."
 Please enter the phone number.,Bitte geben Sie die Telefonnummer ein.
 Please enter the quantity of items to add to cart.,Bitte geben Sie die Anzahl der Artikel zum Hinzufügen zum Warenkorb ein.
+Please enter the same value again.,Bitte geben Sie den gleichen Wert erneut ein.
 Please enter the state/province.,Bitte geben Sie das Bundesland ein.
 Please enter the street.,Bitte geben Sie die Straße ein.
 Please enter the title.,Bitte geben Sie den Titel ein
@@ -5141,6 +5148,7 @@ Please select items to copy.,Bitte wählen Sie Artikel zum Kopieren
 Please select items to move.,Bitte wählen Sie Artikel zum Verschieben
 Please select items.,Bitte Artikel auswählen
 Please select messages.,Bitte Nachrichten wählen
+Please select one of each of the ratings above.,Bitte wählen Sie eine der oberen Bewertungen aus.
 Please select one or more hierarchies to delete.,Bitte wählen Sie eine oder mehrere Hierarchien zum Löschen
 Please select one or more subscribers.,Bitte wählen Sie einen oder mehrere Abonnenten.
 Please Select Order,Bitte Bestellung wählen
@@ -5177,6 +5185,7 @@ Please specify a recipient email.,Bitte geben Sie eine Empfänger-E-Mail an.
 Please specify a recipient name.,Bitte geben Sie einen Empfängernamen an.
 Please specify a sender email.,Bitte geben Sie eine Absender-E-Mail an
 Please specify a sender name.,Bitte geben Sie einen Absendernamen an
+Please specify a shipping method,Bitte geben Sie eine Versandmethode an
 Please specify a shipping method.,Bitte geben Sie eine Versandmethode an.
 Please specify a source.,Bitte eine Quelldatei angeben.
 Please specify a valid customer.,Bitte geben Sie einen gültigen Kunden an
@@ -5365,6 +5374,7 @@ Priority Mail Small Flat Rate Envelope Hold For Pickup,Priority Mail Small Flat 
 Priority Mail Window Flat Rate Envelope,Priority Mail Window Flat Rate Envelope
 Priority Mail Window Flat Rate Envelope Hold For Pickup,Priority Mail Window Flat Rate Envelope Hold For Pickup
 Priority Overnight,Priorität über Nacht-Zustellung
+Privacy and Cookie Policy,Datenschutz und Cookie-Richtlinien
 Privacy Settings,Privatsphäreeinstellungen
 Private,Privat 
 Private Key,Privater Schlüssel
@@ -5505,6 +5515,7 @@ Provided image name contains forbidden characters.,Der angegebene BIldname enth�
 Provided link information is invalid.,Angegebene Link-Information ist ungültig.
 "Provided link type ""%1"" does not exist","Angegebener Link-Typ ""%1"" existiert nicht."
 Provided sample information is invalid.,Die vorgesehene Sampleinformation ist ungültig.
+Provided Zip/Postal Code seems to be invalid. Example: 12345-6789; 12345. If you believe it is the right one you can ignore this notice.,"Angegebene Postleitzahl scheint ungültig zu sein. Beispiel: 12345-6789; 12345. Wenn sie richtig eingegeben wurde, können Sie diese Warnung ignorieren."
 Proxy Host,Proxy-Host
 Proxy Port,Proxy-Port
 Public,Öffentlich
@@ -5841,6 +5852,7 @@ Reversal of Points Usage,Aufhebung der Punkteverwendung
 Reverted,Zurückgekehrt
 Reverted from incomplete order #%1,Zurückgekehrt von unvollendeter Bestellung #%1
 Review,Bewertung
+Review &amp; Payments,Übersicht und Zahlung
 Review by,Bewertung von
 Review Details,Bewertungsdetails
 Review Order,Bestellung überprüfen
@@ -7713,7 +7725,7 @@ up to %1,bis zu %1
 Up To Date,Up To Date
 Up-sells,Up-sells
 Upcoming,bevorstehend
-Update,Update
+Update,Aktualisieren
 Update Attributes,Attribute aktualisieren
 Update attributes,Attribute aktualisieren
 Update Balance,Kontostand aktualisieren
@@ -7966,6 +7978,7 @@ View,Anzeigen
 "View ""%1"" Integration","Integration ""%1"" ansehen"
 View All,Alle anzeigen
 View all Wish List items,Alle Artikel des Wunschzettels ansehen
+View and edit cart,Warenkorb ansehen und bearbeiten
 View Another Order,Weitere Bestellungen ansehen
 View as,Ansicht als
 View Combined Report,Zusammengefassten Report ansehen
@@ -8547,6 +8560,7 @@ You can buy up to %1 of these per purchase.,Sie können bis zu %1 dieser Produkt
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Sie können den Status Ihrer Bestellung per <a href=""%account_url"">Login zu Ihrem Konto</a> überprüfen."
 "You can check the status of your return <a href=""%form_url"">using your order number</a>.","Sie können den Status Ihrer Rücksendung verfolgen indem Sie <a href=""%form_url"">Ihre Bestellnummer hier eingeben</a>."
 "You can check the status of your return by <a href=""%account_url"">logging into your account</a> or <a href=""%form_url"">using your order number</a>.","Sie können den Status Ihrer Rücksendung verfolgen indem Sie: <a href=""%account_url"">in Ihr Konto einloggen</a> oder <a href=""%form_url"">ihre Bestellnummer hier eingeben.</a>."
+You can create an account after checkout.,Sie können nach dem Checkout ein Konto erstellen.
 You can create auto-generated coupons using reminder promotion rules.,Sie können automatisch generierte Coupons mittels der Erinnerungswerbungsregeln erstellen.
 You can create orders only in an active store.,Bestellungen können nur in einem aktiven Shop erstellt werden.
 "You can create your own gift registry on <a href=""%account_url"">%store_name</a> and share it with friends and family.","Sie können Ihre eigene Geschenkeliste auf <a href=""%account_url"">%store_name</a> erstellen und mit Ihren Freunden und Familie teilen."
@@ -8561,6 +8575,7 @@ You can reward up to %s invitee purchase(s).,Sie können bis zu %1s Eingeladenen
 You can reward up to %s invitee registration(s).,Sie können bis zu %1s Eingeladenen Registrierungen belohnen.
 You can sign in to your account to view more details about this gift registry.,"Loggen Sie sich ein, um mehr über diese Geschenkeliste zu erfahren."
 You can then add the products to your registry from your shopping cart or wish list page.,Sie können anschliessend die Produkte aus Ihrer Wunschliste oder dem Einkaufswagen Ihrem Register hinzufügen.
+You can track your order status by creating an account.,"Sie können Ihren Bestellstatus verfolgen, wenn Sie ein Konto erstellen."
 You can use this coupon up to %coupon_limit time(s).,Dieser Coupon kann bis zu %coupon_limit mal benutzt werden.
 "You can view and purchase items from this gift registry at <a href=""%account_url"">%store_name</a>.","Sie können Artikel von dieser Geschenkeliste auf <a href=""%account_url"">%store_name</a> ansehen und kaufen."
 You can't add the item to shopping cart.,Sie können den Artikel nicht in den Warenkorb legen.
