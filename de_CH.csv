@@ -23,7 +23,7 @@
 """%1"" coupon code is not valid.","""%1"" Gutscheincode ist ungültig."
 """%1"" coupon code was not applied. Do not apply discount is selected for item(s)","""%1"" Gutschein-Code wurde nicht angewendet. Rabatt gilt nicht für die ausgewählten Artikel."
 """%1"" does not fit the entered date format.","""%1"" passt nicht in das eingegebene Datumsformat."
-"""%1"" exceeds the allowed file size.","""%1"" überschreitet die erlaubte Dateigröße."
+"""%1"" exceeds the allowed file size.","""%1"" überschreitet die erlaubte Dateigrösse."
 """%1"" height exceeds allowed value of %2 px.","Höhe von ""%1"" überschreitet den erlaubten Wert von %2 px."
 """%1"" invalid type entered.","""%1"" Ungültigen Typ eingegeben"
 """%1"" is a required value.","""%1"" ist ein erforderlicher Wert."
@@ -99,7 +99,7 @@
 %1 already exists.,%1 existiert bereits
 %1 An empty value is allowed as well.,%1 Ein leerer Wert ist auch erlaubt.
 %1 and above,%1 und höher
-%1 and greater,%1 und größer
+%1 and greater,%1 und grösser
 %1 cache type(s) disabled.,%1 Cache-Typ(en) deaktiviert.
 %1 cache type(s) enabled.,%1 Cache-Typ(en) aktiviert.
 %1 cache type(s) refreshed.,%1 Cache-Typ(en) aktualisiert.
@@ -212,10 +212,10 @@
 "<a href=""%unsubscription_url"">Unsubscribe</a> from these notifications.","Diese Benachrichtigungen <a href=""%unsubscription_url"">abbestellen</a>"
 "<a href=""http://www.magentocommerce.com/paypal"">Start accepting payments via PayPal!</a>","<a href=""http://www.magentocommerce.com/paypal"">Zahlungen via PayPal akzeptieren!</a>"
 "<a href=""http://www.magentocommerce.com/paypal"">Start accepting payments via PayPal!</a>","<a href=""http://www.magentocommerce.com/paypal"">Zahlungen über PayPal akzeptieren!</a>"
-"<a href=""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/><strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financingfrom PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15% or more. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Warum für Finanzierung werben?</a><br/><strong>Geben Sie Ihren Verkäufen einen Schub, indem Sie für Finanzierung werben. </strong><br/>PayPal hilft, Ihre Besucher in Käufer zu verwandeln, mit der Finanzierung von PayPal Credit&#174;. Ihre Käufer haben mehr Zeit zu bezahlen, während Sie im Voraus bezahlt werden - ohne zusätzliche Kosten. Verwenden Sie PayPal's kostenlose Banner-Werbung, die es Ihnen ermöglicht, für PayPal Credit&#174 als Zahlungsoption zu werben, wenn Ihre Kunden mit PayPal bezahlen. Das PayPal-Werbeprogramm hat gezeigt, dass es Zusätzliche Käufe erzeugt den Größe des durchschnittlichen Einkaufs Ihrer Kunden um 15% oder mehr erhöht. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Details sehen</a>."
-"<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/><strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you. Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal. The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15% or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Warum für Finanzierung werben?</a><br/><strong>Geben Sie Ihren Verkäufen einen Schub, indem Sie für Finanzierung werben. </strong><br/>PayPal hilft, Ihre Besucher in Käufer zu verwandeln, mit der Finanzierung von PayPal Credit&#174;. Ihre Käufer haben mehr Zeit zu bezahlen, während Sie im Voraus bezahlt werden - ohne zusätzliche Kosten. Verwenden Sie PayPal's kostenlose Banner-Werbung, die es Ihnen ermöglicht, für PayPal Credit&#174 als Zahlungsoption zu werben, wenn Ihre Kunden mit PayPal bezahlen. Das PayPal-Werbeprogramm hat gezeigt, dass es Zusätzliche Käufe erzeugt den Größe des durchschnittlichen Einkaufs Ihrer Kunden um 15% oder mehr erhöht. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Details sehen</a>."
-"<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/><strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financingfrom PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15% or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Warum für Finanzierung werben?</a><br/><strong>Geben Sie Ihren Verkäufen einen Schub, indem Sie für Finanzierung werben. </strong><br/>PayPal hilft, Ihre Besucher in Käufer zu verwandeln, mit der Finanzierung von PayPal Credit&#174;. Ihre Käufer haben mehr Zeit zu bezahlen, während Sie im Voraus bezahlt werden - ohne zusätzliche Kosten. Verwenden Sie PayPal's kostenlose Banner-Werbung, die es Ihnen ermöglicht, für PayPal Credit&#174 als Zahlungsoption zu werben, wenn Ihre Kunden mit PayPal bezahlen. Das PayPal-Werbeprogramm hat gezeigt, dass es Zusätzliche Käufe erzeugt den Größe des durchschnittlichen Einkaufs Ihrer Kunden um 15% oder mehr erhöht. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Details sehen</a>."
-"<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/><strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financingfrom PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Warum für Finanzierung werben?</a><br/><strong>Geben Sie Ihren Verkäufen einen Schub, indem Sie für Finanzierung werben. </strong><br/>PayPal hilft, Ihre Besucher in Käufer zu verwandeln, mit der Finanzierung von PayPal Credit&#174;. Ihre Käufer haben mehr Zeit zu bezahlen, während Sie im Voraus bezahlt werden - ohne zusätzliche Kosten. Verwenden Sie PayPal's kostenlose Banner-Werbung, die es Ihnen ermöglicht, für PayPal Credit&#174 als Zahlungsoption zu werben, wenn Ihre Kunden mit PayPal bezahlen. Das PayPal-Werbeprogramm hat gezeigt, dass es Zusätzliche Käufe erzeugt den Größe des durchschnittlichen Einkaufs Ihrer Kunden um 15% oder mehr erhöht. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Details sehen</a>."
+"<a href=""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/><strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financingfrom PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15% or more. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Warum für Finanzierung werben?</a><br/><strong>Geben Sie Ihren Verkäufen einen Schub, indem Sie für Finanzierung werben. </strong><br/>PayPal hilft, Ihre Besucher in Käufer zu verwandeln, mit der Finanzierung von PayPal Credit&#174;. Ihre Käufer haben mehr Zeit zu bezahlen, während Sie im Voraus bezahlt werden - ohne zusätzliche Kosten. Verwenden Sie PayPal's kostenlose Banner-Werbung, die es Ihnen ermöglicht, für PayPal Credit&#174 als Zahlungsoption zu werben, wenn Ihre Kunden mit PayPal bezahlen. Das PayPal-Werbeprogramm hat gezeigt, dass es Zusätzliche Käufe erzeugt den Grösse des durchschnittlichen Einkaufs Ihrer Kunden um 15% oder mehr erhöht. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Details sehen</a>."
+"<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/><strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you. Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal. The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15% or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Warum für Finanzierung werben?</a><br/><strong>Geben Sie Ihren Verkäufen einen Schub, indem Sie für Finanzierung werben. </strong><br/>PayPal hilft, Ihre Besucher in Käufer zu verwandeln, mit der Finanzierung von PayPal Credit&#174;. Ihre Käufer haben mehr Zeit zu bezahlen, während Sie im Voraus bezahlt werden - ohne zusätzliche Kosten. Verwenden Sie PayPal's kostenlose Banner-Werbung, die es Ihnen ermöglicht, für PayPal Credit&#174 als Zahlungsoption zu werben, wenn Ihre Kunden mit PayPal bezahlen. Das PayPal-Werbeprogramm hat gezeigt, dass es Zusätzliche Käufe erzeugt den Grösse des durchschnittlichen Einkaufs Ihrer Kunden um 15% oder mehr erhöht. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Details sehen</a>."
+"<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/><strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financingfrom PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15% or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Warum für Finanzierung werben?</a><br/><strong>Geben Sie Ihren Verkäufen einen Schub, indem Sie für Finanzierung werben. </strong><br/>PayPal hilft, Ihre Besucher in Käufer zu verwandeln, mit der Finanzierung von PayPal Credit&#174;. Ihre Käufer haben mehr Zeit zu bezahlen, während Sie im Voraus bezahlt werden - ohne zusätzliche Kosten. Verwenden Sie PayPal's kostenlose Banner-Werbung, die es Ihnen ermöglicht, für PayPal Credit&#174 als Zahlungsoption zu werben, wenn Ihre Kunden mit PayPal bezahlen. Das PayPal-Werbeprogramm hat gezeigt, dass es Zusätzliche Käufe erzeugt den Grösse des durchschnittlichen Einkaufs Ihrer Kunden um 15% oder mehr erhöht. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Details sehen</a>."
+"<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/><strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financingfrom PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Warum für Finanzierung werben?</a><br/><strong>Geben Sie Ihren Verkäufen einen Schub, indem Sie für Finanzierung werben. </strong><br/>PayPal hilft, Ihre Besucher in Käufer zu verwandeln, mit der Finanzierung von PayPal Credit&#174;. Ihre Käufer haben mehr Zeit zu bezahlen, während Sie im Voraus bezahlt werden - ohne zusätzliche Kosten. Verwenden Sie PayPal's kostenlose Banner-Werbung, die es Ihnen ermöglicht, für PayPal Credit&#174 als Zahlungsoption zu werben, wenn Ihre Kunden mit PayPal bezahlen. Das PayPal-Werbeprogramm hat gezeigt, dass es Zusätzliche Käufe erzeugt den Grösse des durchschnittlichen Einkaufs Ihrer Kunden um 15% oder mehr erhöht. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Details sehen</a>."
 "<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone"">%store_phone</a>"
 "<b>Important</b>: If you select ""Use Auto Generation"", ' 'this rule will no longer be used in any automated email reminder rules for abandoned carts","<b>Wichtig</b>: Wenn Sie ""Automische Generierung verwenden"" auswählen, wird diese Regel nicht mehr in automatisch generierten E-Mail-Erinnerungsregeln für vergessene Einkaufswagen verwendet."
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">404 Fehler</h1><p>Seite nicht gefunden.</p>"
@@ -231,7 +231,7 @@
 "<strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).","<strong style=""color:red"">Warnung!</strong> Wenn Sie den Storecode in URLs verwenden, könnte das System in einigen Fällen nicht sauber arbeiten, wenn URLs ohne Storecodes in Third-Party-Services angegeben sind (z.B. PayPal etc.)."
 <strong>%1 item</strong> were found using the following search criteria,<strong>%1 Artikel</strong> wurden mit den folgenden Suchkriterien gefunden
 <strong>%1 items</strong> were found using the following search criteria,<strong>%1 Artikel</strong> wurden mit den folgenden Suchkriterien gefunden
-<strong>Attention</strong>: Captcha is case sensitive.,<strong> Achtung </strong>: Groß- und Kleinschreibung beachten!
+<strong>Attention</strong>: Captcha is case sensitive.,<strong> Achtung </strong>: Gross- und Kleinschreibung beachten!
 <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing,<strong>Erhöhen Sie Ihre Verkäufe indem Sie Finanzierungen bewerben.</strong><br/>PayPal hilft Ihnen Stöberer in Kunden mit Finanzierung zu verwandeln.
 <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing,<strong>Erhöhen Sie Ihre Verkäufe indem Sie Finanzierungen bewerben.</strong><br/>PayPal hilft Ihnen Stöberer in Kunden mit Finanzierung zu verwandeln.
 <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing,<strong>Erhöhen Sie Ihre Verkäufe indem Sie Finanzierungen bewerben.</strong><br/>PayPal hilft Ihnen Stöberer in Kunden mit Finanzierung zu verwandeln.
@@ -274,8 +274,8 @@ $attributes must be an array,$attributes muss ein Array sein.
 5 minutes,5 Minuten
 503 Service Unavailable,503 Service nicht verfügbar
 6 Hours,6 Stunden
-"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","Standardmäßig 86400 , wenn nicht festgelegt. Um sofort zu aktualisieren, deaktivieren Sie den Block HTML-Output-Cache."
-"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","Standardmäßig 86400, wenn nicht festgelegt. Um sofort zu aktualisieren, deaktivieren Sie den Block-HTML-Output-Cache. "
+"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","Standardmässig 86400 , wenn nicht festgelegt. Um sofort zu aktualisieren, deaktivieren Sie den Block HTML-Output-Cache."
+"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","Standardmässig 86400, wenn nicht festgelegt. Um sofort zu aktualisieren, deaktivieren Sie den Block-HTML-Output-Cache. "
 A block identifier with the same properties already exists in the selected store.,Eine Block-Kennung mit den gleichen Eigenschaften existiert bereits im ausgewählten Shop.
 A case that has been resolved and close requires a reimbursement.,"Ein Fall, der behoben wurde, erfordert eine Erstattung"
 A class with the same name already exists for ClassType %1.,Eine Klasse mit dem gleichen Namen existiert bereits für den Klassentyp %1.
@@ -298,7 +298,7 @@ A PDF object is not specified.,Ein PDF-Objekt ist nicht angegeben.
 A PDF page object is not specified.,Ein PDF Seiten-Objket ist nicht angegeben.
 A positive or negative non-decimal number please,Eine positive oder negative nicht-dezimale Zahl bitte
 A product type is not defined for the indexer.,Es ist kein Produkttyp für den Indexer definiert.
-A quantity of %1 is greater than you can return.,"Eine Anzahl von %1 ist größer, als Sie zurückgeben können."
+A quantity of %1 is greater than you can return.,"Eine Anzahl von %1 ist grösser, als Sie zurückgeben können."
 A quantity you're trying to add exceeds the number of products we shipped.,"Eine Anzahl, die Sie versuchen hinzuzufügen, überschreitet die Anzahl der Produkte, die wir versandt haben."
 A reversal has occurred on this transaction because of a customer dispute suspecting unauthorized spoof.,Eine Stornierung ist bei dieser Transaktion aufgrund des Verdachts einer unerlaubten Täuschung aufgetreten.
 A reversal has occurred on this transaction because you have given the customer a refund.,"Eine Stornierung hat bei dieser Transaktion stattgefunden, da Sie dem Kunden eine Rückerstattung gewährt haben."
@@ -381,7 +381,7 @@ Actual Price,Aktueller Preis
 Adapter must be an instance of \Magento\ImportExport\Model\Import\AbstractSource,Adapter muss eine Instanz sein von \Magento\ImportExport\Model\Import\AbstractSource
 Add,Hinzufügen
 Add \Exception,Ausnahme hinzufügen
-Add after,Anschließend hinzufügen
+Add after,Anschliessend hinzufügen
 Add All to Cart,Alle dem Warenkorb hinzufügen
 Add All To Gift Registry,Alle zur Geschenkeliste hinzufügen
 Add Amount,Anzahl hinzufügen
@@ -517,7 +517,7 @@ Add Your Review,Ihre Bewertung hinzufügen
 Add/Update,Hinzufügen/Aktualisieren
 Add/Update Complex Data,Hinzufügen/Aktualisieren komplexer Daten
 Added,Hinzugefügt
-Added for spent money according to reward exchange rates.,Gemäß dem Belohnungskurs dem ausgegebenen Geld hinzugefügt
+Added for spent money according to reward exchange rates.,Gemäss dem Belohnungskurs dem ausgegebenen Geld hinzugefügt
 Added On,Hinzugefügt
 Additional Address Entries,Zusätzliche Adresseinträge
 Additional Attribute Table,Tabelle zusätzlicher Attribute
@@ -580,7 +580,7 @@ After approval by administrator.,Nach Genehmigung eines Administrators
 After Discount,Nach Rabatt
 After number of attempts to login,Nach Anzahl der Loginversuche
 "After selecting a new media storage location, press the Synchronize button to transfer all media to that location. Media will not be available in the new location until the synchronization process is complete.","Nach der Auswahl eines neuen Medienablageorts, drücken Sie die Schaltfläche Synchronisieren, um alle Medien zu dieser Stelle zu übertragen. Medien stehen somit nicht im neuen Standort zur Verfügung, bis die Synchronisation abgeschlossen ist."
-"After you make your selections, click the ""Create"" button.' ' Then stand by while the System Report is generated. This may take a few minutes.' ' You will receive a notification once this step is completed.","Nachdem Sie Ihre Auswahlen getroffen haben, klicken Sie auf ""Erstellen"". Anschließend wird der Systembericht erstellt. Dies kann einige Minuten dauern. Sie erhalten eine Benachrichtigung, wenn dieser Schritt abgeschlossen ist."
+"After you make your selections, click the ""Create"" button.' ' Then stand by while the System Report is generated. This may take a few minutes.' ' You will receive a notification once this step is completed.","Nachdem Sie Ihre Auswahlen getroffen haben, klicken Sie auf ""Erstellen"". Anschliessend wird der Systembericht erstellt. Dies kann einige Minuten dauern. Sie erhalten eine Benachrichtigung, wenn dieser Schritt abgeschlossen ist."
 Aggregated Information,Angesammelte Informationen
 Agreement Information,Vereinbarungsinformationen
 Alert Email Sender,Alarm-E-Mail-Absender
@@ -661,7 +661,7 @@ Allowed Errors Count,Erlaubte Fehleranzahl
 Allowed file types *.css.,Erlaubte Dateitypen *.css.
 Allowed file types *.js.,Erlaubte Dateitypen *.js.
 "Allowed file types: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Not all browsers support all these formats!","Erlaubte Dateitypen: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Nicht alle Browser unterstützen alle diese Formate!"
-"Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in width/height fields below.","Erlaubte Dateitypen: jpg, jpeg, gif, png. Um das Logo für hochauflösende Displays zu optimieren, laden Sie ein Bild hoch, dass 3x der normalen Größe hat und geben Sie dann 1x Abmessungen in Breite / Höhe in die unteren Felder ein."
+"Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in width/height fields below.","Erlaubte Dateitypen: jpg, jpeg, gif, png. Um das Logo für hochauflösende Displays zu optimieren, laden Sie ein Bild hoch, dass 3x der normalen Grösse hat und geben Sie dann 1x Abmessungen in Breite / Höhe in die unteren Felder ein."
 Allowed IPs (comma separated),Erlaubte IPs (Komma-getrennt)
 Allowed Methods,Erlaubte Methoden
 Allowed Scopes,Erlaubte Geltungsbereiche
@@ -751,7 +751,7 @@ Applied,Angewandt
 Applied Coupon,Angewandter Gutschein
 Applies To,Gilt für
 Applies to All of the Specified Customer Segments,Gilt für alle angegebenen Kundensegmente
-Applies to Any of the Specified Order Statuses except canceled orders,Gilt für eine der angegebenen Auftragsstatus außer stornierte Aufträge
+Applies to Any of the Specified Order Statuses except canceled orders,Gilt für eine der angegebenen Auftragsstatus ausser stornierte Aufträge
 Apply,Übernehmen
 Apply as fixed amount,Übernehmen als fester Betrag
 Apply as percentage of original,Übernehmen als Prozentsatz des Originals
@@ -798,7 +798,7 @@ Are you sure you want to accept this payment?,"Sind Sie sicher, dass Sie diese Z
 Are you sure you want to add these products?,"Sind Sie sicher, dass Sie diese Produkte hinzufügen möchten?"
 Are you sure you want to cancel this order?,"Sind Sie sicher, dass Sie diese Bestellung stornieren wollen?"
 Are you sure you want to clear your cart?,"Sind Sie sicher, dass Sie Ihren Einkaufswagen leeren möchten?"
-Are you sure you want to close this returns request?,"Sind Sie sicher, dass Sie diese Rücksendeanfrage schließen möchten?"
+Are you sure you want to close this returns request?,"Sind Sie sicher, dass Sie diese Rücksendeanfrage schliessen möchten?"
 Are you sure you want to continue without saving your changes?,"Sind Sie sicher, dass Sie ohne Speichern der Änderungen fortfahren möchten?"
 Are you sure you want to continue?,"Sind Sie sicher, dass Sie fortfahren wollen?"
 Are you sure you want to copy the current hierarchy to the selected destinations?,"Sind Sie sicher, dass Sie die aktuelle Rangordnung zu den ausgewählten Zielorten kopieren möchten?"
@@ -956,8 +956,8 @@ Average Order,Durschschnittlicher Bestellumsatz
 Average Sale,Durchschnittsumsatz
 AVS Response,AVS-Antwort
 AVS result code,AVS-Ergebniscode
-AVS Street Does Not Match,AVS-Straße entspricht nicht
-AVS Street Match,AVS-Straßenübereinstimmung
+AVS Street Does Not Match,AVS-Strasse entspricht nicht
+AVS Street Match,AVS-Strassenübereinstimmung
 AVS zip,AVS-Postleitzahl
 AVS Zip Does Not Match,AVS-PLZ stimmt nicht überein
 Back,Zurück
@@ -1056,7 +1056,7 @@ Begin export of %1,Beginne Export von %1
 "Begin import of ""%1"" with ""%2"" behavior","Beginne Import von ""%1"" mit ""%2"" -Verhalten"
 Best Sellers Report,Bestseller-Bericht
 Bestsellers,Bestseller
-Big Image,Großes Bild
+Big Image,Grosses Bild
 Bill-to Name,Rechnung an Name
 Billing,Abrechnung
 Billing Address,Rechnungsadresse
@@ -1130,7 +1130,7 @@ Buyer's Tax ID Type,Steuernummer-Typ des Käufers
 by,Von
 By admin: %1.,Von Administrator: %1
 By admin: %1. (%2),Von Administrator: %1. (%2)
-"By default it is ""reports.paypal.com"".","Standardmäßig ist es ""reports.paypal.com""."
+"By default it is ""reports.paypal.com"".","Standardmässig ist es ""reports.paypal.com""."
 By Fixed value,Um festen Wert
 By Invitation Only,Nur mit Einladung
 By Percentage,Um Prozentwert
@@ -1197,7 +1197,7 @@ Cannot gather stats! %1,Statistiken können nicht erfasst werden! %1
 Cannot get access token because consumer token is not a request token,"Kann Zugriffstoken nicht erhalten, weil Verbraucher-Token kein angefordertes Token ist"
 Cannot get autoincrement value,Kann automatisch erhöhten Wert nicht erhalten
 Cannot get secure form URL from PayPal,Kann keine Secure Form URL von PayPal erhalten
-Cannot identify measure unit for %1,Kann Maßeinheit für %1 nicht identifizieren
+Cannot identify measure unit for %1,Kann Masseinheit für %1 nicht identifizieren
 Cannot identify weight unit for %1,Kann Gewichtseinheit für %1 nicht identifizieren
 Cannot load options for attribute %1,Kann Optionen für Attribut %1 nicht laden
 Cannot perform GET operation with store code 'all',GET-Vorgang kann nicht mit Store-Code 'alle' ausgeführt werden.
@@ -1261,7 +1261,7 @@ Cart Price Rule,Warenkorb-Preisregel
 Cart Price Rules,Warenkorb-Preisregeln
 Cart Subtotal,Warenkorb-Zwischensumme
 Carts,Warenkörbe
-Case Sensitive,Groß- und Kleinschreibung
+Case Sensitive,Gross- und Kleinschreibung
 Cash On Delivery Payment,Zahlung per Nachnahme
 Catalog,Katalog
 Catalog Advanced Search,Erweiterte Katalogsuche
@@ -1399,11 +1399,11 @@ Click on the code(s) above to redeem them into Store Credit.,"Klicken Sie auf de
 Click to change shipping method,"Klicken, um Versandmethode zu ändern"
 Click to change shipping method.,"Klicken, um Versandmethode zu ändern"
 Client side less compilation,Weniger Kompilierung auf Clientseite
-close,Schließen
-Close,Schließen
-Close panel,Panel schließen
-Close popup,Pop-up schließen
-Close Window,Fenster schließen
+close,Schliessen
+Close,Schliessen
+Close panel,Panel schliessen
+Close popup,Pop-up schliessen
+Close Window,Fenster schliessen
 Closed,Geschlossen
 cm,cm
 CMS,CMS
@@ -2142,7 +2142,7 @@ Disable Email Communications,E-Mail-Kommunikation deaktivieren
 Disable Guest Checkout if Cart Contains Downloadable Items,"Gäste-Checkout deaktivieren, wenn der Einkaufswagen herunterladbare Artikel enthält."
 Disable Modules Output,Deaktivieren des Modul-Outputs
 Disabled,Deaktiviert
-Disabled by Default,Standardmäßig deaktiviert.
+Disabled by Default,Standardmässig deaktiviert.
 Disabled Completely,Vollständig deaktiviert.
 Disallow Catalog Search By,Verweigere Katalogsuche nach
 Disc,Verworfen
@@ -2155,7 +2155,7 @@ Discount,Rabatt
 Discount (%1),Rabatt (%1)
 Discount Amount,Rabattbetrag
 Discount Qty Step (Buy X),Mengenrabatt (X bezahlen)
-Discount value should be 0 or greater.,Rabattwert sollte größer als 0 sein.
+Discount value should be 0 or greater.,Rabattwert sollte grösser als 0 sein.
 Display,Anzeigen
 Display a Link to Loading a Spreadsheet,Zeigen Sie einen Link zum Laden eines Spreadsheet an
 Display Actual Price,Derzeitigen Preis anzeigen
@@ -2457,7 +2457,7 @@ Enable RMA on Product Level,RMA auf Produktebene aktivieren
 Enable RMA on Storefront,RMA im Frontend aktivieren
 Enable RSS,RSS aktivieren
 Enable Scheduled Backup,Geplantes Backup aktivieren
-Enable Scheduled File History Cleaning,Planmäßige Dateihistoriebereinigung aktivieren
+Enable Scheduled File History Cleaning,Planmässige Dateihistoriebereinigung aktivieren
 Enable Search Recommendations,Suchempfehlungen aktivieren
 Enable Search Suggestions,Suchvorschläge aktivieren
 Enable Single-Store Mode,Single Store-Modus aktivieren
@@ -2471,7 +2471,7 @@ Enable WYSIWYG Editor,WYSIWYG-Editor aktivieren
 Enabled,Aktiviert
 Enabled Actions,Aktionen aktiviert
 Enabled Braintree,Braintree aktiviert
-Enabled by Default,Standardmäßig aktiviert
+Enabled by Default,Standardmässig aktiviert
 Enabled for Admin,Für Admin aktiviert
 Enabled for Checkout,Aktiviert für Kasse
 Enabled for RMA,Für RMA aktiviert
@@ -2502,7 +2502,7 @@ enter your billing address for proper VAT calculation,Geben Sie Ihre Rechnungsad
 Enter your email address,E-Mail-Adresse eingeben
 Enter your email address.  You will receive an email with a link to reset your password.,Geben sie ihre E-Mail-Adresse ein. Sie erhalten eine E-Mail mit einem Link zum Zurücksetzen des Passworts.
 enter your shipping address for proper VAT calculation,Geben Sie Ihre Versandadresse für eine korrekte Mehrwertsteuerberechnung an.
-Entering no value or a value greater than the expiration lifetime disables the warning notification.,Kein eingegebener Wert oder ein Wert größer als die Verfallslaufzeit deaktiviert die Warnungsbenachrichtigung.
+Entering no value or a value greater than the expiration lifetime disables the warning notification.,Kein eingegebener Wert oder ein Wert grösser als die Verfallslaufzeit deaktiviert die Warnungsbenachrichtigung.
 Entity already exists,Die Einheit existiert bereits
 Entity Attributes,Entitätsattribute
 Entity is not initialized,Datensatz ist nicht initialisiert
@@ -2606,12 +2606,12 @@ Excessive address change. The customer changed the billing address two or more t
 Excessive name changes. The customer changed the name two or more times in the last six months,Hohe Anzahl an Namensänderungen. Der Kunde hat seinen Namen in den letzten 6 Monaten zweimal oder öfter geändert.
 Excl. Tax,Exkl. Steuern
 Excl. tax:,Zzgl. Steuern:
-Exclude,Ausschließen
-Exclude from Navigation Menu,Vom Navigationsmenü ausschließen
-Exclude media folder from backup,Medienordner aus dem Backup ausschließen
-Excluding FPT,Ausschließlich FPT
-"Excluding FPT, FPT description, final price","Ausschließlich FPT, FPT-Beschreibung, Endpreis"
-Excluding FPT. Including FPT description and final price,Ausschließlich FPT. Einschließlich FPT-Beschreibung und Endpreis.
+Exclude,Ausschliessen
+Exclude from Navigation Menu,Vom Navigationsmenü ausschliessen
+Exclude media folder from backup,Medienordner aus dem Backup ausschliessen
+Excluding FPT,Ausschliesslich FPT
+"Excluding FPT, FPT description, final price","Ausschliesslich FPT, FPT-Beschreibung, Endpreis"
+Excluding FPT. Including FPT description and final price,Ausschliesslich FPT. Einschliesslich FPT-Beschreibung und Endpreis.
 "Excluding prefix, suffix and separators.","Ohne Präfix, Suffix und Trennzeichen."
 Excluding Tax,Exklusive Steuern
 exec function is disabled.,exec-Funktion ist deaktiviert
@@ -2738,7 +2738,7 @@ File Name,Dateiname
 File not found,Datei nicht gefunden
 "File not found: ""%1"".","Datei nicht gefunden: ""%1""."
 File not opened,Datei nicht geöffnet
-File size in bytes.,Dateigröße in Byte.
+File size in bytes.,Dateigrösse in Byte.
 File System,Dateisystem
 File system,Dateisystem
 File to Import,Datei für den Import
@@ -2802,12 +2802,12 @@ Flush Static Files Cache,Cache statischer Dateien leeren
 Following Error(s) has been occurred during importing process:,Folgende(r) Fehler ist/sind beim Import aufgetreten:
 Font,Schriftart
 Fonts Assets,Schriftarten Assets
-Footer,Fußzeile
+Footer,Fusszeile
 Footer Template,Footer-Vorlage
 for,"Folgen Sie diesem Link, um sich abzumelden <!-- Dieser Tag ist für den Abbestellungslink  -->' '<a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}' '</a>"
 "For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone.","Für eine genaue Berichterstattung, aktualisieren Sie die Lebenszeit-Statistiken, wenn Sie die Zeitzone ändern."
 "For better results, add attributes and attribute values to your products.",Fügen Sie Ihren Artikeln Attribute und Attributwerte für bessere Ergebnisse hinzu.
-"For better search results, first choose a gift registry type. By default, we search all registry types.",Wählen Sie für bessere Suchergebnisse zunächst einen Geschenkelistentyp. Standardmäßig werden alle Listentypen durchsucht.
+"For better search results, first choose a gift registry type. By default, we search all registry types.",Wählen Sie für bessere Suchergebnisse zunächst einen Geschenkelistentyp. Standardmässig werden alle Listentypen durchsucht.
 For category,Für Kategorie
 For Checkout,Für Checkout
 For CMS page,Für CMS-Seite
@@ -2858,7 +2858,7 @@ FOUND,GEFUNDEN
 found,Gefunden
 FPT,FPT
 Frame,Frame
-Frame Size,Frame-Größe
+Frame Size,Frame-Grösse
 Frame Skip,Frame Skip
 Fraud Detection,Betrugsentdeckung
 Fraud Detection,Betrugsaufdeckung
@@ -3092,7 +3092,7 @@ Group for Valid VAT ID - Intra-Union,Gruppe für gültige MwSt.-ID - Innerhalb d
 Group Information,Gruppeninformationen
 Group Label,Gruppen.Label
 Group Name,Gruppenname
-Group price must be a number greater than 0.,Gruppenpreis muss größer als 0 sein.
+Group price must be a number greater than 0.,Gruppenpreis muss grösser als 0 sein.
 Group was removed,Gruppe wurde entfernt
 "Group with id ""%1"" does not exist.","Gruppe mit ID ""%1"" existiert nicht."
 Grouped Product Image,Gruppiertes Produktbild
@@ -3114,7 +3114,7 @@ Header Border Color,Farbe des Header-Rahmens
 Header Image URL,Header-Bild-URL
 Header Template,Header-Vorlage
 Height,Höhe
-"Height, width and length should be equal or greater than %1","Höhe, Breite und Länge sollten gleich oder größer als %1 sein."
+"Height, width and length should be equal or greater than %1","Höhe, Breite und Länge sollten gleich oder grösser als %1 sein."
 hello,Hallo
 Hello World!,Hallo Welt!
 Help,Hilfe
@@ -3158,7 +3158,7 @@ HTTPS (SSL),HTTPS (SSL)
 Hub ID,Hub ID
 Hurry up to take advantage of our %promotion_name promotion!,Jetzt von unserem %promotion_name-Werbeangebot profitieren!
 Hurry up to take advantage of this promotion!,Jetzt von diesem Werbeangebot profitieren!
-I'm sorry - but we are not able to complete your transaction. Please contact us so we can assist you.,"Entschuldigung - aber wir sind nicht in der Lage, die Transaktion abzuschließen. Bitte kontaktieren Sie uns, damit wir Ihnen helfen können."
+I'm sorry - but we are not able to complete your transaction. Please contact us so we can assist you.,"Entschuldigung - aber wir sind nicht in der Lage, die Transaktion abzuschliessen. Bitte kontaktieren Sie uns, damit wir Ihnen helfen können."
 I'm sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.,"Entschuldigung - aber wir waren nicht in der Lage, Ihre Zahlung zu verarbeiten. Bitte versuchen Sie eine andere Zahlungsmethode oder kontaktieren Sie uns, damit wir Sie unterstützen."
 ID,ID
 ID cannot be an empty,ID darf nicht leer sein.
@@ -3192,8 +3192,8 @@ If empty no separation.,Keine Trennung wenn leer.
 If Order Addresses match %1 of these Conditions:,Wenn Bestelladressen %1 dieser Bedingungen erfüllen:
 If Product %1 %2 and matches %3 of these Conditions:,Wenn Produkt %1 %2 und %3 dieser Bedingungen erfüllt:
 If Product is %1 in the %2 with %3 of these Conditions match:,Wenn Produkt %1 in %2 ist und %3 dieser Bedingungen erfüllt sind:
-"If the Current Frame Position does not cover Utmost Pages, will render Link to Current Position plus/minus this Value","Wenn sich die aktuelle Bildposition nicht auf ein Höchstmaß an Seiten erstreckt, wird der Link auf die aktuelle Position plus/minus diesen Wert gerendert."
-"If the current frame position does not cover utmost pages, will render link to current position plus/minus this value.","Wenn sich die aktuelle Bildposition nicht auf ein Höchstmaß an Seiten erstreckt, wird der Link auf die aktuelle Position plus/minus diesen Wert gerendert."
+"If the Current Frame Position does not cover Utmost Pages, will render Link to Current Position plus/minus this Value","Wenn sich die aktuelle Bildposition nicht auf ein Höchstmass an Seiten erstreckt, wird der Link auf die aktuelle Position plus/minus diesen Wert gerendert."
+"If the current frame position does not cover utmost pages, will render link to current position plus/minus this value.","Wenn sich die aktuelle Bildposition nicht auf ein Höchstmass an Seiten erstreckt, wird der Link auf die aktuelle Position plus/minus diesen Wert gerendert."
 "If the invoice was created offline, try creating an offline credit memo.","Wenn die Rechnung offline erstellt wurde, erstellen Sie eine Offline-Gutschrift."
 "If there are no custom parent categories, please use the default parent category. ' 'You can reassign the category at any time in ' '<a href=""%1"" target=""_blank"">Products > Categories</a>.","Wenn es keine benutzerdefinierten Hauptkategorien gibt, benutzen Sie bitte die Standard-Hauptkategorie.Sie können die Kategorie jederzeit in <a href=""%1"" target=""_blank"">Produkte > Kategorien</a> neu zuweisen."
 "If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products > Categories</a>.","Wenn es keine benutzerdefinierten Hauptkategorien gibt, benutzen Sie bitte die Standard-Hauptkategorie.Sie können die Kategorie jederzeit in <a href=""%1"" target=""_blank"">Produkte > Kategorien</a> neu zuweisen."
@@ -3266,12 +3266,12 @@ inch,Zoll
 Inches,Zoll
 Incl. Tax,Inkl. Steuern
 Include FPT In Subtotal,Fixe Produktsteuer (FPT) in der Zwischensumme mit einbeziehen
-Include Tax In Order Total,Steuer in Gesamtsumme einschließen
+Include Tax In Order Total,Steuer in Gesamtsumme einschliessen
 Include Tax to Amount,Berücksichtige Steuern im Betrag
 Include Virtual Products in Price Calculation,Virtuelle Produkte in Preisberechnung einbeziehen
 Including and Excluding Tax,Inklusive und exklusive Steuern
-Including FPT and FPT description,Einschließlich FPT und FPT-Beschreibung
-Including FPT only,Einschließlich FPT
+Including FPT and FPT description,Einschliesslich FPT und FPT-Beschreibung
+Including FPT only,Einschliesslich FPT
 Including Tax,Inklusive Steuern
 Incoming Message,Einkommende Nachricht
 Incompatible argument type: Required type: %1. Actual type: %2; File: %3%4%5,Inkompatibler Argumenttyp: Benötigter Typ: %1 Gegebener Typ: %2 Datei: %3%4%5
@@ -3668,7 +3668,7 @@ label_value' 'label_value' 'frontend_label,label_value' 'label_value' 'frontend_
 Labels,Labels
 Landing Page,Landing-Page
 Language,Sprache
-Large,Groß
+Large,Gross
 Large Express Box,Large Express Box
 Last 24 Hours,Letzte 24 Stunden
 Last 7 Days,Letzte 7 Tage
@@ -3797,7 +3797,7 @@ Log JS Errors to Session Storage,JS-Fehler in Sessionspeicher loggen
 Log JS Errors to Session Storage Key,JS-Fehler in Sessionspeicher-Schlüssel loggen
 Log trace:,Log-Trace:
 Login,Login
-Login is Case Sensitive,Login mit Groß- und Kleinschreibung
+Login is Case Sensitive,Login mit Gross- und Kleinschreibung
 Login Options,Login-Optionen
 Login successful.,Anmeldung erfolgreich.
 "Logo for HTML documents only. If empty default will be used.<br/>(jpeg , gif , png)","Logo nur für HTML-Dokumente. Wenn leer, wird der Standard verwendet. <br/>(jpeg , gif , png)"
@@ -3844,7 +3844,7 @@ Make sure all required information is valid.,"Achten Sie darauf, dass alle erfor
 Make sure that static block content does not reference the block itself.,"Stellen Sie sicher, dass der statische Blockinhalt nicht auf den Block selbst verweist."
 Make sure the To Date is later than or the same as the From Date.,"Stellen Sie sicher, dass das Enddatum später oder gleich dem Startdatum ist."
 "Make sure to enter a limit value, or reminder emails will be re-issued to customers in a loop.","Stellen Sie sicher, dass Sie einen Grenzwert eingeben, oder Erinnerungs-E-Mails werden in einer Schleife an Kunden gesendet."
-Make sure your file isn't more than %1M.,"Stellen Sie sicher, dass Ihre Datei nicht größer ist als %1M."
+Make sure your file isn't more than %1M.,"Stellen Sie sicher, dass Ihre Datei nicht grösser ist als %1M."
 Male,Männlich
 Manage,Verwalten
 Manage Addresses,Adressen verwalten
@@ -3879,7 +3879,7 @@ Manage Stores,Shops verwalten
 Manage Swatch (values of your attribute),Farbfelder verwalten (Wert Ihres Attributs)
 Manage Tax Rates,Steuersätze verwalten
 Manage Tax Rules,Steuerregeln verwalten
-"Manage Titles (Size, Color, etc.)","Titel verwalten (Größe, Farbe, etc.)"
+"Manage Titles (Size, Color, etc.)","Titel verwalten (Grösse, Farbe, etc.)"
 Manage Websites,Websites verwalten
 Manage Widget Instances,Widget-Instanzen verwalten
 Manual,Handbuch
@@ -3911,8 +3911,8 @@ Matched whole nine-didgit ZIP (no Address),Nur übereinstimmende ganze neunstell
 matches,passt zu
 Max Characters,Maximale Zeichen
 Max Emails Allowed to be Sent,Maximal erlaubte Anzahl an E-Mail-Versendungen
-Max file size to upload %1M,Maximale Dateigröße für den Upload %1M
-Max image size %1M,Maximale Bildgröße %1M
+Max file size to upload %1M,Maximale Dateigrösse für den Upload %1M
+Max image size %1M,Maximale Bildgrösse %1M
 Max Invitations Allowed to be Sent at One Time,Maximal erlaubte Anzahl von Einladungen zu einer Zeit.
 Max Products Sent in 1 Hour,Maximal versandte Produkte in 1 Stunde
 Max Recipients,Maximale Empfänger
@@ -3926,11 +3926,11 @@ Maximum balance is reached,Maximaler Saldo erreicht
 Maximum Display Recently Added Item(s),Maximale Anzeige kürzlich hinzugefügter Artikel
 Maximum Emails per One Run,Maximale Anzahl an E-Mails pro Ablauf
 Maximum error count has been reached or system error is occurred!,Maximale Fehleranzahl erreicht oder Systemfehler ist aufgetreten!
-Maximum File Size,Maximale Dateigröße
-Maximum File Size (bytes),Maximale Dateigröße (Bytes)
+Maximum File Size,Maximale Dateigrösse
+Maximum File Size (bytes),Maximale Dateigrösse (Bytes)
 Maximum image height,Maximale Bildhöhe
 Maximum Image Height (px),Maximale Bildhöhe (Pixel)
-Maximum Image Size,Maximale Bildgröße
+Maximum Image Size,Maximale Bildgrösse
 Maximum image width,Maximale Bildbreite
 Maximum Image Width (px),Maximale Bildbreite (Pixel)
 Maximum length must be less then %1 symbols,Maximale Länge muss weniger als %1 Zeichen sein.
@@ -4198,7 +4198,7 @@ New Page,Neue Seite
 New Password,Neues Passwort
 New Password and Confirm New Password values didn't match.,Die eingegeben Passwörter sind verschieden.
 New Permission,Neue Berechtigung
-New Pool Size,Neue Pool-Größe
+New Pool Size,Neue Pool-Grösse
 New Product,Neues Produkt
 New Product Attribute,Neues Produktattribut
 New Product Template,Neue Produktvorlage
@@ -4415,7 +4415,7 @@ Number of Items,Artikelanzahl
 Number of items bought from a Wish List: %1,Anzahl der gekauften Artikel des Wunschzettels: %1
 Number of Items to display at once,Anzahl der zugleich angezeigten Artikel
 Number of Items to scroll per click,Anzahl der gescrollten Artikel pro Klick
-Number of Lines in a Street Address,Anzahl an Zeilen in einer Straße
+Number of Lines in a Street Address,Anzahl an Zeilen in einer Strasse
 Number of Multiple Wish Lists,Anzahl der mehrfachen Wunschzettel
 Number of Orders,Anzahl der Bestellungen
 Number of Products per Page,Anzahl der Artikel pro Seite
@@ -4760,8 +4760,8 @@ PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit card
 PayPal Balance Manager function of PayPal account,PayPal Ausgleichs-Manager-Funktion des PayPal-Kontos
 PayPal Billing Agreement Settings,PayPal-Abrechnungsvereinbarungeinstellungen
 PayPal Buyer Warranty Bonus,PayPal-Käufergarantie-Bonus
-"PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.","PayPal kann keine Bestellungen mit einem Null-Saldo durchführen. Damit Sie Ihren Einkauf abschließen können, gehen Sie bitte über den Standard-Checkout-Prozess."
-"PayPal can\'t process orders with a zero balance due. ' 'To finish your purchase, please go through the standard checkout process.","PayPal kann keine Bestellungen ohne Restschuldenbetrag bearbeiten. Um Ihren Einkauf abzuschließen, durchlaufen Sie bitte den regulären Checkout-Prozess."
+"PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.","PayPal kann keine Bestellungen mit einem Null-Saldo durchführen. Damit Sie Ihren Einkauf abschliessen können, gehen Sie bitte über den Standard-Checkout-Prozess."
+"PayPal can\'t process orders with a zero balance due. ' 'To finish your purchase, please go through the standard checkout process.","PayPal kann keine Bestellungen ohne Restschuldenbetrag bearbeiten. Um Ihren Einkauf abzuschliessen, durchlaufen Sie bitte den regulären Checkout-Prozess."
 PayPal Canceled Reversal,PayPal abgebrochene Stornierung
 PayPal Debit Card Cash Advance,PayPal Kreditkarten-Barkredit
 PayPal Debit Card Withdrawal from ATM,PayPal-Kreditkarten-Rücknahme von ATM
@@ -4857,7 +4857,7 @@ Phrase,Ausdruck
 Phrase 1,Ausdruck 1
 Phrase 2,Satz 2
 Phrase 2 %1,Ausdruck 2 %1
-Phrase 2 with %a_lot of extra info for the brilliant %customer_name.,Ausdruck 2 mit %a_lot von zusätzlichen Informationen für den großartigen %customer_name.
+Phrase 2 with %a_lot of extra info for the brilliant %customer_name.,Ausdruck 2 mit %a_lot von zusätzlichen Informationen für den grossartigen %customer_name.
 Phrase 3,Satz 3
 Pickup Method,Versandverfahren
 Place Order,Bestellung aufgeben
@@ -4989,9 +4989,9 @@ Please enter a new group name.,Bitte geben Sie einen Gruppennamen ein.
 Please enter a new password.,Bitte geben Sie ein neues Passwort ein.
 Please enter a new template name.,Bitte geben Sie einen neuen Vorlagennamen ein.
 Please enter a nickname.,Bitte geben Sie einen Spitznamen ein.
-Please enter a number 0 or greater in this field.,Bitte geben Sie in diesem Feld eine Zahl 0 oder größer ein.
-Please enter a number 1 or greater in this field.,Bitte geben Sie eine Zahl 1 oder größer in dieses Feld ein.
-Please enter a number greater than 0 in this field.,Bitte geben Sie eine Zahl größer als 0 in diesem Bereich ein.
+Please enter a number 0 or greater in this field.,Bitte geben Sie in diesem Feld eine Zahl 0 oder grösser ein.
+Please enter a number 1 or greater in this field.,Bitte geben Sie eine Zahl 1 oder grösser in dieses Feld ein.
+Please enter a number greater than 0 in this field.,Bitte geben Sie eine Zahl grösser als 0 in diesem Bereich ein.
 Please enter a password with a valid length.,Bitte geben Sie ein Passwort mit gültiger Länge ein.
 Please enter a password with at least %1 characters.,Bitte geben Sie ein Passwort mit mindestens %1 Zeichen ein.
 Please enter a password.,Bitte geben Sie ein Passwort ein.
@@ -5016,7 +5016,7 @@ Please enter a valid credit card number.,Bitte geben Sie eine gültige Kreditkar
 Please enter a valid credit card verification number.,Bitte geben Sie eine gültige Kreditkarten-Prüfnummer ein.
 Please enter a valid customer ID.,Bitte geben Sie eine gültige Kundennummer ein.
 Please enter a valid date between %1 and %2 at %3.,Bitte geben Sie ein gültiges Datum zwischen %1 und %2 bei %3 ein.
-Please enter a valid date equal to or greater than %1 at %2.,Bitte geben Sie ein gültiges Datum gleich oder größer als %1 bei %2 ein.
+Please enter a valid date equal to or greater than %1 at %2.,Bitte geben Sie ein gültiges Datum gleich oder grösser als %1 bei %2 ein.
 Please enter a valid date less than or equal to %1 at %2.,Bitte geben Sie ein gültiges Datum kleiner oder gleich %1 bei %2 ein.
 Please enter a valid date.,Bitte geben Sie ein korrektes Datum ein.
 Please enter a valid day (1-%1).,Bitte einen gültigen Tag eingeben (1-%1).
@@ -5051,7 +5051,7 @@ Please enter a valid year (1900-%1).,Bitte gültiges Jahr eingeben (1900-%1).
 Please enter a valid zip code (Ex: 90602 or 90602-1234).,Bitte geben Sie eine gültige Postleitzahl ein (z.B.: 90602 oder 90602-1234).
 Please enter a valid zip code.,Tragen Sie eine gültige Postleitzahl ein.
 Please enter a value for title.,Bitte geben Sie einen Wert für den Titel ein.
-Please enter a value greater than or equal to %s.,Bitte geben Sie einen Wert größer oder gleich %s ein.
+Please enter a value greater than or equal to %s.,Bitte geben Sie einen Wert grösser oder gleich %s ein.
 Please enter a value less than or equal to %s.,Bitte geben Sie einen Wert kleiner oder gleich %s ein.
 Please enter a version label.,Bitte geben Sie ein Versionslabel ein.
 Please enter all rate information.,Bitte geben Sie alle Rateninformationen ein.
@@ -5087,7 +5087,7 @@ Please enter the phone number.,Bitte geben Sie die Telefonnummer ein.
 Please enter the quantity of items to add to cart.,Bitte geben Sie die Anzahl der Artikel zum Hinzufügen zum Warenkorb ein.
 Please enter the same value again.,Bitte geben Sie den gleichen Wert erneut ein.
 Please enter the state/province.,Bitte geben Sie das Bundesland ein.
-Please enter the street.,Bitte geben Sie die Straße ein.
+Please enter the street.,Bitte geben Sie die Strasse ein.
 Please enter the title.,Bitte geben Sie den Titel ein
 Please enter the zip/postal code.,Bitte geben Sie die Postleitzahl ein.
 Please enter valid currency code: %1,Bitte geben Sie einen gültigen Währungscode ein: %1
@@ -5167,7 +5167,7 @@ Please set a proper payment and order id.,Bitte legen Sie eine angemessene Zahlu
 Please set a website ID.,Bitte legen Sie eine Website-ID fest.
 Please set available and/or protected paths list(s) before validation.,Bitte und/oder-geschützte Pfad-Liste(n) vor der Validierung verfügbar machen
 Please set resource file and link type.,Bitte setzen Sie Ressourcendatei und Link-Typ.
-Please setup or sign in into your 3rd party account to complete setup of this integration.,"Bitte melden Sie sich in Ihrem Third-Party-Konto an oder richten es ein, um das Setup dieser Integration abzuschließen."
+Please setup or sign in into your 3rd party account to complete setup of this integration.,"Bitte melden Sie sich in Ihrem Third-Party-Konto an oder richten es ein, um das Setup dieser Integration abzuschliessen."
 "Please sign in to download your product or purchase <a href=""%1"">%2</a>.","Bitte loggen Sie sich ein, um Ihr Produkt herunterzuladen oder <a href=""%1"">%2</a> zu kaufen."
 Please sign in to download your product.,"Bitte loggen Sie sich ein, um Ihr Produkt herunterzuladen."
 Please specify 8 symbols at the most. Range allowed (e.g. 3-5),Bitte geben Sie höchstens 8 Symbole an. Erlaubter Bereich (z.B. 3-5)
@@ -5571,7 +5571,7 @@ Quote item is not loaded.,Angebotsartikel ist nicht geladen.
 Quote Lifetime (days),Angebotsdauer (Tage)
 Range From,Bereich von
 Range To,Bereich bis
-Range To should be equal or greater than Range From.,"""Bereich bis"" sollte gleich oder größer ""Bereich von"" sein."
+Range To should be equal or greater than Range From.,"""Bereich bis"" sollte gleich oder grösser ""Bereich von"" sein."
 Rate,Satz
 Rate Percent,Prozentrate
 Rating,Bewertung
@@ -5684,7 +5684,7 @@ Registry ID:,Registry-ID:
 Registry Location:,Registry-Ort:
 Registry owner,Registry-Owner:
 Regular,Regulär
-Regular Pickup,regelmäßige Abholung
+Regular Pickup,regelmässige Abholung
 Regular Price,Normalpreis
 Reimbursement for a chargeback.,Kostenerstattung für eine Rückbuchung.
 Reimbursement of Chargeback,Erstattung der Ausgleichsbuchung
@@ -5989,7 +5989,7 @@ Sandbox Mode,Sandbox-Modus
 sandbox_button_label,sandbox_button_label
 Save,Speichern
 Save & Activate,Speichern und Aktivieren
-Save & Close,Speichern und Schließen
+Save & Close,Speichern und Schliessen
 Save & Duplicate,Speichern und Duplizieren
 Save & Edit,Speichern und Bearbeiten
 Save & Generate,Speichern und generieren
@@ -6244,7 +6244,7 @@ Set Return-Path,Return-Pfad setzen
 Set Root Category for Store,Hauptkategorie für Shop festlegen
 "Set root category for this store in the <a href=""%1"">configuration</a>.","Bestimmen Sie die Root-Kategorie für diesen Shop in der <a href=""%1"">Konfiguration</a>"
 Set the number of links to display at one time.,"Legen Sie die Anzahl der Links fest, die zu einer Zeit angezeigt werden."
-Set this value equal or greater to your cron.php launch period.,Setzen Sie diesen Wert gleich oder größer als Ihren cron-php-Startzeitraum.
+Set this value equal or greater to your cron.php launch period.,Setzen Sie diesen Wert gleich oder grösser als Ihren cron-php-Startzeitraum.
 Setting '%1' specifies the non-existing file '%2'.,"Die Einstellung ""%1"" gibt die nicht vorhandene Datei ""%2"" an."
 Setting 'item_label' specifies the non-existing file '%1Item Label.dist'.,"Die Einstellung ""item_label"" gibt die nicht vorhandene Datei ""%1Item Label.dist"" an."
 Setting 'non_existing' specifies the non-existing file ''.,"Die Einstellung ""non-existing"" gibt die nicht vorhandene Datei an."
@@ -6434,9 +6434,9 @@ Sitemap,Sitemap
 Sitemap File Limits,Sitemap Datei-Limits
 Sitemap Generation Warnings,Sitemap-Generierungs-Warnungen
 Sitemap Information,Sitemap-Informationen
-Size,Größe
-Size for %1,Größe für %1
-Size(bytes),Größe (Byte)
+Size,Grösse
+Size for %1,Grösse für %1
+Size(bytes),Grösse (Byte)
 Skip Category Selection,Kategorie-Auswahl überspringen
 Skip image uploading at this time,Bild-Upload zu diesem Zeitpunkt überspringen
 Skip Order Review Step,Bestellbewertungs-Schritt überspringen
@@ -6593,7 +6593,7 @@ Something went wrong. Please try again.,Es ist ein Fehler aufgetreten. Bitte ver
 "Sorry, there was an error getting requested content. Please contact the store owner.","Entschuldigung, es ist ein Fehler beim Erhalten des angeforderten Inhalts aufgetreten. Bitte kontaktieren Sie den Shop-Besitzer."
 "Sorry, we haven't installed the base currency you selected.",Leider haben wir die von Ihnen ausgewählte Basiswährung nicht installiert.
 "Sorry, we haven't installed the default display currency you selected.",Leider haben wir die von Ihnen ausgewählte Standardanzeigewährung nicht installiert.
-"Sorry, we're unable to complete this request.","Es tut uns leid, wir können diese Anforderung nicht abschließen."
+"Sorry, we're unable to complete this request.","Es tut uns leid, wir können diese Anforderung nicht abschliessen."
 Sort By,Sortieren nach
 Sort Custom Option,Benutzerdefinierte Optionen sortieren
 Sort Custom Options,Benutzerdefinierte Optionen sortieren
@@ -6731,8 +6731,8 @@ Stores Configuration,Shop-Konfiguration
 Stores List,Liste der Shops
 Street Address,Adresse
 Street Address %1,Adresse %1
-Street Address 1,Adresse Straße 1
-Street Address 2,Adresse Straße 2
+Street Address 1,Adresse Strasse 1
+Street Address 2,Adresse Strasse 2
 Street Address Line 2,Adresszeile 2
 Stretch,Strecken
 string with 'single quotes',String mit 'einfachen Anführungszeichen'
@@ -6937,8 +6937,8 @@ The authorized amount is %1.,Die genehmigte Menge ist %1.
 The background color for the checkout page around the header and payment form.,Die Hintergrundfarbe der Checkout-Seite rund um den Header und das Zahlungsformular.
 The background color for the checkout page around the header and payment form.,Die Hintergrundfarbe für die Checkout-Seite rund um den Header und das Zahlungsformular.
 The background color for the checkout page around the header and payment form.,Die Hintergrundfarbe für die Check-Out-Seite um den Header und die Zahlungsmethoden.
-The background color for the header of the checkout page. Case-insensitive six-character HTML hexadecimal color code in ASCII.,Die Hintergrundfarbe für den Header der Checkout-Seite.HTML-hexadezimaler Farbcode in ASCII mit sechs Zeichen in Groß- und Kleinschreibung.
-The background color for the header of the checkout page. Case-insensitive six-character HTML hexadecimal color code in ASCII.,Die Hintergrundfarbe für die Kopfzeile der Checkout-Seite. Groß- und Kleinschreibung Sechs-Zeichen HTML hexadezimal Farbcode in ASCII.
+The background color for the header of the checkout page. Case-insensitive six-character HTML hexadecimal color code in ASCII.,Die Hintergrundfarbe für den Header der Checkout-Seite.HTML-hexadezimaler Farbcode in ASCII mit sechs Zeichen in Gross- und Kleinschreibung.
+The background color for the header of the checkout page. Case-insensitive six-character HTML hexadecimal color code in ASCII.,Die Hintergrundfarbe für die Kopfzeile der Checkout-Seite. Gross- und Kleinschreibung Sechs-Zeichen HTML hexadezimal Farbcode in ASCII.
 The background color for the header of the checkout page. Case-insensitive six-character HTML hexadecimal color code in ASCII.,Die Hintergrundfarbe für den Header auf der Check-Out-Seite. Schreibungsunabhängige 6-Zeichen HTML Hexadezimal Farbcode in ASCII.
 "The backup file ""%1"" does not exist.","Die Backup-Datei ""%1"" ist nicht vorhanden."
 The backup file does not exist.,Die Backup-Datei ist nicht vorhanden.
@@ -7011,7 +7011,7 @@ The fewest you may purchase is %1.,Die Mindestmenge ist %1.
 The field is applicable if the Smart Post method is selected.,"Das Feld ist anwendbar, wenn die Smart Post-Methode ausgewählt ist."
 The field isn't complete.,Das Feld ist unvollständig.
 The file '%1' for '%2' has an invalid extension.,"Die Datei ""%1"" für ""%2"" hat eine ungültige Erweiterung"
-The file '%1' you uploaded is larger than the %2 megabytes allowed by our server.,"Die hochgeladene Datei ""%1"" ist größer als die von unserem Server erlaubten %2 MB."
+The file '%1' you uploaded is larger than the %2 megabytes allowed by our server.,"Die hochgeladene Datei ""%1"" ist grösser als die von unserem Server erlaubten %2 MB."
 "The file ""' . . '"" does not exist","Die Datei ""' . . '"" existiert nicht."
 "The file ""' '"" does not exist","Die Datei ""' '"" existiert nicht"
 "The file ""%1"" already exists","Die Datei ""%1"" existiert bereits"
@@ -7026,7 +7026,7 @@ The file options format is not valid.,Das Dateioptionenformat ist ungültig.
 The file upload failed.,Datei-Upload fehlgeschlagen.
 The file was not uploaded.,Die Datei wurde nicht hochgeladen.
 The file you uploaded has no extension.,Die hochgeladene Datei hat keine Erweiterung.
-The file you uploaded is larger than %1 Megabytes allowed by server,Die hochgeladene Datei ist größer als die von unserem Server erlaubten %1 MB.
+The file you uploaded is larger than %1 Megabytes allowed by server,Die hochgeladene Datei ist grösser als die von unserem Server erlaubten %1 MB.
 The file you're uploading exceeds the server size limit of %1 kilobytes.,"Die Datei, die Sie hochladen, überschreitet das Serverlimit von %1 KB."
 The filter must be an object. Please set the correct filter.,Der Filter muss ein Objekt sein. Bitte setzen Sie einen korrekten Filter.
 The filters must be an array.,Die Filter müssen ein Array sein.
@@ -7037,9 +7037,9 @@ The form code is not defined.,Form-Code ist nicht definiert
 The form type has been deleted.,Der Form-Typ wurde gelöscht.
 The generated key will be displayed after changing.,Der erzeugte Schlüssel wird nach der Änderung angezeigt.
 The header column names are already set.,Der Header-Spaltenname ist bereits gesetzt.
-"The image at the top left of the checkout page. Max size is 750x90-pixel. <strong style=""""color:red"""">https</strong> is highly encouraged.","Das Bild oben links auf der Check-Out-Seite. Die maximale Größe beträgt 750x90-pixel <strong style=""""color:red"""">https</strong> wird empfohlen.."
-"The image at the top left of the checkout page. Max size is 750x90-pixel. <strong style=""color:red"">https</strong> is highly encouraged.","Das Bild in der oberen linken Ecke der Checkout-Seite. Maximale Größe 750x90 Pixel. <strong style=""color:red"">https</strong> ausdrücklich gewünscht."
-"The image at the top left of the checkout page. Max size is 750x90-pixel. <strong style=""color:red"">https</strong> is highly encouraged.","Das Bild in der oberen linken Ecke auf der Checkout-Seite. Max. Größe 750x90-pixel. <strong style=""color:red"">https</strong> wird dringend empfohlen."
+"The image at the top left of the checkout page. Max size is 750x90-pixel. <strong style=""""color:red"""">https</strong> is highly encouraged.","Das Bild oben links auf der Check-Out-Seite. Die maximale Grösse beträgt 750x90-pixel <strong style=""""color:red"""">https</strong> wird empfohlen.."
+"The image at the top left of the checkout page. Max size is 750x90-pixel. <strong style=""color:red"">https</strong> is highly encouraged.","Das Bild in der oberen linken Ecke der Checkout-Seite. Maximale Grösse 750x90 Pixel. <strong style=""color:red"">https</strong> ausdrücklich gewünscht."
+"The image at the top left of the checkout page. Max size is 750x90-pixel. <strong style=""color:red"">https</strong> is highly encouraged.","Das Bild in der oberen linken Ecke auf der Checkout-Seite. Max. Grösse 750x90-pixel. <strong style=""color:red"">https</strong> wird dringend empfohlen."
 The image cache was cleaned.,Der Bilder-Cache wurde geleert.
 The image cannot be removed as it has been assigned to the other image role,"Das Bild kann nicht entfernt werden, weil es einer anderen Bildrolle zugewiesen wurde."
 The image content is not valid.,Der Bildinhalt ist nicht gültig.
@@ -7078,7 +7078,7 @@ The link has expired.,Der Link ist abgelaufen.
 The link is not available.,Der Link ist nicht verfügbar.
 The link to a friend was sent.,Der Link wurde an einen Freund gesendet.
 The Magento cache storage has been flushed.,Der Magento-Cache-Speicher wurde geleert.
-The maximum allowed image size for '%1' is %2x%3 px.,"Die maximal erlaubte Bildgröße für ""%1"" ist %2$3 px."
+The maximum allowed image size for '%1' is %2x%3 px.,"Die maximal erlaubte Bildgrösse für ""%1"" ist %2$3 px."
 The maximum generated code length is 255. Please correct your settings.,Die maximale Codelänge für generierten Code ist 255. Bitte prüfen Sie Ihre Einstellungen.
 The maximum number of child authorizations is reached.,Die maximale Anzahl an Child-Berechtigungen ist erreicht.
 The merchant account is not yet verified.,Das Händler-Konto ist noch nicht verifiziert.
@@ -7091,7 +7091,7 @@ The most you may purchase is %1.,Die Höchstmenge ist %1.
 The newsletter template has been deleted.,Die Newsletter-Vorlage wurde gelöscht.
 The newsletter template has been saved.,Die Newsletter-Vorlage wurde gespreichert.
 The nonce is already being used by the consumer with ID %1,Der Einmalwert wird bereits durch den Verbraucher mit der ID %1 verwendet
-The number of multiple wish lists should be equal to or more than 2.,Die Nummer von mehreren Wunschlisten sollte größer oder gleich 2 sein.
+The number of multiple wish lists should be equal to or more than 2.,Die Nummer von mehreren Wunschlisten sollte grösser oder gleich 2 sein.
 The only place to change the number of gift registry items is on the Gift Registry Info page or directly in your cart.,Der einzige Platz um die Nummer Ihrer Geschenkeliste-Artikel zu ändern ist in der Geschenkeliste Informationsseite oder direkt in Ihrem Einkaufswagen.
 The operation ran.,Die Operation lief.
 The option instance type in options group is incorrect.,Der Optionsinstanztyp in der Optionengruppe ist inkorrekt.
@@ -7111,7 +7111,7 @@ The order was placed using %1.,Die Bestellung wurde aufgegeben mit 1%.
 The ordering amount of %1 is pending approval on the payment gateway.,Der Bestellmenge %1 ist vorbehaltlich der Zustimmung auf dem Zahlungs-Gateway.
 The page has been deleted.,Die Seite wurde gelöscht.
 The page URL key cannot be made of only numbers.,Der URL-Schlüssel der Seite kann nicht nur aus Zahlen bestehen.
-The page URL key contains capital letters or disallowed symbols.,Der URL-Schlüssel der Seite enthält große Buchstaben oder unerlaubte Symbole.
+The page URL key contains capital letters or disallowed symbols.,Der URL-Schlüssel der Seite enthält grosse Buchstaben oder unerlaubte Symbole.
 The parent transaction ID must have a transaction ID.,Die übergeordnete Transaktions-ID muss eine Transaktionsnummer haben.
 The password can not begin or end with a space.,Das Passwort darf nicht mit einem Leerzeichen beginnen oder enden.
 The password can't begin or end with a space.,Das Passwort darf nicht mit einem Leerzeichen beginnen oder enden.
@@ -7131,10 +7131,10 @@ The payment method code is not set.,Der Zahlungsmethoden-Code ist nicht gesetzt.
 The payment method you requested is not available.,Die von Ihnen angeforderte Zahlungsmethode ist nicht verfügbar.
 The payment review action is unavailable.,Die Zahlungsbewertungs-Aktion ist nicht verfügbar.
 The payment was made via credit card. In order to receive funds merchant must upgrade account to Business or Premier status.,"Die Zahlung erfolgte per Kreditkarte. Um Mittel erhalten, muss das Händler-Konto auf Business-oder Premier-Status hochgestuft werden."
-The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%,Das PayPal Werbungsprogramm scheint zusätzliche Einkäufe sowie eine durchschnittliche Einkaufsgröße von 15% zu erzeugen.
-The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%,Das PayPal Werbungsprogramm scheint zusätzliche Einkäufe sowie eine durchschnittliche Einkaufsgröße von 15% zu erzeugen.
-The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%,Das PayPal Werbungsprogramm scheint zusätzliche Einkäufe sowie eine durchschnittliche Einkaufsgröße von 15% zu erzeugen.
-The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%,Das PayPal Werbungsprogramm scheint zusätzliche Einkäufe sowie eine durchschnittliche Einkaufsgröße von 15% zu erzeugen.
+The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%,Das PayPal Werbungsprogramm scheint zusätzliche Einkäufe sowie eine durchschnittliche Einkaufsgrösse von 15% zu erzeugen.
+The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%,Das PayPal Werbungsprogramm scheint zusätzliche Einkäufe sowie eine durchschnittliche Einkaufsgrösse von 15% zu erzeugen.
+The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%,Das PayPal Werbungsprogramm scheint zusätzliche Einkäufe sowie eine durchschnittliche Einkaufsgrösse von 15% zu erzeugen.
+The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%,Das PayPal Werbungsprogramm scheint zusätzliche Einkäufe sowie eine durchschnittliche Einkaufsgrösse von 15% zu erzeugen.
 The PayPal certificate does not exist.,Das PayPal-Zertifikat ist nicht vorhanden.
 The PayPal certificate file is empty.,Die PayPal-Zertifikatsdatei ist leer.
 The PayPal gateway rejected the request. %1,Das PayPal-Gateway hat die Anfrage abgelehnt. %1
@@ -7168,8 +7168,8 @@ The response is in wrong format.,Die Antwort ist im falschen Format.
 The review has been deleted.,Die Bewertung wurde gelöscht.
 The review was removed by another user or does not exist.,Die Bewertung wurde von einem anderen Benutzer entfernt oder ist nicht vorhanden.
 The rollback file does not exist.,Die Rollback-Datei existiert nicht
-The root shopping cart condition should have a days value of 0 or greater.,Die Root Einkaufswagen-Bedingung sollte einen Tages-wert von 0 oder größer haben.
-The root wish list condition should have a days value of 1 or greater.,Die Root Wunschlisten-Bedingung sollte einen Tages-wert von 1 oder größer haben.
+The root shopping cart condition should have a days value of 0 or greater.,Die Root Einkaufswagen-Bedingung sollte einen Tages-wert von 0 oder grösser haben.
+The root wish list condition should have a days value of 1 or greater.,Die Root Wunschlisten-Bedingung sollte einen Tages-wert von 1 oder grösser haben.
 the Same as Matched Product Categories,das Gleiche wie die übereinstimmenden Produktkategorien
 "The sender name ""%1"" is not valid. Please use only visible characters and spaces.","Der Absendername ""%1"" ist ungültig. Bitte verwenden Sie nur sichtbare Zeichen und Leerzeichen."
 the shipment email is not sent,Die Versand-E-Mail wurde nicht versendet.
@@ -7371,7 +7371,7 @@ This fieldset is not empty!,Das Fieldset ist nicht leer!
 This file does not contain any data.,Diese Datei enthält keine Daten.
 This file is empty. Please try another one.,Diese Datei ist leer. Bitte versuchen Sie eine andere.
 This file needs to be in .csv format.,Diese Datei muss in ein .csv-Format sein.
-This file will replace the current custom.css file and can't be more than 2 MB.,Diese Datei wird die aktuelle custom.css Datei ersetzen und darf nicht größer als 2 MB sein.
+This file will replace the current custom.css file and can't be more than 2 MB.,Diese Datei wird die aktuelle custom.css Datei ersetzen und darf nicht grösser als 2 MB sein.
 This gift card account has been deleted.,Dieses Geschenkkartenkonto wurde gelöscht.
 This gift card account is already in the quote.,Dieses Geschenkkartenkonto ist bereits im Angebot vorhanden.
 This gift card account wasn't found in the quote.,Dieses Geschenkkartenkonto wurde nicht im Angebot gefunden.
@@ -7443,8 +7443,8 @@ This user has no tokens.,Dieser Benutzer hat keine Token.
 This user is locked,Dieser Benutzer ist gesperrt.
 This user no longer exists.,Dieser Benutzer existiert nicht mehr.
 This website cannot be deleted.,Diese Website kann nicht gelöscht werden.
-This will be displayed just before body closing tag.,Dies wird kurz vor dem schließenden Tag angezeigt.
-This will be included before head closing tag in page HTML.,Dies wird vor dem schließenden Tag des Kopfes in der Seiten-HTML enthalten sein.
+This will be displayed just before body closing tag.,Dies wird kurz vor dem schliessenden Tag angezeigt.
+This will be included before head closing tag in page HTML.,Dies wird vor dem schliessenden Tag des Kopfes in der Seiten-HTML enthalten sein.
 "This will create an offline refund. ' 'To create an online refund, open an invoice and create credit memo for it. Do you want to continue?","Dies wird eine offline-Rückgabe generieren. ' Um eine online-Rückgabe zu erzeugen, öffnen Sie eine Rechnung und erstellen Sie eine Abrechnungsberichtigung. Möchten Sie fortfahren?"
 "This will create an offline refund. To create an online refund, open an invoice and create credit memo for it. Do you want to continue?","Dies wird eine Offline-Erstattung erstellen. Um eine Online-Erstattung zu erstellen, öffnen Sie eine Rechnung und erstellen Sie eine Gutschrift. Möchten Sie fortfahren?"
 This wish list can be shared %1 more times.,Dieser Wunschzettel kann noch %1 Mal geteilt werden.
@@ -7456,7 +7456,7 @@ Tier Pricing,Preisstaffelung
 Tile,Kacheln
 Time,Zeit
 Time Format,Zeitformat
-Time hedge. The customer is attempting a purchase outside of the expected hours,Zeitabsicherung. Der Kunde versucht außerhalb der erwarteten Stunden einzukaufen.
+Time hedge. The customer is attempting a purchase outside of the expected hours,Zeitabsicherung. Der Kunde versucht ausserhalb der erwarteten Stunden einzukaufen.
 Time of Day,Uhrzeit
 Times Deleted,Anzahl gelöscht
 Times Used,Male verwendet
@@ -7474,7 +7474,7 @@ to,An
 "To check out, please sign in using your email address.","Um zur Kasse zu gehen, melden Sie sich bitte mit Ihrer E-Mail-Adresse an."
 "To check out, please sign in with your email address.","Um zur Kasse zu gehen, melden Sie sich bitte mit Ihrer E-Mail-Adresse an."
 "To complete the rollback, please deselect ' '""Put store into maintenance mode"" or update your permissions.","Um die Rückrollsicherung zu vollenden, bitte deaktivieren Sie ' ""Den Shop in den Wartungsmodus setzen"" oder aktualisieren Sie Ihre Berechtigungen."
-"To complete the rollback, please deselect ""Put store into maintenance mode"" or update your permissions.","Um das Rollback abzuschließen, deaktivieren Sie bitte den Wartungsmodus oder aktualisieren Sie Ihre Berechtigungen."
+"To complete the rollback, please deselect ""Put store into maintenance mode"" or update your permissions.","Um das Rollback abzuschliessen, deaktivieren Sie bitte den Wartungsmodus oder aktualisieren Sie Ihre Berechtigungen."
 "To comply with the new e-Privacy directive, we need to ask for your consent to set the cookies.","Um die neuen Datenschutzrichtlinien zu erfüllen, müssen wir Sie um Ihre Zustimmung für Cookies fragen."
 "To create the backup, please deselect ' '""Put store into maintenance mode"" or update your permissions.","Um die Datensicherung zu erzeugen, bitte deaktivieren Sie ' ""Den Shop in den Wartungsmodus setzen"" oder aktualisieren Sie Ihre Berechtigungen."
 "To create the backup, please deselect ""Put store into maintenance mode"" or update your permissions.","Um das Backup zu erstellen, deaktivieren Sie den Wartungsmodus oder aktualisieren Sie Ihre Berechtigungen."
@@ -7583,8 +7583,8 @@ Transactional Emails,Transaktions--Mails
 Transactions,Transaktionen
 Transfer Cart Line Items,Übertrage Artikel im Einkaufswagen
 Transfer Shipping Options,Übertrage Versandoptionen
-Transition year is out of specified date range.,Übergangsjahr liegt außerhalb des angegebenen Datumsbereichs
-Transition year is out of system date range.,Übergangsjahr liegt außerhalb des Systemdatumsbereichs
+Transition year is out of specified date range.,Übergangsjahr liegt ausserhalb des angegebenen Datumsbereichs
+Transition year is out of system date range.,Übergangsjahr liegt ausserhalb des Systemdatumsbereichs
 Translate,Übersetzen
 Translate Inline,Inline übersetzen
 "Translate, blocks and other output caches should be disabled for both Storefront and Admin inline translations.","Übersetzen, Blöcke und andere Ausgangs-Caches sollten für Frontend und Admin-Inline-Übersetzungen deaktiviert sein."
@@ -7606,7 +7606,7 @@ Trigger unsupported time type,Nicht unterstützter Trigger-Zeittyp
 Triggered Fraud Filters,Ausgelöste Betrugs-Filter
 "Trying to override modular view file '%1' for theme '%2', which is not ancestor of theme '%3'","Es wird versucht, die Datei ""%1"" der modularen Ansicht für das Theme ""%2"" zu überschreiben, das kein Vorgänger des Themes ""%3"" ist."
 TTL for public content,TTL für öffentlichen Inhalt
-"Ttl value ""%1"" is not valid. Please use only numbers equal or greater than zero.","Ttl-Wert ""%1"" ist nicht gültig. Bitte verwenden Sie nur Zahlen gleich oder größer als Null."
+"Ttl value ""%1"" is not valid. Please use only numbers equal or greater than zero.","Ttl-Wert ""%1"" ist nicht gültig. Bitte verwenden Sie nur Zahlen gleich oder grösser als Null."
 Two,Zwei
 Type,Typ
 Type Code,Typ Code
@@ -7644,7 +7644,7 @@ Unable to save product,Kann Produkt nicht speichern.
 "Unable to save shipping information. Please, check input data.",Versandinformationen können nicht gespeichert werden. Bitte überprüfen Sie die eingegebenen Daten.
 Unable to send the cookie with cookieName = %name,Die Cookies mit cookieName = %name konnten nicht gelöscht werden
 Unable to send the cookie. Maximum number of cookies would be exceeded.,Cookie konnte nicht gesendet werden. Maxmiale Anzahl von Cookies wurde überschritten.
-Unable to send the cookie. Size of '%name' is %size bytes.,"Cookie konnte nicht gesendet werden. Größe von ""%name"" ist %size Bytes."
+Unable to send the cookie. Size of '%name' is %size bytes.,"Cookie konnte nicht gesendet werden. Grösse von ""%name"" ist %size Bytes."
 Unable to update the alert subscription.,"Nicht in der Lage, das Benachrichtigungsabonnement zu aktualisieren."
 Unable to validate ftp account,Kann FTP-Konto nicht bestätigen
 Unable to write file into directory product/cache. Access forbidden.,Datei kann nicht in das Verzeichnis-Produkt/Cache geschrieben werden. Zugriff verweigert.
@@ -7769,8 +7769,8 @@ Upload server currently unavailable -,Upload-Server derzeit nicht verfügbar -
 Uploaded image is not valid,Das hochgeladene Bild ist ungültig
 Uploaded:,Hochgeladen:
 Uploader:,Uploader:
-"Upper Alpha (A, B, C, ...)","Große alphabetische Buchstaben (A, B, C, ...)"
-"Upper Roman (I, II, III, ...)","Große römische Zahlen (I, II, III, ...)"
+"Upper Alpha (A, B, C, ...)","Grosse alphabetische Buchstaben (A, B, C, ...)"
+"Upper Roman (I, II, III, ...)","Grosse römische Zahlen (I, II, III, ...)"
 UPS,UPS
 UPS Expedited,UPS Expedited
 UPS Express,UPS Express
@@ -7983,7 +7983,7 @@ View Another Order,Weitere Bestellungen ansehen
 View as,Ansicht als
 View Combined Report,Zusammengefassten Report ansehen
 View Demo,Demo ansehen
-View Full Size,Originalgröße anzeigen
+View Full Size,Originalgrösse anzeigen
 View Gift Registry %1,Geschenkeliste %1 ansehen
 View Invitation for %1 (ID: %2),Einladung für %1 (ID: %2) ansehen
 View Memo,Notiz anzeigen
@@ -8055,7 +8055,7 @@ Warning! Integrations not using HTTPS are insecure and potentially expose privat
 Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?,Achtung! Diese Aktion wird diesen Benutzer von bereits zugewiesenen Rollen entfernen. Sind Sie sicher?
 Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?,Achtung! Diese Aktion wird diese Benutzer von bereits zugewiesenen Rollen entfernen. Sind Sie sicher?
 Watermark,Wasserzeichen
-Watermark Default Size,Wasserzeichen-Standardgröße
+Watermark Default Size,Wasserzeichen-Standardgrösse
 Watermark File for %1,Wasserzeichendatei für %1
 "Watermark Opacity, Percent","Wasserzeichen-Deckkraft, Prozent"
 Watermark Position,Wasserzeichen-Position
@@ -8261,7 +8261,7 @@ We cannot apply the coupon code.,Wir können den Gutscheincode nicht anwenden.
 We cannot apply this gift card.,Wir können diese Geschenkkarte nicht anwenden.
 We cannot cancel this order.,Wir können diesen Auftrag nicht abbrechen.
 We cannot change status for all items.,Wir können den Status von allen Artikeln nicht ändern.
-We cannot close the RMA request(s).,Wir können diese RMA-Anträge nicht schließen.
+We cannot close the RMA request(s).,Wir können diese RMA-Anträge nicht schliessen.
 We cannot configure the product.,Wir können das Produkt nicht konfigurieren.
 We cannot create a new directory.,Wir können kein neues Verzeichnis erstellen.
 We cannot create a target file for reading reports.,Wir können für das Lesen von Berichten keine Zieldatei erstellen.
@@ -8300,7 +8300,7 @@ We cannot send the new order email.,Wir können die neue Bestell-E-Mail nicht se
 We cannot specify the product.,Wir können das Produkt nicht spezifizieren.
 We closed your Return request.,Wir haben Ihren Rückgabe-Antrag geschlossen.
 "We could not add a product to cart by the ID ""%1"".","Wir konnten kein Produkt in den Warenkorb legen mit der ID ""%1""."
-We could not detect a size.,Es konnte keine Größe erkannt werden.
+We could not detect a size.,Es konnte keine Grösse erkannt werden.
 We could not load the specified revision.,Wir konnten diese Revision nicht laden.
 We could not perform the search.,Die Suche konnte nicht ausgeführt werden.
 We could not save the reminder rule.,Wir konnten die Erinnerungsregel nicht speichern.
@@ -8393,7 +8393,7 @@ We skipped %1 of the selected invitations.,Es wurden %1 der ausgewählte Einladu
 We unsubscribed the people you identified.,"Wir haben die Personen, die Sie identifiziert haben, abgemeldet."
 We updated lifetime statistic.,Gesamtstatistik aktualisiert.
 We use cookies to make your experience better.,"Wir verwenden Cookies, um Ihre Erfahrung zu verbessern."
-We were unable to create full code pool size. Please check settings and try again.,Es konnte nicht der gesamte Code-Pool erstellt werden. Bitte überprüfen Sie Ihre Einstellungen und versuchen es anschließend erneut.
+We were unable to create full code pool size. Please check settings and try again.,Es konnte nicht der gesamte Code-Pool erstellt werden. Bitte überprüfen Sie Ihre Einstellungen und versuchen es anschliessend erneut.
 We were unable to generate a new code pool.,Ein neuer Code-Pool konnte nicht generiert werden.
 We were unable to perform the search because of a search engine misconfiguration.,"Die Suchanfrage konnte nicht gestartet werden, da die Suchmaschine fehlerhafte Einstellungen enthält."
 We were unable to save the cron expression.,Der Cron-Ausdruck konnte nicht gespeichert werden.
@@ -8553,7 +8553,7 @@ You are signed out.,Sie haben sich ausgeloggt.
 You are trying to add a quantity for some products that doesn't match the quantity that was shipped.,"Sie versuchen, eine Menge für einige Produkte hinzuzufügen, die nicht mit der Menge übereinstimmt, die geliefert wurde."
 You assigned the order status.,Sie haben den Auftragsstatus zugeordnet.
 You can add only enabled products.,Sie können nur aktivierte Produkte hinzufügen.
-You can also share it with your friends and family by logging into your account and visiting the Gift Registry tab.,Sie können es außerdem mit Ihren Freunden und Ihrer Familie teilen indem Sie in Ihr Konto einloggen oder den Geschenkelisten-Reiter besuchen.
+You can also share it with your friends and family by logging into your account and visiting the Gift Registry tab.,Sie können es ausserdem mit Ihren Freunden und Ihrer Familie teilen indem Sie in Ihr Konto einloggen oder den Geschenkelisten-Reiter besuchen.
 You can buy %1 only in quantities of %2 at a time.,Sie können %1 nur in Mengen von %2 kaufen.
 You can buy this product only in quantities of %1 at a time.,Sie können dieses Produkt nur in Mengen von %2 kaufen.
 You can buy up to %1 of these per purchase.,Sie können bis zu %1 dieser Produkte pro Bestellung kaufen.
@@ -8675,7 +8675,7 @@ You did not email your customer. Please check your email settings.,Sie haben Ihr
 You did not sign in correctly or your account is temporarily disabled.,Sie haben sich nicht korrekt eingeloggt oder Ihr Konto ist vorübergehend deaktiviert.
 "You disabled %1 Catalog Price Rules based on ""%2"" attribute.","Sie haben %1 Katalogpreisregeln basierend auf dem ""%2"" Attribut deaktiviert."
 You do not have access to this.,Sie haben hierzu keinen Zugang.
-You do not have enough store credit to complete this order.,Sie besitzen nicht genug Shop-Guthaben um diese Bestellung abzuschließen.
+You do not have enough store credit to complete this order.,Sie besitzen nicht genug Shop-Guthaben um diese Bestellung abzuschliessen.
 You don't have enough reward points to pay for this purchase.,Sie besitzen nicht genug Belohnungspunkte um für diesen Kauf zu bezahlen.
 You don't need to select a shipping address.,Sie brauchen keine Versandadresse auswählen.
 You don't need to select a shipping method.,Sie brauchen keine Versandmethode auswählen.
@@ -8808,8 +8808,8 @@ You saved the RMA item attribute.,Das RMA Artikelattribut wurde gespeichert.
 You saved the RMA request.,Der RMA-Antrag wurde gespeichert.
 You saved the role.,Sie haben die Rolle gespeichert.
 You saved the rule.,Sie haben die Regel gespeichert
-You saved the scheduled import.,Der planmäßige Import wurde gespeichert.
-You saved the scheduled report.,Der planmäßige Bericht wurde gespeichert.
+You saved the scheduled import.,Der planmässige Import wurde gespeichert.
+You saved the scheduled report.,Der planmässige Bericht wurde gespeichert.
 You saved the search term.,Sie haben den Suchbegriff gespeichert.
 You saved the segment.,Dieser Abschnitt wurde gespeichert.
 You saved the settings.,Ihre Einstellungen wurden gespeichert.
@@ -8851,7 +8851,7 @@ You will be redirected to the PayPal website when you place an order.,"Sie werde
 You will be redirected to the PayPal website.,Sie werden auf die PayPal-Website umgeleitet.
 You will be required to enter your payment details after you place an order.,"Sie werden gebeten, Ihre Zahlungsinformationen einzugeben, nachdem Sie Ihre Bestellung aufgeben haben."
 You will have to sign in after you save your custom admin path.,"Sie müssen sich anmelden, nachdem Sie Ihren benutzerdefinierten Admin-Pfad gespeichert haben."
-"You will lose any data created since the backup was made, including admin users, customers and orders.","Sie werden alle Daten verlieren, die seit Erstellung des Backups erstellt wurden, einschließlich Adminbenutzer, Kunden und Bestellungen."
+"You will lose any data created since the backup was made, including admin users, customers and orders.","Sie werden alle Daten verlieren, die seit Erstellung des Backups erstellt wurden, einschliesslich Adminbenutzer, Kunden und Bestellungen."
 You will no longer receive price alerts for this product.,Sie werden keine weiteren Preisbenachrichtigungen zu diesem Produkt erhalten.
 You will no longer receive stock alerts for this product.,Sie werden keine weiteren Verfügbarkeitsbenachrichtigungen zu diesem Produkt erhalten.
 You will no longer receive stock alerts.,Sie werden Verfügbarkeitsbenachrichtigungen nicht mehr erhalten.
@@ -8870,8 +8870,8 @@ Your Credit Memo #%creditmemo_id for Order #%order_id,Ihre Gutschrift #%creditme
 "Your csv file must include ""sku"" and ""qty"" columns.","Ihre CSV Datei muss eine ""SKU"" sowie ""QTY"" Spalte enthalten."
 Your current currency is: %1.,Ihre aktuelle Währung ist: %1
 Your Customization,Ihre Anpassung
-"Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted try to use larger file-size image.","Ihr vorgegebens Logo wird in PDF und HTML Dokumenten benutzt. (JPEG, TIFF, PNG) Sollte Ihre Datei verzerrt angezeigt werden, versuchen sie die Dateigröße zu erhöhen."
-"Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted, try to use larger file-size image.","Ihr Standard-Logo wird in PDF- und HTML-Dokumenten verwendet. <br /> (jpeg, tiff, png) Wenn Ihr PDF-Bild verzerrt ist, versuchen Sie für eine größere Bild-Datei zu verwenden."
+"Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted try to use larger file-size image.","Ihr vorgegebens Logo wird in PDF und HTML Dokumenten benutzt. (JPEG, TIFF, PNG) Sollte Ihre Datei verzerrt angezeigt werden, versuchen sie die Dateigrösse zu erhöhen."
+"Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted, try to use larger file-size image.","Ihr Standard-Logo wird in PDF- und HTML-Dokumenten verwendet. <br /> (jpeg, tiff, png) Wenn Ihr PDF-Bild verzerrt ist, versuchen Sie für eine grössere Bild-Datei zu verwenden."
 Your Gift Registry Message,Ihre Geschenkeliste Nachricht
 Your invitation is not valid. Please contact us at %1.,Ihre Aufforderung ist nicht zulässig. Bitte kontaktieren Sie uns unter %1.
 Your invitation is not valid. Please create an account.,Ihre Aufforderung ist nicht zulässig. Bitte erstellen Sie ein Konto.
