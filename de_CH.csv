@@ -649,7 +649,7 @@ Allow Qty Below 0 and Notify Customer,Menge unter 0 erlauben und Kunden benachri
 Allow Reorder,Nachbestellug erlauben
 Allow Shipping to Multiple Addresses,Lieferung an mehrere Adressen erlauben
 Allow Symlinks,Symlinks erlauben
-Allow to Choose State if It is Optional for Country,"Bundeslandauswahl erlauben, wenn es optional für das Land ist"
+Allow to Choose State if It is Optional for Country,"Bundesland-/Kantonsauswahl erlauben, wenn es optional für das Land ist"
 Allow To Edit Contact Information,Bearbeiten von Kontaktinformationen erlauben
 Allow to Edit Shipping Address Entered During Checkout on PayPal Side,Ändern der Versand-Adresse während des Bezahlvorgangs auf der PayPal-Seite erlauben
 "Allowable values: """"paypal"""" primary"""" (default) your_custom_value (a custom payment page style from your merchant account profile).","Erlaubte Werte: ""paypal"" , ""primary"" (Standard) , your_custom_value (ein benutzerdefinierter Zahlungsseitenstil von Ihrem Händlerkontoprofil)"
@@ -1645,7 +1645,7 @@ Country comparison check,Ländervergleichscheck
 Country Options,Länderoptionen
 Country Specific Credit Card Types,Länderspezifische Kreditkartentypen
 Country Specific Settings,Länderspezifische Einstellungen
-Country/State,Land/Bundesland
+Country/State,Land/Bundesland/Kanton
 Coupon,Gutschein
 Coupon Code,Gutscheincode
 Coupon code is not valid,Gutscheincode ist ungültig
@@ -2244,7 +2244,7 @@ Duplicate amount found.,Gefundene Anzahl verdoppeln
 Duplicate field declaration,Felddeklaration duplizieren
 Duplicate indexer id,Dupliziere Indexer-ID
 Duplicate Of Template Name,Doppelung des Vorlagennamens
-"Duplicate Row #%1 (Country ""%2"", Region/State ""%3"", Zip ""%4"" and Value ""%5"")","Reihe #%1 duplizieren (Land ""%2"", Region/Bundesland ""%3"", PLZ ""%4"" und Wert ""%5"")"
+"Duplicate Row #%1 (Country ""%2"", Region/State ""%3"", Zip ""%4"" and Value ""%5"")","Reihe #%1 duplizieren (Land ""%2"", Region/Bundesland/Kanton ""%3"", PLZ ""%4"" und Wert ""%5"")"
 Duplicate template code,Doppelter Vorlagen-Code
 Duration:,Dauer:
 Dynamic,Dynamisch
@@ -3014,7 +3014,7 @@ Gift Options for,Geschenkoptionen für
 Gift Options for,Geschenkoptionen für
 Gift Options for Individual Items,Geschenkoptionen für einzelne Artikel
 Gift Options for the Entire Order,Geschenk-Optionen für die gesamten Bestellung
-"Gift Order. The street address, city, state, or country of the billing and shipping addresses do not correlate","Geschenkbestellung. Adresse, Stadt, Bundesland oder Land der Rechnungs- und Versandadressen hängen nicht zusammen."
+"Gift Order. The street address, city, state, or country of the billing and shipping addresses do not correlate","Geschenkbestellung. Adresse, Stadt, Bundesland/Kanton oder Land der Rechnungs- und Versandadressen hängen nicht zusammen."
 Gift Registry,Geschenkeliste
 Gift Registry Entity,Geschenkeliste-Einheit
 Gift Registry ID,Geschenkeliste-ID
@@ -3105,7 +3105,7 @@ Guest checkout will only work with shareable.,Gäste-Checkout funktioniert nur m
 Handling Applied,Bearbeitung angewandt
 Handling Fee,Bearbeitungsgebühr
 has,hat
-Has State/Province,has Bundesland/Provinz
+Has State/Province,hat Bundesland/Kanton/Provinz
 "Have a gift card? <a href=""%1"">Click here</a> to redeem it.","Haben Sie eine Geschenkkarte? <a href=""%1"">Hier klicken</a>, um sie einzulösen."
 Header,Kopfzeile
 Header (center),Header (zentral)
@@ -3176,7 +3176,7 @@ If %1 of these conditions are %2:,Wenn %1 von diesen Bedingungen %2 sind:
 If an item is %1 in the cart with %2 of these conditions true:,Wenn ein Artikel %1 im Warenkorb ist und %2 dieser Bedingungen erfüllt sind:
 If an item is %1 in the shopping cart and %2 of these conditions match:,Identitäts-Morphing. Mehrere Werte eines Identitätselements sind mit dem Wert eines anderen Elements verllinkt. Zum Beispiel: mehrere Telefonnummern sind mit einer einzigen Kontonummer verlinkt.
 If an item is %1 in the wish list and %2 of these conditions match:,Wenn ein Artikel %1 auf dem Wunschzettel ist und %1 dieser Bedingungen erfüllt sind:
-If Customer Address %1 State/Province specified,Wenn Kundenadresse %1 Bundesland/Provinz angegeben
+If Customer Address %1 State/Province specified,Wenn Kundenadresse %1 Bundesland/Kanton/Provinz angegeben
 If Customer Addresses match %1 of these Conditions:,Wenn Kundenadressen %1 dieser Bedingungen erfüllen:
 If Customer Segment %1 %2,Wenn Kundensegment %1 %2
 If empty no expiration.,"Wenn leer, kein Verfall."
@@ -4892,7 +4892,7 @@ Please confirm site switching. All data that hasn't been saved will be lost.,Bit
 Please confirm that you want to delete this credit card,"Bitte bestätigen Sie, dass Sie diese Kreditkarte löschen möchten."
 "Please correct %1 ""%2"" in the Row #%3.","Bitte %1 ""%2"" in Reihe #%3 korrigieren ."
 "Please correct Country ""%1"" in the Row #%2.","Bitte Land ""%1"" korrigieren in Reihe #%2."
-"Please correct Region/State ""%1"" in the Row #%2.","Bitte Region/Bundesland korrigieren ""%1"" in Reihe #%2."
+"Please correct Region/State ""%1"" in the Row #%2.","Bitte Region/Bundesland/Kanton korrigieren ""%1"" in Reihe #%2."
 "Please correct Shipping Price ""%1"" in the Row #%2.","Bitte Versandkosten ""%1"" in Reihe #%2 korrigieren."
 Please correct Table Rate code for type %1: %2.,Bitte Table Rate Code korrigieren für Typ %1: %2.
 Please correct Table Rate code type: %1.,Bitte Table Rate Codetyp korrigieren: %1.
@@ -5086,7 +5086,7 @@ Please enter the password to confirm rollback.,"Bitte geben Sie das Passwort ein
 Please enter the phone number.,Bitte geben Sie die Telefonnummer ein.
 Please enter the quantity of items to add to cart.,Bitte geben Sie die Anzahl der Artikel zum Hinzufügen zum Warenkorb ein.
 Please enter the same value again.,Bitte geben Sie den gleichen Wert erneut ein.
-Please enter the state/province.,Bitte geben Sie das Bundesland ein.
+Please enter the state/province.,Bitte geben Sie das Bundesland/den Kanton ein.
 Please enter the street.,Bitte geben Sie die Strasse ein.
 Please enter the title.,Bitte geben Sie den Titel ein
 Please enter the zip/postal code.,Bitte geben Sie die Postleitzahl ein.
@@ -5127,8 +5127,8 @@ Please select a banner(s).,Bitte Banner wählen.
 Please select a customer,Bitte einen Kunden wählen
 Please select a gift card account(s),Bitte Geschenkkartenkonto(s) wählen.
 Please select a gift registry type.,Bitte wählen Sie einen Geschenklistentyp
-"Please select a region, state or province","Bitte wählen Sie Region, Bundesland oder Provinz"
-"Please select a region, state or province.","Bitte wählen Sie Region, Bundesland oder Provinz."
+"Please select a region, state or province","Bitte wählen Sie Region, Bundesland/Kanton oder Provinz"
+"Please select a region, state or province.","Bitte wählen Sie Region, Bundesland/Kanton oder Provinz."
 Please select a shipping address for applicable items.,Bitte wählen Sie eine Lieferadresse für die gewählten Artikel.
 Please select a shipping method...,Bitte wählen Sie eine Versandart...
 Please select a static block.,Bitte wählen Sie einen statischen Block
@@ -5156,12 +5156,12 @@ Please select products,Bitte Produkte auswählen
 Please select products for attributes update.,Bitte wählen Sie die Produkte für das Attribut-Update.
 Please Select Products to Add,Bitte wählen Sie Produkte zum Hinzufügen
 Please select products.,Bitte Produkte wählen
-"Please select region, state or province","Bitte wählen Sie Region, Bundesland oder Provinz"
+"Please select region, state or province","Bitte wählen Sie Region, Bundesland/Kanton oder Provinz"
 Please select review(s).,Bitte Bewertung(en) wählen.
 Please select revision(s).,Bitte Revision(en) wählen
 Please select searches.,Bitte wählen Sie Suchen.
 Please select shipping methods for all addresses.,Bitte wählen Sie Versandmethoden für alle Adressen.
-Please select State/Province.,Bitte Bundesland/ Provinz wählen.
+Please select State/Province.,Bitte Bundesland/Kanton/Provinz wählen.
 Please select version(s).,Bitte Version(en) wählen
 Please set a proper payment and order id.,Bitte legen Sie eine angemessene Zahlungs- und Auftrags-ID fest.
 Please set a website ID.,Bitte legen Sie eine Website-ID fest.
@@ -5664,7 +5664,7 @@ Refunds,Rückerstattungen
 Refunds Report,Erstattungsbericht
 Refused,Verweigert
 region,Region
-Region/State,Region/Bundesland
+Region/State,Region/Bundesland/Kanton
 Registered,Registriert
 Registered a Void notification.,Eine Aufhebungs-Benachrichtigung wurde registriert.
 Registered as customer,Als Kunde registriert
@@ -6339,7 +6339,7 @@ Shipping Refund,Versand-Rückerstattung
 Shipping Region,Versand-Region
 Shipping Report,Versandbericht
 Shipping Settings,Versandeinstellungen
-Shipping State/Province,Versand-Bundesland / -Provinz
+Shipping State/Province,Versand-Bundesland/-Kanton/-Provinz
 Shipping To,Versand an
 Shop By,Einkaufen nach
 Shop now using (150 X 40),Shop nutzt jetzt (150 X 40)
@@ -6653,14 +6653,14 @@ start typing to search category,"Tippen, um nach Kategorie zu suchen"
 start typing to search template,"Tippen, um nach Vorlage zu suchen"
 Starting at,Startet von
 Startup Page,Startseite
-State,Bundesland
+State,Bundesland/Kanton
 State Code and Title,Statuscode und Titel
 State for the same indexer,Zustand für denselben Indizierer
 State for the same view,Zustand für die dieselbe Ansicht
-State is Required for,Bundesland ist erforderlich für
+State is Required for,Bundesland/Kanton ist erforderlich für
 State Options,Bundesländeroptionen
-State/Province,Bundesland/Provinz
-State/Region,Bundesland / Region
+State/Province,Bundesland/Kanton/Provinz
+State/Region,Bundesland/Kanton/Region
 Static,Statisch
 Static block and products,Statische Blöcke und Produkte
 Static block only,Nur statische Blöcke
@@ -7693,7 +7693,7 @@ Unknown quote total specified,Unbekannte Angebotssumme angegeben
 Unknown quote total specified.,Unbekannte Angebotssumme angegeben.
 Unknown reason. Please contact PayPal customer service.,Unbekannter Grund. Bitte kontaktieren Sie den PayPal-Kundenservice.
 Unknown service,Unbekannter Service
-Unknown State,Unbekanntes Bundesland
+Unknown State,Unbekanntes Bundesland/Kanton
 Unknown Status,Unbekannter Status
 Unknown utility: %1,Unbekannte Utility: %1
 Unknown video type,Unbekannter Video-Typ
@@ -8343,7 +8343,7 @@ We don't recognize this file extension.,Diese Dateierweiterung kann nicht erkann
 "We fetched %1 report rows from ""%2@%3.""","Wir haben %1 Berichtszeilen aus ""%2 @% 3."" abgerufen."
 We found a directory with the same name.,Es wurde ein Verzeichnis mit demselben Namen gefunden.
 We found a directory with the same name. Please try another folder name.,Wir haben ein Verzeichnis mit dem gleichen Namen gefunden. Bitte wählen Sie einen anderen Ordnernamen.
-"We found a duplicate of website, country and state fields for a fixed product tax","Wir fanden ein Duplikat von Website, Land und Bundesland-Feldern für eine feste Produktsteuer"
+"We found a duplicate of website, country and state fields for a fixed product tax","Wir fanden ein Duplikat von Website, Land und Bundesland/Kantons-Feldern für eine feste Produktsteuer"
 We found a duplicate website group price customer group.,Wir haben eine doppelte Websitegruppenpreis Kundengruppe gefunden.
 "We found a duplicate website, tier price, customer group and quantity.","Wir fanden eine doppelte Website, Preisstufe, Kundengruppe und Anzahl"
 We found an attribute with this static input type already in the gift registry type. Please select a different input type.,"Wir haben ein Attribut mit diesem statischen Eingabetyp gefunden, welche bereits im Geschenkelistetyp vorhanden ist. Bitte wählen Sie einen anderen Eingabetyp aus."
