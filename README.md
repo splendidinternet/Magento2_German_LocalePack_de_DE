@@ -21,7 +21,7 @@ php bin/magento setup:di:compile
 
 # Installation mit Composer
 ```bash
-composer require splendid/de_de
+composer require splendidinternet/mage2-locale-de-de
 rm pub/static/frontend/Magento/luma/de_DE/js-translation.json
 php bin/magento setup:static-content:deploy de_DE
 ```
