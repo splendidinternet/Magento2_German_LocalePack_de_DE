@@ -6867,7 +6867,7 @@ Tax Rule Information,Steuerregel-Informationen
 Tax Rules,Steuerregeln
 Tax Titles,Steuertitel
 Tax VAT Number,Umsatzsteuer-Nr.
-Tax Zones and Rates,Steuertzonen und -Raten
+Tax Zones and Rates,Steuerzonen und -raten
 Tax/VAT number,Steuernummer/Ust-ID
 Telephone,Telefon
 Template,Vorlage
@@ -8880,7 +8880,7 @@ Your Kount ID,Ihre Konto-ID
 Your Language,Ihre Sprache
 Your Language:,Ihre Sprache:
 Your order # is: <span>%1</span>.,Ihre Bestellnummer ist: <span>%1</span>.
-Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.,Ihe Bestellung #%increment_id wurde aktualisiert mit dem Status <strong>%order_status</strong>.
+Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.,Ihre Bestellung #%increment_id wurde aktualisiert mit dem Status <strong>%order_status</strong>.
 "Your Order <span class=""no-link"">#%increment_id</span>","Ihre Bestellung <span class=""no-link"">#%increment_id</span>"
 Your order number is,Ihre Bestellnummer lautet
 Your order number is:,Ihre Bestellnummer lautet:
