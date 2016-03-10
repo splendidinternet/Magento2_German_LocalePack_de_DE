@@ -1112,7 +1112,7 @@ Bundle product could not contain another composite product,Bündelprodukt konnte
 Business Service Center,Business Service Center
 button_label,button_label
 Buy %1 for %2 each,%1 für jeweils %2 kaufen
-"Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","%1 für jeweils %2 kaufen und <strong <span class=""percent tier-%3"">&nbsp;%4</span>% class=""benefit"">sparen</strong>"
+"Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","%1 für jeweils %2 kaufen und <strong> <span class=""percent tier-%3"">&nbsp;%4</span>% class=""benefit"">sparen</strong>"
 Buy %1 for price %2,Kaufe %1 zum Preis von %2
 Buy %1 for:,%1 kaufen für:
 Buy %1 for:,%1 kaufen für:
@@ -4741,7 +4741,7 @@ Payment Methods,Zahlungsarten
 Payment Refund initiated by merchant,Zahlungsrückerstattung durch Händler initiiert
 Payment refunding error.,Fehler bei der Zahlungsrückerstattung
 Payment Response Password,Zahlungsantwort-Passwort
-Payment Review,Zahlungsübersicht
+Payment Review,Zahlungsprüfung
 Payment Token Build Error.,Zahlungstoken-Buildfehler
 Payment Transaction Failed,Zahlungstransaktion fehlgeschlagen
 Payment transactions disallow storing objects.,Zahlungstransaktionen verbieten das Speichern von Objekten.
