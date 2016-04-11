@@ -1137,7 +1137,7 @@ Bundle product could not contain another composite product,Bündelprodukt konnte
 Business Service Center,Business Service Center
 button_label,button_label
 Buy %1 for %2 each,%1 für jeweils %2 kaufen
-"Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","%1 für jeweils %2 kaufen und <strong> <span class=""percent tier-%3"">&nbsp;%4</span>% class=""benefit"">sparen</strong>"
+"Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","%1 für jeweils %2 kaufen und <strong class=""benefit""><span class=""percent tier-%3"">&nbsp;%4</span>% sparen</strong>"
 Buy %1 for price %2,Kaufe %1 zum Preis von %2
 Buy %1 for:,%1 kaufen für:
 Buy %1 for:,%1 kaufen für:
@@ -6366,6 +6366,7 @@ Ship,Versenden
 Ship Bundle Items,Bündelartikel-Versand
 Ship Date,Versanddatum
 Ship From,Versand von
+Ship Here, Hier hin senden
 Ship To,Versenden an
 Ship to Applicable Countries,Versand in anwendbare Länder
 Ship to different address,An andere Adresse senden
@@ -6375,6 +6376,7 @@ Ship to Specific Countries,Versand in bestimmte Länder
 Ship to the recipient's address.,An Adresse des Empfängers senden
 Ship to this address,An diese Adresse senden
 Ship to:,Versenden an:
+Ship To:,Versenden an:
 Ship-to Name,Versand an Name
 Shipment,Versandmethode kann nicht aktualisiert werden.
 Shipment #,Lieferung #
