@@ -1526,34 +1526,20 @@ Configurable Product,Konfigurierbares Produkt
 "Configurable product ""%1"" do not have sub-products","Konfigurierbares Produkt ""%1"" hat keine Teilprodukte."
 Configurable Product Image,Konfigurierbares Produktbild
 "Configurable products allow customers to choose options (Ex: shirt color).
-Connecting to server
-Connection failed! Test again?
-Connection Type
-Constant Value
-Contact Email Address
-Contact Name
-Container Id
-Continue Processing
-Conversion Rate
-Conversion Rate Report
-Converting Invitation to Customer
-Converting Invitation to Order
- Copy
-&copy; Magento Inc.","Konfigurierbare Produkte erlauben es Kunden, Optionen auszuwählen (z.B. Farbe eines Shirts)
-Verbindet zum Server
-Verbindung fehlgeschlagen! Erneut versuchen?
-Verbindungstyp
-Konstanter Wert
-Kontakt-E-Mail-Adresse
-Kontaktname
-Container-ID
-Bearbeitung fortfahren
-Umrechnungskurs
-Umrechnungskursbericht
-Konvertiert Einladung zum Kunden
-Konvertiert Einladung zur Bestellung
-Kopieren
-&copy; Magento Inc."
+Connecting to server,Verbindet zum Server
+Connection failed! Test again?,Verbindung fehlgeschlagen! Erneut versuchen?
+Connection Type,Verbindungstyp
+Constant Value,Konstanter Wert
+Contact Email Address,Kontakt-E-Mail-Adresse
+Contact Name,Kontaktname
+Container Id,Container-ID
+Continue Processing,Bearbeitung fortfahren
+Conversion Rate,Umrechnungskurs
+Conversion Rate Report,Umrechnungskursbericht
+Converting Invitation to Customer,Konvertiert Einladung zum Kunden
+Converting Invitation to Order,Konvertiert Einladung zur Bestellung
+Copy,Kopieren
+&copy; Magento Inc.",&copy; Magento Inc."
 Configurable products allow customers to choose options (Ex: shirt color). You need to create a simple product for each configuration (Ex: a product for each color).,Konfigurierbare Produkte erlauben Kunden die Wahl zwischen Optionen (z. B. die Farbe eines T-Shirts). Es muss für jede Konfiguration ein einfaches Produkt erstellt werden.
 Configurable products allow customers to choose options (Ex: shirt color).You need to create a simple product for each configuration (Ex: a product for each color).,"Konfigurierbare Produkte erlauben es Kunden, Optionen auszuwählen (z.B. Farbe eines Shirts). Sie müssen für jede Konfiguration ein einfaches Produkt erstellen (z.B. ein Produkt für jede Farbe)."
 Configuration,Konfiguration
