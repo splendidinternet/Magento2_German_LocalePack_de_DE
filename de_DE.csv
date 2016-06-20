@@ -1427,7 +1427,7 @@ Click on the code(s) above to redeem them into Store Credit.,"Klicken Sie auf de
 "Click on the link to <a href=""%1"">ignore this notification</a>","Klicken Sie auf den Link, um <a href=""%1"">diese Benachrichtung zu ignorieren</a>"
 Click to change shipping method,"Klicken, um Versandmethode zu ändern"
 Click to change shipping method.,"Klicken, um Versandmethode zu ändern"
-Client side less compilation,Weniger Kompilierung auf Clientseite
+Client side less compilation,LESS Kompilierung auf Clientseite
 close,Schließen
 Close,Schließen
 Close panel,Panel schließen
@@ -6303,7 +6303,7 @@ Sequence with this metadata already exists,Sequenz mit diesen Metadaten existier
 "Server cannot match any of the given Accept HTTP header media type(s) from the request: ""%1"" with media types from the config of response renderer.","Der Server kann keine der gegebenen Accept HTTP-Header Medientypen der Anfrage zuordnen. ""%1"" mit Medientypen aus der Konfiguration des Response-Renderers."
 Server cannot understand Content-Type HTTP header media type %1,Der Server kann den Content-Type HTTP-Header Medientyp nicht verstehen %1
 Server internal error. See details in report api/%1,Interner Serverfehler. Details befinden sich in der Report-API %1
-Server side less compilation,Weniger Kompilierung auf Serverseite
+Server side less compilation,LESS Kompilierung auf Serverseite
 Server Type,Servertyp
 Service,Service
 Service not found,Service nicht gefunden
