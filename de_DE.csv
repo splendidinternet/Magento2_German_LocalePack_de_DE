@@ -84,7 +84,6 @@
 &nbsp;,&nbsp;
 # of Items (and above),# von Artikel (und höher)
 # of Items vs. Destination,# von Artikel vs. Bestimmungsort
-%1,1%
 %1 - %2,%1 - %2
 %1 - Discounts and Coupons,%1 - Rabatte und Gutscheine
 %1 - Special Products,%1 - Produkte im Sonderangebot
@@ -1539,7 +1538,7 @@ Conversion Rate Report,Umrechnungskursbericht
 Converting Invitation to Customer,Konvertiert Einladung zum Kunden
 Converting Invitation to Order,Konvertiert Einladung zur Bestellung
 Copy,Kopieren
-&copy; Magento Inc.",&copy; Magento Inc."
+&copy; Magento Inc.","&copy; Magento Inc."""
 Configurable products allow customers to choose options (Ex: shirt color). You need to create a simple product for each configuration (Ex: a product for each color).,Konfigurierbare Produkte erlauben Kunden die Wahl zwischen Optionen (z. B. die Farbe eines T-Shirts). Es muss für jede Konfiguration ein einfaches Produkt erstellt werden.
 Configurable products allow customers to choose options (Ex: shirt color).You need to create a simple product for each configuration (Ex: a product for each color).,"Konfigurierbare Produkte erlauben es Kunden, Optionen auszuwählen (z.B. Farbe eines Shirts). Sie müssen für jede Konfiguration ein einfaches Produkt erstellen (z.B. ein Produkt für jede Farbe)."
 Configuration,Konfiguration
