@@ -84,7 +84,6 @@
 &nbsp;,&nbsp;
 # of Items (and above),# von Artikel (und höher)
 # of Items vs. Destination,# von Artikel vs. Bestimmungsort
-%1,1%
 %1 - %2,%1 - %2
 %1 - Discounts and Coupons,%1 - Rabatte und Gutscheine
 %1 - Special Products,%1 - Produkte im Sonderangebot
@@ -1190,7 +1189,7 @@ Can't unhold order.,Kann Bestellung nicht von der Wartestellung freigeben.
 Can't update wish list,Kann Wunschzettel nicht aktualisieren
 Canada Standard,Canada Standard
 Cancel,Abbrechen
-Cancel Coupon,Coupon stornieren
+Cancel coupon,Gutschein entfernen
 Canceled,Abgebrochen
 Canceled order offline,Bestellung offline storniert.
 Canceled order online,Bestellung online storniert.
@@ -1539,7 +1538,7 @@ Conversion Rate Report,Umrechnungskursbericht
 Converting Invitation to Customer,Konvertiert Einladung zum Kunden
 Converting Invitation to Order,Konvertiert Einladung zur Bestellung
 Copy,Kopieren
-&copy; Magento Inc.",&copy; Magento Inc."
+&copy; Magento Inc.","&copy; Magento Inc."""
 Configurable products allow customers to choose options (Ex: shirt color). You need to create a simple product for each configuration (Ex: a product for each color).,Konfigurierbare Produkte erlauben Kunden die Wahl zwischen Optionen (z. B. die Farbe eines T-Shirts). Es muss für jede Konfiguration ein einfaches Produkt erstellt werden.
 Configurable products allow customers to choose options (Ex: shirt color).You need to create a simple product for each configuration (Ex: a product for each color).,"Konfigurierbare Produkte erlauben es Kunden, Optionen auszuwählen (z.B. Farbe eines Shirts). Sie müssen für jede Konfiguration ein einfaches Produkt erstellen (z.B. ein Produkt für jede Farbe)."
 Configuration,Konfiguration
@@ -8976,6 +8975,8 @@ Your balance is %1.,Ihr Kontostand beträgt %1.
 Your balance is:,Ihr Kontostand beträgt:
 Your billing agreement # is:,Ihre Abrechnungsvereinbarungsnummer ist:
 Your billing agreement # is: %1.,Ihre Rechnungsvereinbarungsnummer ist: %1.
+Your Coupon was successfully applied,Gutschein wurde hinzugefügt
+Your Coupon was successfully removed,Gutschein wurde entfernt
 Your credit card will be charged for,Ihre Kreditkarte wird belastet mit
 Your Credit Memo #%creditmemo_id for Order #%order_id,Ihre Gutschrift #%creditmemo_id für die Bestellung #%order_id
 "Your csv file must include ""sku"" and ""qty"" columns.","Ihre CSV Datei muss eine ""SKU"" sowie ""QTY"" Spalte enthalten."
