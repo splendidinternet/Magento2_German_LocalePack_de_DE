@@ -1189,7 +1189,7 @@ Can't unhold order.,Kann Bestellung nicht von der Wartestellung freigeben.
 Can't update wish list,Kann Wunschzettel nicht aktualisieren
 Canada Standard,Canada Standard
 Cancel,Abbrechen
-Cancel Coupon,Coupon stornieren
+Cancel coupon,Gutschein entfernen
 Canceled,Abgebrochen
 Canceled order offline,Bestellung offline storniert.
 Canceled order online,Bestellung online storniert.
@@ -8975,6 +8975,8 @@ Your balance is %1.,Ihr Kontostand beträgt %1.
 Your balance is:,Ihr Kontostand beträgt:
 Your billing agreement # is:,Ihre Abrechnungsvereinbarungsnummer ist:
 Your billing agreement # is: %1.,Ihre Rechnungsvereinbarungsnummer ist: %1.
+Your Coupon was successfully applied,Gutschein wurde hinzugefügt
+Your Coupon was successfully removed,Gutschein wurde entfernt
 Your credit card will be charged for,Ihre Kreditkarte wird belastet mit
 Your Credit Memo #%creditmemo_id for Order #%order_id,Ihre Gutschrift #%creditmemo_id für die Bestellung #%order_id
 "Your csv file must include ""sku"" and ""qty"" columns.","Ihre CSV Datei muss eine ""SKU"" sowie ""QTY"" Spalte enthalten."
