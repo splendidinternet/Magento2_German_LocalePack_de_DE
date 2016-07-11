@@ -1,11 +1,11 @@
 {
-    "name": "openstream/de_ch",
+    "name": "openstream/mage2-locale-de-ch",
     "description": "German (Switzerland) language",
     "license": [
         "OSL-3.0"
     ],
     "require": {
-        "magento/framework": "100.0.*"
+        "magento/framework": "^100.0.0"
     },
     "type": "magento2-language",
     "autoload": {
