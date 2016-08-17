@@ -4077,6 +4077,7 @@ Minimum,Minimum
 Minimum Advertised Price,Minimaler angezeigter Verkaufspreis
 Minimum Amount,Mindestbetrag
 Minimum Balance in order to redeem: %1.,"Minimaler Saldo, um einzulösen: %1"
+Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.,Die minimale Länge dieses Feldes muss größer gleich %1 Zeichen sein. Führende oder folgende Leerzeichen werden ignoriert.
 Minimum Order Amount,Mindestbestellmenge
 Minimum order amount is %1,Mindestbestellmenge ist %1
 Minimum Order Total,Mindestbestellsumme
@@ -4392,6 +4393,7 @@ No order(s) were released from on hold status.,Keine Bestellung(en) wurde(n) aus
 No ordered items,Keine bestellten Artikel
 No packages for request,Keine Pakete zur Anfrage
 No partners were found,Es wurden keine Partner gefunden
+No Password,Kein Passwort
 No Payment Methods,Keine Zahlungsmethoden
 No permissions requested,Keine Berechtigungen angefordert
 No Product Exception.,Keine Artikelausnahme.
@@ -4762,6 +4764,7 @@ Password Help,Passwort-Hilfe
 Password is required field.,Passwort ist ein Pflichtfeld.
 Password Lifetime (days),Passwort-Lebensdauer (Tage)
 Password Options,Passwortoptionen
+Password Strength,Passwortstärke
 Password Template Email Sender,Passwortvorlage für E-Mail-Absender
 Password you set when creating account,"Passwort, das Sie während der Kontoeinrichtung gesetzt haben"
 Password:,Passwort:
@@ -6840,6 +6843,7 @@ string with placeholder in escaped single quotes '%1',"String mit Platzhalter in
 string with placeholder in single quotes '%1',"String mit Platzhalter in einfachen Anführungszeichen ""%1"""
 String with translate,String mit Übersetzung
 Strip HTML Tags,HTML Schlagwörter abziehen
+Strong,Stark
 Sub-items,Unter-Artikelt
 Subject,Betreff
 Submit,Absenden
@@ -8078,6 +8082,7 @@ Version Label,Versions Etikett
 Version Revisions,Version Revisionen
 Version:,Version:
 Versions,Versionen
+Very Strong,Sehr Stark
 Video cant be shown due to the following reason:,Video kann aufgrund von folgenden Gründen nicht angezeigt werden:
 Video Error,Videofehler
 Video not found,Video nicht gefunden
@@ -8521,6 +8526,7 @@ We'll use the default error above if you leave this empty.,"Wir werden den obige
 "We're sorry, an error has occurred while generating this email.",Bei der Generierung dieser E-Mail ist ein Fehler aufgetreten.
 We're unable to delete the segement.,Wir sind nicht in der Lage diesen Abschnitt zu löschen.
 We're unable to send the password reset email.,"Wir sind nicht in der Lage, die E-Mail für die Passwortzurücksetzung zu schicken."
+Weak,Schwach
 Web,Web
 Web Services Configuration,Konfiguration von Web Services
 Web Site,Website
