@@ -3579,6 +3579,8 @@ Invite your friends by entering their email addresses
 Invoice # 
 IP-Address
 IPs access list separated with ' ' that can purge Varnish configuration for config file generation.","Ungültige XML in Datei %1:
+"It's a default billing address.","Ist die Standard-Rechnungsadresse ."
+"It's a default shipping address.","Ist die Standard-Lieferadresse ."
 Belohnung für die Umwandlung einer Einladung zu einer Bestellung
 Einladung für die gleiche E-Mail-Adresse
 Einladungsinformationen
