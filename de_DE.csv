@@ -2930,6 +2930,7 @@ Forgot Email Template,Vorlage für vergessene E-Mail
 Forgot Password,Passwort vergessen
 Forgot Password Email Template,"Vorlage für ""Passwort vergessen""-E-Mail"
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Haben Sie Ihr Passwort vergessen? Klicken Sie <a href=""%reset_url"">hier</a>,um es zurückzusetzen."
+Forgot Your Password,Passwort vergessen
 Forgot Your Password?,Passwort vergessen?
 Forgot your password?,Haben Sie Ihr Passwort vergessen?
 Form Code,Formularcode
@@ -3630,6 +3631,8 @@ Invite your friends by entering their email addresses
 Invoice # 
 IP-Address
 IPs access list separated with ' ' that can purge Varnish configuration for config file generation.","Ungültige XML in Datei %1:
+"It's a default billing address.","Ist die Standard-Rechnungsadresse."
+"It's a default shipping address.","Ist die Standard-Lieferadresse."
 Belohnung für die Umwandlung einer Einladung zu einer Bestellung
 Einladung für die gleiche E-Mail-Adresse
 Einladungsinformationen
@@ -5943,6 +5946,7 @@ Required to display a banner,"Erforderlich, um einen Banner einzubinden"
 Reset,Zurücksetzen
 Reset a Password,Passwort zurücksetzen
 Reset Filter,Filter zurücksetzen
+Reset My Password,Mein Passwort zurücksetzen
 Reset Password,Passwort zurücksetzen
 Reset Password Template,Passwortvorlage zurücksetzen
 Reset password token expired.,Passwortzurücksetzungs-Token abgelaufen.
