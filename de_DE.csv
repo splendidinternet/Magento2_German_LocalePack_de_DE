@@ -1790,6 +1790,7 @@ Credit Memo Comments,Gutschriftenkommentare
 Credit Memo Email Sender,Gutschrift E-Mail Absender
 Credit Memo Email Template,Gutschrift E-Mail Vorlage
 Credit Memo Email Template for Guest,Gutschrift E-Mail Vorlage für Gäste
+Credit memo for your %store_name order,Gutschrift für Ihre Bestellung bei %store_name
 Credit memo has not been canceled.,Die Gutschrift wurde nicht abgebrochen.
 Credit Memo History,Gutschriftenhistorie
 Credit Memo Totals,Gutschriftengesamtsumme
@@ -3678,6 +3679,7 @@ Invoice Date,Rechnungsdatum
 Invoice Email Sender,Rechnungs-E-Mail Absender
 Invoice Email Template,Rechnungs-E-Mail-Vorlage
 Invoice Email Template for Guest,Rechnung-E-Mail-Vorlage für Gäste
+Invoice for your %store_name order,Rechnung für Ihre Bestellung bei %store_name
 Invoice History,Rechnungshistorie
 Invoice ID,Rechnungs-ID
 Invoice Report,Rechnungsbericht
@@ -7948,6 +7950,10 @@ Update Shopping Cart,Warenkorb aktualisieren
 Update State,Zustand aktualisieren
 Update Status,Status aktualisieren
 Update the Product,Aktualisieren Sie das Produkt.
+Update to your %store_name credit memo,Aktualisierung Ihrer Gutschrift bei %store_name
+Update to your %store_name invoice,Aktualisierung Ihrer Rechnung bei %store_name
+Update to your %store_name order,Aktualisierung Ihrer Bestellung bei %store_name
+Update to your %store_name shipment,Ihre Lieferung von %store_name wurde aktualisiert
 Update Wish List,Wunschzettel aktualisieren
 Updated,Aktualisiert
 Updated At,Aktualisiert am
@@ -9126,6 +9132,8 @@ Your Shipment #%shipment_id for Order #%order_id,Ihre Sendung #%shipment_id für
 Your shipping confirmation is below. Thank you again for your business.,Untenstehend finden Sie Ihre Versandbestätigung. Nochmals vielen Dank für Ihren Einkauf.
 Your shopping cart has been updated with new prices.,Ihr Warenkorb wurde mit neuen Preisen aktualisiert.
 Your Store Credit balance is now %balance.,Ihr Guthaben beträgt nun %balance.
+Your %store_name order confirmation,Bestellbestätigung für Ihre Bestellung bei %store_name
+Your %store_name order has shipped,Ihre Bestellung bei %store_name wurde versandt
 Your subscription has been confirmed.,Ihr Abonnement ist bestätigt worden.
 Your Tax ID cannot be validated.,Ihre Steuer-ID konnte nicht validiert werden.
 Your VAT ID was successfully validated.,Ihre Ust-ID wurde erfolgriech validiert.
