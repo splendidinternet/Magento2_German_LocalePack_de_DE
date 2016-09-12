@@ -186,7 +186,6 @@
 "%name,","%name,"
 %operation_name - Scheduled Export Failed,%operation_name - Geplanter Export fehlgeschlagen
 %operation_name - Scheduled Import Failed,%operation_name - Geplanter Import fehlgeschlagen
-"%sender has sent you a gift card for use at <a href=""%store_url"">%store_name</a> and it is now ready to be used for purchases.",
 %sender_name wants to share this product with you:,%sender_name möchte dieses Produkt mit Ihnen teilen:
 %store_name offers limited time sales of products only to members.,%store_name bietet einen zeitlich begrenzten Ausverkauf für seine Kunden an
 "%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.","%value% scheint ein DNS-Hostname zu sein, aber die gegebene Punycode-Notation kann nicht decodiert werden."
@@ -2883,7 +2882,6 @@ Flush Catalog Images Cache,Katalogbilder-Cache leeren
 Flush JavaScript/CSS Cache,Javascript/CSS-Cache leeren
 Flush Magento Cache,Magento-Cache leeren
 Flush Static Files Cache,Cache statischer Dateien leeren
-"Follow this link to unsubscribe <!-- This tag is for unsubscribe link  -->' '<a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}' '</a>",
 "Follow this link to unsubscribe <!-- This tag is for unsubscribe link  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>","Folgen Sie diesem Link, um sich abzumelden <!-- Dieser tag ist für den Abmeldelink --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>"
 Following Error(s) has been occurred during importing process:,Folgende(r) Fehler ist/sind beim Import aufgetreten:
 Font,Schriftart
@@ -3261,7 +3259,6 @@ ID: %1,ID: %1
 Identifier,Kennung
 Identifying Fields required,Identifizierende Felder erforderlich
 Identity link URL,Identitäts-Link URL
-"Identity morphing. Multiple values of an  dentity element are linked to a value of a different identity element. For example, m ltiple phone numbers are linked to a single account number",
 If %1 %2 %3 for a subselection of items in cart matching %4 of these conditions:,Wenn %1 %2 %3 für eine Unterauswahl der Artikel im Warenkorb %4 dieser Bedingungen erfüllen:
 If %1 of these conditions are %2:,Wenn %1 von diesen Bedingungen %2 sind:
 "If 0 is specified, CAPTCHA on the Login form will be always available.","Wenn 0 angegeben wird, wird CAPTCHA auf dem Login-Formular immer verfügbar sein."
@@ -3608,53 +3605,6 @@ Invalid value in Store column (store does not exists?),Ungültiger Wert in Shops
 Invalid value(s) for Qty to Ship,Ungültige(r) Wert(e) für Versandmenge
 Invalid video url,Ungültige Video-URL
 Invalid XML,Ungültige XML: Erkannte Nutzung illegaler DOCTYPE
-"Invalid XML in file %1:
-Invitation Conversion to Order Reward
-Invitation for same email address
-Invitation Information
-Invitation Message
-Invitation Report by Customers
-Invitation Report by Order Conversion Rate
-Invitations
-Invitations Accepted
-Invitations Information
-Invitations Report
-Invitations Sent
-Invitation to Customer Conversions Quantity Limit
-Invitation to Order Conversions Quantity Limit
-Invitation URL
-Invited Customers Report
-Invitee Group
-Invitee Information
-Inviter Information
-Invite your friends by entering their email addresses
-Invoice # 
-IP-Address
-IPs access list separated with ' ' that can purge Varnish configuration for config file generation.","Ungültige XML in Datei %1:
-"It's a default billing address.","Ist die Standard-Rechnungsadresse."
-"It's a default shipping address.","Ist die Standard-Lieferadresse."
-Belohnung für die Umwandlung einer Einladung zu einer Bestellung
-Einladung für die gleiche E-Mail-Adresse
-Einladungsinformationen
-Einladungsnachricht
-Einladungsbericht nach Kunden
-Einladungsbericht nach Bestellumwandlungsrate
-Einladungen
-Angenomme Einladungen
-Einladungsinformationen
-Einladungsbericht
-Gesendete Einladungen
-Limit für ""Einladung zu Kunde""-Umwandlungen
-Limit für ""Einladung zu Bestellung""-Umwandlungen
-Einladungs-URL
-Bericht über eingeladene Kunden
-Eingeladenengruppe
-Eingeladeneninformationen
-Einladerinformationen
-Laden Sie Ihre Freunde ein, indem Sie ihre E-Mail-Adressen eingeben
-Rechnung #
-IP-Adresse
-IP-Zugriffsliste mit ' getrennt, die die Varnish-Konfiguration für die Generierung einer Konfigurationsdatei löschen kann."
 Invalid XML in file %1:%2,Ungültige XML in Datei %1:%2
 Invalid XML-file: %1%2%3,Ungültige XML-Datei: %1%2%3
 Invalid XML: Detected use of illegal DOCTYPE,Ungültige XML: Erkannte Nutzung illegaler DOCTYPE
@@ -3719,6 +3669,7 @@ Issue Number,Ausgabenummer
 "It is recommended to set this value to ""Magento_Paypal"" per store views.","Es wird empfohlen, diesen Wert auf ""Magento_Paypal"" pro Store View zu setzen."
 "It is recommended to set this value to ""PayPal"" per store views.","Es wird empfohlen, diesen Wert auf ""PayPal"" pro Store View zu setzen."
 It will take time to create a backup.,"Es wird Zeit in Anspruch nehmen, ein Backup zu erstellen."
+It's a default shipping address.,Ist die Standard-Lieferadresse.
 "It's time to <a href=""%1"">change your password</a>.","Es ist Zeit, um Ihr <a href=""%1"">Passwort zu ändern</a>."
 It's time to change your password.,"Es ist Zeit, Ihr Passwort zu ändern."
 item,Artikel
@@ -3774,6 +3725,7 @@ label,Label
 Label,Label
 label_value' 'label_value' 'frontend_label,label_value' 'label_value' 'frontend_label
 Labels,Labels
+Laden Sie Ihre Freunde ein, indem Sie ihre E-Mail-Adressen eingeben
 Landing Page,Landing-Page
 Language,Sprache
 Large,Groß
@@ -4595,7 +4547,6 @@ One,Eins
 "One at the time, Series","Einer zur Zeit, Nach Reihenfolge"
 "One at the time, Shuffle","Einer zur Zeit, Shuffle"
 One of the countries has invalid code.,Eines der Länder hat einen ungültigen Code.
-"One or more <a href=""%1"">indexers are invalid</a>. Make sure your <a href=""%2"" target=""_blank"">Magento cron job</a> is running.",
 One or more of the Cache Types are invalidated: %1.,Eine oder mehrere der Cache-Typen sind ungültig. %1
 One or more of the Cache Types are invalidated: %1.,Einer oder mehrere der Cache-Typen sind entkräftet: %1.
 One or more of the indexers are not valid. Please add Magento cron file to crontab or launch cron.php manually.,Einer oder mehrere der Indexer sind ungültig. Bitte fügen Sie die Magento-Crondatei zu Crontab hinzu oder führen Sie cron.php manuell aus.
@@ -7333,7 +7284,6 @@ The PayPal Advertising Program has been shown to generate additional purchases a
 The PayPal certificate does not exist.,Das PayPal-Zertifikat ist nicht vorhanden.
 The PayPal certificate file is empty.,Die PayPal-Zertifikatsdatei ist leer.
 The PayPal gateway rejected the request. %1,Das PayPal-Gateway hat die Anfrage abgelehnt. %1
-The PDF total model %1 must be or extend \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.,
 The priority must be between 0 and 1.,Die Priorität muss zwischen 0 und 1 liegen.
 The problems you identified have been deleted.,Die von Ihnen festgestellten Probleme wurden gelöscht.
 "The processor declined your transaction, please re-enter your payment information",Ihre Transaktion wurde abgelehnt. Bitte geben Sie Ihre Zahlungsinformationen erneut ein.
@@ -8101,7 +8051,6 @@ Used,benutzt
 Used for Sorting in Product Listing,Wird für die Sortierung im Produkt-Listing verwendet
 Used in Product Listing,Im Produkt-Listing verwendet
 User,Benutzer
-User agent exceptions override product and CMS pages rules.Benutzer-Agent-Ausnahmen überschreiben Produkt- und CMS-Seiten-Regeln.,
 User Agent Rules,Benutzer-Agent-Regeln
 User Content,Kunden
 User Defined,Benutzerdefiniert
@@ -8681,7 +8630,6 @@ What’s on your mind?,Was haben Sie für ein Problem?
 When passing an array of fields there must be at least one field in the array.,Bei der Übergabe eines Arrays von Feldern muss mindestens ein Feld in dem Array vorhanden sein.
 When passing in a field array there must be a matching condition array.,Bei der Übergabe in einem Feld-Array muss ein Array mit passender Bedingung vorhanden sein.
 "When the adapter was changed, please flush Catalog Images Cache.","Bitte leeren Sie den Katalogbilder-Cache, wenn der Adaper geändert wird."
-"When the adapter was changed, please, flush Catalog Images Cache."",Nach dem Wechseln des Adapters Magento Bilder-Cache leeren.",
 When you enable this option your site may slow down.,"Wenn Sie diese Option aktivieren, könnte dies Ihre Seite verlangsamen."
 "When you sign in to your account, you will be able to:","Wenn Sie sich mit Ihrem Konto anmelden, werden Sie in der Lage sein:"
 "Whether to create a billing agreement, if there are no active billing agreements available.","Eine Abrechnungsvereinbarung erstellen, wenn keine aktiven Abrechnungsvereinbarungen verfügbar sind."
@@ -9094,6 +9042,8 @@ You're currently reading page,Sie lesen gerade Seite
 You're reviewing:,Sie bewerten:
 You've been sent a gift card for use at %store_name and it is now ready to be used for purchases.,Sie haben eine Geschenkkarte für %store_name erhalten. Diese kann nun für Ihre Einkäufe genutzt werden.
 You've met your limit of %1 sends in an hour.,Sie haben Ihr Limit von %1 Sendungen pro Stunde erreicht.
+Your %store_name order confirmation,Bestellbestätigung für Ihre Bestellung bei %store_name
+Your %store_name order has shipped,Ihre Bestellung bei %store_name wurde versandt
 Your balance is %1.,Ihr Kontostand beträgt %1.
 Your balance is:,Ihr Kontostand beträgt:
 Your billing agreement # is:,Ihre Abrechnungsvereinbarungsnummer ist:
@@ -9141,8 +9091,6 @@ Your Shipment #%shipment_id for Order #%order_id,Ihre Sendung #%shipment_id für
 Your shipping confirmation is below. Thank you again for your business.,Untenstehend finden Sie Ihre Versandbestätigung. Nochmals vielen Dank für Ihren Einkauf.
 Your shopping cart has been updated with new prices.,Ihr Warenkorb wurde mit neuen Preisen aktualisiert.
 Your Store Credit balance is now %balance.,Ihr Guthaben beträgt nun %balance.
-Your %store_name order confirmation,Bestellbestätigung für Ihre Bestellung bei %store_name
-Your %store_name order has shipped,Ihre Bestellung bei %store_name wurde versandt
 Your subscription has been confirmed.,Ihr Abonnement ist bestätigt worden.
 Your Tax ID cannot be validated.,Ihre Steuer-ID konnte nicht validiert werden.
 Your VAT ID was successfully validated.,Ihre Ust-ID wurde erfolgriech validiert.
