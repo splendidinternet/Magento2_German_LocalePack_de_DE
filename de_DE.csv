@@ -3261,7 +3261,7 @@ Identifier,Kennung
 Identifying Fields required,Identifizierende Felder erforderlich
 Identity link URL,Identitäts-Link URL
 "Identity morphing. Multiple values of an  dentity element are linked to a value of a different identity element. For example, m ltiple phone numbers are linked to a single account number",
-If %1 %2 %3 for a subselection of items in cart matching %4 of these conditions:,Wenn %1% 2% 3 für eine Unterauswahl der Artikel im Warenkorb %4 dieser Bedingungen erfüllen:
+If %1 %2 %3 for a subselection of items in cart matching %4 of these conditions:,Wenn %1 %2 %3 für eine Unterauswahl der Artikel im Warenkorb %4 dieser Bedingungen erfüllen:
 If %1 of these conditions are %2:,Wenn %1 von diesen Bedingungen %2 sind:
 "If 0 is specified, CAPTCHA on the Login form will be always available.","Wenn 0 angegeben wird, wird CAPTCHA auf dem Login-Formular immer verfügbar sein."
 If an item is %1 in the cart with %2 of these conditions true:,Wenn ein Artikel %1 im Warenkorb ist und %2 dieser Bedingungen erfüllt sind:
