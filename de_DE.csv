@@ -8548,6 +8548,7 @@ We had to skip DHL method %1 because we couldn't find exchange rate %2 (Base Cur
 We have archived the order.,Wir haben die Bestellung archiviert.
 We have nothing to add to this gift registry.,Dieser Geschenkeliste können wir nichts mehr hinzufügen.
 We have received a request to change the following information associated with your account at %store_name: email.,Wir haben die Anfrage erhalten die folgenden Informationen in Ihrem Konto bei %store_name zu ändern: Email.
+"We have received a request to change the following information associated with your account at %store_name: email, password.","Wir haben die Anfrage erhalten die folgenden Informationen in Ihrem Konto bei %store_name zu ändern: Email, Passwort"
 We have removed the order from the archive.,Wir haben die Bestellung aus dem Archiv entfernt.
 "We have updated your <a href=""%store_url"">%store_name</a> account and you have credit that you can use for future purchases.","Wir haben Ihr <a href=""%store_url"">%store_name</a> Konto aktualisiert und Sie besitzen Guthaben, welches Sie für zukünftige Käufe benutzen können."
 We need more information to create your shipping label(s). Please verify your store information and shipping settings.,Wir benötigen mehr Informationen um Ihre Versandetiketten zu erstellen. Bitte überprüfen Sie Ihre Shop Informationen und Versanteinstellungen.
@@ -9103,6 +9104,7 @@ Your web server is set up incorrectly and allows unauthorized access to sensitiv
 Your wish list has been shared.,Ihr Wunschzettel wurde geteilt.
 Your ZIP-code must be in the range 902xx-xxxx to 905-xx-xxxx,Ihre Postleitzahl muss im Bereich von 902xx-xxxx bis 905-xx-xxxx liegen.
 Your %store_name email has been changed,Ihre %store_name Email hat sich geändert
+Your %store_name email and password has been changed,Ihre %store_name Email und Passwort haben sich geändert
 YouTube and Vimeo supported.,YouTube- und Vimeo-unterstützt.
 YouTube API Key,YouTube API Schlüssel
 Youtube API key is invalid,Youtube-API-Schlüssel ist ungültig
