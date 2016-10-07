@@ -7064,6 +7064,7 @@ Thank you for your subscription.,Vielen Dank für Ihre Anmeldung.
 "Thank you, %store_name","Vielen Dank, %store_name"
 Thanks for contacting us with your comments and questions. We'll respond to you very soon.,Vielen Dank für Ihre Kontaktaufnahme mit Ihren Kommentaren und Fragen. Wir werden Ihnen bald antworten.
 Thanks for your order. We'll email you order details and tracking information.,Vielen Dank für Ihre Bestellung. Wir werden Ihnen eine E-Mail mit Details und Tracking-Informationen zusenden.
+"Thanks,<br>%store_name","Danke,<br>%store_name"
 The '%1' cannot be set as child to itself.,%1 kann nicht als Kind von sich selbst festgelegt werden
 "The '%1' is a parent of '%2' recursively, therefore '%3' cannot be set as child to it.","%1 ist rekursiv ein Elternteil von %2, also kann %3 nicht als Kind festgelegt werden"
 The '%1' is not a child of '%2'.,%1 ist kein Kind von %2
