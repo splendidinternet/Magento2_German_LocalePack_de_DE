@@ -3205,6 +3205,7 @@ Header Template,Header-Vorlage
 Height,Höhe
 "Height, width and length should be equal or greater than %1","Höhe, Breite und Länge sollten gleich oder größer als %1 sein."
 hello,Hallo
+"Hello,","Hallo,"
 Hello World!,Hallo Welt!
 Help,Hilfe
 Help Us Keep Magento Healthy,"Helfen Sie uns, Magento sauber zu halten"
@@ -3306,6 +3307,7 @@ If there is an account associated with %1 you will receive an email with a link 
 "If you have an account, sign in with your email address.","Wenn Sie ein Konto haben, melden Sie sich mit Ihrer E-Mail-Adresse an."
 "If you have any questions about your return, please contact us at <a href=""mailto:%support_email"">%support_email</a>.","Wenn Sie Fragen zu Ihrer Rückgabe haben, kontaktieren Sie uns bitte unter <a href=""mailto:%support_email"">%support_email</a>."
 "If you have any questions, please feel free to contact us at <a href=""mailto:%support_email"">%support_email</a> or by phone at %store_phone","Wenn Sie Fragen haben, kontaktieren Sie uns unter <a href=""mailto:%support_email"">%support_email</a>."
+"If you have not authorized this action, please contact us immediately at <a href=""mailto:%store_email"">%store_email</a>","Sollten Sie diese Änderung nicht autorisiert haben, kontaktieren Sie uns bitte umgehend unter <a href=""mailto:%store_email"">%store_email</a>"
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Wenn Sie Fragen zu Ihrer Bestellung haben, können Sie uns diese an <a href=""mailto:%store_email"">%store_email</a> schicken."
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Wenn Sie Fragen zu Ihrer Bestellung haben, können Sie uns an <a href=""mailto:%store_email"">%store_email </a> eine E-Mail schreiben."
 "If you requested this change, reset your password here:","Wenn Sie diese Änderung beauftragt haben, setzen Sie Ihr Passwort hier neu:"
@@ -4351,6 +4353,9 @@ Newsletter Subscription,Newsletter-Abonnement
 Newsletter Subscriptions,Newsletter Abonnements
 Newsletter Template,Newsletter-Template
 Newsletter Templates,Newsletter-Vorlagen
+Newsletter subscription confirmation,Newsletter Anmeldung Bestätigung
+Newsletter subscription success,Newsletter Anmeldung erfolgreich
+Newsletter unsubscription success,Newsletter Abmeldung erfolgreich
 Newsletters,Newsletter
 Next,Weiter
 Next Day Air,Next Day Air
@@ -5906,6 +5911,7 @@ Reset password token expired.,Passwortzurücksetzungs-Token abgelaufen.
 Reset password token mismatch.,Passwortzurücksetzungs-Tokens stimmen nicht überein.
 Reset to Default,Auf Standardeinstellungen zurücksetzen
 Reset to Defaults,Auf Standardeinstellungen zurücksetzen
+Reset your %store_name password,Setzen Sie Ihr %store_name Passwort zurück
 Residential,Auf den Wohnsitz bezogen
 Residential Delivery,Wohnungslieferung
 Resolution,Auflösung
@@ -7062,6 +7068,7 @@ Thank you for your subscription.,Vielen Dank für Ihre Anmeldung.
 "Thank you, %store_name","Vielen Dank, %store_name"
 Thanks for contacting us with your comments and questions. We'll respond to you very soon.,Vielen Dank für Ihre Kontaktaufnahme mit Ihren Kommentaren und Fragen. Wir werden Ihnen bald antworten.
 Thanks for your order. We'll email you order details and tracking information.,Vielen Dank für Ihre Bestellung. Wir werden Ihnen eine E-Mail mit Details und Tracking-Informationen zusenden.
+"Thanks,<br>%store_name","Danke,<br>%store_name"
 The '%1' cannot be set as child to itself.,%1 kann nicht als Kind von sich selbst festgelegt werden
 "The '%1' is a parent of '%2' recursively, therefore '%3' cannot be set as child to it.","%1 ist rekursiv ein Elternteil von %2, also kann %3 nicht als Kind festgelegt werden"
 The '%1' is not a child of '%2'.,%1 ist kein Kind von %2
@@ -8544,6 +8551,9 @@ We found some problems with the data.,Es gibt einige Probleme mit den Daten.
 We had to skip DHL method %1 because we couldn't find exchange rate %2 (Base Currency).,"Wir mussten die DHL-Methode %1 überspringen, weil wir keinen Wechselkurs %2 (Basiswährung) finden konnten."
 We have archived the order.,Wir haben die Bestellung archiviert.
 We have nothing to add to this gift registry.,Dieser Geschenkeliste können wir nichts mehr hinzufügen.
+We have received a request to change the following information associated with your account at %store_name: email.,Wir haben die Anfrage erhalten die folgenden Informationen in Ihrem Konto bei %store_name zu ändern: Email.
+"We have received a request to change the following information associated with your account at %store_name: email, password.","Wir haben die Anfrage erhalten die folgenden Informationen in Ihrem Konto bei %store_name zu ändern: Email, Passwort"
+We have received a request to change the following information associated with your account at %store_name: password.,Wir haben die Anfrage erhalten die folgenden Informationen in Ihrem Konto bei %store_name zu ändern: Passwort.
 We have removed the order from the archive.,Wir haben die Bestellung aus dem Archiv entfernt.
 "We have updated your <a href=""%store_url"">%store_name</a> account and you have credit that you can use for future purchases.","Wir haben Ihr <a href=""%store_url"">%store_name</a> Konto aktualisiert und Sie besitzen Guthaben, welches Sie für zukünftige Käufe benutzen können."
 We need more information to create your shipping label(s). Please verify your store information and shipping settings.,Wir benötigen mehr Informationen um Ihre Versandetiketten zu erstellen. Bitte überprüfen Sie Ihre Shop Informationen und Versanteinstellungen.
@@ -9098,6 +9108,9 @@ Your web server is set up incorrectly and allows unauthorized access to sensitiv
 Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.,Ihr Webserver ist fehlerhaft eingestellt. Er erlaubt nicht autorisierten Zugriff auf vertrauliche Dateien. Bitte wenden Sie sich an Ihren Hosting-Service Anbieter.
 Your wish list has been shared.,Ihr Wunschzettel wurde geteilt.
 Your ZIP-code must be in the range 902xx-xxxx to 905-xx-xxxx,Ihre Postleitzahl muss im Bereich von 902xx-xxxx bis 905-xx-xxxx liegen.
+Your %store_name email has been changed,Ihre %store_name Email hat sich geändert
+Your %store_name email and password has been changed,Ihre %store_name Email und Passwort haben sich geändert
+Your %store_name password has been changed,Ihe %store_name Passwort hat sich geändert
 YouTube and Vimeo supported.,YouTube- und Vimeo-unterstützt.
 YouTube API Key,YouTube API Schlüssel
 Youtube API key is invalid,Youtube-API-Schlüssel ist ungültig
