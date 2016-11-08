@@ -4926,7 +4926,7 @@ Phrase 2 %1,Ausdruck 2 %1
 Phrase 2 with %a_lot of extra info for the brilliant %customer_name.,Ausdruck 2 mit %a_lot von zusätzlichen Informationen für den großartigen %customer_name.
 Phrase 3,Satz 3
 Pickup Method,Versandverfahren
-Place Order,Bestellung aufgeben
+Place Order,Zahlungspflichtig bestellen
 Placed from IP,Bestellt von IP
 "Placed on <span class=""no-link"">%created_at</span>","Aufgegeben am <span class=""no-link"">%created_at</span>"
 Platinum Partners,Platin-Partner
