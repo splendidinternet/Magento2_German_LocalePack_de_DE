@@ -4679,7 +4679,7 @@ Order tracking,Bestellverfolgung
 Order Updated,Bestellung aktualisiert
 Order Valid Period (days),Gültigskeitsdauer von Bestellungen (Tage)
 Order View,Bestellübersicht
-order-header,Bestellungs-Kopfzeile
+order-header,order-header
 Ordered,Bestellt
 ordered,Bestellt
 Ordered amount of %1,Bestellte Menge von %1
