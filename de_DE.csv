@@ -394,7 +394,7 @@ Adapter must be an instance of \Magento\ImportExport\Model\Import\AbstractSource
 Add,Hinzufügen
 Add \Exception,Ausnahme hinzufügen
 Add after,Anschließend hinzufügen
-Add All to Cart,Alle dem Warenkorb hinzufügen
+Add All to Cart,Alles in den Warenkorb
 Add All To Gift Registry,Alle zur Geschenkeliste hinzufügen
 Add Amount,Anzahl hinzufügen
 Add another payment method to your existing solution or as a stand-alone option.,Fügen Sie eine andere Zahlungsmethode Ihrer bestehenden Lösung oder als Stand-Alone-Option hinzu.
@@ -509,7 +509,7 @@ Add Subcategory,Unterkategorie hinzufügen
 Add Swatch,Farbfeld hinzufügen
 Add Tax,Steuer hinzufügen
 Add Tier,Stufe hinzufügen
-Add to Cart,Zum Warenkorb hinzufügen
+Add to Cart,In den Warenkorb
 Add to Column Options,Spaltenoptionen hinzufügen
 Add to Compare,Zur Vergleichsliste hinzufügen
 Add to Gift Registry,Zur Geschenkeliste hinzufügen
