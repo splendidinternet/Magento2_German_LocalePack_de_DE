@@ -7777,7 +7777,6 @@ Type Code,Typ Code
 Type Specific Options,Typ spezielle Optionen
 Type:,Typ:
 U,U
-ui/grid/filters/elements/select,UI / Raster/ Filter / Elemente / Auswählen
 Unable to cancel Express Checkout,"Nicht in der Lage, den Express Checkout abzubrechen"
 Unable to create backup due to php exec function is disabled,"Ein Backup konnte nicht erstellt werden, da die php exec-Funktion ausgeschaltet ist."
 Unable to create directory: %1,Kann Verzeichnis nicht erstellen: %1
