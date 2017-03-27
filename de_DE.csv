@@ -878,6 +878,7 @@ Are you sure you want to send an invoice email to customer?,"Sind Sie sicher, da
 Are you sure you want to send an order email to customer?,"Sind Sie sicher, dass Sie eine Bestell-E-Mail an den Kunden senden möchten?"
 Are you sure you want to strip tags?,"Sind Sie sicher, dass Sie diese Tags auschneiden wollen?"
 Are you sure you want to void the payment?,"Sind Sie sicher, dass Sie die Zahlung aufheben wollen?"
+Are you sure you would like to remove this item from the shopping cart?,"Sind Sie sicher, dass Sie diesen Artikel aus dem Warenkorb entfernen möchten?"
 Are you sure?,Sind Sie sicher?
 Are you sure? This order will be canceled and a new one will be created instead.,Sind Sie sicher? Dieser Auftrag wird abgebrochen und ein neuer wird stattdessen erstellt.
 Area code is already set,Postleitzahl ist bereits gesetzt
@@ -1294,6 +1295,7 @@ Carrier,Beförderer
 "Carrier with such method not found: %1, %2","Beförderer mit solchem Verfahren nicht gefunden: %1, %2"
 Carrier:,Beförderer:
 Carrier/Method,Beförderer/Methode
+Carrier Title,Beförderer
 Cart %1 doesn't contain item  %2,Warenkorb %1 enthält nicht den Artikel %2
 Cart %1 doesn't contain products,Einkaufswagen 1% enthält keine Produkte
 Cart Attribute,Warenkorb-Attribut
@@ -1396,7 +1398,10 @@ Checkout,Kasse
 "Checkout agreement with specified ID ""%1"" not found.","Checkout-Vereinbarung mit angegebener ID ""%1"" nicht gefunden."
 Checkout Cart Page,Warenkorb-Checkout-Seite
 Checkout Conditions,Checkout-Bedingungen
+Check out faster,Schneller zur Kasse gehen
 Checkout Options,Checkout-Optionen
+Checkout out as a new customer,Weiter zur Kasse als neuer Kunde
+Checkout out using your account,Weiter zur Kasse mit Ihrem Account
 Checkout Terms and Conditions,Checkout-AGB
 Checkout Totals Sort Order,Bestellsummen-Sortierreihenfolge
 Checkout Type,Checkout-Typ
@@ -1759,6 +1764,7 @@ Created on,Erstellt am
 Created On,Erstellt am
 Created:,Erstellt:
 "Created: %1, Updated: %2, Deleted: %3","Erstellt: %1, Update: %2, Gelöscht: %3"
+"Creating an account has many benefits:","Ein Konto zu erstellen hat viele Vorteile:"
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Ein Konto zu erstellen hat viele Vorteile: schneller zur Kasse gehen, mehr als eine Adresse speichern, Bestellungen verfolgen und mehr."
 Creative,Kreativ
 Credit,Kreditkarteninformationen
@@ -2928,7 +2934,7 @@ Forgot and Reset Email Sender,"Absender für ""Passwort vergessen""-E-Mail"
 Forgot Email Template,Vorlage für vergessene E-Mail
 Forgot Password,Passwort vergessen
 Forgot Password Email Template,"Vorlage für ""Passwort vergessen""-E-Mail"
-"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Haben Sie Ihr Passwort vergessen? Klicken Sie <a href=""%reset_url"">hier</a>,um es zurückzusetzen."
+"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Haben Sie Ihr Passwort vergessen? Klicken Sie <a href=""%reset_url"">hier</a>, um es zurückzusetzen."
 Forgot Your Password,Passwort vergessen
 Forgot Your Password?,Passwort vergessen?
 Forgot your password?,Haben Sie Ihr Passwort vergessen?
@@ -3309,7 +3315,7 @@ If there is an account associated with %1 you will receive an email with a link 
 "If you have any questions about your return, please contact us at <a href=""mailto:%support_email"">%support_email</a>.","Wenn Sie Fragen zu Ihrer Rückgabe haben, kontaktieren Sie uns bitte unter <a href=""mailto:%support_email"">%support_email</a>."
 "If you have any questions, please feel free to contact us at <a href=""mailto:%support_email"">%support_email</a> or by phone at %store_phone","Wenn Sie Fragen haben, kontaktieren Sie uns unter <a href=""mailto:%support_email"">%support_email</a>."
 "If you have not authorized this action, please contact us immediately at <a href=""mailto:%store_email"">%store_email</a>","Sollten Sie diese Änderung nicht autorisiert haben, kontaktieren Sie uns bitte umgehend unter <a href=""mailto:%store_email"">%store_email</a>"
-"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Wenn Sie Fragen zu Ihrer Bestellung haben, können Sie uns diese an <a href=""mailto:%store_email"">%store_email</a> schicken."
+"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Wenn Sie Fragen zu Ihrer Bestellung haben, können Sie uns diese an <a href=""mailto:%store_email"">%store_email</a> schicken"
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Wenn Sie Fragen zu Ihrer Bestellung haben, können Sie uns an <a href=""mailto:%store_email"">%store_email </a> eine E-Mail schreiben."
 "If you requested this change, reset your password here:","Wenn Sie diese Änderung beauftragt haben, setzen Sie Ihr Passwort hier neu:"
 "If you requested this change, set a new password here:","Wenn Sie diese Änderung beauftragt haben, setzen Sie hier ein neues Passwort fest:"
@@ -4081,6 +4087,7 @@ Meter Number,Zählernummer
 "Method ""%1"" is not defined in ""%2""","Methode ""%1"" ist nicht definiert in ""%2"""
 Method %s does not exist on jQuery.decorate,Methode %s nicht auf jQuery.decorate vorhanden
 Method Name,Methodenname
+Method Title,Versandmethode
 Middle Name/Initial,Zweiter Vorname
 Min Time Between Password Reset Requests,Mindestdauer zwischen Passwort-Reset-Anfragen
 Minify CSS Files,CSS-Dateien verkürzen
@@ -4124,7 +4131,7 @@ Model class name for attribute is invalid,Modelklassenname für das Attribut ist
 Model collection resource name is not defined.,Model-Sammlung-Ressourcenname ist nicht definiert
 Model unused,Ungenutztes Model
 Modified,Geändert
-Modify your search,Ändern Sie Ihre Suche
+Modify your search.,Ändern Sie Ihre Suche.
 Module js,Module js
 Module layout label,Modul-Layout-Label
 Module layout title,Modul-Layout-Titel
@@ -4987,6 +4994,7 @@ Please choose image(s),Bitte Bild(er) wählen)
 Please confirm scope switching. All data that hasn't been saved will be lost.,Bereichswechsel bitte bestätigen. Nicht gespeicherte Daten gehen verloren.
 Please confirm site switching. All data that hasn't been saved will be lost.,Bitte bestätigen Sie den Seitenwechsel. Alle nicht gespeicherten Daten gehen verloren.
 Please confirm that you want to delete this credit card,"Bitte bestätigen Sie, dass Sie diese Kreditkarte löschen möchten."
+Please confirm your %store_name account,Bitte bestätigen Sie Ihr %store_name Konto.
 "Please correct %1 ""%2"" in the Row #%3.","Bitte %1 ""%2"" in Reihe #%3 korrigieren ."
 "Please correct Country ""%1"" in the Row #%2.","Bitte Land ""%1"" korrigieren in Reihe #%2."
 "Please correct Region/State ""%1"" in the Row #%2.","Bitte Region/Bundesland korrigieren ""%1"" in Reihe #%2."
@@ -5723,6 +5731,7 @@ Recommended,Empfohlen
 records found,gefundene Datensätze
 Recovery Link Expiration Period (days),Recovery-Link-Ablaufdauer (Tage)
 Recovery Link Expiration Period (hours),Ablaufzeitraum des Wiederherstellungslinks (Stunden)
+Recently Ordered,Kürzlich bestellt
 Rectangular,Rechteckig
 Redeem Gift Card,Geschenkkarte einlösen
 Redeemable,Einlösbar
@@ -6230,6 +6239,7 @@ Security validation of XML document has been failed.,Sicherheits-Validierung von
 See All (,Alles sehen
 See Details,Details ansehen
 see error log for details,Details siehe Fehlerprotokoll
+See order and shipping status,Bestellungen und Sendungen verfolgen
 See price before order confirmation.,Vor Bestellbestätigung den Preis einsehen
 See terms,Allgemeine Geschäftsbedingungen ansehen
 Segment,Segment
@@ -6266,6 +6276,7 @@ Select from existing customer addresses:,Von bestehenden Kundenadressen auswähl
 Select Items,Artikel auswählen
 Select JS Files to Upload,Wählen Sie die JS-Dateien zum Hochladen
 Select Media Database,Wählen Sie die Mediendatenbank
+Select Method,Methode auswählen
 "Select object must have correct ""FROM"" part","Ausgewähltes Objekt muss korrekten ""FROM""-Teil haben"
 Select options for all attributes or remove unused attributes.,Wählen Sie Optionen für alle Attribute oder entfernen Sie ungenutzte Attribute.
 Select Page...,Seite wählen...
@@ -7708,6 +7719,7 @@ Total: %1<br/>,Gesamt: %1<br/>
 Totals calculation is not applicable to empty cart,Summenberechnung ist nicht für leeren Korb anwendbar.
 Track history,Track-Verlauf
 Track Order,Bestellung verfolgen
+Track order history,Alte Bestellungen einsehen
 Track this shipment,Verfolgen Sie diese Sendung
 track_summary,track_summary
 Track:,Track:
@@ -8877,7 +8889,7 @@ You entered an invalid Secret Key. Please refresh the page.,Sie haben einen ung�
 "You entered an invalid type: ""%1"".","Sie haben einen ungültigen Typen angegeben: ""%1"""
 You entered incorrect data. Please try again.,Sie haben falsche Daten eingegeben. Bitte versuchen Sie es erneut.
 You flushed the cache storage.,Sie haben den Cache-Speicher geleert.
-"You get paid up front even though customers have more time to pay. A pre-integrated payment 
+"You get paid up front even though customers have more time to pay. A pre-integrated payment
 button lets customers pay quickly with PayPal Credit&#174;.","Sie erhalten Ihre Bezahlung sofort, selbst wenn Kunden mehr Zeit zum bezahlen haben. Ein vorintegrierter Bezahl-Knopf lässt Kunden schnell und unkompliziert mit Paypal Guthaben&#174; bezahlen."
 You have %1 new system message,Sie haben %1 neue Systemnachricht
 You have %1 new system messages,Sie haben %1 neue Systemmeldungen
@@ -8927,7 +8939,7 @@ You may need more permissions to access this category.,Ihre Berechtigungen reich
 You may need more permissions to access this product.,Ihre Berechtigungen reichen nicht aus um diesen Artikel anzusehen.
 You moved the category,Sie haben die Kategorie verschoben.
 You must buy at least %1 of these per purchase.,Sie müssen mindestens %1 dieser Artikel pro Bestellung kaufen.
-You must confirm your %customer_email email before you can sign in (link is only valid once):,"Sie müssen Ihre %customer_email bestätigen, bevor Sie sich einloggen (Link ist nur einmal gültig):"
+You must confirm your %customer_email email before you can sign in (link is only valid once):,"Sie müssen Ihre %customer_email Email bestätigen, bevor Sie sich einloggen (Link ist nur einmal gültig):"
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Sie müssen Ihr Konto bestätigen. Bitte überprüfen Sie Ihr E-Mail-Postfach für den Bestätigungslink oder <a href=""%1"">klicken Sie hier</a> für einen neuen Link."
 You must select items to add to the cart.,Sie müssen Artikel auswählen um sie dem Einkaufswagen hinzufügen.
 You must specify a new version name.,Sie müssen einen neuen Versionsnamen festlegen.
