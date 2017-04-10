@@ -7272,7 +7272,7 @@ The order object is not specified.,Ein Bestell-Objekt ist nicht bestimmt.
 "The Order State ""%1"" must not be set manually.","Der Bestellstatus ""%1"" muss nicht manuell gesetzt werden."
 The Order Updated report is created in real time and does not require a refresh.,Der Bericht der aktualisierten Bestellungen wird in Echtzeit erstellt und benötigt keine Aktualisierung.
 The order was not on hold.,Die Bestellung war nicht in Wartestellung.
-The order was placed using %1.,Die Bestellung wurde aufgegeben mit 1%.
+The order was placed using %1.,Die Bestellung wurde aufgegeben mit %1.
 The ordering amount of %1 is pending approval on the payment gateway.,Der Bestellmenge %1 ist vorbehaltlich der Zustimmung auf dem Zahlungs-Gateway.
 The page has been deleted.,Die Seite wurde gelöscht.
 The page URL key cannot be made of only numbers.,Der URL-Schlüssel der Seite kann nicht nur aus Zahlen bestehen.
