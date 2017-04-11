@@ -4666,7 +4666,7 @@ Order Review,Bestellungsüberprüfung
 Order saving error: %1,Fehler bei der Speicherung der Bestellung: %1
 Order Shipments,Bestellungssendungen
 Order Shipping Address,Versandadresse der Bestellung
-Order State,Bestellstatus
+Order State,Bestellzustand
 Order Status,Bestellstatus
 Order Status %1 %2:,Bestellstatus %1 %2:
 Order Status Information,Bestellstatus-Informationen
@@ -7270,7 +7270,7 @@ The order confirmation email was sent,Die Bestellbestätigungs-E-Mail wurde vers
 The order does not allow an invoice to be created.,"Die Bestellung erlaubt es nicht, dass eine Rechnung erstellt wird."
 The order no longer exists.,Die Bestellung existiert nicht mehr.
 The order object is not specified.,Ein Bestell-Objekt ist nicht bestimmt.
-"The Order State ""%1"" must not be set manually.","Der Bestellstatus ""%1"" muss nicht manuell gesetzt werden."
+"The Order State ""%1"" must not be set manually.","Der Bestellzustand ""%1"" darf nicht manuell gesetzt werden."
 The Order Updated report is created in real time and does not require a refresh.,Der Bericht der aktualisierten Bestellungen wird in Echtzeit erstellt und benötigt keine Aktualisierung.
 The order was not on hold.,Die Bestellung war nicht in Wartestellung.
 The order was placed using %1.,Die Bestellung wurde aufgegeben mit %1.
