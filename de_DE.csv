@@ -8763,7 +8763,7 @@ You can buy up to %1 of these per purchase.,Sie können bis zu %1 dieser Produkt
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Sie können den Status Ihrer Bestellung per <a href=""%account_url"">Login zu Ihrem Konto</a> überprüfen."
 "You can check the status of your return <a href=""%form_url"">using your order number</a>.","Sie können den Status Ihrer Rücksendung verfolgen indem Sie <a href=""%form_url"">Ihre Bestellnummer hier eingeben</a>."
 "You can check the status of your return by <a href=""%account_url"">logging into your account</a> or <a href=""%form_url"">using your order number</a>.","Sie können den Status Ihrer Rücksendung verfolgen indem Sie: <a href=""%account_url"">in Ihr Konto einloggen</a> oder <a href=""%form_url"">ihre Bestellnummer hier eingeben.</a>."
-You can create an account after checkout.,Sie können nach dem Checkout ein Konto erstellen.
+You can create an account after checkout.,Sie können nach dem Bestellprozess ein Kundenkonto erstellen.
 You can create auto-generated coupons using reminder promotion rules.,Sie können automatisch generierte Coupons mittels der Erinnerungswerbungsregeln erstellen.
 You can create orders only in an active store.,Bestellungen können nur in einem aktiven Shop erstellt werden.
 "You can create your own gift registry on <a href=""%account_url"">%store_name</a> and share it with friends and family.","Sie können Ihre eigene Geschenkeliste auf <a href=""%account_url"">%store_name</a> erstellen und mit Ihren Freunden und Familie teilen."
