@@ -1764,7 +1764,7 @@ Created on,Erstellt am
 Created On,Erstellt am
 Created:,Erstellt:
 "Created: %1, Updated: %2, Deleted: %3","Erstellt: %1, Update: %2, Gelöscht: %3"
-"Creating an account has many benefits:","Ein Konto zu erstellen hat viele Vorteile:"
+Creating an account has many benefits:,Ein Konto zu erstellen hat viele Vorteile:
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Ein Konto zu erstellen hat viele Vorteile: schneller zur Kasse gehen, mehr als eine Adresse speichern, Bestellungen verfolgen und mehr."
 Creative,Kreativ
 Credit,Kreditkarteninformationen
@@ -2821,7 +2821,7 @@ File Format,Dateiformat
 File handler unreachable,File Handler ist nicht erreichbar
 File has been not created,Datei wurde nicht erstellt
 File history path:,Dateihistoriepfad:
-"File is valid! To start import process press ""Import"" button","Die Datei ist nicht gültig! Um den Importvorgang zu starten, drücken Sie den Button ""Import"""
+"File is valid! To start import process press ""Import"" button","Die Datei ist gültig! Um den Importvorgang zu starten, drücken Sie den Button ""Import"""
 File Mode,Dateimodus
 File Name,Dateiname
 File not found,Datei nicht gefunden
@@ -3337,7 +3337,7 @@ Images and Videos,Bilder und Videos
 Images Assets,Bilder Assets
 Images Cache,Bilder-Cache
 Images File Directory,Bilderdateiverzeichnis
-Import,Importoptionen
+Import,Import
 Import and Export Tax Rates,Steuersätze importieren/exportieren
 Import Behavior,Importverhalten
 Import data validation is complete.,Importdaten-Überprüfung ist abgeschlossen.
