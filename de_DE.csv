@@ -28,7 +28,7 @@
 """%1"" invalid type entered.","""%1"" Ungültigen Typ eingegeben"
 """%1"" is a required value.","""%1"" ist ein erforderlicher Wert."
 """%1"" is already present in %2.","""%1"" ist in %2 bereits vorhanden."
-"""%1"" is an empty string.","""%1"" st eine leere Zeichenfolge."
+"""%1"" is an empty string.","""%1"" ist eine leere Zeichenfolge."
 """%1"" is longer than allowed.","""%1"" ist länger als erlaubt."
 """%1"" is not a valid date.","""%1"" ist kein gültiges Datum."
 """%1"" is not a valid email address.","""%1"" ist keine gültige E-Mail-Adresse."
@@ -156,7 +156,7 @@
 %1 product(s) have been added to shopping cart: %2.,%1 Produkt(e) wurde/n in den Warenkorb gelegt:% 2.
 %1 products require your attention.,%1 Produkte erfordert Ihre Aufmerksamkeit.
 %1 records found,%1 Datensätze gefunden
-%1 records found,%1 gefundene Datensätze
+%1 records found,%1 Datensätze gefunden
 %1 Review(s),%1 Bewertung(en)
 %1 Reward points,%1 Belohnungspunkte
 %1 Reward points (%2),%1 Belohnungspunkte (%2)
@@ -178,7 +178,7 @@
 %1' is not a directory.,"""%1"" ist kein Verzeichnis."
 %1' is not readable file.,"""%1"" ist keine lesbare Datei."
 %1's Wish List,%1's Wunschzettel
-%1's Wish List (%2),%1's Wunschliste (%2)
+%1's Wish List (%2),%1's Wunschzettel (%2)
 %1's Wishlist,%1's Wunschzettel
 "%2""","""%2"""
 %customer_name wants to share this Wish List from %store_name with you:,%customer_name möchte diesen Wunschzettel von %store_name mit Ihnen teilen:
@@ -1586,7 +1586,7 @@ Confirmation Required,Bestätigung erforderlich
 Confirmed,Bestätigt
 Confirmed email,Bestätigte E-Mail
 Confirmed email:,Bestätigte E-Mail:
-Connect your merchant account with a fully customizable gateway that lets customers pay without leaving your site.,"Verbinden Sie Ihr Händler-Konto mit einem völlig kundengerechten Gateway, um die Kunden zahlen lassen zu können, ohne Ihre Website zu verlassen."
+Connect your merchant account with a fully customizable gateway that lets customers pay without leaving your site.,"Verbinden Sie Ihr Händler-Konto mit einem voll anpassbaren Gateway, um die Kunden zahlen lassen zu können, ohne Ihre Website zu verlassen."
 Connect your merchant account with a PCI-compliant gateway that lets customers pay without leaving your site.,"Verbinden Sie Ihr Händler-Konto mit einem PCI-konformen Gateway, sodass die Kunden zahlen können, ohne Ihre Website zu verlassen."
 Connection Timeout in Seconds,Timeout der Verbindung in Sekunden
 Constant,Konstante
