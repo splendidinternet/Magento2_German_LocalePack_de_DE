@@ -8073,7 +8073,7 @@ The address model is not defined.,Das Adressmodell ist nicht definiert.,,
                     \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.","Das Adresse Gesamtmodell sollte erweitert werden von
                     \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.",module,Magento_Quote
 The address total model should be extended from \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.,Das Adress-Gesamtmodell sollte erweitert werden von \Magento\Quote\Modell\Quote\Address\Gesamt\AbstractTotal.,,
-"The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","Auf Windows-Systemen kann das Archiv mit <a href=""%1>%2</a> dekomprimiert werden.",,
+"The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","Auf Windows-Systemen kann das Archiv mit <a href=""%1"">%2</a> dekomprimiert werden.",,
 The attribute code '%1' is reserved by system. Please try another attribute code,"Der Attributcode ""% 1"" ist durch das System reserviert. Bitte versuchen Sie einen anderen Attributcode",,
 "The attribute code is invalid. Please use only letters (a-z), ' 'numbers (0-9) or underscores (_) in this field. The first character should be a letter.","Der Attributcode ist nicht gültig. Bitte nutzen Sie nur Buchstaben (a-z),' 'Nummern (0-9) oder Unterstriche (_) in diesem Feld. Das erste Zeichen sollte ein Buchstabe sein.",,
 The attribute model is not defined.,Das Attributmodell ist nicht definiert.,,
