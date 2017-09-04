@@ -9191,18 +9191,12 @@ Warning tax configuration can result in rounding errors.,Warnung: Einstellungen 
 Warning tax configuration can result in rounding errors.,Warnung Steuerkonfiguration kann Rundungsfehler ergeben.,module,Magento_Tax
 "Warning tax discount configuration might result in different discounts than a customer might expect. ","Warnung: Steuervergünstigungs-Einstellungen können zu anderen Nachlässen führen als der Kunde erwarten würde. ",module,Magento_Tax
 "Warning tax discount configuration might result in different discounts
-was
-was not
-We archived %1 order(s).
-We authorized your Return request.
-Website Closed
-Website code may only contain letters (a-z) numbers (0-9) or underscore (_) ' ' and the first character must be a letter.""","Warnung: Steuervergünstigungs-Einstellungen könnten zu verschiedenen Nachlässen führen
-war
-war nicht
-Wir haben %1 Bestellung(en) archiviert.
-Wir haben Ihre Rückgabe-Anfrage authorisiert.
-Webseite geschlossen
-Webseitencode darf nur aus Buchstaben (a-z), Nummern (0-9) oder Unterschrichen(_) bestehen. Das erste Zeichen muss ein Buchstabe sein.",,
+was,war
+was not,war nicht
+We archived %1 order(s).,Wir haben %1 Bestellung(en) archiviert.
+We authorized your Return request.,Wir haben Ihre Rückgabe-Anfrage authorisiert.
+Website Closed,Webseite geschlossen
+Website code may only contain letters (a-z) numbers (0-9) or underscore (_) ' ' and the first character must be a letter.""","Webseitencode darf nur aus Buchstaben (a-z), Nummern (0-9) oder Unterschrichen(_) bestehen. Das erste Zeichen muss ein Buchstabe sein.",,
 Warning tax discount configuration might result in different discounts than a customer might expect.,"Warnung: Steuerrabatt-Konfiguration kann zu anderen Preisnachlässen führen, als es der Kunde erwarten könnte.",,
 WARNING:,WARNUNG:,,
 "Warning: necessary space for backup is ' . . 'MB, but your free disc space is ' . . 'MB.","Achtung: Notwendiger Speicherplatz für das Backup: ' . . ' MB,  Freier Speicherplatz: ' . . ' MB",,
