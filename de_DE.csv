@@ -4,153 +4,30 @@
 50,50,,
 123,123,,
 200,200,,
-"
-                            Allowable values: ""paypal"", ""primary"" (default), your_custom_value (a custom payment page style from your merchant account profile).
-                        ","
-                            Zulässige Werte: ""paypal"", ""primary"" (Standard), your_custom_value (ein benutzerdefinierter Zahlungsseiten-Stil von Ihrem Händler-Konto-Profil).
-                        ",module,Magento_Paypal
-"
-                            The background color for the checkout page around the header and payment form.
-                        ","
-                            Die Hintergrundfarbe der Checkout-Seite rund um den Header und das Zahlungsformular..
-                        ",module,Magento_Paypal
-"
-                            The background color for the header of the checkout page. Case-insensitive six-character HTML hexadecimal color code in ASCII.
-                        ","
-                            Die Hintergrundfarbe für den Header der Checkout-Seite.HTML-hexadezimaler Farbcode in ASCII mit sechs Zeichen in Groß- und Kleinschreibung.
-                        ",module,Magento_Paypal
-"
-                            The image at the top left of the checkout page. Max size is 750x90-pixel. <strong style=""color:red"">https</strong> is highly encouraged.
-                        ","
-                            Das Bild in der oberen linken Ecke der Checkout-Seite. Maximale Größe 750x90 Pixel. <strong style=""color:red"">https</strong> ausdrücklich gewünscht.
-                        ",module,Magento_Paypal
-"
-                            Will appear as a payment option only for customers who have at least one active billing agreement.
-                        ","
-                            Wird als Zahlungsoption nur für Kunden erscheinen, die mindestens eine aktive Abrechnungsvereinbarung haben.
-                        ",module,Magento_Paypal
-"
-                        <a href=""http://www.magentocommerce.com/paypal"">Start accepting payments via PayPal!</a>
-                    ","
-                        <a href=""http://www.magentocommerce.com/paypal"">Zahlungen via PayPal akzeptieren!</a>
-                    ",module,Magento_Paypal
-"
-                        <strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).
-                    ","
-                        <strong style=""color:red"">Warnung!</strong> Wenn Sie den Storecode in URLs verwenden, könnte das System in einigen Fällen nicht sauber arbeiten, wenn URLs ohne Storecodes in Third-Party-Services angegeben sind (z.B. PayPal etc.).
-                    ",module,Magento_Backend
-"
-                        Base currency is used for all online payment transactions. The base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").
-                    ","
-                        Die Basiswährung wird für alle Online-Transaktionen verwendet. Der Basiswährungs-Geltungsbereich wird durch den Katalogpreis-Geltungsbereich definiert (""""Katalog"""" > """"Preis"""" > """"Katalogpreis-Geltungsbereich"""").
-                    ",module,Magento_Directory
-"
-                        If you select and save the rule you will be able to generate multiple coupon codes.
-                    ","
-                        Wenn Sie die Regel auswählen und speichern, sind Sie in der Lage, mehrere Gutschein-Codes zu generieren.
-                    ",module,Magento_SalesRule
-"
-                        Logo for HTML documents only. If empty, default will be used.<br />(jpeg, gif, png)
-                    ","
-                        Logo nur für HTML-Dokumente. Wenn leer, wird der Standard verwendet.<br /> (jpeg, gif, png)
-                    ",module,Magento_Sales
-"
-                        Merchants need to apply to PayPal for enabling billing agreements feature. Do not enable this option until PayPal confirms that billing agreements are enabled for your merchant account.
-                    ","
-                        Händler müssen PayPal beantragen, um die Abrechnungsvereinbarungsfunktion anzuwenden. Aktivieren Sie diese Option nicht, bis PayPal bestätigt, dass die Abrechnungsvereinbarungen für Ihr Händler-Konto aktiviert sind.
-                    ",module,Magento_Paypal
-"
-                        Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.
-                    ","
-                        Bitte nur Buchstaben (a-z oder A-Z) oder Zahlen (0-9) in diesem Bereich verwenden. Keine Leerzeichen oder andere Zeichen sind erlaubt. <br /> Ähnlich aussehende Zeichen (zB ""i"", ""L"", ""1"") kann die korrekte Erkennung für den Kunden erschweren.
-                    ",module,Magento_Captcha
-"
-                        Semicolon (;) separated values.<br/>Put semicolon in the beginning for empty first option.<br/>Leave empty for open text field.
-                    ","
-                        Durch Semikolon (;) getrennte Werte <br/> Semikolon am Anfang für leere erste Option setzen <br/> Leer lassen für freies Textfeld.
-                    ",module,Magento_Customer
-"
-                        This email will be sent instead of the Default Welcome Email, after account confirmation. <br /><br />
-                        Email template chosen based on theme fallback when ""Default"" option is selected.
-                    ","
-                        Diese E-Mail wird anstelle der Standard-Willkommens-E-Mail versandt, nachdem das Konto bestätigt wurde. <br /><br />
-                        Ausgewählte E-Mail-Vorlage basiert auf Theme-Fallback, wenn die Option ""Standard"" ausgewählt ist..
-                    ",module,Magento_Customer
-"
-                        This email will be sent instead of the Default Welcome Email, if a customer was created without password. <br /><br />
-                        Email template chosen based on theme fallback when ""Default"" option is selected.
-                    ","
-                        Diese E-Mail wird anstelle der Standard-Willkommens-E-Mail versandt, wenn ein Kunde ohne Passwort angelegt wurde. <br /><br />
-                        Ausgewählte E-Mail-Vorlage basiert auf Theme-Fallback, wenn die Option ""Standard"" ausgewählt ist.
-                    ",module,Magento_Customer
-"
-                        Usage limit enforced for logged in customers only.
-                    ","
-                        Nutzungsbeschränkung nur für eingeloggte Kunden.
-                    ",module,Magento_SalesRule
-"
-                        Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted, try to use larger file-size image.
-                    ","
-                        Ihr vorgegebens Logo wird in PDF und HTML Dokumenten benutzt. (JPEG, TIFF, PNG) Sollte Ihre Datei verzerrt angezeigt werden, versuchen sie die Dateigröße zu erhöhen.
-                    ",module,Magento_Sales
-"
-                    <a href=""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
-                                            <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
-                                            from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
-                                            Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
-                                            The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
-                                            or more. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.
-                ","
-                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Warum für Finanzierung werben?</a><br/><strong>Geben Sie Ihren Verkäufen einen Schub, indem Sie für Finanzierung werben. </strong><br/>PayPal hilft, Ihre Besucher in Käufer zu verwandeln, mit der Finanzierung von PayPal Credit&#174;. Ihre Käufer haben mehr Zeit zu bezahlen, während Sie im Voraus bezahlt werden - ohne zusätzliche Kosten. Verwenden Sie PayPal's kostenlose Banner-Werbung, die es Ihnen ermöglicht, für PayPal Credit&#174 als Zahlungsoption zu werben, wenn Ihre Kunden mit PayPal bezahlen. Das PayPal-Werbeprogramm hat gezeigt, dass es Zusätzliche Käufe erzeugt den Größe des durchschnittlichen Einkaufs Ihrer Kunden um 15% oder mehr erhöht. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Details sehen</a>.
-                ",module,Magento_Paypal
-"
-                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
-                                <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
-                                from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
-                                Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
-                                The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
-                                or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.
-                ","
-                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Warum für Finanzierung werben?</a><br/><strong>Geben Sie Ihren Verkäufen einen Schub, indem Sie für Finanzierung werben. </strong><br/>PayPal hilft, Ihre Besucher in Käufer zu verwandeln, mit der Finanzierung von PayPal Credit&#174;. Ihre Käufer haben mehr Zeit zu bezahlen, während Sie im Voraus bezahlt werden - ohne zusätzliche Kosten. Verwenden Sie PayPal's kostenlose Banner-Werbung, die es Ihnen ermöglicht, für PayPal Credit&#174 als Zahlungsoption zu werben, wenn Ihre Kunden mit PayPal bezahlen. Das PayPal-Werbeprogramm hat gezeigt, dass es Zusätzliche Käufe erzeugt den Größe des durchschnittlichen Einkaufs Ihrer Kunden um 15% oder mehr erhöht. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Details sehen</a>.
-
-                ",module,Magento_Paypal
-"
-                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
-                            <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
-                            from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
-                            Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
-                            The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
-                            or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.
-                ","
-                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Warum für Finanzierung werben?</a><br/><strong>Geben Sie Ihren Verkäufen einen Schub, indem Sie für Finanzierung werben. </strong><br/>PayPal hilft, Ihre Besucher in Käufer zu verwandeln, mit der Finanzierung von PayPal Credit&#174;. Ihre Käufer haben mehr Zeit zu bezahlen, während Sie im Voraus bezahlt werden - ohne zusätzliche Kosten. Verwenden Sie PayPal's kostenlose Banner-Werbung, die es Ihnen ermöglicht, für PayPal Credit&#174 als Zahlungsoption zu werben, wenn Ihre Kunden mit PayPal bezahlen. Das PayPal-Werbeprogramm hat gezeigt, dass es Zusätzliche Käufe erzeugt den Größe des durchschnittlichen Einkaufs Ihrer Kunden um 15% oder mehr erhöht. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Details sehen</a>.
-                ",module,Magento_Paypal
-"
-                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
-                        <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
-                        from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
-                        Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
-                        The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
-                        or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.
-                ","
-                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Warum für Finanzierung werben?</a><br/><strong>Geben Sie Ihren Verkäufen einen Schub, indem Sie für Finanzierung werben. </strong><br/>PayPal hilft, Ihre Besucher in Käufer zu verwandeln, mit der Finanzierung von PayPal Credit&#174;. Ihre Käufer haben mehr Zeit zu bezahlen, während Sie im Voraus bezahlt werden - ohne zusätzliche Kosten. Verwenden Sie PayPal's kostenlose Banner-Werbung, die es Ihnen ermöglicht, für PayPal Credit&#174 als Zahlungsoption zu werben, wenn Ihre Kunden mit PayPal bezahlen. Das PayPal-Werbeprogramm hat gezeigt, dass es Zusätzliche Käufe erzeugt den Größe des durchschnittlichen Einkaufs Ihrer Kunden um 15% oder mehr erhöht. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Details sehen</a>.
-                ",module,Magento_Paypal
-"
-                    Please note that these settings apply to individual items in the cart, not to the entire cart.
-                ","
-                    Bitte beachten Sie, dass diese Einstellungen für einzelne Artikel im Warenkorb gelten, nicht für den gesamten Warenkorb.
-                ",module,Magento_CatalogInventory
-"
-                    See PayPal Feature Support details and list of supported regions
-                    <a href=""https://developer.paypal.com/docs/classic/express-checkout/in-context/"" target=""_blank"">here</a>.
-                ","
-                    Mehr zu PayPal Funktionalität Support Details und eine Liste der unterstützten Regionen
-                    <a href=""https://developer.paypal.com/docs/classic/express-checkout/in-context/"" target=""_blank"">hier</a>.
-                ",module,Magento_Paypal
-"
-                    Supporting of American Express cards require additional agreement. Learn more at <a href=""http://www.paypal.com/amexupdate"">http://www.paypal.com/amexupdate</a>.
-                ","
-                    Die Unterstützung von American Express Karten erfordert zusätzliche Vereinbarungen. Erfahren Sie mehr auf <a href=""""http://www.paypal.com/amexupdate"""">http://www.paypal.com/amexupdate</a>.
-                ",module,Magento_Paypal
+"Allowable values: ""paypal"", ""primary"" (default), your_custom_value (a custom payment page style from your merchant account profile).","Zulässige Werte: ""paypal"", ""primary"" (Standard), your_custom_value (ein benutzerdefinierter Zahlungsseiten-Stil von Ihrem Händler-Konto-Profil).",module,Magento_Paypal
+"The background color for the checkout page around the header and payment form.","Die Hintergrundfarbe der Checkout-Seite rund um den Header und das Zahlungsformular.",module,Magento_Paypal
+"The background color for the header of the checkout page. Case-insensitive six-character HTML hexadecimal color code in ASCII.","Die Hintergrundfarbe für den Header der Checkout-Seite.HTML-hexadezimaler Farbcode in ASCII mit sechs Zeichen in Groß- und Kleinschreibung.",module,Magento_Paypal
+"The image at the top left of the checkout page. Max size is 750x90-pixel. <strong style=""color:red"">https</strong> is highly encouraged.","Das Bild in der oberen linken Ecke der Checkout-Seite. Maximale Größe 750x90 Pixel. <strong style=""color:red"">https</strong> ausdrücklich gewünscht.",module,Magento_Paypal
+"Will appear as a payment option only for customers who have at least one active billing agreement.","Wird als Zahlungsoption nur für Kunden erscheinen, die mindestens eine aktive Abrechnungsvereinbarung haben.",module,Magento_Paypal
+"<a href=""http://www.magentocommerce.com/paypal"">Start accepting payments via PayPal!</a>","<a href=""http://www.magentocommerce.com/paypal"">Zahlungen via PayPal akzeptieren!</a>",module,Magento_Paypal
+"<strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).","<strong style=""color:red"">Warnung!</strong> Wenn Sie den Storecode in URLs verwenden, könnte das System in einigen Fällen nicht sauber arbeiten, wenn URLs ohne Storecodes in Third-Party-Services angegeben sind (z.B. PayPal etc.).",module,Magento_Backend
+"Base currency is used for all online payment transactions. The base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").","Die Basiswährung wird für alle Online-Transaktionen verwendet. Der Basiswährungs-Geltungsbereich wird durch den Katalogpreis-Geltungsbereich definiert (""""Katalog"""" > """"Preis"""" > """"Katalogpreis-Geltungsbereich"""").",module,Magento_Directory
+"If you select and save the rule you will be able to generate multiple coupon codes.","Wenn Sie die Regel auswählen und speichern, sind Sie in der Lage, mehrere Gutschein-Codes zu generieren.",module,Magento_SalesRule
+"Logo for HTML documents only. If empty, default will be used.<br />(jpeg, gif, png)","Logo nur für HTML-Dokumente. Wenn leer, wird der Standard verwendet.<br /> (jpeg, gif, png)",module,Magento_Sales
+"Merchants need to apply to PayPal for enabling billing agreements feature. Do not enable this option until PayPal confirms that billing agreements are enabled for your merchant account.","Händler müssen PayPal beantragen, um die Abrechnungsvereinbarungsfunktion anzuwenden. Aktivieren Sie diese Option nicht, bis PayPal bestätigt, dass die Abrechnungsvereinbarungen für Ihr Händler-Konto aktiviert sind.",module,Magento_Paypal
+"Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.","Bitte nur Buchstaben (a-z oder A-Z) oder Zahlen (0-9) in diesem Bereich verwenden. Keine Leerzeichen oder andere Zeichen sind erlaubt. <br /> Ähnlich aussehende Zeichen (zB ""i"", ""L"", ""1"") kann die korrekte Erkennung für den Kunden erschweren.",module,Magento_Captcha
+"Semicolon (;) separated values.<br/>Put semicolon in the beginning for empty first option.<br/>Leave empty for open text field.","Durch Semikolon (;) getrennte Werte <br/> Semikolon am Anfang für leere erste Option setzen <br/> Leer lassen für freies Textfeld.",module,Magento_Customer
+"This email will be sent instead of the Default Welcome Email, after account confirmation. <br /><br />Email template chosen based on theme fallback when ""Default"" option is selected.","Diese E-Mail wird anstelle der Standard-Willkommens-E-Mail versandt, nachdem das Konto bestätigt wurde. <br /><br />Ausgewählte E-Mail-Vorlage basiert auf Theme-Fallback, wenn die Option ""Standard"" ausgewählt ist.",module,Magento_Customer
+"This email will be sent instead of the Default Welcome Email, if a customer was created without password. <br /><br />Email template chosen based on theme fallback when ""Default"" option is selected.","Diese E-Mail wird anstelle der Standard-Willkommens-E-Mail versandt, wenn ein Kunde ohne Passwort angelegt wurde. <br /><br />Ausgewählte E-Mail-Vorlage basiert auf Theme-Fallback, wenn die Option ""Standard"" ausgewählt ist.",module,Magento_Customer
+"Usage limit enforced for logged in customers only.","Nutzungsbeschränkung nur für eingeloggte Kunden.",module,Magento_SalesRule
+"Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted, try to use larger file-size image.","Ihr vorgegebens Logo wird in PDF und HTML Dokumenten benutzt. (JPEG, TIFF, PNG) Sollte Ihre Datei verzerrt angezeigt werden, versuchen sie die Dateigröße zu erhöhen.",module,Magento_Sales
+"<a href=""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/><strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you. Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal. The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15% or more. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Warum für Finanzierung werben?</a><br/><strong>Geben Sie Ihren Verkäufen einen Schub, indem Sie für Finanzierung werben. </strong><br/>PayPal hilft, Ihre Besucher in Käufer zu verwandeln, mit der Finanzierung von PayPal Credit&#174;. Ihre Käufer haben mehr Zeit zu bezahlen, während Sie im Voraus bezahlt werden - ohne zusätzliche Kosten. Verwenden Sie PayPal's kostenlose Banner-Werbung, die es Ihnen ermöglicht, für PayPal Credit&#174 als Zahlungsoption zu werben, wenn Ihre Kunden mit PayPal bezahlen. Das PayPal-Werbeprogramm hat gezeigt, dass es Zusätzliche Käufe erzeugt den Größe des durchschnittlichen Einkaufs Ihrer Kunden um 15% oder mehr erhöht. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Details sehen</a>.",module,Magento_Paypal
+"<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/><strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you. Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal. The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15% or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Warum für Finanzierung werben?</a><br/><strong>Geben Sie Ihren Verkäufen einen Schub, indem Sie für Finanzierung werben. </strong><br/>PayPal hilft, Ihre Besucher in Käufer zu verwandeln, mit der Finanzierung von PayPal Credit&#174;. Ihre Käufer haben mehr Zeit zu bezahlen, während Sie im Voraus bezahlt werden - ohne zusätzliche Kosten. Verwenden Sie PayPal's kostenlose Banner-Werbung, die es Ihnen ermöglicht, für PayPal Credit&#174 als Zahlungsoption zu werben, wenn Ihre Kunden mit PayPal bezahlen. Das PayPal-Werbeprogramm hat gezeigt, dass es Zusätzliche Käufe erzeugt den Größe des durchschnittlichen Einkaufs Ihrer Kunden um 15% oder mehr erhöht. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Details sehen</a>.",module,Magento_Paypal
+"<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/><strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you. Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal. The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15% or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Warum für Finanzierung werben?</a><br/><strong>Geben Sie Ihren Verkäufen einen Schub, indem Sie für Finanzierung werben. </strong><br/>PayPal hilft, Ihre Besucher in Käufer zu verwandeln, mit der Finanzierung von PayPal Credit&#174;. Ihre Käufer haben mehr Zeit zu bezahlen, während Sie im Voraus bezahlt werden - ohne zusätzliche Kosten. Verwenden Sie PayPal's kostenlose Banner-Werbung, die es Ihnen ermöglicht, für PayPal Credit&#174 als Zahlungsoption zu werben, wenn Ihre Kunden mit PayPal bezahlen. Das PayPal-Werbeprogramm hat gezeigt, dass es Zusätzliche Käufe erzeugt den Größe des durchschnittlichen Einkaufs Ihrer Kunden um 15% oder mehr erhöht. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Details sehen</a>.",module,Magento_Paypal
+"<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/><strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you. Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal. The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15% or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Warum für Finanzierung werben?</a><br/><strong>Geben Sie Ihren Verkäufen einen Schub, indem Sie für Finanzierung werben. </strong><br/>PayPal hilft, Ihre Besucher in Käufer zu verwandeln, mit der Finanzierung von PayPal Credit&#174;. Ihre Käufer haben mehr Zeit zu bezahlen, während Sie im Voraus bezahlt werden - ohne zusätzliche Kosten. Verwenden Sie PayPal's kostenlose Banner-Werbung, die es Ihnen ermöglicht, für PayPal Credit&#174 als Zahlungsoption zu werben, wenn Ihre Kunden mit PayPal bezahlen. Das PayPal-Werbeprogramm hat gezeigt, dass es Zusätzliche Käufe erzeugt den Größe des durchschnittlichen Einkaufs Ihrer Kunden um 15% oder mehr erhöht. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Details sehen</a>.",module,Magento_Paypal
+"Please note that these settings apply to individual items in the cart, not to the entire cart.","Bitte beachten Sie, dass diese Einstellungen für einzelne Artikel im Warenkorb gelten, nicht für den gesamten Warenkorb.",module,Magento_CatalogInventory
+"See PayPal Feature Support details and list of supported regions <a href=""https://developer.paypal.com/docs/classic/express-checkout/in-context/"" target=""_blank"">here</a>.","Mehr zu PayPal Funktionalität Support Details und eine Liste der unterstützten Regionen <a href=""https://developer.paypal.com/docs/classic/express-checkout/in-context/"" target=""_blank"">hier</a>.",module,Magento_Paypal
+"Supporting of American Express cards require additional agreement. Learn more at <a href=""http://www.paypal.com/amexupdate"">http://www.paypal.com/amexupdate</a>.","Die Unterstützung von American Express Karten erfordert zusätzliche Vereinbarungen. Erfahren Sie mehr auf <a href=""""http://www.paypal.com/amexupdate"""">http://www.paypal.com/amexupdate</a>.",module,Magento_Paypal
 " Transaction ID: ""%1""","Transaktions-ID: ""%1""",,
 -- All --,-- Alle --,,
 -- First Please Select a Website --,-- Wählen Sie bitte zunächst eine Website --,,
@@ -5635,11 +5512,7 @@ PayPal Canceled Reversal,PayPal abgebrochene Stornierung,,
 PayPal Debit Card Cash Advance,PayPal Kreditkarten-Barkredit,,
 PayPal Debit Card Withdrawal from ATM,PayPal-Kreditkarten-Rücknahme von ATM,,
 PayPal Express Checkout,PayPal Express Checkout,,
-"PayPal Express Checkout lets you give customers access to financing through PayPal Credit&#174; - at no additional cost to you.
-                        You get paid up front, even though customers have more time to pay. A pre-integrated payment button lets customers pay quickly with PayPal Credit&#174;.
-                        <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>
-                ","Mit PayPal Express Checkout können Sie den Kunden Zugang zur Finanzierung durch PayPal Credit® ermöglichen - ohne zusätzliche Kosten für Sie. Sie werden im Voraus bezahlt, auch wenn die Kunden mehr Zeit haben, um zu bezahlen. Über eine vorintegrierte Zahlungs-Schaltfläche können Kunden schnell bei PayPal Credit® zahlen. <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank""> Weitere Informationen </a>
-                ",module,Magento_Paypal
+"PayPal Express Checkout lets you give customers access to financing through PayPal Credit&#174; - at no additional cost to you. You get paid up front, even though customers have more time to pay. A pre-integrated payment button lets customers pay quickly with PayPal Credit&#174;. <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>","Mit PayPal Express Checkout können Sie den Kunden Zugang zur Finanzierung durch PayPal Credit® ermöglichen - ohne zusätzliche Kosten für Sie. Sie werden im Voraus bezahlt, auch wenn die Kunden mehr Zeit haben, um zu bezahlen. Über eine vorintegrierte Zahlungs-Schaltfläche können Kunden schnell bei PayPal Credit® zahlen. <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank""> Weitere Informationen </a>",module,Magento_Paypal
 "PayPal Express Checkout lets you give customers access to financing through PayPal Credit&#174; - at no additional cost to you.
 Period %1 %2 Days Up To Date
 Permissions do not depend on store views.
@@ -8069,9 +7942,7 @@ The action ID you enter must be a number.,Die Aktions-ID die Sie eintragen muss 
 The adapter object must be an instance of %1.,Das Adapter-Objekt muss eine Instanz von %1 sein.,,
 The adapter type must be a non-empty string.,Der Adaptertyp muss eine nichtleere Zeichenfolge sein.,,
 The address model is not defined.,Das Adressmodell ist nicht definiert.,,
-"The address total model should be extended from
-                    \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.","Das Adresse Gesamtmodell sollte erweitert werden von
-                    \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.",module,Magento_Quote
+"The address total model should be extended from \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.","Das Adresse Gesamtmodell sollte erweitert werden von \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.",module,Magento_Quote
 The address total model should be extended from \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.,Das Adress-Gesamtmodell sollte erweitert werden von \Magento\Quote\Modell\Quote\Address\Gesamt\AbstractTotal.,,
 "The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","Auf Windows-Systemen kann das Archiv mit <a href=""%1>%2</a> dekomprimiert werden.",,
 The attribute code '%1' is reserved by system. Please try another attribute code,"Der Attributcode ""% 1"" ist durch das System reserviert. Bitte versuchen Sie einen anderen Attributcode",,
@@ -8246,8 +8117,7 @@ The message has been marked as Read.,Die Nachricht wurde als gelesen markiert.,,
 The message has been removed.,Die Nachricht wurde entfernt.,,
 The most money available to refund is %1.,Der maximal zur Verfügung stehende Betrag der Rückerstattung ist %1.,,
 The most you may purchase is %1.,Die Höchstmenge ist %1.,,
-"The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
-                        information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","""New Relic Integration benötigt den newrelic-php5 Agenten, der nicht installiert ist. Mehr Informationen über die Installation vom Agenten <a target=""_blank"" href=""%1"">hier</a>.",module,Magento_NewRelicReporting
+"The New Relic integration requires the newrelic-php5 agent, which is not installed. More information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","""New Relic Integration benötigt den newrelic-php5 Agenten, der nicht installiert ist. Mehr Informationen über die Installation vom Agenten <a target=""_blank"" href=""%1"">hier</a>.",module,Magento_NewRelicReporting
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","Die New Relic-Integration erfordert den newrelic-php5 Stellvertreter, der nicht installiert ist. Weitere Informationen zur Installation <a target=""_blank"" href=""%1"">hier</a>.",,
 The newsletter template has been deleted.,Die Newsletter-Vorlage wurde gelöscht.,,
 The newsletter template has been saved.,Die Newsletter-Vorlage wurde gespreichert.,,
@@ -9134,8 +9004,7 @@ Use SID on Storefront,SID im Frontend benutzen,,
 Use Standard,Standard verwenden,,
 Use Static URLs for Media Content in WYSIWYG for Catalog,Statische URLs für Medieninhalte in WYSIWYG verwenden.,,
 Use Store Address,Shopadresse benutzen,,
-Use Store Credit,"Shop-Guthaben benutzen
-",,
+Use Store Credit,"Shop-Guthaben benutzen",,
 Use Store Credit (%1 available),Shop-Guthaben (%1 verfügbar) benutzen,,
 Use system value,Systemwert verwenden,,
 Use the gift registry shipping address,Benutzen Sie die Geschenkeliste Versandadresse,,
@@ -9320,9 +9189,7 @@ Warning message,Warnmeldung,,
 Warning tax configuration can result in rounding errors.,Warnung: Steuerkonfiguration kann zu Rundungsfehlern führen.,,
 Warning tax configuration can result in rounding errors.,Warnung: Einstellungen an den Steuern können in Rundungsfehlern enden.,,
 Warning tax configuration can result in rounding errors.,Warnung Steuerkonfiguration kann Rundungsfehler ergeben.,module,Magento_Tax
-"Warning tax discount configuration might result in different discounts
-                                than a customer might expect. ","Warnung: Steuervergünstigungs-Einstellungen können zu anderen Nachlässen führen
-                                als der Kunde erwarten würde. ",module,Magento_Tax
+"Warning tax discount configuration might result in different discounts than a customer might expect. ","Warnung: Steuervergünstigungs-Einstellungen können zu anderen Nachlässen führen als der Kunde erwarten würde. ",module,Magento_Tax
 "Warning tax discount configuration might result in different discounts
 was
 was not
@@ -9496,9 +9363,7 @@ We can't retrieve the product ID.,Wir können die Produkt-ID nicht abrufen.,,
 We can't retrieve the product list right now.,Wir können die Produktliste zur Zeit nicht wiederherstellen.,,
 "We can't run the operation right now, see error log for details.",Wir können diese Tätigkeit zur Zeit nicht ausführen. Siehe Fehler-Log für mehr Details.,,
 We can't save custom-defined options for bundles with dynamic pricing.,Es können keine benutzerdefinierten Optionen für Bundles mit dynamischer Preisbildung gespeichert werden.,,
-"We can't save the address:
-%1","Adresse kann nicht gespeichert werden:
-%1",,
+"We can't save the address: %1","Adresse kann nicht gespeichert werden: %1",,
 We can't save the address.,Wir können die Adresse nicht speichern.,,
 We can't save the credit memo right now.,Wir können die Gutschrift jetzt nicht speichern.,,
 We can't save the Cron expression.,Der Cron-Ausdruck kann nicht gespeichert werden.,,
