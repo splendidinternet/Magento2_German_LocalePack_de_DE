@@ -9324,18 +9324,12 @@ Warning tax configuration can result in rounding errors.,Warnung Steuerkonfigura
                                 than a customer might expect. ","Warnung: Steuervergünstigungs-Einstellungen können zu anderen Nachlässen führen
                                 als der Kunde erwarten würde. ",module,Magento_Tax
 "Warning tax discount configuration might result in different discounts
-was
-was not
-We archived %1 order(s).
-We authorized your Return request.
-Website Closed
-Website code may only contain letters (a-z) numbers (0-9) or underscore (_) ' ' and the first character must be a letter.""","Warnung: Steuervergünstigungs-Einstellungen könnten zu verschiedenen Nachlässen führen
-war
-war nicht
-Wir haben %1 Bestellung(en) archiviert.
-Wir haben Ihre Rückgabe-Anfrage authorisiert.
-Webseite geschlossen
-Webseitencode darf nur aus Buchstaben (a-z), Nummern (0-9) oder Unterschrichen(_) bestehen. Das erste Zeichen muss ein Buchstabe sein.",,
+was,war
+was not,war nicht
+We archived %1 order(s).,Wir haben %1 Bestellung(en) archiviert.
+We authorized your Return request.,Wir haben Ihre Rückgabe-Anfrage authorisiert.
+Website Closed,Webseite geschlossen
+Website code may only contain letters (a-z) numbers (0-9) or underscore (_) ' ' and the first character must be a letter.""","Webseitencode darf nur aus Buchstaben (a-z), Nummern (0-9) oder Unterschrichen(_) bestehen. Das erste Zeichen muss ein Buchstabe sein.",,
 Warning tax discount configuration might result in different discounts than a customer might expect.,"Warnung: Steuerrabatt-Konfiguration kann zu anderen Preisnachlässen führen, als es der Kunde erwarten könnte.",,
 WARNING:,WARNUNG:,,
 "Warning: necessary space for backup is ' . . 'MB, but your free disc space is ' . . 'MB.","Achtung: Notwendiger Speicherplatz für das Backup: ' . . ' MB,  Freier Speicherplatz: ' . . ' MB",,
@@ -9897,6 +9891,7 @@ You are not using store credit in your shopping cart.,Sie benutzen kein Shopguth
 You are signed out,Sie haben sich ausgeloggt,module,Magento_Customer
 You are signed out.,Sie haben sich ausgeloggt.,,
 You are trying to add a quantity for some products that doesn't match the quantity that was shipped.,"Sie versuchen, eine Menge für einige Produkte hinzuzufügen, die nicht mit der Menge übereinstimmt, die geliefert wurde.",,
+You aren't subscribed to our newsletter.,Sie sind nicht für unseren Newsletter angemeldet.
 You assigned the order status.,Sie haben den Auftragsstatus zugeordnet.,,
 You can add only enabled products.,Sie können nur aktivierte Produkte hinzufügen.,,
 You can adjust the scope of this synonym group by selecting an option from the list.,"Sie können den Geltungsbereich dieser Synonymgruppe anpassen, indem Sie eine Option aus der Liste wählen",,
