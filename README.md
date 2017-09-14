@@ -25,3 +25,40 @@ composer require splendidinternet/mage2-locale-de-de
 rm pub/static/frontend/Magento/luma/de_DE/js-translation.json
 php bin/magento setup:static-content:deploy de_DE
 ```
+
+# Add new phrases
+
+To translate new phrases follow these steps:
+
+### Get phrases from Magento
+
+Run this in your Magento 2 installation:
+
+```bash
+php bin/magento i18n:collect-phrases -m > phrases.csv
+```
+
+### Compare phrases with old translation file
+
+Copy the `phrases.csv` into this repository and run:
+
+```bash
+php check_new.php
+```
+
+This will output a new file `de_DE_new.csv` which only contains the
+phrases that are not yet translated in `de_DE.csv`.
+
+### Translate phrases
+
+Now you should translate these phrases. Enter the translated phrase
+in the *second* column.
+
+### Copy new phrases and create a pull request
+
+Copy the new phrases to `de_DE.csv`.
+
+**IMPORTANT**: sort the file alphabetically based on the first column, e.g. with LibreOffice.
+
+Now create a [new pull request](https://help.github.com/articles/creating-a-pull-request/) with
+your changes!
