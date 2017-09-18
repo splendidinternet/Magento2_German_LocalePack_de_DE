@@ -151,7 +151,23 @@
                 ","
                     Die Unterstützung von American Express Karten erfordert zusätzliche Vereinbarungen. Erfahren Sie mehr auf <a href=""""http://www.paypal.com/amexupdate"""">http://www.paypal.com/amexupdate</a>.
                 ",module,Magento_Paypal
+    All Store Views,    Alle Store Views,module,Magento_Search
+ [deleted], [gelöscht],module,Magento_Backend
+ [deleted], [gelöscht],module,Magento_Sales
+ Copy, Kopie,module,Magento_Newsletter
+ Example: ,Beispiel:,module,Magento_Checkout
+ for more information or , für weitere Informationen oder,module,Magento_Shipping
+ is not available. You still can process offline actions., ist nicht verfügbar. Sie können weiterhin Offline-Aktionen ausführen.,module,Magento_Payment
+ is required., ist erforderlich.,module,Magento_Dhl
+ is required., ist erforderlich.,module,Magento_Fedex
+ is required., ist erforderlich.,module,Magento_OfflineShipping
+ is required., ist erforderlich.,module,Magento_Ups
+ is required., ist erforderlich,module,Magento_Usps
+ item, Artikel,module,Magento_Checkout
+ items, Artikel,module,Magento_Checkout
+ to learn more., um mehr zu erfahren.,module,Magento_Paypal
 " Transaction ID: ""%1""","Transaktions-ID: ""%1""",,
+ unread), ungelesen),module,Magento_AdminNotification
 -- All --,-- Alle --,,
 -- First Please Select a Website --,-- Wählen Sie bitte zunächst eine Website --,,
 -- No Page --,-- Keine Seite --,module,FireGento_MageSetup
@@ -163,6 +179,7 @@
 -- Please Select Billing Agreement--,-- Bitte wählen Sie die Abrechnungsvereinbarung --,,
 -- Select --,-- Auswählen --,,
 --Please Select--,-- Bitte auswählen --,,
+.,.,,
 . ':',. ':',module,Magento_Shipping
 ’Internal Promotions’ for promotions field “Label”.,"""Interne Promotions"" für Promotionfeld ""Label""",,
 """%1"" cannot contain more than %2 lines.","""%1"" kann nicht aus mehr als %2 Zeilen bestehen.",,
@@ -264,6 +281,7 @@
 * Required Fields,* Pflichtfelder,module,Magento_Wishlist
 *' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.,"*' - entspricht jedem; 'xyz*' - entspricht jedem, der mit 'xyz' beginnt und nicht länger ist als %1.",,
 *' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.,"*' - passt zu allem; 'xyz*' - passt zu allem, das mit ""xyz"" beginnt und nicht länger als %1 ist.",,
+*' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.,"*' - entspricht jedem; 'xyz*' - entspricht jedem, der mit 'xyz' beginnt und nicht länger ist als %1.",module,Magento_Tax
 *' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.,"*' - entspricht jedem; 'xyz*' - entspricht jedem, der mit 'xyz' beginnt und nicht länger ist als %1.",module,Magento_Tax
 &nbsp;,&nbsp;,,
 # of Items (and above),# von Artikel (und höher),,
@@ -394,6 +412,7 @@
 %1; rev #%2,%1: Revision #%2,,
 %1' file extension is not supported,%1-Dateierweiterung wird nicht unterstützt,,
 %1' file extension is not supported,%1-Dateierweiterung wird nicht unterstützt,module,Magento_ImportExport
+%1' file extension is not supported,%1' Dateierweiterung wird nicht ünterstützt,module,Magento_ImportExport
 %1' is not a directory.,"""%1"" ist kein Verzeichnis.",,
 %1' is not readable file.,"""%1"" ist keine lesbare Datei.",,
 %1's Wish List,%1's Wunschzettel,,
@@ -416,34 +435,50 @@
 "%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.",%value%' scheint ein Domain-Name-System (DNS) Hostname zu sein. Allerdings kann er aufgrund der Punycode-Schreibweise nicht entschlüsselt werden.,,
 "%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.",%value%' scheint ein Domain-Name-System (DNS) Hostname zu sein. Allerdings kann er aufgrund der Punycode-Schreibweise nicht entschlüsselt werden.,module,Magento_Customer
 "%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.",%value%' scheint ein Domain-Name-System (DNS) Hostname zu sein. Allerdings kann er aufgrund der Punycode-Schreibweise nicht entschlüsselt werden.,module,Magento_Eav
+"%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.",%value%' scheint ein Domain-Name-System (DNS) Hostname zu sein. Allerdings kann er aufgrund der Punycode-Schreibweise nicht entschlüsselt werden.,module,Magento_Customer
+"%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.","%value-%' scheint ein DNS-Hostname zu sein, aber die gegebene Punycode-Notation kann nicht decodiert werden.",module,Magento_Eav
 %value%' does not look like a valid local network name.,%value% sieht nicht wie ein gültiger Name eines lokalen Netzwerks aus.,,
 %value%' does not look like a valid local network name.,%value%' sieht nicht nach einem zulässigen Namen für ein lokales Netzwerk aus.,,
 %value%' does not look like a valid local network name.,%value% sieht nicht wie ein gültiger Name eines lokalen Netzwerks aus.,module,Magento_Customer
 %value%' does not look like a valid local network name.,%value%' sieht nicht nach einem zulässigen Namen für ein lokales Netzwerk aus.,module,Magento_Eav
+%value%' does not look like a valid local network name.,%value% sieht nicht wie ein gültiger Name eines lokalen Netzwerks aus.,module,Magento_Customer
+%value%' does not look like a valid local network name.,%value-%' sieht nicht wie ein gültiger lokaler Netzwerksname aus.,module,Magento_Eav
 %value%' looks like a DNS hostname but cannot extract TLD part.,"%value% sieht wie ein DNS-Hostname aus, aber wir können den Top-Level-Domain-Teil nicht extrahieren.",,
 %value%' looks like a DNS hostname but cannot extract TLD part.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings kann der Top-Level-Domain (TLD) Part nicht extrahiert werden.,,
+%value%' looks like a DNS hostname but cannot extract TLD part.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings kann der Top-Level-Domain (TLD) Part nicht extrahiert werden.,module,Magento_Customer
+%value%' looks like a DNS hostname but cannot extract TLD part.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings kann der Top-Level-Domain (TLD) Part nicht extrahiert werden.,module,Magento_Eav
 %value%' looks like a DNS hostname but cannot extract TLD part.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings kann der Top-Level-Domain (TLD) Part nicht extrahiert werden.,module,Magento_Customer
 %value%' looks like a DNS hostname but cannot extract TLD part.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings kann der Top-Level-Domain (TLD) Part nicht extrahiert werden.,module,Magento_Eav
 %value%' looks like a DNS hostname but contains a dash in an invalid position.,"%value sieht wie ein DNS-Hostname aus, aber enthält einen Bindestrich an einer ungültigen Position.",,
 %value%' looks like a DNS hostname but contains a dash in an invalid position.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings enthällt er einen Bindestrich an einer nicht zulässigen Stelle.,,
 %value%' looks like a DNS hostname but contains a dash in an invalid position.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings enthällt er einen Bindestrich an einer nicht zulässigen Stelle.,module,Magento_Customer
 %value%' looks like a DNS hostname but contains a dash in an invalid position.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings enthällt er einen Bindestrich an einer nicht zulässigen Stelle.,module,Magento_Eav
+%value%' looks like a DNS hostname but contains a dash in an invalid position.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings enthällt er einen Bindestrich an einer nicht zulässigen Stelle.,module,Magento_Customer
+%value%' looks like a DNS hostname but contains a dash in an invalid position.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings enthällt er einen Bindestrich an einer nicht zulässigen Stelle.,module,Magento_Eav
 %value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.,"%value% sieht wie ein DNS-Hostname aus, aber wir können ihn nicht im Hostnameschema für Top-Level-Domains ""%tld%"" finden.",,
 %value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings können wir ihn nicht mit dem Schema für Top-Level-Domain (TLD) '%tld%' abgleichen.,,
+%value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.,"%value% sieht wie ein DNS-Hostname aus, aber wir können ihn nicht im Hostnameschema für Top-Level-Domains ""%tld%"" finden.",module,Magento_Customer
+%value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings können wir ihn nicht mit dem Schema für Top-Level-Domain (TLD) '%tld%' abgleichen.,module,Magento_Eav
 %value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.,"%value% sieht wie ein DNS-Hostname aus, aber wir können ihn nicht im Hostnameschema für Top-Level-Domains ""%tld%"" finden.",module,Magento_Customer
 %value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings können wir ihn nicht mit dem Schema für Top-Level-Domain (TLD) '%tld%' abgleichen.,module,Magento_Eav
 %value%' looks like a DNS hostname but we cannot match the TLD against known list.,"%value% sieht wie ein DNS-Hostname aus, aber wir können die Top-Level-Domain nicht in der bekannten Liste finden.",,
 %value%' looks like a DNS hostname but we cannot match the TLD against known list.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings können wir die Top-Level-Domain (TLD) nicht mit einer bekannten Liste abgleichen.,,
 %value%' looks like a DNS hostname but we cannot match the TLD against known list.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings können wir die Top-Level-Domain (TLD) nicht mit einer bekannten Liste abgleichen.,module,Magento_Customer
 %value%' looks like a DNS hostname but we cannot match the TLD against known list.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings können wir die Top-Level-Domain (TLD) nicht mit einer bekannten Liste abgleichen.,module,Magento_Eav
+%value%' looks like a DNS hostname but we cannot match the TLD against known list.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings können wir die Top-Level-Domain (TLD) nicht mit einer bekannten Liste abgleichen.,module,Magento_Customer
+%value%' looks like a DNS hostname but we cannot match the TLD against known list.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings können wir die Top-Level-Domain (TLD) nicht mit einer bekannten Liste abgleichen.,module,Magento_Eav
 "%value%' looks like a local network name, which is not an acceptable format.","%value% sieht wie der Name eines lokalen Netzwerks aus, was kein akzeptiertes Format ist.",,
 "%value%' looks like a local network name, which is not an acceptable format.",%value%' sieht nach einem Namen für ein lokales Netzwerk aus. Dies ist kein akzeptiertes Format.,,
 "%value%' looks like a local network name, which is not an acceptable format.","%value% sieht wie der Name eines lokalen Netzwerks aus, was kein akzeptiertes Format ist.",module,Magento_Customer
 "%value%' looks like a local network name, which is not an acceptable format.",%value%' sieht nach einem Namen für ein lokales Netzwerk aus. Dies ist kein akzeptiertes Format.,module,Magento_Eav
+"%value%' looks like a local network name, which is not an acceptable format.","%value% sieht wie der Name eines lokalen Netzwerks aus, was kein akzeptiertes Format ist.",module,Magento_Customer
+"%value%' looks like a local network name, which is not an acceptable format.",%value-%' sieht wie ein lokaler Netzwerksname in einem inakzeptablen Format aus.,module,Magento_Eav
 "%value%' looks like an IP address, which is not an acceptable format.","%value% sieht wie eine IP-Adresse aus, was kein akzeptiertes Format ist.",,
 "%value%' looks like an IP address, which is not an acceptable format.",%vakue%' sieht nach einer IP-Addresse aus. Dies ist kein akzeptiertes Format.,,
 "%value%' looks like an IP address, which is not an acceptable format.","%value% sieht wie eine IP-Adresse aus, was kein akzeptiertes Format ist.",module,Magento_Customer
 "%value%' looks like an IP address, which is not an acceptable format.",%vakue%' sieht nach einer IP-Addresse aus. Dies ist kein akzeptiertes Format.,module,Magento_Eav
+"%value%' looks like an IP address, which is not an acceptable format.","%value% sieht wie eine IP-Adresse aus, was kein akzeptiertes Format ist.",module,Magento_Customer
+"%value%' looks like an IP address, which is not an acceptable format.",%value%' sieht nach einer IP-Addresse aus. Dies ist kein akzeptiertes Format.,module,Magento_Eav
 "<a href=""""http://www.magentocommerce.com/paypal"""">Start accepting payments via PayPal!</a>","<a href=""""http://www.magentocommerce.com/paypal"""">Zahlungen via PayPal akzeptieren!</a>",,
 "<a href=""""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"""" target=""""_blank"""">Why Advertise Financing?</a><br/>","<a href=""""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"""" target=""""_blank"""">Warum für Finanzierung werben?</a><br/>",,
 "<a href=""""https:/www.paypal.com/webapps/mpp/promotional-financing"""" target=""""_blank"""">Learn More</a>","<a href=""""https:/www.paypal.com/webapps/mpp/promotional-financing"""" target=""""_blank"""">Mehr erfahren</a>",,
@@ -633,6 +668,7 @@ Account Created:,Konto erstellt:,,
 Account Dashboard,Benutzerkonto-Übersicht,,
 Account ID,Konto-ID,,
 Account Information,Kontoinformationen,,
+Account Information Options,Information über Kontooptionen,module,Magento_Customer
 Account Lock,Kontosperrung,module,Magento_Customer
 Account Lock:,Kontosperrung:,module,Magento_Customer
 Account Number,Kontonummer,,
@@ -877,6 +913,7 @@ Advanced Fraud Protection,Erweiterter Betrugs-Schutz,,
 Advanced Inventory,Erweitertes Inventar,,
 Advanced Pricing,Erweiterte Preisgestaltung,,
 Advanced Search,Erweiterte Suche,,
+Advanced Search Results,Erweiterte Suchergebnisse,module,Magento_CatalogSearch
 Advanced Section,Abschnitt Erweitert,module,Magento_Config
 Advanced Settings,Erweiterte Einstellungen,,
 Advertise PayPal Credit,Für PayPal Credit werben,,
@@ -895,6 +932,7 @@ Alert subscription has been saved.,Benachrichtigungsabonnement wurde gespeichert
 All,Alle,,
 ALL,ALLE,,
 All,Alle(s),lib,lib/web/mage/menu.js
+All ,Alle  ,lib,lib/web/mage/menu.js
 All Allowed Countries,Alle erlaubten Länder,,
 All Cache,Alle Caches,,
 All Configurable Cron Jobs,Alle konfigurierbaren Cron-Jobs,,
@@ -977,6 +1015,7 @@ Allowed file types *.css.,Erlaubte Dateitypen *.css.,module,Magento_Theme
 Allowed file types *.js.,Erlaubte Dateitypen *.js.,,
 Allowed file types *.js.,Erlaubte Dateitypen *.js.,module,Magento_Theme
 "Allowed file types: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Not all browsers support all these formats!","Erlaubte Dateitypen: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Nicht alle Browser unterstützen alle diese Formate!",,
+"Allowed file types: ico, png, gif, jpg, jpeg, apng, svg. Not all browsers support all these formats!","Erlaubte Dateitypen: ico, png, gif, jpg, jpeg, apng, svg. Nicht alle Browser unterstützen alle diese Formate!",module,Magento_Theme
 "Allowed file types: jpeg, gif, png.","Erlaubte Dateitypen: JPEG, GIF, PNG",,
 "Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in the width/height fields below.","Erlaubte Dateitypen: jpg, jpeg, gif, png. Um das Logo für hochauflösende Displays zu optimieren, laden Sie ein Bild hoch, dass 3x der normalen Größe hat und geben Sie dann 1x Abmessungen in Breite / Höhe in die unteren Felder ein.",module,Magento_Email
 "Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in width/height fields below.","Erlaubte Dateitypen: jpg, jpeg, gif, png. Um das Logo für hochauflösende Displays zu optimieren, laden Sie ein Bild hoch, dass 3x der normalen Größe hat und geben Sie dann 1x Abmessungen in Breite / Höhe in die unteren Felder ein.",,
@@ -1257,6 +1296,7 @@ Area code is not set,Postleitzahl ist noch nicht gesetzt,,
 Area code not set: Area code must be set before starting a session.,Postleitzahl muss vor Beginn einer Sitzung angegeben werden,,
 Area is already set,Bereich ist bereits gesetzt,,
 Argument type duplication in class %1 in %2%3%4,Doppelter Argumenttyp in Klasse %1 in %2%3%4,,
+arketplace,Marketplace,,
 Array root keys must not be numeric.,Array-Rootkey darf nicht numerisch sein,,
 As Low as,So niedrig wie,,
 As low as,So niedrig wie,,
@@ -1493,9 +1533,11 @@ Billing,Abrechnung,,
 Billing Address,Rechnungsadresse,,
 Billing Address:,Rechnungsadresse:,,
 Billing Address:,Rechnungsadresse:,module,Magento_Sales
+Billing Address: ,Rechnungsadresse:,module,Magento_Sales
 Billing Agreement,Abrechnungsvereinbarung,,
 Billing Agreement #,Abrechnungsvereinbarung #,,
 Billing Agreement #,Rechnungsvereinbarungsnummer #,module,Magento_Paypal
+Billing Agreement # ,Rechnungsvereinbarungsnummer #,module,Magento_Paypal
 Billing Agreement # %1,Abrechnungsvereinbarung #%1,,
 Billing Agreement #%1,Abrechnungsvereinbarung #%1,,
 Billing Agreement Signup,Abrechnungsvereinbarungsregistrierung,,
@@ -1554,6 +1596,7 @@ Buy %1 for %2 each,%1 für jeweils %2 kaufen,,
 Buy %1 for price %2,Kaufe %1 zum Preis von %2,,
 Buy %1 for:,%1 kaufen für:,,
 Buy %1 for:,%1 kaufen für:,module,Magento_Catalog
+Buy %1 for: ,Kaufe %1 für:,module,Magento_Catalog
 Buy %1 with %2 discount each,%1 kaufen mit jeweils %2 Rabatt,,
 Buy now with PayPal,Jetzt mit Paypal kaufen,,
 Buy X get Y free (discount amount is Y),"X kaufen, Y kostenlos erhalten (Rabattmenge ist Y)",,
@@ -1612,6 +1655,7 @@ Can't update wish list,Kann Wunschzettel nicht aktualisieren,,
 Canada Standard,Canada Standard,,
 Cancel,Abbrechen,,
 Cancel coupon,Gutschein entfernen,,
+Cancel Coupon,Gutschein löschen,module,Magento_Checkout
 Canceled,Abgebrochen,,
 Canceled order offline,Bestellung offline storniert.,,
 Canceled order online,Bestellung online storniert.,,
@@ -1665,12 +1709,14 @@ Cannot save backup,Backup kann nicht gespeichert werden.,,
 "Cannot save comment:
 %1","Kommentar kann nicht gespeichert werden:
 %1",,
+Cannot save comment:\n%1,Kann Hinweis:\n%1 nicht speichern,module,Magento_Sales
 Cannot save product.,Kann Produkt nicht speichern.,,
 Cannot save shipment.,Sendung kann nicht gespeichert werden.,,
 Cannot save titles,Titel können nicht gespeichert werden.,,
 "Cannot save track:
 %1","Track kann nicht gespeichert werden:
 %1",,
+Cannot save track:\n%1,Track :\n%1 kann nicht gespeichert werden,module,Magento_Sales
 Cannot send shipment information.,Versandinformationen können nicht versendet werden.,,
 Cannot set shipping method. %1,Kann Versandmethode nicht festlegen. %1,,
 Cannot specify product.,Produkt kann nicht angegeben werden.,,
@@ -1787,6 +1833,8 @@ Change,Veränderung,,
 Change Billing Address,Rechnungsadresse ändern,,
 Change Email,E-Mail-Adresse ändern,,
 Change Email and Password,Ändern Sie die Email-Adresse und das Passwort,module,Magento_Customer
+Change Email and Password Template,Ändern Sie die E-mail und Passwort-Vorlage,module,Magento_Customer
+Change Email Template,Ändern Sie die E-Mail-Vorlage,module,Magento_Customer
 Change Encryption Key,Kodierungsschlüssel ändern,,
 Change indexer mode,Indexermodus ändern,module,Magento_Indexer
 Change Password,Passwort ändern,,
@@ -1967,6 +2015,7 @@ Compared Products List Template,Vorlage für verglichene Produktlisten,,
 Compatible File Extensions,Kompatible Dateierweiterungen,,
 Compatible file extensions to upload,Kompatible Dateierweiterungen zum Hochladen,,
 Compilation from source:,Kompilation von der Quelle:,module,Magento_Deploy
+Compilation from source: ,Kompilierung von der Quelle:,module,Magento_Deploy
 Complaint,Beschwerde,,
 Complete,Vollständig,,
 Concurrent session information:,Information über gleichzeitige Sessions:,module,Magento_Security
@@ -2244,6 +2293,7 @@ Credit Card: xxxx-%1,Kreditkarte: xxxx-%1,,
 Credit Memo,Gutschrift,,
 Credit Memo #,Gutschrift #,,
 Credit Memo #,Gutschrift #,module,Magento_Sales
+Credit Memo # ,Gutschrift #,module,Magento_Sales
 Credit Memo #%1 | %3 | %2 (%4),Gutschrift #%1 | %3 | %2 (%4),,
 Credit Memo #%1 | %3 | %2 (%4),Gutschrift #%1 | %3 | %2 (%4),module,Magento_Sales
 Credit memo #%1 comment added,Gutschrift #%1 Kommentar hinzugefügt,,
@@ -2266,6 +2316,7 @@ Cron,Cron,,
 Cron (Scheduled Tasks),Cron (Geplante Aufgaben),module,Magento_Cron
 Cron (Scheduled Tasks) - all the times are in minutes,Cron (Geplante Aufgaben) - Alle Zeiten sind in Minuten,,
 Cron configuration options for group:,Cron-Konfigurationsoptionen für Gruppe:,module,Magento_Cron
+Cron configuration options for group: ,Cron-Konfigurationsoptionen für Gruppe:,module,Magento_Cron
 Cron configuration options for group: default,Cron-Konfigurationsoptionen für Gruppe: default,,
 Cron configuration options for group: index,Cron-Konfigurationsoptionen für die Gruppe: index,,
 Cron Expression,Cron-Ausdruck,,
@@ -2850,6 +2901,7 @@ EAV types and attributes,EAV-Typen und -Attribute,,
 eBay Auction Payment,eBay-Auktions-Zahlung,,
 Economy select,Economy select,,
 Edit,Bearbeiten,,
+edit,bearbeiten,module,Magento_Checkout
 Edit '%1' Gift Registry,"Geschenkeliste ""%1"" bearbeiten",,
 Edit '%1' Gift Registry Type,"Geschenkelistentyp ""%1"" bearbeiten",,
 "Edit ""%1"" Integration","Integration ""%1"" bearbeiten",,
@@ -2956,6 +3008,7 @@ Element with ID '%1' already exists.,"Elemente mit der ID ""%1"" existieren bere
 Element with ID '%1' is already defined.,"Elemente mit der ID ""%1"" sind bereits definiert",,
 Elements,Elemente,,
 Email,E-Mail  ,,
+email,E-Mail,module,Magento_User
 Email address,E-Mail-Adresse,,
 Email Address,E-Mail-Adresse,,
 "Email address impact. The customer uses a free email provider, or the email address is risky",E-Mail-Adressen-Auswirkung. Der Kunde verwendet einen kostenlosen E-Mail-Provider oder die E-Mail-Adresse ist riskant.,,
@@ -2988,6 +3041,7 @@ Email to a Friend,E-Mail an einen Freund,,
 email us at,Schreiben Sie uns eine E-Mail an,,
 email us at,Schicken Sie uns eine E-Mail an,,
 email us at,schreiben Sie uns eine E-Mail an,module,Magento_Shipping
+email us at ,schreiben Sie uns eine E-Mail an,module,Magento_Shipping
 Email Verification,E-Mail-Verifizierung,,
 Email:,E-Mail:,,
 Email: %email,E-Mail: %email,,
@@ -3040,6 +3094,7 @@ Enable In-Context Checkout Experience,Im-Kontext Checkout Verhalten aktivieren,m
 Enable Invitations Functionality,Einladungsfunktionalität aktivieren,,
 Enable Invitations on Storefront,Einladungen im Frontend aktivieren,,
 Enable Javascript Bundling,Javascript-Bundling aktivieren,,
+Enable JavaScript Bundling,Ermöglicht die Bündelung von JavaScript,module,Magento_Backend
 Enable MAP,MAP aktivieren,,
 Enable Multiple Wish Lists,Mehrere Wunschzettel aktivieren,,
 Enable Negotiated Rates,Vereinbarte Preise aktivieren,,
@@ -3124,6 +3179,7 @@ Entity Type,Datensatztyp,,
 Entity Type Code,Entity-Typ-Code,,
 Entity type model '%1' is not found,"Entitätstyp-Modell ""%1"" nicht gefunden",,
 Entity type model must be an instance of ' 'Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType,"Entity-Typ-Model muss eine Instanz von ""\Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType"" sein.",,
+Entity type model must be an instance of '%1',Der Ausführungstyp (entity type model) muß eine Instanz von  '%1',module,Magento_CatalogImportExport
 Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType,Entitätstyp-Modell muss eine Instanz von \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType sein,,
 Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType,Der Ausführungstyp (entity type model) muß eine Instanz von \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType sein.,module,Magento_AdvancedPricingImportExport
 Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType,Der Ausführungstyp (entity type model) muß eine Instanz von \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType sein.,module,Magento_CatalogImportExport
@@ -3168,6 +3224,7 @@ Error occurred during execution of fileWrite %1,Fehler während der Ausführung 
 Error occurred when generating coupons: %1,Bei der Generierung von Gutscheinen ist ein Fehler aufgetreten: %1,,
 Error occurred when saving coupon: %1,Beim Speichern des Gutscheins ist ein Fehler aufgetreten: %1,,
 "Error processing payment, please try again later.","Fehler bei der Verarbeitung der Zahlung, bitte versuchen Sie es später erneut.",,
+Error processing payment. Please try again later.,Fehler bei der Zahlungsverarbeitung. Versuchen Sie es bitte später noch einmal.,module,Magento_Paypal
 Error Text,Fehlertext,,
 Error to Show in Shopping Cart,Fehler im Einkaufswagen anzeigen,,
 error_message,error_message,,
@@ -3249,6 +3306,8 @@ Expiration Period,Ablaufzeitraum,,
 Expired,Abgelaufen,,
 Expired reward,Abgelaufene Belohnung,,
 Expires,Läuft ab,,
+expires,läuft ab,module,Magento_Braintree
+expires,läuft ab,module,Magento_Paypal
 Expires on %1,Läuft ab am %1,,
 Expires: %1,Läuft ab: %1,,
 Expiry Warning Before (days),Ablaufwarnung vorher (Tage),,
@@ -3333,6 +3392,11 @@ Field,Feld,module,Magento_Fedex
 Field,Feld,module,Magento_OfflineShipping
 Field,Feld,module,Magento_Ups
 Field,Feld,module,Magento_Usps
+Field ,Feld,module,Magento_Dhl
+Field ,Feld,module,Magento_Fedex
+Field ,Feld,module,Magento_OfflineShipping
+Field ,Feld,module,Magento_Ups
+Field ,Feld,module,Magento_Usps
 Field '%1' not found,Feld '%1' nicht gefunden,module,Magento_Indexer
 Field 2,Feld 2,,
 Field 3,Feld 3,,
@@ -3393,6 +3457,7 @@ Filters,Filter,,
 Final commit,Letzte Übertragung,,
 Final Price,Endgültiger Preis,,
 Financial Office,Zuständiges Finanzamt,,
+Financial Office,Finanzbüro,module,FireGento_MageSetup
 Find a string in client user-agent header and switch to specific design theme for that browser.,Finde einen String im Client-User-Agent-Header und wechsle auf das spezifische Design-Theme für diesen Browser.,,
 Find Order By,Bestellung finden nach,,
 Find Partners & Extensions,Partner & Extensions,,
@@ -3521,6 +3586,7 @@ Frame Skip,Frame Skip,,
 Fraud Detection,Betrugsentdeckung,,
 Fraud Detection,Betrugsaufdeckung,,
 Fraud Detection,Betrugsversuch erkannt.,module,Magento_Authorizenet
+Fraud Detection ,Betrugsversuch erkannt.,module,Magento_Authorizenet
 Fraud Filters,Betrugsfilter,,
 Fraud Message,Betrugsnachricht,,
 Free Method,Freie Methode,,
@@ -3588,6 +3654,7 @@ General Contact Name,Allgemeiener Kontakt Name,,
 General Currency Conversion,Allgemeine Währungsumrechnung,,
 General Funding of PayPal Account,Allgemeine Finanzierung des PayPal-Kontos,,
 General Funding of PayPal Account,Allgemeine Finanzierung des PayPal-Kontos,module,Magento_Paypal
+General Funding of PayPal Account ,Allgemeine Finanzierung des PayPal-Kontos,module,Magento_Paypal
 General Information,Allgemeine Informationen,,
 General Options,Allgemeine Optionen,,
 General Properties,Allgemeine Eigenschaften,,
@@ -3678,8 +3745,10 @@ Gift Messages is not applicable for empty cart,Geschenk-Nachricht entfällt bei 
 Gift Messages is not applicable for empty order,Geschenk-Nachrichten gelten nicht für leere Bestellungen,,
 Gift Messages is not applicable for virtual products,Geschenk-Nachricht entfällt bei virtuellen Artikeln,,
 Gift Options,Geschenkoptionen,,
+Gift options,Geschenkoptionen,module,Magento_GiftMessage
 Gift Options for,Geschenkoptionen für,,
 Gift Options for,Geschenkoptionen für,module,Magento_Sales
+Gift Options for ,Geschenkoptionen für,module,Magento_Sales
 Gift Options for Individual Items,Geschenkoptionen für einzelne Artikel,,
 Gift Options for the Entire Order,Geschenk-Optionen für die gesamten Bestellung,,
 "Gift Order. The street address, city, state, or country of the billing and shipping addresses do not correlate","Geschenkbestellung. Adresse, Stadt, Bundesland oder Land der Rechnungs- und Versandadressen hängen nicht zusammen.",,
@@ -3908,8 +3977,8 @@ If you believe it is the right one you can ignore this notice.,"Wenn Sie der Mei
 "If you requested this change, reset your password here:","Wenn Sie diese Änderung beauftragt haben, setzen Sie Ihr Passwort hier neu:",,
 "If you requested this change, set a new password here:","Wenn Sie diese Änderung beauftragt haben, setzen Sie hier ein neues Passwort fest:",,
 If you select and save the rule you will be able to generate multiple coupon codes.,"Wenn Sie die Regel auswählen und speichern, sind Sie in der Lage, mehrere Gutschein-Codes zu generieren.",,
-If your Magento installation has multiple websites, you can edit the scope to use the product on specific sites.,Wenn Ihr Magento mehrere Webseiten hat, können Sie den Geltungsbereich bearbeiten, um das Produkt auf einzelnen Webseiten darzustellen.,,
-If your Magento installation has multiple websites, you can edit the scope to associate the customer with a specific site.,Wenn Ihr Magento mehrere Webseiten hat, können Sie den Geltungsbereich bearbeiten, um den Kunden einer bestimmten Webseite zuzuordnen.,,
+"If your Magento installation has multiple websites, you can edit the scope to use the product on specific sites.","Wenn Ihr Magento mehrere Webseiten hat, können Sie den Geltungsbereich bearbeiten, um das Produkt auf einzelnen Webseiten darzustellen.",,
+"If your Magento installation has multiple websites, you can edit the scope to associate the customer with a specific site.","Wenn Ihr Magento mehrere Webseiten hat, können Sie den Geltungsbereich bearbeiten, um den Kunden einer bestimmten Webseite zuzuordnen.",,
 "If your Magento site has multiple views, you can set the scope to apply to a specific view.","Wenn Ihr Magento mehrere Ansichten hat, können Sie den Bereich festlegen, für den die Ansicht gelten soll.",,
 Image,Bild,,
 Image Adapter,Bild-Adapter,,
@@ -3935,6 +4004,7 @@ Images (%1),Bilder (%1),,
 Images (%1),Bilder (%1),module,Magento_Cms
 Images and Videos,Bilder und Videos,,
 Images And Videos,Bilder und Videos,,
+Images And Videos,Bilder und Videos,module,Magento_ProductVideo
 Images Assets,Bilder Assets,,
 Images Cache,Bilder-Cache,,
 Images File Directory,Bilderdateiverzeichnis,,
@@ -3956,6 +4026,7 @@ Import/Export,Import/Export,,
 Import/Export Tax Rates,Import/Export Steuersätze,,
 Important:,Wichtig:,,
 Important:,Wichtig:,module,Magento_Paypal
+Important: ,Wichtig:,module,Magento_Paypal
 IMPORTANT: Be sure to save your configuration before running generation process.,"WICHTIG: Stellen Sie sicher, dass Sie Ihre Konfiguration speichern, bevor Sie den Generierungsprozess starten.",,
 Imported File,Importierte Datei,,
 ImportExport: Import Data validation - Validation strategy not found,Import/Export: Daten-Validierung importieren - Validierungs-Strategie nicht gefunden,,
@@ -3963,6 +4034,8 @@ Imprint,Impressum,,
 Improves dashboard performance but provides non-realtime data.,"Verbessert die Dashboard-Performance, liefert aber keine Echtzeit-Daten.",,
 in,in,,
 In Cart,Im Warenkorb,,
+in row(s),in Reihe(n) ,module,Magento_ImportExport
+in row(s):,in Reihe(n):,module,Magento_ImportExport
 in rows,in Zeilen,,
 in rows:,In Zeilen:,,
 In stock,Auf Lager,,
@@ -4255,6 +4328,7 @@ Invitee,Eingeladener,,
 Invoice,Rechnung,,
 Invoice #,Rechnung #,,
 Invoice #,Rechnung #,module,Magento_Sales
+Invoice # ,Rechnung #,module,Magento_Sales
 Invoice #%1 | %2 | %4 (%3),Rechnung #%1 | %2 | %4 (%3),,
 Invoice #%1 | %2 | %4 (%3),Rechnung #%1 | %2 | %4 (%3),module,Magento_Sales
 Invoice #%1 comment added,Rechnung #%1 Kommentar hinzugefügt,,
@@ -4489,6 +4563,7 @@ Listed,Aufgelistet,,
 Lister Block,Auflisterblock,,
 Live,Live,,
 Live account,Live-Konto,,
+Live Account,Live-Konto,module,Magento_Ups
 Live API Key,Live-API-Schlüssel,,
 Live API Password,Live-API-Passwort,,
 Live Client-side Encryption Key,Live Client-side Encryption Key,,
@@ -4690,6 +4765,8 @@ Maximum length of this field must be equal or less than %1 symbols.,Maximale Lä
 Maximum Login Failures to Lockout Account,Maximale Anmeldefehler bis zur Sperrung des Kontos,,
 Maximum No of URLs Per File,Maximale Anzahl an URLs pro Datei,,
 Maximum number of characters:,Maximale Zeichenanzahl,,
+Maximum Number of Items to Display,Maximal anzeigbare Artikelanzahl,module,Magento_Checkout
+Maximum Number of Items to Display in Order Summary,Maximale Anzahl an Artikeln in der Bestellzusammenfassung,module,Magento_Checkout
 Maximum Number of Price Intervals,Maximale Anzahl an Preisintervallen,,
 Maximum number of price intervals is 100,Maximale Anzahl an Preisintervallen ist 100.,,
 Maximum Number of Products in Cross-Sell Product List,Maximale Anzahl von Produkten in der Cross-Sell-Produktliste,,
@@ -4751,6 +4828,7 @@ Merchants need to apply to PayPal for enabling billing agreements feature. Do no
 Merge conflict with existing synonym group(s): %1,Konflikt bei der Zusammenführung mit bestehender/n Synonymgruppe(n): %1,module,Magento_Search
 Merge CSS Files,Zusammenfügen von CSS-Dateien,,
 Merge existing Synonyms,Existierende Synonyme zusammenfügen,,
+Merge existing synonyms,Verbinden Sie vorhandene Synonyme,module,Magento_Search
 Merge JavaScript Files,Zusammenfügen von JavaScript-Dateien,,
 Message,Nachricht,,
 message,Nachricht,,
@@ -4914,6 +4992,7 @@ Never (production),Nie (Produktion),,
 Never (production),Nie (Produktion),module,Magento_Config
 New,Neu,,
 New,Neu,module,Magento_Backend
+New ,Neu,module,Magento_Backend
 New ' .,Neu ' .,,
 New %1,Neuer %1,module,Magento_Ui
 New %changes for %user_name,Neue %changes für %user_name,module,Magento_User
@@ -4925,6 +5004,7 @@ New Address,Neue Adresse,,
 New Attribute,Neues Attribut,,
 New Attribute Set,Neues Attributset,,
 New attribute set name,Name des neuen Attributsets,,
+New Attribute Set Name,Neuer Attributset Name,module,Magento_ConfigurableProduct
 New Backup,Neues Backup,,
 New Banner,Neuer Banner,,
 New Billing Agreement,Neue Abrechnungsvereinbarungen,,
@@ -5193,6 +5273,7 @@ Not supported cipher version,Nicht unterstützte Verschlüsselungsversion,,
 Not supported response.,Nicht unterstützte Antwort.,,
 Not sure what PayPal payment method to use? Click,"Nicht sicher, welche PayPal-Zahlungsmethode benutzt werden soll? ",,
 Not sure what PayPal payment method to use? Click,"Nicht sicher, welche PayPal-Zahlungsmethode benutzt werden soll? Klick",module,Magento_Paypal
+Not sure what PayPal payment method to use? Click ,"Nicht sicher, welche PayPal-Zahlungsmethode benutzt werden soll? Klick",module,Magento_Paypal
 "Not sure what PayPal payment method to use? Click <a href=""%1"" target=""_blank"">here</a> to learn more.","Nicht sicher, welche PayPal-Zahlungsmethode Sie verwenden möchten? <a href=""%1"" target=""_blank"">Hier</a> klicken, um mehr zu erfahren.",,
 Not Valid!,Ungültig!,,
 Not Visible Individually,Nicht individuell sichtbar,,
@@ -5231,6 +5312,8 @@ Number of Events to be Displayed in Event Slider Widget,"Anzahl der Events, die 
 Number of Items,Artikelanzahl,,
 Number of items bought from a Wish List: %1,Anzahl der gekauften Artikel des Wunschzettels: %1,,
 Number of Items to display at once,Anzahl der zugleich angezeigten Artikel,,
+Number of Items to Display Pager,Anzahl Artikel in Pageranzeige,module,Magento_Checkout
+Number of Items to Display Scrollbar,Anzahl Artikel in Scrollbaranzeige,module,Magento_Checkout
 Number of Items to scroll per click,Anzahl der gescrollten Artikel pro Klick,,
 Number of Lines in a Street Address,Anzahl an Zeilen in einer Straße,,
 Number of Multiple Wish Lists,Anzahl der mehrfachen Wunschzettel,,
@@ -5264,6 +5347,7 @@ OAuth version %1 is not supported,OAuth-Version %1 wird nicht unterstützt,,
 "Object already exists in registry (%1). Old object class: %2, new object class: %3","Objekt existiert bereits in der registry (%1). Alte Objektklasse: %2 , Neue Objektklasse: %3",,
 Object DOMDocument should be created.,Objekt DOMDocument sollte erstellt werden,,
 Object is not instance of ' .,Objekt ist keine Ausprägung von  '.,module,Magento_Config
+Object is not instance of ' .,Objekt ist keine Ausprägung von  '.,module,Magento_Config
 Obscenities. The customer’s input contains obscene words,Obszönitäten. Die Eingabe des Kunden enthält obszöne Worte.,,
 of,von,module,Magento_Ui
 of %1,von %1,,
@@ -5292,6 +5376,7 @@ One of the countries has invalid code.,Eines der Länder hat einen ungültigen C
 One or more of the Cache Types are invalidated: %1.,Eine oder mehrere der Cache-Typen sind ungültig. %1,,
 One or more of the Cache Types are invalidated: %1.,Einer oder mehrere der Cache-Typen sind entkräftet: %1.,,
 One or more of the Cache Types are invalidated: %1.,Einer oder mehrere Caches sind ungültig: %1.,module,Magento_AdminNotification
+One or more of the Cache Types are invalidated: %1. ,Einer oder mehrere Caches sind ungültig: %1.,module,Magento_AdminNotification
 One or more of the indexers are not valid. Please add Magento cron file to crontab or launch cron.php manually.,Einer oder mehrere der Indexer sind ungültig. Bitte fügen Sie die Magento-Crondatei zu Crontab hinzu oder führen Sie cron.php manuell aus.,,
 One-page checkout is turned off.,Expresskasse ist deaktiviert.,,
 Online,Online,,
@@ -5318,6 +5403,7 @@ Only one RMA is available for printing,Nur eine RMA ist fürs Drucken verfügbar
 "Only registered users can write reviews. Please <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>","Nur eingetragene Benutzer können Rezensionen schreiben. Bitte <a href=""%1"">Sign in</a> or <a href=""%2"">erstellen Sie einen Akkount</a>",module,Magento_Review
 "Only registered users can write reviews. Please, <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>","Nur registrierte Kunden können Bewertungen abgeben. Bitte <a href=""%1"">einloggen</a> oder ein <a href=""%2"">Konto erstellen</a>",,
 Only the first 100 errors are shown.,Nur die ersten 100 Fehler werden gezeigt.,module,Magento_ImportExport
+Only the first 100 errors are shown. ,Nur die ersten 100 Fehler werden gezeigt.,module,Magento_ImportExport
 Only X left Threshold,"Grenzwert, ab dem ""Nur X übrig"" angezeigt wird",,
 Open,Offen,,
 Open Authorization,Autorisierung öffnen,,
@@ -5339,6 +5425,7 @@ Option values are not specified.,Optionswerte nicht angegeben,,
 "Option with id ""%1"" not found","Option mit ID ""%1"" nicht gefunden",,
 Optional,Optional,,
 Options,Optionen,,
+options,Optionen,module,Magento_Ui
 Options Details,Optionsdetails,,
 or,oder,,
 or call us at %store_phone,oder rufen sie uns unter %store_phone an,module,Magento_User
@@ -5351,6 +5438,7 @@ Order & Account Information,Bestellungs- und Kontoinformationen,,
 Order &amp; Account Information,Bestellung %amp; Kontoinformationen,,
 Order #,Bestellung #,,
 Order #,Bestellung #,module,Magento_Sales
+Order # ,Bestellung #,module,Magento_Sales
 Order # %1,Bestellung # %1,,
 Order # %1 %2 | %3,Bestellung # %1 %2 | %3,,
 Order # %1 %2 | %3,Bestellung # %1 %2 | %3,module,Magento_Sales
@@ -5385,6 +5473,7 @@ Order Date (%1),Bestelldatum (%1),,
 Order Date (%1),Bestelldatum (%1),module,Magento_Sales
 Order Date:,Bestelldatum:,,
 Order Date:,Bestelldatum:,module,Magento_Sales
+Order Date: ,Bestelldatum:,module,Magento_Sales
 Order Grand Total,Bestell-Gesamtsumme,,
 Order History,Bestellhistorie,,
 Order ID,Auftragsnummer,,
@@ -5478,6 +5567,7 @@ Packaging,Verpackung,,
 Packing Slip #,Lieferschein #,,
 Packing Slip #,Packzettel #,,
 Packing Slip #,Lieferschein #,module,Magento_Sales
+Packing Slip # ,Lieferschein #,module,Magento_Sales
 Page,Seite,,
 Page Background Color,Seiten-Hintergrundfarbe,,
 Page blocks HTML,Page blocks HTML.,module,Magento_Store
@@ -5561,6 +5651,7 @@ Path,Pfad,,
 "Path ""%value%"" is protected and cannot be used.","Pfad ""%value%"" ist geschützt, und kann nicht verwendet werden.",,
 "Path ""%value%"" may not include parent directory traversal (""../"", ""..\"").","Pfad ""%value%"" enthalt eventuell keine übergeordneten Verzeichnis-Traversals (""../"", ""..\).""",module,Magento_MediaStorage
 "Path ""%value%"" may not include parent directory traversal (""../"", ""..\).""","Pfad ""%value%"" enthalt eventuell keine übergeordneten Verzeichnis-Traversals (""../"", ""..\).""",,
+"Path ""%value%"" may not include parent directory traversal (""../"", ""..\).""","Pfad ""%value%"" enthalt eventuell keine übergeordneten Verzeichnis-Traversals (""../"", ""..\).""",module,Magento_MediaStorage
 Paths file already exists,Dateipfad existiert bereits,,
 Paths file cannot be created,Dateipfad kann nicht erstellt werden,,
 Pause,Pause,,
@@ -5579,6 +5670,7 @@ Payflow Pro (Includes Express Checkout),Payflow Pro (eingeschlossen Express Chec
 Payflow Pro and Express Checkout,Payflow Pro und Express Checkout,,
 Payment,Zahlung,,
 Payment,Zahlung,module,Magento_Braintree
+Payment ,Bezahlung,module,Magento_Braintree
 Payment &amp; Shipping Information,Zahlungs- und Versandinformationen,,
 Payment &amp; Shipping Method,Zahlungs- und Versandmethode,,
 Payment Action,Zahlungsaktion,,
@@ -5926,6 +6018,7 @@ Please enter a valid email.,Bitte geben Sie eine gültige E-Mail-Adresse an.,,
 Please enter a valid fax number (Ex: 123-456-7890).,Bitte geben Sie eine gültige Faxnummer ein (z.B.: 123-456-7890).,,
 Please enter a valid fax number (Ex: 123-456-7890).,Bitte geben Sie eine gültige Faxnummer ein (z.B.: 123-456-7890).,module,Magento_Ui
 Please enter a valid gift card code.,Bitte geben Sie einen gültigen Geschenkkartencode ein.,,
+Please enter a valid integer in this field.,Geben Sie bitte eine gültige ganze Zahl in dieses Feld ein.,module,Magento_Ui
 Please enter a valid invitation email.,Bitte geben Sie eine gültige Einladungs-E-Mail ein,,
 Please enter a valid invitee email address.,Bitte geben Sie eine gültige Eingeladenen-E-Mail ein,,
 Please enter a valid IP v4 address.,Bitte geben Sie eine gültige IPv4-Adresse ein.,,
@@ -6375,6 +6468,7 @@ Product Image Placeholders,Produktbild-Platzhalter,,
 Product Image Watermarks,Produktbild-Wasserzeichen,,
 Product In Websites,Produkt in Websites,,
 Product in Websites,Produkt in Websites,,
+Product in Websites,Produkt in Websites,module,Magento_Catalog
 Product Info,Produktinformationen,,
 Product Info Column,Produktinfo-Spalte,,
 Product is not loaded,Das Produkt ist nicht geladen,,
@@ -6408,6 +6502,7 @@ Product Template,Produktvorlage,,
 Product Template already exists.,Produktvorlage existiert bereits,,
 Product template comprising all selected configurable attributes need to be in order to save generated variations.,"Produktvorlage, die alle ausgewählten konfigurierbaren Attribute beinhaltet, muss in der Bestellung sein, um generierte Variationen zu speichern.",,
 Product Templates,Produktvorlagen,,
+Product that you are trying to add is not available.,"Das Produkt, das Sie versuchen hinzuzufügen, ist nicht verfügbar.",module,Magento_Quote
 Product Thumbnail Itself,Produkt-Thumbnail,,
 Product type of the product must be 'downloadable'.,Produkttyp des Produktes muss 'herunterladbar' sein.,,
 Product URL Suffix,Produkt-URL-Suffix,,
@@ -6496,6 +6591,7 @@ Public content cache lifetime in seconds. If field is empty default value 86400 
 Public content cache lifetime in seconds. If field is empty default value 86400 will be saved.,"Lebensdauer des Cache für öffentlichen Inhalt in Sekunden. Wenn leer, wird der Standardwert 86400 gespeichert.",,
 Public content cache lifetime in seconds. If field is empty default value 86400 will be saved.,"Cache-Lebensdauer für öffentliche Inhalte. Wenn das Feld leer bleibt, wird der Standardwert 86400 verwendet.",,
 Public content cache lifetime in seconds. If field is empty default value 86400 will be saved.,"Cache-Bestandsdauer in Sekunden für öffentlichen Inhalt. Wenn das Feld leer ist, wird der Standwert 86400 verwendet.",module,Magento_PageCache
+Public content cache lifetime in seconds. If field is empty default value 86400 will be saved. ,"Cache-Bestandsdauer in Sekunden für öffentlichen Inhalt. Wenn das Feld leer ist, wird der Standwert 86400 verwendet.",module,Magento_PageCache
 Public In RSS Feed,Öffentlich im RSS-Feed,,
 Public Key,Öffentlicher Schlüssel,,
 Public Wish List,Öffentlicher Wunschzettel,,
@@ -6657,7 +6753,9 @@ Refused,Verweigert,,
 region,Region,,
 Region/State,Region/Bundesland,,
 Register Court,Registergericht,,
+Register court,Registergericht,module,FireGento_MageSetup
 Register Number,Registernummer,,
+Register number,Registernummer,module,FireGento_MageSetup
 Registered,Registriert,,
 Registered a Void notification.,Eine Aufhebungs-Benachrichtigung wurde registriert.,,
 Registered as customer,Als Kunde registriert,,
@@ -7157,6 +7255,7 @@ Select all,Alle auswählen,,
 Select All on This Page,Alles auf dieser Seite auswählen,module,Magento_Ui
 Select Associated Product,Zugehöriges Produkt auswählen,,
 Select attribute,Attribut auswählen,,
+Select Attribute,Attribut wählen,module,Magento_Catalog
 Select Attributes,Attribute auswählen,,
 Select Block...,Block wählen...,,
 Select Category,Kategorie auswählen,,
@@ -7191,6 +7290,7 @@ Select values from each attribute to include in this product. Each unique combin
 Select Visible,Sichtbare auswählen,,
 Select...,Auswählen...,,
 selected,Ausgewählt,,
+Selected,Ausgewählt,module,Magento_Ui
 "Selected allowed currency ""%1"" is not available in installed currencies.","Ausgewählte erlaubte Währung ""%1"" ist nicht in den installierten Währungen verfügbar.",,
 Selected Attributes:,Ausgewählte Attribute:,,
 Selected Only,Nur Auswahlen,,
@@ -7368,6 +7468,7 @@ Shipping address not set.,Lieferadresse ist nicht festgelegt.,,
 Shipping Address:,Lieferadresse:,,
 Shipping Address:,Versandadresse:,,
 Shipping Address:,Versandadresse:,module,Magento_Sales
+Shipping Address: ,Versandadresse:,module,Magento_Sales
 Shipping Amount,Versandmenge,,
 Shipping and Handling,Versandkosten,,
 Shipping and Tracking Information,Versand-und Tracking-Informationen,,
@@ -7840,6 +7941,7 @@ store(%1) scope,Shop(%1)-Bereich,module,Magento_Config
 Store(s) affected:,Betroffene(r) Store(s):,,
 Store(s) affected:,betroffene Shops:,,
 Store(s) affected:,Betrifft Store(s):,module,Magento_Tax
+Store(s) affected: ,Betroffene(r) Shop(s):,module,Magento_Tax
 Stored Card,Gespeicherte Karte,,
 Stored Payment Method was successfully removed,Die gespeicherte Zahlungsmethode wurde entfernt,module,Magento_Vault
 Stored Payment Methods,Gespeicherte Zahlungsmethoden,module,Magento_Vault
@@ -7983,7 +8085,6 @@ Target Rule,Zielregel,,
 Target Rule Index.,Zielregel Index,,
 Target Rule/Product,Ziel Regel/Produkt,,
 Tax,Steuer,,
-Taxable Goods,Steuerpflichtige Waren,,
 Tax Amount,Steuerbetrag,,
 Tax Calculation Based On,Steuerberechnung basierend auf,,
 Tax Calculation Method Based On,Steuerberechnungsmethode basiert auf,,
@@ -8009,6 +8110,7 @@ Tax VAT Number,Umsatzsteuer-Nr.,,
 Tax Zones and Rates,Steuerzonen und -sätze,,
 Tax/VAT number,Steuernummer/Ust-ID,,
 Tax/VAT Number,Steuernummer/USt-IdNr.,,
+Taxable Goods,Steuerpflichtige Waren,,
 Taxes,Steuern,,
 Telephone,Telefon,,
 Template,Vorlage,,
@@ -8034,6 +8136,7 @@ Test Group,Testgruppe,,
 Test Indexer Declaration,Indexerdeklaration testen,,
 Test Indexer Declaration 1,Indexerdeklaration 1 testen,,
 Test Label,Test-Label,,
+Test label,Test label,module,Magento_GiftMessage
 test message,Testnachricht,,
 Test Mode,Testmodus,,
 Test Phrase,Test-Satz,,
@@ -8482,6 +8585,8 @@ There is no data for the export.,Es gibt keine Daten für den Export.,,
 "There is no defined renderer for ""%1"" option type.","Es gibt keinen festgelegten Renderer für den ""%1"" Optionstyp",,
 There is no defined type ' .,"
 Es gibt keinen definierten Typ '.",module,Magento_Config
+There is no defined type ' .,"
+Es gibt keinen definierten Typ '.",module,Magento_Config
 There is no downloadable link with provided ID.,Es gibt keinen herunterladbaren Link mit der vorgesehen ID.,,
 There is no downloadable sample with provided ID.,Es gibt kein herunterladbares Sample mit der angegebenen ID.,,
 There is no image with provided ID.,Es gibt kein Bild mit dieser ID.,,
@@ -8692,6 +8797,7 @@ Titles and Descriptions Per Store View,Titel und Beschreibungen pro Store View,,
 To,Bis,,
 to,An,,
 "To apply changes you should fill in hidden required ""%1"" field","Um die Änderungen zu übernehmen, sollten Sie das versteckte Pflichtfeld ""%1"" ausfüllen.",,
+"To apply the discount on prices including tax and apply the tax after discount, set Catalog Prices to “Including Tax”. ","Um den Preisnachlass auf Preisen einschließlich der Steuer anzuwenden und die Steuer nach dem Preisnachlass anzuwenden, legen Sie Katalogpreise “Einschließlich der Steuer” fest.",module,Magento_Tax
 "To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:","Um den Newsletter zu empfangen, müssen Sie zunächst Ihr Abonnement bestätigen, indem Sie auf den folgenden Link klicken:",,
 "To check out, please sign in using your email address.","Um zur Kasse zu gehen, melden Sie sich bitte mit Ihrer E-Mail-Adresse an.",,
 "To check out, please sign in with your email address.","Um zur Kasse zu gehen, melden Sie sich bitte mit Ihrer E-Mail-Adresse an.",,
@@ -8784,6 +8890,7 @@ Tracking Information,Tracking-Informationen,,
 Tracking information is currently not available. Please,Tracking-Information ist derzeit nicht verfügbar. Bitte,,
 Tracking information is currently not available. Please,Trackinginformationen sind zur Zeit nicht verfügbar. Bitte,,
 Tracking information is currently not available. Please,Trackinginformation ist momentan nicht verfügbar. Bitte,module,Magento_Shipping
+Tracking information is currently not available. Please ,Trackinginformation ist momentan nicht verfügbar. Bitte,module,Magento_Shipping
 Tracking information is unavailable.,Tracking-Information ist nicht verfügbar.,,
 Tracking Number,Tracking-Nummer,,
 Tracking number %1 for %2 assigned,Tracking-Nummer %1 für %2 hinzugewiesen,,
@@ -9106,6 +9213,7 @@ Use default,Standardeinstellungen verwenden,,
 Use Default Value,Standardwert verwenden,,
 Use Default Variable Values,Standard-Variablen-Werte verwenden,,
 Use deferred Stock update,Verzögerte Lageraktualisierung verwenden,,
+Use Deferred Stock Update,Verzögerte Lageraktualisierung verwenden,module,Magento_CatalogInventory
 Use digits only for the zip code.,Verwenden Sie nur Ziffern für die Postleitzahl.,,
 Use Flat Catalog Category,Benutze Flat Catalog-Kategorie,,
 Use Flat Catalog Product,Benutze Flat-Catalog-Produkt,,
@@ -9175,6 +9283,7 @@ User Roles Information,Benutzerrollen-Informationen,,
 User-Agent Exceptions,User-Agent-Ausnahmen,,
 User-initiated Currency Conversion,Benutzerinitiierte Währungsumrechnung,,
 Username,Benutzername,,
+username,Benutzername,module,Magento_User
 Users,Benutzer,,
 Uses,Verwendungen,,
 Uses per Coupon,Verwendungen pro Gutschein,,
@@ -9259,6 +9368,7 @@ Versions,Versionen,,
 Very Strong,Sehr Stark,,
 Video cant be shown due to the following reason:,Video kann aufgrund von folgenden Gründen nicht angezeigt werden:,,
 Video cant be shown due to the following reason:,Das Video kann aus folgenden Gründen nicht angezeigt werden:,module,Magento_ProductVideo
+Video cant be shown due to the following reason: ,Das Video kann aus folgenden Gründen nicht angezeigt werden:,module,Magento_ProductVideo
 Video Error,Videofehler,,
 Video not found,Video nicht gefunden,,
 View,Anzeigen,,
@@ -9266,6 +9376,7 @@ View,Anzeigen,,
 View All,Alle anzeigen,,
 View all Wish List items,Alle Artikel des Wunschzettels ansehen,,
 View and edit cart,Warenkorb ansehen und bearbeiten,,
+View and Edit Cart,Warenkorb ansehen und bearbeiten,module,Magento_Checkout
 View Another Order,Weitere Bestellungen ansehen,,
 View as,Ansicht als,,
 View Combined Report,Zusammengefassten Report ansehen,,
@@ -9340,6 +9451,7 @@ Warning tax discount configuration might result in different discounts than a cu
 WARNING:,WARNUNG:,,
 "Warning: necessary space for backup is ' . . 'MB, but your free disc space is ' . . 'MB.","Achtung: Notwendiger Speicherplatz für das Backup: ' . . ' MB,  Freier Speicherplatz: ' . . ' MB",,
 Warning: No message defined for %s,Warnung: Keine Nachricht definiert für %s,,
+"Warning: To apply the discount on prices including tax and apply the tax after discount, set Catalog Prices to “Including Tax”.","Warnung: Um den Preisnachlass auf Preisen einschließlich der Steuer anzuwenden und die Steuer nach dem Preisnachlass anzuwenden, legen Sie Katalogpreise “Einschließlich der Steuer” fest.",module,Magento_Tax
 Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.,"Warnung! Aktivierung dieser Funktion wird auf Produktionsumgebungen nicht empfohlen, weil es ein potenzielles Sicherheitsrisiko darstellt.",,
 Warning! Integrations not using HTTPS are insecure and potentially expose private or personally identifiable information,"Warnung! Integrationen, die nicht HTTPS verwenden sind unsicher und geben möglicherweise private oder persönliche Informationen preis.",,
 Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?,Achtung! Diese Aktion wird diesen Benutzer von bereits zugewiesenen Rollen entfernen. Sind Sie sicher?,,
@@ -9499,6 +9611,7 @@ We can't save custom-defined options for bundles with dynamic pricing.,Es könne
 "We can't save the address:
 %1","Adresse kann nicht gespeichert werden:
 %1",,
+We can't save the address:\n%1,Wir können die Addresse:\n%1 nicht speichern,module,Magento_Sales
 We can't save the address.,Wir können die Adresse nicht speichern.,,
 We can't save the credit memo right now.,Wir können die Gutschrift jetzt nicht speichern.,,
 We can't save the Cron expression.,Der Cron-Ausdruck kann nicht gespeichert werden.,,
@@ -9709,6 +9822,7 @@ We will authorize %1 after the payment is approved at the payment gateway.,"Wir 
 We will disable this feature if the value is empty.,"Wir werden diese Funktion deaktivieren, wenn der Wert leer ist.",,
 We will disable this feature if the value is empty.,"Wir werden diese Eigenschaft deaktivieren, wenn der Wert leer ist.",,
 We will disable this feature if the value is empty.,"Wir werden diese Funktion deaktivieren, wenn der Wert leer ist.",module,Magento_User
+We will disable this feature if the value is empty. ,"Wir werden diese Funktion deaktivieren, wenn der Wert leer ist.",module,Magento_User
 We will refund the gift card amount to your customer’s store credit,Wir werden die Höhe der Geschenkkarte zu dem Shopguthaben Ihres Kunden rückerstatten.,,
 We'll ask for your payment details before you place an order.,"Wir werden Sie nach Ihren Zahlungsdetails fragen, bevor Sie Ihre Bestellung aufgeben.",,
 We'll authorize the amount of %1 as soon as the payment gateway approves it.,"Wir werden die Menge von %1 genehmigen, sobald das Zahlungs-Gateway dies genehmigt.",,
@@ -9784,7 +9898,7 @@ When passing an array of fields there must be at least one field in the array.,B
 When passing in a field array there must be a matching condition array.,Bei der Übergabe in einem Feld-Array muss ein Array mit passender Bedingung vorhanden sein.,,
 "When the adapter was changed, please flush Catalog Images Cache.","Bitte leeren Sie den Katalogbilder-Cache, wenn der Adaper geändert wird.",,
 When you enable this option your site may slow down.,"Wenn Sie diese Option aktivieren, könnte dies Ihre Seite verlangsamen.",,
-When you remove or add an attribute, we automatically update all configurations and you will need to recreate current configurations manually.,Wenn Sie ein Attribut hinzufügen oder entfernen, updaten wir automatisch alle Konfigurationen und Sie müssen die aktuelle Konfiguration erneut manuell anlegen.,,
+When you remove or add an attribute, we automatically update all configurations and you will need to recreate current configurations manually.,Wenn Sie ein Attribut hinzufügen oder entfernen, updaten wir automatisch alle Konfigurationen und Sie müssen die aktuelle Konfiguration erneut manuell anlegen.
 "When you sign in to your account, you will be able to:","Wenn Sie sich mit Ihrem Konto anmelden, werden Sie in der Lage sein:",,
 "Whether to create a billing agreement, if there are no active billing agreements available.","Eine Abrechnungsvereinbarung erstellen, wenn keine aktiven Abrechnungsvereinbarungen verfügbar sind.",,
 "Whether to show ""All"" option in the ""Show X Per Page"" dropdown","""Alle""-Option im ""Zeige X pro Seite""-Dropdown anzeigen lassen",,
@@ -9821,6 +9935,7 @@ Wish List Sharing,Wunschzettel teilen,,
 Wish List vs. Regular Order,Wunschzettel vs.Reguläre Bestellung,,
 Wish Lists,Wunschzettel,,
 Wishlist,Wunschliste,,
+"With customer tax applied “Before Discount”, the final discount calculation may not match customers’ expectations.","Wird die Kundensteuer “Vor dem Preisnachlass” angewandt, kann die Endpreisnachlassberechnung nicht den Erwartungen der Kunden entsprechen.",module,Magento_Tax
 Without starting and trailing slashes.,Ohne Anfangs- und End-Schrägstriche,,
 WK,Woche,,
 Workflow type,Workflow-Typ,,
@@ -9898,7 +10013,7 @@ You are not using store credit in your shopping cart.,Sie benutzen kein Shopguth
 You are signed out,Sie haben sich ausgeloggt,module,Magento_Customer
 You are signed out.,Sie haben sich ausgeloggt.,,
 You are trying to add a quantity for some products that doesn't match the quantity that was shipped.,"Sie versuchen, eine Menge für einige Produkte hinzuzufügen, die nicht mit der Menge übereinstimmt, die geliefert wurde.",,
-You aren't subscribed to our newsletter.,Sie sind nicht für unseren Newsletter angemeldet.
+You aren't subscribed to our newsletter.,Sie sind nicht für unseren Newsletter angemeldet.,,
 You assigned the order status.,Sie haben den Auftragsstatus zugeordnet.,,
 You can add only enabled products.,Sie können nur aktivierte Produkte hinzufügen.,,
 You can adjust the scope of this synonym group by selecting an option from the list.,"Sie können den Geltungsbereich dieser Synonymgruppe anpassen, indem Sie eine Option aus der Liste wählen",,
@@ -10239,6 +10354,7 @@ Your balance is %1.,Ihr Kontostand beträgt %1.,,
 Your balance is:,Ihr Kontostand beträgt:,,
 Your billing agreement # is:,Ihre Abrechnungsvereinbarungsnummer ist:,,
 Your billing agreement # is:,Ihre Rechnungsvereinbarungsnummer # ist:,module,Magento_Paypal
+Your billing agreement # is: ,Ihre Rechnungsvereinbarungsnummer # ist:,module,Magento_Paypal
 Your billing agreement # is: %1.,Ihre Rechnungsvereinbarungsnummer ist: %1.,,
 Your Coupon was successfully applied,Gutschein wurde hinzugefügt,,
 Your coupon was successfully applied.,hr Gutschein wurde hinzugefügt.,module,Magento_SalesRule
@@ -10250,6 +10366,7 @@ Your Credit Memo #%creditmemo_id for Order #%order_id,Ihre Gutschrift #%creditme
 Your current currency is: %1.,Ihre aktuelle Währung ist: %1,,
 Your current session has been expired.,Ihre aktuelle Sitzung ist abgelaufen.,module,Magento_Security
 Your current session is terminated by another user of this account.,Ihre aktuelle Sitzung wurde von einem anderen Benutzer dieses Kontos beendet.,module,Magento_Security
+Your current tax configuration may result in rounding errors. ,Ihre aktuelle Steuerkonfiguration kann auf Rundungsfehler hinauslaufen.,module,Magento_Tax
 Your Customization,Ihre Anpassung,,
 "Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted try to use larger file-size image.","Ihr vorgegebens Logo wird in PDF und HTML Dokumenten benutzt. (JPEG, TIFF, PNG) Sollte Ihre Datei verzerrt angezeigt werden, versuchen sie die Dateigröße zu erhöhen.",,
 "Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted, try to use larger file-size image.","Ihr Standard-Logo wird in PDF- und HTML-Dokumenten verwendet. <br /> (jpeg, tiff, png) Wenn Ihr PDF-Bild verzerrt ist, versuchen Sie für eine größere Bild-Datei zu verwenden.",,
@@ -10266,9 +10383,11 @@ Your order #%increment_id has been updated with a status of <strong>%order_statu
 Your order number is,Ihre Bestellnummer lautet,,
 Your order number is:,Ihre Bestellnummer lautet:,,
 Your order number is:,Ihre Bestellnummer lautet:,module,Magento_Multishipping
+Your order number is: ,Ihre Bestellnummer lautet:,module,Magento_Multishipping
 Your order number is: %1.,Ihre Bestellnummer ist: %1,,
 Your order numbers are:,Ihre Bestellnummern lauten:,,
 Your order numbers are:,Ihre Bestellnummern lauten:,module,Magento_Multishipping
+Your order numbers are: ,Ihre Bestellnummern lauten:,module,Magento_Multishipping
 Your Packaging,Ihre Verpackung,,
 Your Password,Ihr Passwort,,
 Your password confirmation must match your password.,Ihre Passwortbestätigung muss mit Ihrem Passwort übereinstimmen.,,
@@ -10312,4 +10431,3 @@ Zip/Post is Range,PLZ /Postleitzahl als Bereich,,
 Zip/Postal Code,Postleitzahl,,
 ZIP/Postal Code,PLZ/Postleitzahl,,
 Zip/Postal Code is Optional for,PLZ / Postleitzahl ist optional für,,
-,,module,Magento_ImportExport
