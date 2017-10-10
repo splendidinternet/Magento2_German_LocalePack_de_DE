@@ -242,6 +242,7 @@
 [%1 months ago],[vor %1 Monat(en)],,
 [%1 weeks ago],[vor %1 Woche(n)],,
 [%1 years ago],[vor %1 Jahr(en)],,
+[32mDictionary successfully processed.[39m,[32mWörterbuch erfolgreich verarbeitet.[39m,,
 [deleted],[Gelöscht],,
 [deleted],[gelöscht],,
 [deleted],[gelöscht],module,Magento_Backend
@@ -281,6 +282,7 @@
 * Required Fields,* Pflichtfelder,module,Magento_Wishlist
 *' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.,"*' - entspricht jedem; 'xyz*' - entspricht jedem, der mit 'xyz' beginnt und nicht länger ist als %1.",,
 *' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.,"*' - passt zu allem; 'xyz*' - passt zu allem, das mit ""xyz"" beginnt und nicht länger als %1 ist.",,
+*' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.,"*' - entspricht jedem; 'xyz*' - entspricht jedem, der mit 'xyz' beginnt und nicht länger ist als %1.",module,Magento_Tax
 *' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.,"*' - entspricht jedem; 'xyz*' - entspricht jedem, der mit 'xyz' beginnt und nicht länger ist als %1.",module,Magento_Tax
 *' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.,"*' - entspricht jedem; 'xyz*' - entspricht jedem, der mit 'xyz' beginnt und nicht länger ist als %1.",module,Magento_Tax
 &nbsp;,&nbsp;,,
@@ -413,6 +415,7 @@
 %1' file extension is not supported,%1-Dateierweiterung wird nicht unterstützt,,
 %1' file extension is not supported,%1-Dateierweiterung wird nicht unterstützt,module,Magento_ImportExport
 %1' file extension is not supported,%1' Dateierweiterung wird nicht ünterstützt,module,Magento_ImportExport
+%1' file extension is not supported,%1' Dateierweiterung wird nicht ünterstützt,module,Magento_ImportExport
 %1' is not a directory.,"""%1"" ist kein Verzeichnis.",,
 %1' is not readable file.,"""%1"" ist keine lesbare Datei.",,
 %1's Wish List,%1's Wunschzettel,,
@@ -437,14 +440,20 @@
 "%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.",%value%' scheint ein Domain-Name-System (DNS) Hostname zu sein. Allerdings kann er aufgrund der Punycode-Schreibweise nicht entschlüsselt werden.,module,Magento_Eav
 "%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.",%value%' scheint ein Domain-Name-System (DNS) Hostname zu sein. Allerdings kann er aufgrund der Punycode-Schreibweise nicht entschlüsselt werden.,module,Magento_Customer
 "%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.","%value-%' scheint ein DNS-Hostname zu sein, aber die gegebene Punycode-Notation kann nicht decodiert werden.",module,Magento_Eav
+"%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.",%value%' scheint ein Domain-Name-System (DNS) Hostname zu sein. Allerdings kann er aufgrund der Punycode-Schreibweise nicht entschlüsselt werden.,module,Magento_Customer
+"%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.","%value-%' scheint ein DNS-Hostname zu sein, aber die gegebene Punycode-Notation kann nicht decodiert werden.",module,Magento_Eav
 %value%' does not look like a valid local network name.,%value% sieht nicht wie ein gültiger Name eines lokalen Netzwerks aus.,,
 %value%' does not look like a valid local network name.,%value%' sieht nicht nach einem zulässigen Namen für ein lokales Netzwerk aus.,,
 %value%' does not look like a valid local network name.,%value% sieht nicht wie ein gültiger Name eines lokalen Netzwerks aus.,module,Magento_Customer
 %value%' does not look like a valid local network name.,%value%' sieht nicht nach einem zulässigen Namen für ein lokales Netzwerk aus.,module,Magento_Eav
 %value%' does not look like a valid local network name.,%value% sieht nicht wie ein gültiger Name eines lokalen Netzwerks aus.,module,Magento_Customer
-%value%' does not look like a valid local network name.,%value-%' sieht nicht wie ein gültiger lokaler Netzwerksname aus.,module,Magento_Eav
+%value%' does not look like a valid local network name.,%value%' sieht nicht wie ein gültiger lokaler Netzwerksname aus.,module,Magento_Eav
+%value%' does not look like a valid local network name.,%value% sieht nicht wie ein gültiger Name eines lokalen Netzwerks aus.,module,Magento_Customer
+%value%' does not look like a valid local network name.,%value%' sieht nicht wie ein gültiger lokaler Netzwerksname aus.,module,Magento_Eav
 %value%' looks like a DNS hostname but cannot extract TLD part.,"%value% sieht wie ein DNS-Hostname aus, aber wir können den Top-Level-Domain-Teil nicht extrahieren.",,
 %value%' looks like a DNS hostname but cannot extract TLD part.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings kann der Top-Level-Domain (TLD) Part nicht extrahiert werden.,,
+%value%' looks like a DNS hostname but cannot extract TLD part.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings kann der Top-Level-Domain (TLD) Part nicht extrahiert werden.,module,Magento_Customer
+%value%' looks like a DNS hostname but cannot extract TLD part.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings kann der Top-Level-Domain (TLD) Part nicht extrahiert werden.,module,Magento_Eav
 %value%' looks like a DNS hostname but cannot extract TLD part.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings kann der Top-Level-Domain (TLD) Part nicht extrahiert werden.,module,Magento_Customer
 %value%' looks like a DNS hostname but cannot extract TLD part.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings kann der Top-Level-Domain (TLD) Part nicht extrahiert werden.,module,Magento_Eav
 %value%' looks like a DNS hostname but cannot extract TLD part.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings kann der Top-Level-Domain (TLD) Part nicht extrahiert werden.,module,Magento_Customer
@@ -455,8 +464,12 @@
 %value%' looks like a DNS hostname but contains a dash in an invalid position.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings enthällt er einen Bindestrich an einer nicht zulässigen Stelle.,module,Magento_Eav
 %value%' looks like a DNS hostname but contains a dash in an invalid position.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings enthällt er einen Bindestrich an einer nicht zulässigen Stelle.,module,Magento_Customer
 %value%' looks like a DNS hostname but contains a dash in an invalid position.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings enthällt er einen Bindestrich an einer nicht zulässigen Stelle.,module,Magento_Eav
+%value%' looks like a DNS hostname but contains a dash in an invalid position.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings enthällt er einen Bindestrich an einer nicht zulässigen Stelle.,module,Magento_Customer
+%value%' looks like a DNS hostname but contains a dash in an invalid position.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings enthällt er einen Bindestrich an einer nicht zulässigen Stelle.,module,Magento_Eav
 %value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.,"%value% sieht wie ein DNS-Hostname aus, aber wir können ihn nicht im Hostnameschema für Top-Level-Domains ""%tld%"" finden.",,
 %value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings können wir ihn nicht mit dem Schema für Top-Level-Domain (TLD) '%tld%' abgleichen.,,
+%value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.,"%value% sieht wie ein DNS-Hostname aus, aber wir können ihn nicht im Hostnameschema für Top-Level-Domains ""%tld%"" finden.",module,Magento_Customer
+%value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings können wir ihn nicht mit dem Schema für Top-Level-Domain (TLD) '%tld%' abgleichen.,module,Magento_Eav
 %value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.,"%value% sieht wie ein DNS-Hostname aus, aber wir können ihn nicht im Hostnameschema für Top-Level-Domains ""%tld%"" finden.",module,Magento_Customer
 %value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings können wir ihn nicht mit dem Schema für Top-Level-Domain (TLD) '%tld%' abgleichen.,module,Magento_Eav
 %value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.,"%value% sieht wie ein DNS-Hostname aus, aber wir können ihn nicht im Hostnameschema für Top-Level-Domains ""%tld%"" finden.",module,Magento_Customer
@@ -467,16 +480,22 @@
 %value%' looks like a DNS hostname but we cannot match the TLD against known list.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings können wir die Top-Level-Domain (TLD) nicht mit einer bekannten Liste abgleichen.,module,Magento_Eav
 %value%' looks like a DNS hostname but we cannot match the TLD against known list.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings können wir die Top-Level-Domain (TLD) nicht mit einer bekannten Liste abgleichen.,module,Magento_Customer
 %value%' looks like a DNS hostname but we cannot match the TLD against known list.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings können wir die Top-Level-Domain (TLD) nicht mit einer bekannten Liste abgleichen.,module,Magento_Eav
+%value%' looks like a DNS hostname but we cannot match the TLD against known list.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings können wir die Top-Level-Domain (TLD) nicht mit einer bekannten Liste abgleichen.,module,Magento_Customer
+%value%' looks like a DNS hostname but we cannot match the TLD against known list.,%value%' sieht nach einem Domain-Name-System (DNS) Hostnamen aus. Allerdings können wir die Top-Level-Domain (TLD) nicht mit einer bekannten Liste abgleichen.,module,Magento_Eav
 "%value%' looks like a local network name, which is not an acceptable format.","%value% sieht wie der Name eines lokalen Netzwerks aus, was kein akzeptiertes Format ist.",,
 "%value%' looks like a local network name, which is not an acceptable format.",%value%' sieht nach einem Namen für ein lokales Netzwerk aus. Dies ist kein akzeptiertes Format.,,
 "%value%' looks like a local network name, which is not an acceptable format.","%value% sieht wie der Name eines lokalen Netzwerks aus, was kein akzeptiertes Format ist.",module,Magento_Customer
 "%value%' looks like a local network name, which is not an acceptable format.",%value%' sieht nach einem Namen für ein lokales Netzwerk aus. Dies ist kein akzeptiertes Format.,module,Magento_Eav
 "%value%' looks like a local network name, which is not an acceptable format.","%value% sieht wie der Name eines lokalen Netzwerks aus, was kein akzeptiertes Format ist.",module,Magento_Customer
 "%value%' looks like a local network name, which is not an acceptable format.",%value-%' sieht wie ein lokaler Netzwerksname in einem inakzeptablen Format aus.,module,Magento_Eav
+"%value%' looks like a local network name, which is not an acceptable format.","%value% sieht wie der Name eines lokalen Netzwerks aus, was kein akzeptiertes Format ist.",module,Magento_Customer
+"%value%' looks like a local network name, which is not an acceptable format.",%value-%' sieht wie ein lokaler Netzwerksname in einem inakzeptablen Format aus.,module,Magento_Eav
 "%value%' looks like an IP address, which is not an acceptable format.","%value% sieht wie eine IP-Adresse aus, was kein akzeptiertes Format ist.",,
 "%value%' looks like an IP address, which is not an acceptable format.",%vakue%' sieht nach einer IP-Addresse aus. Dies ist kein akzeptiertes Format.,,
 "%value%' looks like an IP address, which is not an acceptable format.","%value% sieht wie eine IP-Adresse aus, was kein akzeptiertes Format ist.",module,Magento_Customer
 "%value%' looks like an IP address, which is not an acceptable format.",%vakue%' sieht nach einer IP-Addresse aus. Dies ist kein akzeptiertes Format.,module,Magento_Eav
+"%value%' looks like an IP address, which is not an acceptable format.","%value% sieht wie eine IP-Adresse aus, was kein akzeptiertes Format ist.",module,Magento_Customer
+"%value%' looks like an IP address, which is not an acceptable format.",%value%' sieht nach einer IP-Addresse aus. Dies ist kein akzeptiertes Format.,module,Magento_Eav
 "%value%' looks like an IP address, which is not an acceptable format.","%value% sieht wie eine IP-Adresse aus, was kein akzeptiertes Format ist.",module,Magento_Customer
 "%value%' looks like an IP address, which is not an acceptable format.",%value%' sieht nach einer IP-Addresse aus. Dies ist kein akzeptiertes Format.,module,Magento_Eav
 "<a href=""""http://www.magentocommerce.com/paypal"""">Start accepting payments via PayPal!</a>","<a href=""""http://www.magentocommerce.com/paypal"""">Zahlungen via PayPal akzeptieren!</a>",,
@@ -3458,6 +3477,7 @@ Final commit,Letzte Übertragung,,
 Final Price,Endgültiger Preis,,
 Financial Office,Zuständiges Finanzamt,,
 Financial Office,Finanzbüro,module,FireGento_MageSetup
+Financial office,Finanzbüro,module,FireGento_MageSetup
 Find a string in client user-agent header and switch to specific design theme for that browser.,Finde einen String im Client-User-Agent-Header und wechsle auf das spezifische Design-Theme für diesen Browser.,,
 Find Order By,Bestellung finden nach,,
 Find Partners & Extensions,Partner & Extensions,,
@@ -3977,8 +3997,8 @@ If you believe it is the right one you can ignore this notice.,"Wenn Sie der Mei
 "If you requested this change, reset your password here:","Wenn Sie diese Änderung beauftragt haben, setzen Sie Ihr Passwort hier neu:",,
 "If you requested this change, set a new password here:","Wenn Sie diese Änderung beauftragt haben, setzen Sie hier ein neues Passwort fest:",,
 If you select and save the rule you will be able to generate multiple coupon codes.,"Wenn Sie die Regel auswählen und speichern, sind Sie in der Lage, mehrere Gutschein-Codes zu generieren.",,
-"If your Magento installation has multiple websites, you can edit the scope to use the product on specific sites.","Wenn Ihr Magento mehrere Webseiten hat, können Sie den Geltungsbereich bearbeiten, um das Produkt auf einzelnen Webseiten darzustellen.",,
 "If your Magento installation has multiple websites, you can edit the scope to associate the customer with a specific site.","Wenn Ihr Magento mehrere Webseiten hat, können Sie den Geltungsbereich bearbeiten, um den Kunden einer bestimmten Webseite zuzuordnen.",,
+"If your Magento installation has multiple websites, you can edit the scope to use the product on specific sites.","Wenn Ihr Magento mehrere Webseiten hat, können Sie den Geltungsbereich bearbeiten, um das Produkt auf einzelnen Webseiten darzustellen.",,
 "If your Magento site has multiple views, you can set the scope to apply to a specific view.","Wenn Ihr Magento mehrere Ansichten hat, können Sie den Bereich festlegen, für den die Ansicht gelten soll.",,
 Image,Bild,,
 Image Adapter,Bild-Adapter,,
@@ -5348,6 +5368,7 @@ OAuth version %1 is not supported,OAuth-Version %1 wird nicht unterstützt,,
 Object DOMDocument should be created.,Objekt DOMDocument sollte erstellt werden,,
 Object is not instance of ' .,Objekt ist keine Ausprägung von  '.,module,Magento_Config
 Object is not instance of ' .,Objekt ist keine Ausprägung von  '.,module,Magento_Config
+Object is not instance of ' .,Objekt ist keine Ausprägung von  '.,module,Magento_Config
 Obscenities. The customer’s input contains obscene words,Obszönitäten. Die Eingabe des Kunden enthält obszöne Worte.,,
 of,von,module,Magento_Ui
 of %1,von %1,,
@@ -5649,6 +5670,7 @@ Path,Pfad,,
 "Path ""%1"" is not part of allowed directory ""%2""","Pfad ""%1"" ist kein Teil des erlaubten Verzeichnis ""%2""",,
 "Path ""%value%"" is not available and cannot be used.","Pfad ""%value%"" ist nicht verfügbar, und kann nicht verwendet werden.",,
 "Path ""%value%"" is protected and cannot be used.","Pfad ""%value%"" ist geschützt, und kann nicht verwendet werden.",,
+"Path ""%value%"" may not include parent directory traversal (""../"", ""..\"").","Pfad ""%value%"" enthalt eventuell keine übergeordneten Verzeichnis-Traversals (""../"", ""..\).""",module,Magento_MediaStorage
 "Path ""%value%"" may not include parent directory traversal (""../"", ""..\"").","Pfad ""%value%"" enthalt eventuell keine übergeordneten Verzeichnis-Traversals (""../"", ""..\).""",module,Magento_MediaStorage
 "Path ""%value%"" may not include parent directory traversal (""../"", ""..\).""","Pfad ""%value%"" enthalt eventuell keine übergeordneten Verzeichnis-Traversals (""../"", ""..\).""",,
 "Path ""%value%"" may not include parent directory traversal (""../"", ""..\).""","Pfad ""%value%"" enthalt eventuell keine übergeordneten Verzeichnis-Traversals (""../"", ""..\).""",module,Magento_MediaStorage
@@ -8587,6 +8609,7 @@ There is no defined type ' .,"
 Es gibt keinen definierten Typ '.",module,Magento_Config
 There is no defined type ' .,"
 Es gibt keinen definierten Typ '.",module,Magento_Config
+There is no defined type ' .,Es gibt keinen definierten Typ '.,module,Magento_Config
 There is no downloadable link with provided ID.,Es gibt keinen herunterladbaren Link mit der vorgesehen ID.,,
 There is no downloadable sample with provided ID.,Es gibt kein herunterladbares Sample mit der angegebenen ID.,,
 There is no image with provided ID.,Es gibt kein Bild mit dieser ID.,,
