@@ -8649,8 +8649,8 @@ There was recently a request to change the password for your account.,"Es gab k�
 These changes affect all related products.,Diese Änderungen betreffen alle verbundenen Produkte.,module,Magento_Swatches
 These products are not associated.,Diese Produkte sind nicht verbunden.,module,Magento_ConfigurableProduct
 This account is,Dieses Konto ist,,
-This account is not confirmed.,DIeses Konto ist nicht bestätigt.,,
-"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","DIeses Konto ist nicht bestätigt. <a href=""%1"">Klicken Sie hier</a>, um die Bestätigungs-E-Mail erneut zu verschicken.",,
+This account is not confirmed.,Dieses Konto ist nicht bestätigt.,,
+"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Dieses Konto ist nicht bestätigt. <a href=""%1"">Klicken Sie hier</a>, um die Bestätigungs-E-Mail erneut zu verschicken.",,
 "This account is not confirmed.' ' <a href=""%1"">Click here</a> to resend confirmation email.","Dieses Konto ist nicht bestätigt.' ' <a href=""%1"">Klicken Sie hier</a> um erneut eine Bestätigungsmail zu senden.",,
 This action cannot be undone.,DIe Aktion kann nicht rückgängig gemacht werden.,,
 This action will delete your custom instructions and reset robots.txt file to system's default settings.,Diese Aktion wird Ihre benutzerdefinierte Anweisungen löschen und die robots.txt-Datei auf die System-Standardeinstellungen zurücksetzen.,,
