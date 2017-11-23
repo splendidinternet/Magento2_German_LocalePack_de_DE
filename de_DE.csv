@@ -9361,7 +9361,7 @@ Variable Name,Variablen-Name,,
 Variable Plain Value,Neutraler Variablenwert,,
 Various XML configurations that were collected across modules and merged,"Verschiedene XML-Konfigurationen, die über Module gesammelt und zusammengeführt wurden.",module,Magento_Store
 Various XML configurations that were collected across modules and merged.,"Verschiedene XML-Konfigurationen, die über Module gesammelt und zusammengeführt wurden.",,
-Varnish Cache (Recommended),Geheimer Cache (empfohlen),module,Magento_PageCache
+Varnish Cache (Recommended),Varnish Cache (empfohlen),module,Magento_PageCache
 Varnish Caching,Varnish Caching,,
 Varnish Configuration,Varnish-Konfiguration,,
 VAT Number,Umsatzsteuer-Identifikationsnummer,,
