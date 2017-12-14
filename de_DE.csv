@@ -5421,7 +5421,7 @@ Only implemented for configurable product: %1,Nur für konfigurierbare Produkte 
 Only Once (version upgrade),Nur einmal (Versionsupgrade),,
 Only Once (version upgrade),Nur einmal (Versionsupgrade),module,Magento_Config
 Only one RMA is available for printing,Nur eine RMA ist fürs Drucken verfügbar,,
-"Only registered users can write reviews. Please <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>","Nur eingetragene Benutzer können Rezensionen schreiben. Bitte <a href=""%1"">Sign in</a> or <a href=""%2"">erstellen Sie einen Akkount</a>",module,Magento_Review
+"Only registered users can write reviews. Please <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>","Nur eingetragene Benutzer können Rezensionen schreiben. Bitte <a href=""%1"">einloggen</a> oder <a href=""%2"">erstellen Sie einen Account</a>",module,Magento_Review
 "Only registered users can write reviews. Please, <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>","Nur registrierte Kunden können Bewertungen abgeben. Bitte <a href=""%1"">einloggen</a> oder ein <a href=""%2"">Konto erstellen</a>",,
 Only the first 100 errors are shown.,Nur die ersten 100 Fehler werden gezeigt.,module,Magento_ImportExport
 Only the first 100 errors are shown. ,Nur die ersten 100 Fehler werden gezeigt.,module,Magento_ImportExport
