@@ -10369,7 +10369,7 @@ Your %store_name email and password has been changed,Ihre %store_name Email und 
 Your %store_name email has been changed,Ihre %store_name Email hat sich geändert,,
 Your %store_name order confirmation,Bestellbestätigung für Ihre Bestellung bei %store_name,,
 Your %store_name order has shipped,Ihre Bestellung bei %store_name wurde versandt,,
-Your %store_name password has been changed,Ihe %store_name Passwort hat sich geändert,,
+Your %store_name password has been changed,Ihr %store_name Passwort hat sich geändert,,
 Your account is temporarily disabled.,Ihr Konto ist vorübergehend deaktiviert.,module,Magento_Integration
 Your account is temporarily disabled.,Ihr Konto wurde vorrübergehend deaktiviert.,module,Magento_Security
 Your account is temporarily disabled.,Ihr Konto ist vorübergehend deaktiviert.,module,Magento_User
