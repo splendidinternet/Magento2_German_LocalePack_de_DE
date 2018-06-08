@@ -4414,7 +4414,7 @@ Issue Number,Ausgabenummer,,
 "It is recommended to set this value to ""Magento_Paypal"" per store views.","Es wird empfohlen, diesen Wert auf ""Magento_Paypal"" pro Store View zu setzen.",,
 "It is recommended to set this value to ""PayPal"" per store views.","Es wird empfohlen, diesen Wert auf ""PayPal"" pro Store View zu setzen.",,
 It will take time to create a backup.,"Es wird Zeit in Anspruch nehmen, ein Backup zu erstellen.",,
-It's a default billing address.,Es ist eine Standard-Rechnungsadresse.,module,Magento_Customer
+It's a default billing address.,Ist die Standard-Rechnungsadresse.,module,Magento_Customer
 It's a default shipping address.,Ist die Standard-Lieferadresse.,,
 "It's time to <a href=""%1"">change your password</a>.","Es ist Zeit, um Ihr <a href=""%1"">Passwort zu ändern</a>.",,
 It's time to change your password.,"Es ist Zeit, Ihr Passwort zu ändern.",,
