@@ -357,7 +357,7 @@
 %1 for item %2 cannot be empty.,%1 für Artikel %2 darf nicht leer sein.,,
 %1 has been added to your Wish List.,%1 wurde Ihrem Wunschzettel hinzugefügt.,module,Magento_Wishlist
 %1 has been moved to your wish list.,%1 wurde auf Ihren Wunschzettel verschoben.,,
-%1 has been updated in your Wish List.,% 1 wurde in Ihrem Wunschzettel aktualisiert.,,
+%1 has been updated in your Wish List.,%1 wurde in Ihrem Wunschzettel aktualisiert.,,
 %1 has reached a quantity of %2.,%1 hat eine Anzahl von %2 erreicht.,,
 %1 index is locked by another reindex process. Skipping.,%1 Index ist durch einen Reindexierungsprozess gesperrt. Wird übersprungen.,module,Magento_Indexer
 "%1 indexer(s) are in ""Update by Schedule"" mode.","%1 Indizierer sind im ""Update by Schedule""-Modus.",,
