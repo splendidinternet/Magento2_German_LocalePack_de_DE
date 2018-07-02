@@ -391,7 +391,7 @@
 %1 order(s) were not released from on hold status.,%1 Bestellung(en) wurde(n) nicht aus der Wartestellung freigegeben.,module,Magento_Sales
 %1 out of %2 visible,%1 von %2 sichtbar,,
 %1 product requires your attention.,%1 Produkt erfordert Ihre Aufmerksamkeit.,,
-%1 product(s) have been added to shopping cart: %2.,%1 Produkt(e) wurde/n in den Warenkorb gelegt:% 2.,,
+%1 product(s) have been added to shopping cart: %2.,%1 Produkt(e) wurde/n in den Warenkorb gelegt: %2.,,
 %1 product(s) have been added to shopping cart: %2.,%1 Produkt(e) wurden dem Warenkorb hinzugefügt: %2.,module,Magento_Wishlist
 %1 products require your attention.,%1 Produkte erfordert Ihre Aufmerksamkeit.,,
 %1 records found,%1 Datensätze gefunden,,
@@ -580,7 +580,7 @@ A block identifier with the same properties already exists in the selected store
 A case that has been resolved and close requires a reimbursement.,"Ein Fall, der behoben wurde, erfordert eine Erstattung",,
 A class with the same name already exists for ClassType %1.,Eine Klasse mit dem gleichen Namen existiert bereits für den Klassentyp %1.,,
 A consumer having the specified key does not exist,Ein Verbraucher mit dem angegebenen Schlüssel ist nicht vorhanden,,
-A consumer with ID %1 does not exist,Ein Verbraucher mit der ID% 1 existiert nicht,,
+A consumer with ID %1 does not exist,Ein Verbraucher mit der ID %1 existiert nicht,,
 A consumer with the ID %1 does not exist,Ein Verbraucher mit der ID %1 existiert nicht,,
 A creditmemo can not be created when an order has a status of %1,"Es kann keine Gutschrift erstellt werden, wenn eine Bestellung einen Status von %1 hat",module,Magento_Sales
 A customer website ID must be specified when using the website scope.,"Eine Kunden-Website-ID muss angegeben werden, wenn der Websitebereich genutzt wird.",,
@@ -1191,7 +1191,7 @@ Archive File,Archivdatei,,
 Archive Orders Purchased,Archiv gekaufter Bestellungen,,
 Are you sure ?,Sind Sie sicher?,,
 Are you sure ?,Sind sie sicher ?,module,Magento_Integration
-Are you sure that you want to log out all other sessions?,"Sind Sie sicher, daß sie alle anderen Sessions abmelden wollen?",module,Magento_Security
+Are you sure that you want to log out all other sessions?,"Sind Sie sicher, dass Sie alle anderen Sessions abmelden wollen?",module,Magento_Security
 Are you sure that you want to strip all tags?,"Sind Sie sicher, dass Sie alle Tags entfernen wollen?",,
 Are you sure that you want to strip all tags?,"Sind Sie sicher, dass Sie alle Tags entfernen wollen?",module,Magento_Newsletter
 Are you sure to assign selected customers to new group?,"Sind Sie sicher, dass Sie die ausgewählten Kunden der neuen Gruppe zuweisen wollen?",,
@@ -1223,7 +1223,7 @@ Are you sure you want to delete all items from shopping cart?,"Sind Sie sicher, 
 Are you sure you want to delete all items from shopping cart?,"Sind Sie sicher, dass Sie alle Artikel aus dem Warenkorb löschen wollen?",module,Magento_Sales
 Are you sure you want to delete current hierarchy?,"Sind Sie sicher, dass Sie die aktuelle Rangordnung löschen möchten?",,
 Are you sure you want to delete selected item(s)?,"Sind Sie sicher, dass Sie die ausgewählten Artikel löschen möchten?",,
-Are you sure you want to delete synonym group with id: %1?,"Sind Sie sicher, daß sie die Synonymgruppe mit ID: %1 löschen wollen?",module,Magento_Search
+Are you sure you want to delete synonym group with id: %1?,"Sind Sie sicher, dass Sie die Synonymgruppe mit ID: %1 löschen wollen?",module,Magento_Search
 Are you sure you want to delete the selected backup(s)?,"Sind Sie sicher, dass Sie das/die ausgewählten Backup (s) löschen wollen?",,
 Are you sure you want to delete the selected backup(s)?,"Sind Sie sicher, dass Sie das/die ausgewählten Backup (s) löschen wollen?",module,Magento_Backup
 Are you sure you want to delete the selected coupon(s)?,"Sind Sie sicher, dass Sie den/die ausgewählten Gutschein(e) löschen wollen?",,
@@ -1231,19 +1231,19 @@ Are you sure you want to delete the selected coupon(s)?,"Sind Sie sicher, dass S
 Are you sure you want to delete the selected gift wrappings?,"Sind Sie sicher, dass Sie die ausgewählten Geschenkverpackungen löschen möchten?",,
 Are you sure you want to delete the selected hierarchies?,"Sind Sie sicher, dass Sie die ausgewählten Rangordnungen löschen möchten?",,
 Are you sure you want to delete the selected scheduled imports/exports?,"Sind Sie sicher, dass Sie die ausgewählten geplanten Importe/Exporte löschen möchten?",,
-Are you sure you want to delete the selected synonym groups?,"Sind sie sicher, daß sie die gewählte Synonymgruppe löschen wollen?",module,Magento_Search
+Are you sure you want to delete the selected synonym groups?,"Sind Sie sicher, dass Sie die gewählte Synonymgruppe löschen wollen?",module,Magento_Search
 Are you sure you want to delete the system report?,"Sind Sie sicher, dass Sie den Systembericht löschen möchten?",,
-Are you sure you want to delete these banners?,"Sind Sie sicher, dass sie diese Banner löschen möchten?",,
+Are you sure you want to delete these banners?,"Sind Sie sicher, dass Sie diese Banner löschen möchten?",,
 Are you sure you want to delete these gift card accounts?,"Sind Sie sicher, dass Sie die Geschenkkartenkonten löschen möchten?",,
 Are you sure you want to delete this address?,"Sind Sie sicher, dass Sie diese Adresse löschen wollen?",,
-Are you sure you want to delete this address?,"Sind Sie sicher, daß sie diese Adresse löschen wollen?",module,Magento_Customer
+Are you sure you want to delete this address?,"Sind Sie sicher, dass Sie diese Adresse löschen wollen?",module,Magento_Customer
 Are you sure you want to delete this category?,"Sind Sie sicher, dass Sie diese Kategorie löschen wollen?",,
 Are you sure you want to delete this file?,"Sie Sie sicher, dass Sie diese Datei löschen wollen?",,
 Are you sure you want to delete this file?,"Sie Sie sicher, dass Sie diese Datei löschen wollen?",module,Magento_Cms
-Are you sure you want to delete this file?,"Sind Sie sicher, daß Sie die Datei löschen möchten?",module,Magento_Theme
+Are you sure you want to delete this file?,"Sind Sie sicher, dass Sie die Datei löschen möchten?",module,Magento_Theme
 Are you sure you want to delete this folder?,"Sind Sie sicher, dass Sie diesen Ordner löschen wollen?",,
 Are you sure you want to delete this folder?,"Sind Sie sicher, dass Sie diesen Ordner löschen wollen?",module,Magento_Cms
-Are you sure you want to delete this folder?,"Sind Sie sicher, daß Sie den Ordner löschen möchten?",module,Magento_Theme
+Are you sure you want to delete this folder?,"Sind Sie sicher, dass Sie den Ordner löschen möchten?",module,Magento_Theme
 Are you sure you want to delete this gift registry?,"Sind Sie sicher, dass Sie diese Geschenkeliste löschen möchten?",,
 Are you sure you want to delete this gift wrapping?,"Sind Sie sicher, dass Sie diese Geschenkverpackung löschen möchten?",,
 Are you sure you want to delete this integration? You can't undo this action.,"Sind Sie sicher, dass Sie diese Integration löschen wollen? Sie können diese Aktion nicht rückgängig machen.",,
@@ -1253,12 +1253,12 @@ Are you sure you want to delete this item?,"Sind Sie sicher, dass Sie dieses Ele
 Are you sure you want to delete this revision?,"Sind Sie sicher, dass Sie diese Revision löschen möchten?",,
 Are you sure you want to delete this scheduled export?,"Sind Sie sicher, dass Sie diesen geplanten Export löschen möchten?",,
 Are you sure you want to delete this scheduled import?,"Sind Sie sicher, dass Sie diesen geplanten Import löschen möchten?",,
-Are you sure you want to delete this synonym group?,"Sind Sie sicher, daß sie diese Synonymgruppe löschen wollen?",module,Magento_Search
+Are you sure you want to delete this synonym group?,"Sind Sie sicher, dass Sie diese Synonymgruppe löschen wollen?",module,Magento_Search
 Are you sure you want to delete this template?,"Sind Sie sicher, dass Sie diese Vorlage löschen möchten?",,
 Are you sure you want to delete this template?,"Sind Sie sicher, dass Sie diese Vorlage löschen möchten?",module,Magento_Email
 Are you sure you want to delete this template?,"Sind Sie sicher, dass Sie diese Vorlage löschen möchten?",module,Magento_Newsletter
 Are you sure you want to delete this theme?,"Sind Sie sicher, dass Sie dieses Theme löschen möchten?",,
-Are you sure you want to delete this theme?,"Sind Sie sicher, daß Sie das Theme löschen möchten?",module,Magento_Theme
+Are you sure you want to delete this theme?,"Sind Sie sicher, dass Sie das Theme löschen möchten?",module,Magento_Theme
 Are you sure you want to delete this tracking information?,"Sind Sie sicher, dass Sie diese Tracking-Informationen löschen möchten?",,
 Are you sure you want to delete this?,"Sind Sie sicher, dass Sie das löschen wollen?",module,Magento_SalesRule
 Are you sure you want to delete your wish list? This action can't be undone.,"Sind Sie sicher, dass Sie Ihre Wunschliste löschen möchten? Diese Aktion kann nicht rückgänging gemacht werden.",,
@@ -1271,10 +1271,10 @@ Are you sure you want to do this?,"Sind Sie sicher, dass Sie das tun möchten?",
 Are you sure you want to do this?,"Sind Sie sicher, dass Sie dies tun wollen?",module,Magento_Cms
 Are you sure you want to do this?,"Sind Sie sicher, dass Sie dies tun wollen?",module,Magento_Paypal
 Are you sure you want to do this?,"Sind Sie sicher, dass Sie dies tun wollen?",module,Magento_Review
-Are you sure you want to do this?,"Sind Sie sicher, daß Sie das tun wollen?",module,Magento_Tax
-Are you sure you want to do this?,"Sind Sie sicher, daß Sie das tun wollen?",module,Magento_UrlRewrite
-Are you sure you want to do this?,"Sind sie sicher, daß Sie das tun wollen?",module,Magento_User
-Are you sure you want to do this?,"Sind sie sicher, daß Sie das tun wollen?",module,Magento_Customer
+Are you sure you want to do this?,"Sind Sie sicher, dass Sie das tun wollen?",module,Magento_Tax
+Are you sure you want to do this?,"Sind Sie sicher, dass Sie das tun wollen?",module,Magento_UrlRewrite
+Are you sure you want to do this?,"Sind Sie sicher, dass Sie das tun wollen?",module,Magento_User
+Are you sure you want to do this?,"Sind Sie sicher, dass Sie das tun wollen?",module,Magento_Customer
 Are you sure you want to match this rule now?,"Sind Sie sicher, dass Sie diese Regel jetzt zuordnen möchten?",,
 Are you sure you want to refresh lifetime statistics right now? This operation may slow down your customers' shopping experience.,"Sind Sie sicher, dass Sie die Lebensstatistik jetzt aktualisieren wollen? Dieser Vorgang kann das Einkaufserlebnis Ihrer Kunden verlangsamen.",,
 Are you sure you want to refresh lifetime statistics right now? This operation may slow down your customers' shopping experience.,"Sind Sie sicher, dass Sie die Lebenszeitstatistik jetzt aktualisieren wollen? Dieser Vorgang kann das Einkaufserlebnis Ihrer Kunden verlangsamen.",module,Magento_Reports
@@ -1282,7 +1282,7 @@ Are you sure you want to refresh statistics for the last day?,"Sind Sie sicher, 
 Are you sure you want to refresh statistics for the last day?,"Sind Sie sicher, dass Sie die Statistiken des letzten Tages aktualisieren wollen?",module,Magento_Reports
 Are you sure you want to remove this item?,"Sind Sie sicher, dass Sie diesen Artikel entfernen möchten?",,
 Are you sure you want to remove this item?,"Sind Sie sicher, dass Sie diesen Artikel entfernen möchten?",module,Magento_Customer
-Are you sure you want to remove this item?,"Sind Sie sicher, daß sie diesen Artikel entfernen wollen?",module,Magento_Wishlist
+Are you sure you want to remove this item?,"Sind Sie sicher, dass Sie diesen Artikel entfernen wollen?",module,Magento_Wishlist
 Are you sure you want to remove this product from your Wish List?,"Sind Sie sicher, dass Sie dieses Produkt von Ihrem Wunschzettel löschen möchten?",,
 Are you sure you want to revoke the customer's tokens?,"Sind Sie sicher, dass Sie die Token des Kunden widerrufen wollen?",module,Magento_Customer
 Are you sure you want to revoke the customer\'s tokens?,"Sind Sie sicher, dass Sie die Tokens dieser/s Kunden widerrufen möchten?",,
@@ -1291,7 +1291,7 @@ Are you sure you want to revoke the user\'s tokens?,"Sind Sie sicher, dass Sie d
 Are you sure you want to send a credit memo email to customer?,"Sind Sie sicher, dass Sie eine Gutschrift-E-Mail an den Kunden senden wollen?",,
 Are you sure you want to send a credit memo email to customer?,"Sind Sie sicher, dass Sie eine Gutschrift-E-Mail an den Kunden senden wollen?",module,Magento_Sales
 Are you sure you want to send a Shipment email to customer?,"Sind Sie sicher, dass Sie eine Versand-E-Mail an den Kunden senden wollen?",,
-Are you sure you want to send a Shipment email to customer?,"Sind Sie sicher, daß sie eine Versandemail and den Kunden schicken wollen?",module,Magento_Shipping
+Are you sure you want to send a Shipment email to customer?,"Sind Sie sicher, dass Sie eine Versandemail and den Kunden schicken wollen?",module,Magento_Shipping
 Are you sure you want to send an invoice email to customer?,"Sind Sie sicher, dass Sie eine Rechnung per E-Mail an den Kunden senden wollen?",,
 Are you sure you want to send an invoice email to customer?,"Sind Sie sicher, dass Sie eine Rechnung per E-Mail an den Kunden senden wollen?",module,Magento_Sales
 Are you sure you want to send an order email to customer?,"Sind Sie sicher, dass Sie eine Bestell-E-Mail an den Kunden senden möchten?",,
@@ -2207,7 +2207,7 @@ Could not save order address,Bestelladresse konnte nicht gespeichert werden,,
 Could not save product option,Produktoption konnte nicht gespeichert werden.,,
 Could not save quote,Angebot konnte nicht gespeichert werden,,
 Could not save shipment,Versand konnte nicht gespeichert werden,,
-Could not save the page: %1,Die Seite: % 1 konnte nicht gespeichert werden.,module,Magento_Cms
+Could not save the page: %1,Die Seite: %1 konnte nicht gespeichert werden.,module,Magento_Cms
 "Could not update option with id ""%1""","Konnte Option mit ID ""%1"" nicht aktualisieren",,
 Count,Anzahl,,
 Countdown Ticker,Countdown-Ticker,,
@@ -2519,7 +2519,7 @@ Dashboard,Dashboard,,
 Data Collector,Datenkollektor,,
 Data from app/etc/env.php,Daten von app/etc/env.php,,
 Data integrity: No header row found for attribute,Datenintegrität: Keine Kopfzeile für das Attribut gefunden,,
-Data key is missing: %1,Der Datenschlüssel: % 1 fehlt,module,Magento_GoogleOptimizer
+Data key is missing: %1,Der Datenschlüssel: %1 fehlt,module,Magento_GoogleOptimizer
 Data saving problem,Datenspeicherungsproblem,,
 Data Transfer,Datentransfer,,
 Data Type for Saving in Database,Datentyp zum Speichern in der Datenbank,,
@@ -5393,8 +5393,8 @@ One,Eins,,
 "One at the time, Series","Einer zur Zeit, Nach Reihenfolge",,
 "One at the time, Shuffle","Einer zur Zeit, Shuffle",,
 One of the countries has invalid code.,Eines der Länder hat einen ungültigen Code.,,
-"One or more <a href=""%1"">indexers are invalid</a>. Make sure your <a href=""%2"" target=""_blank"">Magento cron job</a> is running.","Ein oder mehrere <ein href=""% 1""> Indizes sind ungültig. Stellen Sie sicher, dass Ihr <ein href=""% 2"" ziel=""_ Formblatt""> Cronjob von Magento  läuft.</ein></ein>",module,Magento_Indexer
-"One or more <a href=""%1"">integrations</a> have been reset because of a change to their xml configs.","Eine oder mehrere <a href=""% 1"">Integrationen</a> sind wegen einer Änderung zu ihrer XML configs zurückgesetzt worden.",module,Magento_Integration
+"One or more <a href=""%1"">indexers are invalid</a>. Make sure your <a href=""%2"" target=""_blank"">Magento cron job</a> is running.","Ein oder mehrere <ein href=""%1""> Indizes sind ungültig. Stellen Sie sicher, dass Ihr <ein href=""%2"" ziel=""_ Formblatt""> Cronjob von Magento  läuft.</ein></ein>",module,Magento_Indexer
+"One or more <a href=""%1"">integrations</a> have been reset because of a change to their xml configs.","Eine oder mehrere <a href=""%1"">Integrationen</a> sind wegen einer Änderung zu ihrer XML configs zurückgesetzt worden.",module,Magento_Integration
 One or more of the Cache Types are invalidated: %1.,Eine oder mehrere der Cache-Typen sind ungültig. %1,,
 One or more of the Cache Types are invalidated: %1.,Einer oder mehrere der Cache-Typen sind entkräftet: %1.,,
 One or more of the Cache Types are invalidated: %1.,Einer oder mehrere Caches sind ungültig: %1.,module,Magento_AdminNotification
@@ -8206,7 +8206,7 @@ The address model is not defined.,Das Adressmodell ist nicht definiert.,,
                     \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.",module,Magento_Quote
 The address total model should be extended from \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.,Das Adress-Gesamtmodell sollte erweitert werden von \Magento\Quote\Modell\Quote\Address\Gesamt\AbstractTotal.,,
 "The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","Auf Windows-Systemen kann das Archiv mit <a href=""%1"">%2</a> dekomprimiert werden.",,
-The attribute code '%1' is reserved by system. Please try another attribute code,"Der Attributcode ""% 1"" ist durch das System reserviert. Bitte versuchen Sie einen anderen Attributcode",,
+The attribute code '%1' is reserved by system. Please try another attribute code,"Der Attributcode ""%1"" ist durch das System reserviert. Bitte versuchen Sie einen anderen Attributcode",,
 "The attribute code is invalid. Please use only letters (a-z), ' 'numbers (0-9) or underscores (_) in this field. The first character should be a letter.","Der Attributcode ist nicht gültig. Bitte nutzen Sie nur Buchstaben (a-z),' 'Nummern (0-9) oder Unterstriche (_) in diesem Feld. Das erste Zeichen sollte ein Buchstabe sein.",,
 The attribute model is not defined.,Das Attributmodell ist nicht definiert.,,
 The attribute no longer exists.,Das Attribut existiert nicht mehr.,,
@@ -8233,7 +8233,7 @@ The behavior token for %1 is invalid.,Der Behavior-Token für %1 ist ungültig.,
 The Billing Agreement status is not set.,Der Abrechnungsvereinbarungsstatus ist nicht gesetzt.,,
 The BuyRequest instance in options group is incorrect.,Die BuyRequest-Instanz in der Optionengruppe ist inkorrekt.,,
 The cache storage may contain additional data. Are you sure that you want to flush it?,"Der Cache-Speicher könnte zusätzliche Daten enthalten. Sind Sie sicher, dass Sie ihn leeren wollen?",,
-The cache storage may contain additional data. Are you sure that you want to flush it?,"Sind Sie sicher, daß Sie den Cache leeren möchten? Er könnte weitere Daten enthalten, die dann auch gelöscht werden.",module,Magento_Backend
+The cache storage may contain additional data. Are you sure that you want to flush it?,"Sind Sie sicher, dass Sie den Cache leeren möchten? Er könnte weitere Daten enthalten, die dann auch gelöscht werden.",module,Magento_Backend
 The capture action is not available.,Die Erfassungs-Aktion ist nicht verfügbar.,,
 "The card has a balance of %balance and can be used at <a href=""%store_url"">%store_name</a>.","Die Karte hat ein Guthaben von %balance und kann für <a href=""%store_url"">%store_name</a> genutzt werden.",,
 "The card has a balance of %balance that can be used at <a href=""%store_url"">%store_name</a>.","Die Karte hat ein Guthaben von %balance und kann für <a href=""%store_url"">%store_name</a> genutzt werden.",,
@@ -8506,9 +8506,9 @@ The tax rate cannot be removed. It exists in a tax rule.,Der Steuersatz kann nic
 The tax rate has been imported.,Der Steuersatz wurde importiert.,,
 The tax rule has been deleted.,Steuerregel wurde gelöscht.,,
 The template did not load. Please review the log for details.,Die Vorlage wurde nicht geladen. Bitte überprüfen Sie das Protokoll für Details.,,
-"The terms you entered, (%1), belong to %2 existing synonym groups, %3 and %4. Select the ""Merge existing synonyms"" checkbox so the terms can be merged.","Die von Ihnen eingegebenen Begriffe, (%1), gehören zu %2 bestehenden Synonymgruppen, %3 and %4. Bitte wählen Sie das ""Bestehende Synonyme zusammenfügen"" Auswahlfeld, sodaß die Begriffe zusammengefügt werden können.
+"The terms you entered, (%1), belong to %2 existing synonym groups, %3 and %4. Select the ""Merge existing synonyms"" checkbox so the terms can be merged.","Die von Ihnen eingegebenen Begriffe, (%1), gehören zu %2 bestehenden Synonymgruppen, %3 and %4. Bitte wählen Sie das ""Bestehende Synonyme zusammenfügen"" Auswahlfeld, sodass die Begriffe zusammengefügt werden können.
 ",module,Magento_Search
-"The terms you entered, (%1), belong to 1 existing synonym group, %2. Select the ""Merge existing synonyms"" checkbox so the terms can be merged.","Die von Ihnen eingegebenen Begriffe, (%1), gehören zu 1 bestehenden Synonymgruppe, %2. Bitte wählen Sie das ""Bestehende Synonyme zusammenfügen"" Auswahlfeld, sodaß die Begriffe zusammengefügt werden können.",module,Magento_Search
+"The terms you entered, (%1), belong to 1 existing synonym group, %2. Select the ""Merge existing synonyms"" checkbox so the terms can be merged.","Die von Ihnen eingegebenen Begriffe, (%1), gehören zu 1 bestehenden Synonymgruppe, %2. Bitte wählen Sie das ""Bestehende Synonyme zusammenfügen"" Auswahlfeld, sodass die Begriffe zusammengefügt werden können.",module,Magento_Search
 The text is too long.,Der Text ist zu lang.,,
 The text of the link to the My Account &gt; Order by SKU page,"Der Text des Links zur ""Mein Konto &gt; Bestellung nach SKU""-Seite",,
 The timeout limit for response from synchronize process was reached.,Das Zeitlimit für die Antwort des Synchronisierungsprozesses wurde erreicht.,,
@@ -8655,7 +8655,7 @@ This account is not confirmed.,Dieses Konto ist nicht bestätigt.,,
 "This account is not confirmed.' ' <a href=""%1"">Click here</a> to resend confirmation email.","Dieses Konto ist nicht bestätigt.' ' <a href=""%1"">Klicken Sie hier</a> um erneut eine Bestätigungsmail zu senden.",,
 This action cannot be undone.,DIe Aktion kann nicht rückgängig gemacht werden.,,
 This action will delete your custom instructions and reset robots.txt file to system's default settings.,Diese Aktion wird Ihre benutzerdefinierte Anweisungen löschen und die robots.txt-Datei auf die System-Standardeinstellungen zurücksetzen.,,
-This administrator account is open in more than one location. Note that other locations might be different browsers or sessions on the same computer.,"Das Administratorkonto ist an mehr als einem Ort offen. Beachten Sie, daß andere Orte andere Browser oder Sessions auf demselben Computer sein können.
+This administrator account is open in more than one location. Note that other locations might be different browsers or sessions on the same computer.,"Das Administratorkonto ist an mehr als einem Ort offen. Beachten Sie, dass andere Orte andere Browser oder Sessions auf demselben Computer sein können.
 ",module,Magento_Security
 This applies only to catalog products and categories. Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.,"Dies gilt nur für Katalogprodukte und Kategorien. Medieninhalte werden als statische URL in den Editor eingefügt. Medieninhalte werden nicht aktualisiert, wenn sich die Basis-URL der Systemkonfiguration ändert.",,
 This applies only to registered users and may vary when a user is logged in.,"Dies gilt nur für registrierte Benutzer und kann abweichen, wenn ein Nutzer eingeloggt ist.",,
@@ -9019,7 +9019,7 @@ Unable to save Billing Agreement:,"Nicht in der Lage, die Abrechnungsvereinbarun
 Unable to save checkout agreement %1,Checkout-Vereinbarung %1 kann nicht gespeichert werden.,,
 Unable to save Cron expression,Cron-Ausdruck kann nicht gespeichert werden,,
 "Unable to save file ""%1"" at ""%2""","Nicht in der Lage, Datei ""%1"" in ""%2"" zu speichern",,
-Unable to save file: %1,Speichern der Datei nicht möglich: % 1,,
+Unable to save file: %1,Speichern der Datei nicht möglich: %1,,
 Unable to save product,Kann Produkt nicht speichern.,,
 Unable to save rule %1,Regel %1 kann nicht gespeichert werden,module,Magento_CatalogRule
 Unable to save shipping information. Please check input data.,Versandinformationen können nicht gespeichert werden. Überprüfen Sie bitte die Eingangsdaten.,module,Magento_Checkout
@@ -9510,7 +9510,7 @@ We can't complete your order because you don't have a payment method set up.,"Wi
 We can't configure the product right now.,Das Produkt kann jetzt nicht konfiguriert werden.,,
 We can't connect to the FTP right now.,Es kann zurzeit keine FTP-Verbindung hergestellt werden.,,
 We can't contact the PayPal gateway.,Wir können das PayPal-Gateway nicht kontaktieren.,,
-"We can't convert a rate from ""%1-%2"".","Wir können eine Rate nicht konvertieren von ""% 1-%2"".",,
+"We can't convert a rate from ""%1-%2"".","Wir können eine Rate nicht konvertieren von ""%1-%2"".",,
 "We can't copy ""%1"".","Wir können ""%1"" nicht kopieren.",,
 We can't copy %1 items.,Wir können %1 Artikel nicht kopieren.,,
 We can't copy the wish list item.,Wir können den Wunschlistenartikel nicht kopieren.,,
@@ -9715,7 +9715,7 @@ We cannot find the theme.,Wir konnten das Theme nicht finden.,,
 "We cannot find theme ""%1"".","Wir können das Theme ""%1"" nicht finden.",,
 We cannot initialize an RMA to add a tracking number.,Wir können keinen RMA-Antrag einleiten um eine Sendungsverfolgungsnummer hinzuzufügen.,,
 We cannot initialize an RMA to delete a tracking number.,Wir können keinen RMA-Antrag einleiten um eine Sendungsverfolgungsnummer zu löschen.,,
-We cannot load the configuration from file %1.,Wir können die Konfiguration aus der Datei% 1 nicht laden.,,
+We cannot load the configuration from file %1.,Wir können die Konfiguration aus der Datei %1 nicht laden.,,
 We cannot mark as received subscriber.,Wir können die  empfangenen Abonnenten nicht markieren.,,
 "We cannot move ""%1"".","Wir können ""%1"" nicht verschieben.",,
 We cannot open the overview page.,Die Übersichtsseite kann nicht geöffnet werden.,,
@@ -9777,7 +9777,7 @@ We don't recognize or support the file extension in this shipment: %1.,Wir erken
 We don't recognize or support this file extension type.,Dieser Dateierweiterungstyp kann nciht erkannt werden.,,
 "We don't recognize the draw line data. Please define the ""lines"" array.","Die ""draw line"" Daten konnten nicht identifiziert werden. Bitte definieren Sie die ""lines"" Array.",,
 We don't recognize this file extension.,Diese Dateierweiterung kann nicht erkannt werden.,,
-"We fetched %1 report rows from ""%2@%3.""","Wir haben %1 Berichtszeilen aus ""%2 @% 3."" abgerufen.",,
+"We fetched %1 report rows from ""%2@%3.""","Wir haben %1 Berichtszeilen aus ""%2@%3."" abgerufen.",,
 We found a directory with the same name.,Es wurde ein Verzeichnis mit demselben Namen gefunden.,,
 We found a directory with the same name. Please try another folder name.,Wir haben ein Verzeichnis mit dem gleichen Namen gefunden. Bitte wählen Sie einen anderen Ordnernamen.,,
 "We found a duplicate of website, country and state fields for a fixed product tax","Wir fanden ein Duplikat von Website, Land und Bundesland-Feldern für eine feste Produktsteuer",,
@@ -9793,7 +9793,7 @@ We found an invalid renderer model.,Es wurde ein ungültiges Render-Modell gefun
 We found an invalid request for adding product to quote.,Wir haben eine ungültige Anfrage für das Hinzufügen eines Produkts zum Angebot gefunden.,,
 We found an invalid value in a website column.,Es wurde ein ungültiger Wert in Ihrer Websitespalte gefunden.,,
 We found an item options declaration error.,Wir haben einen Artikeloption-Deklarationsfehler gefunden.,,
-"We found an unsupported transaction type ""%1"".","Es wurde ein nicht unterstützter Transaktionstyp gefunden ""% 1"".",,
+"We found an unsupported transaction type ""%1"".","Es wurde ein nicht unterstützter Transaktionstyp gefunden ""%1"".",,
 We found another order status with the same order status code.,Wir fanden einen weiteren Auftragsstatus mit dem gleichen Bestell-Statuscode.,,
 "We found another row with this email, website and address ID combination.","Es wurde eine weitere Zeile mit dieser Kombination von E-Mail, Website und Adressen-ID gefunden.",,
 We found no files.,Es wurden keine Dateien gefunden.,,
@@ -10190,7 +10190,7 @@ You have %points_balance points that may be used in our store:,Sie haben %points
 You have a total of %points_balance points that may be used in our store:,Sie haben %points_balance Punkte die Sie in unserem Shop benutzen können.,,
 You have been successfully subscribed to our newsletter.,Sie haben sich erfolgreich für unseren Newsletter angemeldet.,,
 You have been unsubscribed from the newsletter.,Sie wurden vom Newsletter abgemeldet.,,
-You have chosen to change status(es) of the selected RMA requests to Close.' ' Are you sure you want to continue?,"Sie haben den Status des ausgewählten Rücksendeantrages auf abgeschlossen gesetzt. Sind Sie sicher, dass sie fortfahren möchten?",,
+You have chosen to change status(es) of the selected RMA requests to Close.' ' Are you sure you want to continue?,"Sie haben den Status des ausgewählten Rücksendeantrages auf abgeschlossen gesetzt. Sind Sie sicher, dass Sie fortfahren möchten?",,
 You have created the new version.,Sie haben eine neue Version erstellt.,,
 You have deleted the revision.,Sie haben die Revision gelöscht.,,
 You have deleted the version.,Sie haben die Version gelöscht.,,
