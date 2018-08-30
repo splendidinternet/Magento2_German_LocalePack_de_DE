@@ -3027,7 +3027,7 @@ element tooltip,Element-Tooltip,,
 Element with ID '%1' already exists.,"Elemente mit der ID ""%1"" existieren bereits",,
 Element with ID '%1' is already defined.,"Elemente mit der ID ""%1"" sind bereits definiert",,
 Elements,Elemente,,
-Email,E-Mail  ,,
+Email,E-Mail,,
 email,E-Mail,module,Magento_User
 Email address,E-Mail-Adresse,,
 Email Address,E-Mail-Adresse,,
