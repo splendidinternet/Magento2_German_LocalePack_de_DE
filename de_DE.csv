@@ -4237,8 +4237,8 @@ Invalid date,Ungültiges Datum,,
 Invalid date specified,Ungültiges Datum angegeben,,
 Invalid default date,Ungültiges Standarddatum,,
 Invalid default decimal value,Ungültiger Standard-Dezimalwert,,
-"Invalid Document 
-Invalid domain name: 
+"Invalid Document
+Invalid domain name:
 Invalid order
 Invalid product list type
 Invalid RMA
@@ -7222,7 +7222,7 @@ Search Results,Suchergebnisse,,
 Search results for: '%1',"Suchergebnisse für: ""%1""",,
 Search Settings,Sucheinstellungen,,
 Search String,Suchbegriff,,
-"Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. 
+"Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered.
 Examples: Firefox: /^mozilla/i","Suchbegriffe sind entweder normale Zeichenketten oder reguläre Ausdrücke (PCRE). Sie werden in der Reihenfolge verglichen, wie sie eingegeben werden. Beispiele: Firefox: /^mozilla/i",,
 "Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""""font-family:monospace"""">Firefox<br />/^mozilla/i</span>","Suchbegriffe sind entweder normale Strings oder reguläre Ausnahmen (PCRE). Sie werden in der gleichen Reihenfolge verglichen wie eingegeben. Beispiele: <br /> <span style = ""font-family: monospace""> Firefox <br />/^mozilla/i</span>",,
 "Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>","Suchbegriffe sind entweder normale Strings oder reguläre Ausnahmen (PCRE). Sie werden in der gleichen Reihenfolge verglichen wie eingegeben. Beispiele: <br /> <span style = ""font-family: monospace""> Firefox <br />/^mozilla/i</span>",,
@@ -8378,7 +8378,7 @@ The message has been marked as Read.,Die Nachricht wurde als gelesen markiert.,,
 The message has been removed.,Die Nachricht wurde entfernt.,,
 The most money available to refund is %1.,Der maximal zur Verfügung stehende Betrag der Rückerstattung ist %1.,,
 The most you may purchase is %1.,Die Höchstmenge ist %1.,,
-"The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
+"The New Relic integration requires the newrelic-php5 agent, which is not installed. More
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","""New Relic Integration benötigt den newrelic-php5 Agenten, der nicht installiert ist. Mehr Informationen über die Installation vom Agenten <a target=""_blank"" href=""%1"">hier</a>.",module,Magento_NewRelicReporting
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","Die New Relic-Integration erfordert den newrelic-php5 Stellvertreter, der nicht installiert ist. Weitere Informationen zur Installation <a target=""_blank"" href=""%1"">hier</a>.",,
 The newsletter template has been deleted.,Die Newsletter-Vorlage wurde gelöscht.,,
