@@ -13,7 +13,7 @@ Und für Magento 1.x gibt es weiterhin das deutsche Sprachpaket von Rico Neitzel
 Aus dem Magento-Root-Verzeichnis folgende Befehle aufrufen:
 ```bash
 rm pub/static/frontend/Magento/luma/de_DE/js-translation.json
-php bin/magento setup:static-content:deploy de_DE
+php bin/magento setup:static-content:deploy -f de_DE
 php bin/magento setup:upgrade
 rm -rf var/di
 php bin/magento setup:di:compile
