@@ -2054,21 +2054,20 @@ Configurable Product Image,Konfigurierbares Produktbild,,
 "Configurable products allow customers to choose options (Ex: shirt color).
             You need to create a simple product for each configuration (Ex: a product for each color).","Konfigurierbare Produkte erlauben Kunden, Optionen zu wählen (z. B.: Hemdfarbe).
             Sie müssen ein einfaches Produkt für jede Konfiguration schaffen (z. B.: ein Produkt für jede Farbe).",module,Magento_ConfigurableProduct
-"Configurable products allow customers to choose options (Ex: shirt color).
-Connecting to server,Verbindet zum Server
-Connection failed! Test again?,Verbindung fehlgeschlagen! Erneut versuchen?
-Connection Type,Verbindungstyp
-Constant Value,Konstanter Wert
-Contact Email Address,Kontakt-E-Mail-Adresse
-Contact Name,Kontaktname
-Container Id,Container-ID
-Continue Processing,Bearbeitung fortfahren
-Conversion Rate,Umrechnungskurs
-Conversion Rate Report,Umrechnungskursbericht
-Converting Invitation to Customer,Konvertiert Einladung zum Kunden
-Converting Invitation to Order,Konvertiert Einladung zur Bestellung
-Copy,Kopieren
-&copy; Magento Inc.","&copy; Magento Inc.""",,
+Connecting to server,Verbindet zum Server,,
+Connection failed! Test again?,Verbindung fehlgeschlagen! Erneut versuchen?,,
+Connection Type,Verbindungstyp,,
+Constant Value,Konstanter Wert,,
+Contact Email Address,Kontakt-E-Mail-Adresse,,
+Contact Name,Kontaktname,,
+Container Id,Container-ID,,
+Continue Processing,Bearbeitung fortfahren,,
+Conversion Rate,Umrechnungskurs,,
+Conversion Rate Report,Umrechnungskursbericht,,
+Converting Invitation to Customer,Konvertiert Einladung zum Kunden,,
+Converting Invitation to Order,Konvertiert Einladung zur Bestellung,,
+Copy,Kopieren,,
+"&copy; Magento Inc.","&copy; Magento Inc.",,
 Configurable products allow customers to choose options (Ex: shirt color). You need to create a simple product for each configuration (Ex: a product for each color).,Konfigurierbare Produkte erlauben Kunden die Wahl zwischen Optionen (z. B. die Farbe eines T-Shirts). Es muss für jede Konfiguration ein einfaches Produkt erstellt werden.,,
 Configurable products allow customers to choose options (Ex: shirt color). You need to create a simple product for each configuration (Ex: a product for each color).,Konfigurierbare Produkte erlauben Kunden die Wahl zwischen Optionen (z. B. die Farbe eines T-Shirts). Es muss für jede Konfiguration ein einfaches Produkt erstellt werden.,module,Magento_ConfigurableProduct
 Configurable products allow customers to choose options (Ex: shirt color).You need to create a simple product for each configuration (Ex: a product for each color).,"Konfigurierbare Produkte erlauben es Kunden, Optionen auszuwählen (z.B. Farbe eines Shirts). Sie müssen für jede Konfiguration ein einfaches Produkt erstellen (z.B. ein Produkt für jede Farbe).",,
@@ -9464,13 +9463,12 @@ Warning tax configuration can result in rounding errors.,Warnung Steuerkonfigura
 "Warning tax discount configuration might result in different discounts
                                 than a customer might expect. ","Warnung: Steuervergünstigungs-Einstellungen können zu anderen Nachlässen führen
                                 als der Kunde erwarten würde. ",module,Magento_Tax
-"Warning tax discount configuration might result in different discounts
-was,war
-was not,war nicht
-We archived %1 order(s).,Wir haben %1 Bestellung(en) archiviert.
-We authorized your Return request.,Wir haben Ihre Rückgabe-Anfrage authorisiert.
-Website Closed,Webseite geschlossen
-Website code may only contain letters (a-z) numbers (0-9) or underscore (_) ' ' and the first character must be a letter.""","Webseitencode darf nur aus Buchstaben (a-z), Nummern (0-9) oder Unterschrichen(_) bestehen. Das erste Zeichen muss ein Buchstabe sein.",,
+was,war,,
+was not,war nicht,,
+We archived %1 order(s).,Wir haben %1 Bestellung(en) archiviert.,,
+We authorized your Return request.,Wir haben Ihre Rückgabe-Anfrage authorisiert.,,
+Website Closed,Webseite geschlossen,,
+"Website code may only contain letters (a-z) numbers (0-9) or underscore (_) ' ' and the first character must be a letter.","Webseitencode darf nur aus Buchstaben (a-z), Nummern (0-9) oder Unterschrichen (_) bestehen. Das erste Zeichen muss ein Buchstabe sein.",,
 Warning tax discount configuration might result in different discounts than a customer might expect.,"Warnung: Steuerrabatt-Konfiguration kann zu anderen Preisnachlässen führen, als es der Kunde erwarten könnte.",,
 WARNING:,WARNUNG:,,
 "Warning: necessary space for backup is ' . . 'MB, but your free disc space is ' . . 'MB.","Achtung: Notwendiger Speicherplatz für das Backup: ' . . ' MB,  Freier Speicherplatz: ' . . ' MB",,
