@@ -4821,7 +4821,7 @@ May start with {{unsecure_base_url}} placeholder.,Kann mit {{unsecure_base_url}}
 MD5 Secret for Transactions,MD5 Secret for Transactions,,
 "Media (.avi, .flv, .swf)","Medien (.avi, .flv, .swf)",,
 "Media (.avi, .flv, .swf)","Medien (.avi, .flv, .swf)",module,Magento_Backend
-Media Gallery,Mediengallerie,module,Magento_Cms
+Media Gallery,Mediengalerie,module,Magento_Cms
 Media Gallery converter should be an instance of EntryConverterInterface.,Mediengalerie-Konverter sollte eine Instanz von EntryConverterInterface sein.,,
 Media Image,Medienbild,,
 Media Mail,Media Mail,,
@@ -4873,7 +4873,7 @@ Method Name,Methodenname,,
 Method Title,Versandmethode,,
 Middle Name/Initial,Zweiter Vorname,,
 Min Time Between Password Reset Requests,Mindestdauer zwischen Passwort-Reset-Anfragen,,
-Minification is not applied in developer mode.,Minification wir im Entwicklermodus nicht angewendet.,module,Magento_Backend
+Minification is not applied in developer mode.,Minification wird im Entwicklermodus nicht angewendet.,module,Magento_Backend
 Minify CSS Files,CSS-Dateien verkürzen,,
 Minify Html,HTML verkürzen,,
 Minify JavaScript Files,JavaScript-Dateien verkürzen,,
