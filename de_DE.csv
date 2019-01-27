@@ -9922,7 +9922,7 @@ When passing an array of fields there must be at least one field in the array.,B
 When passing in a field array there must be a matching condition array.,Bei der Übergabe in einem Feld-Array muss ein Array mit passender Bedingung vorhanden sein.,,
 "When the adapter was changed, please flush Catalog Images Cache.","Bitte leeren Sie den Katalogbilder-Cache, wenn der Adaper geändert wird.",,
 When you enable this option your site may slow down.,"Wenn Sie diese Option aktivieren, könnte dies Ihre Seite verlangsamen.",,
-When you remove or add an attribute, we automatically update all configurations and you will need to recreate current configurations manually.,Wenn Sie ein Attribut hinzufügen oder entfernen, updaten wir automatisch alle Konfigurationen und Sie müssen die aktuelle Konfiguration erneut manuell anlegen.,module,Magento_ConfigurableProduct
+"When you remove or add an attribute, we automatically update all configurations and you will need to recreate current configurations manually.","Wenn Sie ein Attribut hinzufügen oder entfernen, updaten wir automatisch alle Konfigurationen und Sie müssen die aktuelle Konfiguration erneut manuell anlegen.",module,Magento_ConfigurableProduct
 "When you sign in to your account, you will be able to:","Wenn Sie sich mit Ihrem Konto anmelden, werden Sie in der Lage sein:",,
 "Whether to create a billing agreement, if there are no active billing agreements available.","Eine Abrechnungsvereinbarung erstellen, wenn keine aktiven Abrechnungsvereinbarungen verfügbar sind.",,
 "Whether to show ""All"" option in the ""Show X Per Page"" dropdown","""Alle""-Option im ""Zeige X pro Seite""-Dropdown anzeigen lassen",,
@@ -10025,7 +10025,7 @@ Yes/No,Ja/Nein,,
 You added %1 product to your shopping cart.,Sie haben %1 Produkt zu Ihrem Einkaufswagen hinzugefügt.,,
 You added %1 products to your shopping cart.,Sie haben %1 Produkte zu Ihrem Einkaufswagen hinzugefügt.,,
 You added %1 to your shopping cart.,Sie haben %1 zu Ihrem Warenkorb hinzugefügt.,,
-You added %1 to your <a href="%2">shopping cart</a>., Sie haben %1 zum <a href="%2">Warenkorb</a> hinzugefügt.
+"You added %1 to your <a href=""%2"">shopping cart</a>.","Sie haben %1 zum <a href=""%2"">Warenkorb</a> hinzugefügt.",,
 You added product %1 to the comparison list.,Sie haben das Produkt %1 zur Vergleichsliste hinzugefügt.,,
 You already have a permission with this scope.,Sie haben bereits die Berechtigungen für diesen Bereich.,,
 You already have an account with us. Sign in or continue as guest.,Sie haben bereits ein Konto bei uns. Melden Sie sich an oder fahren Sie als Gast fort.,,
