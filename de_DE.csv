@@ -566,7 +566,7 @@ $attributes must be an array,$attributes muss ein Array sein.,,
 3 columns,3 Spalten,,
 3 Day Freight,3 Tage-Fracht,,
 3 Day Select,3 Day Select,,
-30 minutes,30 MInuten,,
+30 minutes,30 Minuten,,
 3D Secure Verification,3D Secure-Verifizierung,,
 3d Secure Verification,3-D-Secure Verifizierung,,
 3D Secure Verification Settings,Einstellungen der 3D Secure-Verifizierung,,
@@ -2054,21 +2054,20 @@ Configurable Product Image,Konfigurierbares Produktbild,,
 "Configurable products allow customers to choose options (Ex: shirt color).
             You need to create a simple product for each configuration (Ex: a product for each color).","Konfigurierbare Produkte erlauben Kunden, Optionen zu wählen (z. B.: Hemdfarbe).
             Sie müssen ein einfaches Produkt für jede Konfiguration schaffen (z. B.: ein Produkt für jede Farbe).",module,Magento_ConfigurableProduct
-"Configurable products allow customers to choose options (Ex: shirt color).
-Connecting to server,Verbindet zum Server
-Connection failed! Test again?,Verbindung fehlgeschlagen! Erneut versuchen?
-Connection Type,Verbindungstyp
-Constant Value,Konstanter Wert
-Contact Email Address,Kontakt-E-Mail-Adresse
-Contact Name,Kontaktname
-Container Id,Container-ID
-Continue Processing,Bearbeitung fortfahren
-Conversion Rate,Umrechnungskurs
-Conversion Rate Report,Umrechnungskursbericht
-Converting Invitation to Customer,Konvertiert Einladung zum Kunden
-Converting Invitation to Order,Konvertiert Einladung zur Bestellung
-Copy,Kopieren
-&copy; Magento Inc.","&copy; Magento Inc.""",,
+Connecting to server,Verbindet zum Server,,
+Connection failed! Test again?,Verbindung fehlgeschlagen! Erneut versuchen?,,
+Connection Type,Verbindungstyp,,
+Constant Value,Konstanter Wert,,
+Contact Email Address,Kontakt-E-Mail-Adresse,,
+Contact Name,Kontaktname,,
+Container Id,Container-ID,,
+Continue Processing,Bearbeitung fortfahren,,
+Conversion Rate,Umrechnungskurs,,
+Conversion Rate Report,Umrechnungskursbericht,,
+Converting Invitation to Customer,Konvertiert Einladung zum Kunden,,
+Converting Invitation to Order,Konvertiert Einladung zur Bestellung,,
+Copy,Kopieren,,
+"&copy; Magento Inc.","&copy; Magento Inc.",,
 Configurable products allow customers to choose options (Ex: shirt color). You need to create a simple product for each configuration (Ex: a product for each color).,Konfigurierbare Produkte erlauben Kunden die Wahl zwischen Optionen (z. B. die Farbe eines T-Shirts). Es muss für jede Konfiguration ein einfaches Produkt erstellt werden.,,
 Configurable products allow customers to choose options (Ex: shirt color). You need to create a simple product for each configuration (Ex: a product for each color).,Konfigurierbare Produkte erlauben Kunden die Wahl zwischen Optionen (z. B. die Farbe eines T-Shirts). Es muss für jede Konfiguration ein einfaches Produkt erstellt werden.,module,Magento_ConfigurableProduct
 Configurable products allow customers to choose options (Ex: shirt color).You need to create a simple product for each configuration (Ex: a product for each color).,"Konfigurierbare Produkte erlauben es Kunden, Optionen auszuwählen (z.B. Farbe eines Shirts). Sie müssen für jede Konfiguration ein einfaches Produkt erstellen (z.B. ein Produkt für jede Farbe).",,
@@ -4821,7 +4820,7 @@ May start with {{unsecure_base_url}} placeholder.,Kann mit {{unsecure_base_url}}
 MD5 Secret for Transactions,MD5 Secret for Transactions,,
 "Media (.avi, .flv, .swf)","Medien (.avi, .flv, .swf)",,
 "Media (.avi, .flv, .swf)","Medien (.avi, .flv, .swf)",module,Magento_Backend
-Media Gallery,Mediengallerie,module,Magento_Cms
+Media Gallery,Mediengalerie,module,Magento_Cms
 Media Gallery converter should be an instance of EntryConverterInterface.,Mediengalerie-Konverter sollte eine Instanz von EntryConverterInterface sein.,,
 Media Image,Medienbild,,
 Media Mail,Media Mail,,
@@ -4873,7 +4872,7 @@ Method Name,Methodenname,,
 Method Title,Versandmethode,,
 Middle Name/Initial,Zweiter Vorname,,
 Min Time Between Password Reset Requests,Mindestdauer zwischen Passwort-Reset-Anfragen,,
-Minification is not applied in developer mode.,Minification wir im Entwicklermodus nicht angewendet.,module,Magento_Backend
+Minification is not applied in developer mode.,Minification wird im Entwicklermodus nicht angewendet.,module,Magento_Backend
 Minify CSS Files,CSS-Dateien verkürzen,,
 Minify Html,HTML verkürzen,,
 Minify JavaScript Files,JavaScript-Dateien verkürzen,,
@@ -4977,7 +4976,7 @@ My Wish List,Mein Wunschzettel,,
 My Wish List Link,"""Mein Merkzettel""-Verlinkung",,
 My Wish Lists,Meine Wunschzettel,,
 My Wish Lists Link,Link zu Meine Wunschzettel,,
-"MySQL Message Queue Cleanup - all the times are in minutes. Use ""0"" if you want to skip automatic clearance","MySQL-Nachrichtenwarteschlagen-Bereinigung - alle Zeiten sind in MInuten. Verwenden Sie ""0"" , um die automatische Bereinigung zu überspringen.",,
+"MySQL Message Queue Cleanup - all the times are in minutes. Use ""0"" if you want to skip automatic clearance","MySQL-Nachrichtenwarteschlagen-Bereinigung - alle Zeiten sind in Minuten. Verwenden Sie ""0"" , um die automatische Bereinigung zu überspringen.",,
 N/A,Nicht verfügbar,,
 "N/A. Address not checked, or acquirer had no response. Service not available",N/A. Adresse nicht überprüft oder Erwerber hatte keine Antwort. Dienst nicht verfügbar,,
 N/A. Global Unavailable,N/A. Global nicht verfügbar,,
@@ -9464,13 +9463,12 @@ Warning tax configuration can result in rounding errors.,Warnung Steuerkonfigura
 "Warning tax discount configuration might result in different discounts
                                 than a customer might expect. ","Warnung: Steuervergünstigungs-Einstellungen können zu anderen Nachlässen führen
                                 als der Kunde erwarten würde. ",module,Magento_Tax
-"Warning tax discount configuration might result in different discounts
-was,war
-was not,war nicht
-We archived %1 order(s).,Wir haben %1 Bestellung(en) archiviert.
-We authorized your Return request.,Wir haben Ihre Rückgabe-Anfrage authorisiert.
-Website Closed,Webseite geschlossen
-Website code may only contain letters (a-z) numbers (0-9) or underscore (_) ' ' and the first character must be a letter.""","Webseitencode darf nur aus Buchstaben (a-z), Nummern (0-9) oder Unterschrichen(_) bestehen. Das erste Zeichen muss ein Buchstabe sein.",,
+was,war,,
+was not,war nicht,,
+We archived %1 order(s).,Wir haben %1 Bestellung(en) archiviert.,,
+We authorized your Return request.,Wir haben Ihre Rückgabe-Anfrage authorisiert.,,
+Website Closed,Webseite geschlossen,,
+"Website code may only contain letters (a-z) numbers (0-9) or underscore (_) ' ' and the first character must be a letter.","Webseitencode darf nur aus Buchstaben (a-z), Nummern (0-9) oder Unterschrichen (_) bestehen. Das erste Zeichen muss ein Buchstabe sein.",,
 Warning tax discount configuration might result in different discounts than a customer might expect.,"Warnung: Steuerrabatt-Konfiguration kann zu anderen Preisnachlässen führen, als es der Kunde erwarten könnte.",,
 WARNING:,WARNUNG:,,
 "Warning: necessary space for backup is ' . . 'MB, but your free disc space is ' . . 'MB.","Achtung: Notwendiger Speicherplatz für das Backup: ' . . ' MB,  Freier Speicherplatz: ' . . ' MB",,
@@ -9922,7 +9920,7 @@ When passing an array of fields there must be at least one field in the array.,B
 When passing in a field array there must be a matching condition array.,Bei der Übergabe in einem Feld-Array muss ein Array mit passender Bedingung vorhanden sein.,,
 "When the adapter was changed, please flush Catalog Images Cache.","Bitte leeren Sie den Katalogbilder-Cache, wenn der Adaper geändert wird.",,
 When you enable this option your site may slow down.,"Wenn Sie diese Option aktivieren, könnte dies Ihre Seite verlangsamen.",,
-When you remove or add an attribute, we automatically update all configurations and you will need to recreate current configurations manually.,Wenn Sie ein Attribut hinzufügen oder entfernen, updaten wir automatisch alle Konfigurationen und Sie müssen die aktuelle Konfiguration erneut manuell anlegen.,module,Magento_ConfigurableProduct
+"When you remove or add an attribute, we automatically update all configurations and you will need to recreate current configurations manually.","Wenn Sie ein Attribut hinzufügen oder entfernen, updaten wir automatisch alle Konfigurationen und Sie müssen die aktuelle Konfiguration erneut manuell anlegen.",module,Magento_ConfigurableProduct
 "When you sign in to your account, you will be able to:","Wenn Sie sich mit Ihrem Konto anmelden, werden Sie in der Lage sein:",,
 "Whether to create a billing agreement, if there are no active billing agreements available.","Eine Abrechnungsvereinbarung erstellen, wenn keine aktiven Abrechnungsvereinbarungen verfügbar sind.",,
 "Whether to show ""All"" option in the ""Show X Per Page"" dropdown","""Alle""-Option im ""Zeige X pro Seite""-Dropdown anzeigen lassen",,
@@ -10025,7 +10023,7 @@ Yes/No,Ja/Nein,,
 You added %1 product to your shopping cart.,Sie haben %1 Produkt zu Ihrem Einkaufswagen hinzugefügt.,,
 You added %1 products to your shopping cart.,Sie haben %1 Produkte zu Ihrem Einkaufswagen hinzugefügt.,,
 You added %1 to your shopping cart.,Sie haben %1 zu Ihrem Warenkorb hinzugefügt.,,
-You added %1 to your <a href="%2">shopping cart</a>., Sie haben %1 zum <a href="%2">Warenkorb</a> hinzugefügt.
+"You added %1 to your <a href=""%2"">shopping cart</a>.","Sie haben %1 zum <a href=""%2"">Warenkorb</a> hinzugefügt.",,
 You added product %1 to the comparison list.,Sie haben das Produkt %1 zur Vergleichsliste hinzugefügt.,,
 You already have a permission with this scope.,Sie haben bereits die Berechtigungen für diesen Bereich.,,
 You already have an account with us. Sign in or continue as guest.,Sie haben bereits ein Konto bei uns. Melden Sie sich an oder fahren Sie als Gast fort.,,
