@@ -6580,7 +6580,7 @@ Products subselection,Produkte-Unterauswahl,,
 Products to Display,Anzuzeigende Produkte,,
 Products to Match,Produkte zum Vergleichen,,
 Products will still be shown by direct product URLs.,Produkte werden weiterhin durch direkte Produkt-URLs angezeigt.,,
-ProductSku should be specified,Produkt SKU muss angegeen werden,module,Magento_Catalog
+ProductSku should be specified,Produkt SKU muss angegeben werden,module,Magento_Catalog
 Profile ID,Profil-ID,,
 Profit,Gewinn,,
 Promo,Promo,,
@@ -6599,7 +6599,7 @@ Provided downloadable sample is not related to given product.,Das vorgesehene he
 Provided file content must be valid base64 encoded data.,Der vorgesehene Dateiinhalt muss mit Base64-codierten Daten gültig sein.,,
 Provided file name contains forbidden characters.,Der vorgesehene Dateiname enthält ungültige Zeichen.,,
 Provided form does not exist,Angegebens Formular existiert nicht.,,
-Provided image name contains forbidden characters.,Der angegebene BIldname enthält ungültige Zeichen.,,
+Provided image name contains forbidden characters.,Der angegebene Bildname enthält ungültige Zeichen.,,
 Provided link information is invalid.,Angegebene Link-Information ist ungültig.,,
 "Provided link type ""%1"" does not exist","Angegebener Link-Typ ""%1"" existiert nicht.",,
 Provided product must be type 'downloadable'.,Das Produkt muss 'downloadbar' sein.,module,Magento_Downloadable
