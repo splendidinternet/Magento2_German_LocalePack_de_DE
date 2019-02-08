@@ -372,6 +372,8 @@
 %1 isn't allowed,%1 ist nicht erlaubt.,,
 %1 Item,%1 Artikel,,
 %1 Item(s),%1 Artikel,,
+%1 Item,%1 Eintrag,module,Magento_Theme
+%1 Item(s),%1 Einträge,module,Magento_Theme
 %1 item(s) have been added to the gift registry.,%1 Artikel wurde(n) der Geschenkeliste hinzugefügt.,,
 %1 item(s) need your attention.,%1 Artikel benötigen Ihre Aufmerksamkeit,,
 %1 items,%1 Artikel,,
