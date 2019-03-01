@@ -493,13 +493,13 @@
 "%value%' looks like a local network name, which is not an acceptable format.","%value% sieht wie der Name eines lokalen Netzwerks aus, was kein akzeptiertes Format ist.",module,Magento_Customer
 "%value%' looks like a local network name, which is not an acceptable format.",%value-%' sieht wie ein lokaler Netzwerksname in einem inakzeptablen Format aus.,module,Magento_Eav
 "%value%' looks like an IP address, which is not an acceptable format.","%value% sieht wie eine IP-Adresse aus, was kein akzeptiertes Format ist.",,
-"%value%' looks like an IP address, which is not an acceptable format.",%vakue%' sieht nach einer IP-Addresse aus. Dies ist kein akzeptiertes Format.,,
+"%value%' looks like an IP address, which is not an acceptable format.",%vakue%' sieht nach einer IP-Adresse aus. Dies ist kein akzeptiertes Format.,,
 "%value%' looks like an IP address, which is not an acceptable format.","%value% sieht wie eine IP-Adresse aus, was kein akzeptiertes Format ist.",module,Magento_Customer
-"%value%' looks like an IP address, which is not an acceptable format.",%vakue%' sieht nach einer IP-Addresse aus. Dies ist kein akzeptiertes Format.,module,Magento_Eav
+"%value%' looks like an IP address, which is not an acceptable format.",%vakue%' sieht nach einer IP-Adresse aus. Dies ist kein akzeptiertes Format.,module,Magento_Eav
 "%value%' looks like an IP address, which is not an acceptable format.","%value% sieht wie eine IP-Adresse aus, was kein akzeptiertes Format ist.",module,Magento_Customer
-"%value%' looks like an IP address, which is not an acceptable format.",%value%' sieht nach einer IP-Addresse aus. Dies ist kein akzeptiertes Format.,module,Magento_Eav
+"%value%' looks like an IP address, which is not an acceptable format.",%value%' sieht nach einer IP-Adresse aus. Dies ist kein akzeptiertes Format.,module,Magento_Eav
 "%value%' looks like an IP address, which is not an acceptable format.","%value% sieht wie eine IP-Adresse aus, was kein akzeptiertes Format ist.",module,Magento_Customer
-"%value%' looks like an IP address, which is not an acceptable format.",%value%' sieht nach einer IP-Addresse aus. Dies ist kein akzeptiertes Format.,module,Magento_Eav
+"%value%' looks like an IP address, which is not an acceptable format.",%value%' sieht nach einer IP-Adresse aus. Dies ist kein akzeptiertes Format.,module,Magento_Eav
 "<a href=""""http://www.magentocommerce.com/paypal"""">Start accepting payments via PayPal!</a>","<a href=""""http://www.magentocommerce.com/paypal"""">Zahlungen via PayPal akzeptieren!</a>",,
 "<a href=""""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"""" target=""""_blank"""">Why Advertise Financing?</a><br/>","<a href=""""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"""" target=""""_blank"""">Warum für Finanzierung werben?</a><br/>",,
 "<a href=""""https:/www.paypal.com/webapps/mpp/promotional-financing"""" target=""""_blank"""">Learn More</a>","<a href=""""https:/www.paypal.com/webapps/mpp/promotional-financing"""" target=""""_blank"""">Mehr erfahren</a>",,
@@ -882,7 +882,7 @@ Additional data,Zusätzliche Daten,,
 Additional Options,Weitere Optionen,,
 Additional Settings,Zusätzliche Einstellungen,,
 Address,Adresse,,
-Address %1 <span>of %2</span>,Addresse %1 <span>von %2</span>,,
+Address %1 <span>of %2</span>,Adresse %1 <span>von %2</span>,,
 Address Attributes,Adressattribute,,
 Address AVS check,Adressverifizierung (AVS),,
 Address Book,Adressbuch,,
@@ -2965,7 +2965,7 @@ Edit Newsletter,Newsletter ändern,,
 Edit Newsletter Template,Newsletter-Vorlage bearbeiten,,
 Edit Order,Bestellung bearbeiten,,
 Edit Order #%1,Bestellung #%1 bearbeiten,,
-Edit Order %1 %2 Address,Bestellung %1 %2 Addresse bearbeiten,,
+Edit Order %1 %2 Address,Bestellung %1 %2 Adresse bearbeiten,,
 Edit Order Status,Bestellstatus bearbeiten,,
 Edit Page,Seite bearbeiten,,
 Edit Page '%1',"Seite ""%1"" bearbeiten",,
@@ -4238,22 +4238,15 @@ Invalid date,Ungültiges Datum,,
 Invalid date specified,Ungültiges Datum angegeben,,
 Invalid default date,Ungültiges Standarddatum,,
 Invalid default decimal value,Ungültiger Standard-Dezimalwert,,
-"Invalid Document
-Invalid domain name:
-Invalid order
-Invalid product list type
-Invalid RMA
-Invalid rotation mode type
-Invalid value. Because the request contains an unexpected value a default value was substituted. Although the transact on can still be processed examine the request carefully for abnormalities in the order""","Ungültiges Dokument
-Ungültiger Domain-Name:
-Ungültige Bestellung
-Ungültiger Produktlistentyp
-Ungültige RMA-Nummer
-Ungültiger Rotationsmodustyp
-Ungültiger Wert. Weil die Anfrage einen unerwarteten Wert enthält, wurde stattdessen ein Standardwert verwendet. Obwohl die Transaktion bearbeitet werden kann, überprüfen Sie die Anfrage sorgfältig nach Abweichungen in der Bestellung. ",,
+Invalid Document,Ungültiges Dokument,,
+Invalid domain name:,Ungültige Domain:,,
+Invalid order,Ungültige Bestellung,,
+Invalid product list type,Ungültiger Produktlistentyp,,
+Invalid RMA,Ungültige RMA-Nummer,,
+Invalid rotation mode type,Ungültiger Rotationsmodustyp,,
+"Invalid value. Because the request contains an unexpected value a default value was substituted. Although the transact on can still be processed examine the request carefully for abnormalities in the order","Ungültiger Wert. Weil die Anfrage einen unerwarteten Wert enthält, wurde stattdessen ein Standardwert verwendet. Obwohl die Transaktion bearbeitet werden kann, überprüfen Sie die Anfrage sorgfältig nach Abweichungen in der Bestellung.",,
 Invalid Document %1%2,Ungültiges Dokument: %1%2,,
 Invalid Document: %1%2 Error: %3,Ungültiges Dokument: %1%2 Fehler: %3,,
-Invalid domain name: ' .,Ungültiger Domain-Name:,,
 Invalid domain name: %1,Ungültiger Domainname: %1,module,Magento_Cookie
 Invalid download link type.,Ungültiger Download-Link-Typ.,,
 Invalid EAV attribute,Ungültiges EAV-Attribut,,
@@ -6113,6 +6106,7 @@ Please enter the country.,Bitte geben Sie das Land ein.,,
 Please enter the first name.,Bitte geben Sie den Vornamen ein.,,
 Please enter the last name.,Bitte geben Sie den Nachnamen ein.,,
 Please enter the letters from the image,Bitte geben Sie die Buchstaben aus dem Bild ein.,,
+Please enter the letters and numbers from the image,Bitte geben Sie die Buchstaben und Zahlen aus dem Bild ein.,,
 Please enter the message.,Bitte geben Sie die Nachricht ein,,
 Please enter the password to confirm rollback.,"Bitte geben Sie das Passwort ein, um das Rollback zu bestätigen.",,
 Please enter the phone number.,Bitte geben Sie die Telefonnummer ein.,,
@@ -6276,7 +6270,8 @@ Please specify time required option(s).,Bitte geben Sie die Pflichtoption(en) de
 Please try again later,Bitte versuchen Sie es später erneut.,,
 Please try again with another form of payment.,Bitte versuchen Sie es noch einmal mit einer anderen Zahlart.,module,Magento_Braintree
 Please try to sign out and sign in again.,"Bitte versuchen Sie, sich neu anzumelden.",,
-Please type the letters below,Bitte geben Sie die Buchstaben unten ein.,,
+Please type the letters below,Bitte geben Sie die Buchstaben unten ein,,
+Please type the letters and numbers below,Bitte geben Sie die Buchstaben und Zahlen unten ein,,
 Please update order data to get shipping methods and rates,"Bitte aktualisieren Sie Ihre Bestelldaten, um Versandarten und -Preise zu erhalten",,
 "Please upgrade your database: Run ""bin/magento setup:upgrade"" from the Magento root directory. %1The following modules are outdated:%2%3","Bitte die Datenbank aktualisieren: Führen Sie ""bin/magento setup:upgrade"" im Magento-Rootverzeichnis aus. %1 Die folgenden Module sind veraltet: %2%3",,
 Please use a four-digit year format.,Bitte verwenden Sie ein vierstelliges Jahresformat.,,
@@ -7223,8 +7218,7 @@ Search Results,Suchergebnisse,,
 Search results for: '%1',"Suchergebnisse für: ""%1""",,
 Search Settings,Sucheinstellungen,,
 Search String,Suchbegriff,,
-"Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered.
-Examples: Firefox: /^mozilla/i","Suchbegriffe sind entweder normale Zeichenketten oder reguläre Ausdrücke (PCRE). Sie werden in der Reihenfolge verglichen, wie sie eingegeben werden. Beispiele: Firefox: /^mozilla/i",,
+"Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples: Firefox: /^mozilla/i","Suchbegriffe sind entweder normale Zeichenketten oder reguläre Ausdrücke (PCRE). Sie werden in der Reihenfolge verglichen, wie sie eingegeben werden. Beispiele: Firefox: /^mozilla/i",,
 "Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""""font-family:monospace"""">Firefox<br />/^mozilla/i</span>","Suchbegriffe sind entweder normale Strings oder reguläre Ausnahmen (PCRE). Sie werden in der gleichen Reihenfolge verglichen wie eingegeben. Beispiele: <br /> <span style = ""font-family: monospace""> Firefox <br />/^mozilla/i</span>",,
 "Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>","Suchbegriffe sind entweder normale Strings oder reguläre Ausnahmen (PCRE). Sie werden in der gleichen Reihenfolge verglichen wie eingegeben. Beispiele: <br /> <span style = ""font-family: monospace""> Firefox <br />/^mozilla/i</span>",,
 Search Suggestions Count,Anzahl der Suchvorschläge,,
@@ -7940,7 +7934,7 @@ Store Credit Update Email Template,Shopguthaben-Aktualisierungsmail-Vorlage,,
 Store Design,Shopdesign,,
 Store Design Schedule,Shopdesign-Zeitplan,,
 Store Email Addresses,Store-E-Mail-Adressen,,
-Store Email Addresses Section,Store Email Addresses Section,module,Magento_Config
+Store Email Addresses Section,Shop E-Mail-Adressen Bereich,module,Magento_Config
 Store Hours,Geschäftszeiten,,
 Store Hours of Operation,Shop-Geschäftszeiten,,
 Store Information,Shopinformationen,,
@@ -9535,7 +9529,7 @@ We can't delete root directory %1 right now.,Wir können das Stammverzeichnis %1
 We can't delete the address right now.,Die Adresse kann zurzeit nicht gelöscht werden.,,
 We can't delete the attribute.,Das Attribut kann nicht gelöscht werden.,,
 We can't delete the billing agreement.,Die Abrechnungsvereinbarung konnte nicht gelöscht werden.,,
-We can't delete the customer address attribute right now.,Wir können das Kundenaddressen-Attribut zur Zeit nicht löschen.,,
+We can't delete the customer address attribute right now.,Wir können das Kundenadressen-Attribut zur Zeit nicht löschen.,,
 We can't delete the form type right now.,Wir können diesen Form-Typen zur Zeit nicht löschen.,,
 We can't delete the history files right now.,Wir können die Verlaufsdateien zur Zeit nicht löschen.,,
 We can't delete the item from the Wish List right now.,Wir können den Artikel jetzt nicht vom Wunschzettel löschen.,,
@@ -9635,12 +9629,12 @@ We can't save custom-defined options for bundles with dynamic pricing.,Es könne
 "We can't save the address:
 %1","Adresse kann nicht gespeichert werden:
 %1",,
-We can't save the address:\n%1,Wir können die Addresse:\n%1 nicht speichern,module,Magento_Sales
+We can't save the address:\n%1,Wir können die Adresse:\n%1 nicht speichern,module,Magento_Sales
 We can't save the address.,Wir können die Adresse nicht speichern.,,
 We can't save the credit memo right now.,Wir können die Gutschrift jetzt nicht speichern.,,
 We can't save the Cron expression.,Der Cron-Ausdruck kann nicht gespeichert werden.,,
 We can't save the cron expression.,Der Cron-Ausdruck konnte nicht gespeichert werden.,,
-We can't save the customer address attribute right now.,Wir können das Kundenaddressen-Attribut zur Zeit nicht speichern.,,
+We can't save the customer address attribute right now.,Wir können das Kundenadressen-Attribut zur Zeit nicht speichern.,,
 We can't save the customer.,Wir können den Kunden nicht speichern.,,
 We can't save the file history file.,Wir können die Dateiverlaufs-Datei nicht speichern.,,
 We can't save the form type right now.,Wir können diesen Form-Typen zur Zeit nicht speichern.,,
@@ -9662,8 +9656,8 @@ We can't send the invoice email right now.,Wir können die Rechnung per E-Mail j
 We can't send the shipment right now.,Wir können die Sendung jetzt nicht verschicken.,,
 We can't set up a URL rewrite because the product you chose is not associated with a website.,"Wir können keinen URL-Rewrite aufsetzen, weil das Produkt, das Sie gewählt haben, nicht mit einer Website verbunden ist.",,
 We can't share customer accounts globally when the accounts share identical email addresses on more than one website.,"Wir können Kundenkonten nicht global teilen, wenn die Konten identische E-Mail-Adressen auf mehr als einer Website haben.",,
-We can't ship to this address. Please choose another address or edit the current one.,Wir können nicht an diese Addresse liefern. Bitte wählen Sie eine andere Addresse oder bearbeiten diese.,,
-We can't ship to this address. Please enter another address or edit this one.,Wir können nicht an diese Addresse liefern. Bitte geben Sie eine andere Addresse an oder bearbeiten diese.,,
+We can't ship to this address. Please choose another address or edit the current one.,Wir können nicht an diese Adresse liefern. Bitte wählen Sie eine andere Adresse oder bearbeiten diese.,,
+We can't ship to this address. Please enter another address or edit this one.,Wir können nicht an diese Adresse liefern. Bitte geben Sie eine andere Adresse an oder bearbeiten diese.,,
 We can't specify a product.,Produkt kann nicht angegeben werden.,,
 We can't specify a wish list item.,Es kann kein Wunschzettelartikel angegeben werden.,,
 We can't specify a wish list.,Wir können den Wunschzettel nicht angeben.,,
