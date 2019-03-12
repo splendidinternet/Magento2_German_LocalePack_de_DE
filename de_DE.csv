@@ -10021,6 +10021,7 @@ You added %1 products to your shopping cart.,Sie haben %1 Produkte zu Ihrem Eink
 You added %1 to your shopping cart.,Sie haben %1 zu Ihrem Warenkorb hinzugefügt.,,
 "You added %1 to your <a href=""%2"">shopping cart</a>.","Sie haben %1 zum <a href=""%2"">Warenkorb</a> hinzugefügt.",,
 You added product %1 to the comparison list.,Sie haben das Produkt %1 zur Vergleichsliste hinzugefügt.,,
+"You added product %1 to the <a href=""%2"">comparison list</a>.","Sie haben das Produkt %1 zur <a href='%2'>Vergleichsliste</a> hinzugefügt.",,
 You already have a permission with this scope.,Sie haben bereits die Berechtigungen für diesen Bereich.,,
 You already have an account with us. Sign in or continue as guest.,Sie haben bereits ein Konto bei uns. Melden Sie sich an oder fahren Sie als Gast fort.,,
 You already have an identical search term query.,Sie haben bereits eine identische Suchanfrage gestellt.,,
