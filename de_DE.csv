@@ -4989,7 +4989,6 @@ N/A. The merchant did not provide AVS information,N/A. Der Händler hat keine AV
 N/A. The merchant has not implemented CVV2 code handling,N/A. Der Händler hat CVV2-Code-Handling nicht implementiert,,
 N/A. Unavailable,N/A. Nicht verfügber,,
 Name,Name,,
-name,Name der Regel,,
 Name and Address Options,Namens- und Adress-Optionen,,
 Name in %1,Name in %1,,
 Name is required,Name wird benötigt,,
