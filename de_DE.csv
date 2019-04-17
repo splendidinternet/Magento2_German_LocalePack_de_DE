@@ -8452,6 +8452,7 @@ The requested cart item doesn't exist.,Der angeforderte Warenkorb-Artikel existi
 "The requested component (""' . . '"") is not found. ' . 'Before using, you must add the implementation.","Die angeforderte Komponente ("" . . "") wurde nicht gefunden. Sie müssen die Implementierung vor der Verwendung hinzufügen.",,
 The requested payment method is not available for multishipping.,Die aufgerufene Zahlungsmethode ist für Multishipping nicht verfügbar.,,
 The requested Payment Method is not available.,Die gewünschte Zahlungsmethode ist nicht verfügbar.,,
+The requested qty is not available,Die gewünschte Menge ist nicht verfügbar,,
 The requested Wish List doesn't exist.,Der aufgerufene Wunschzettel existiert nicht.,,
 The required options you selected are not available.,Die von Ihnen ausgewählten erforderlichen Optionen sind nicht verfügbar.,,
 The resource isn't set.,Die Ressource ist nicht gesetzt,,
