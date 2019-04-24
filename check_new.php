@@ -6,12 +6,12 @@ $de_new_csv = fopen('de_DE_new.csv', 'w');
 
 $old = array();
 
-while (($data = fgetcsv($de_csv, 1000)) !== false) {
+while (($data = fgetcsv($de_csv)) !== false) {
 	$key = $data[0];
 	$old[$key] = true;
 }
 
-while (($data = fgetcsv($phrases_csv, 1000)) !== false) {
+while (($data = fgetcsv($phrases_csv)) !== false) {
 	$key = $data[0];
 	if (array_key_exists($key, $old)) {
 		continue;
