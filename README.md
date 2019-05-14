@@ -1,6 +1,6 @@
 # Magento 2 German LocalePack de_DE
 
-Deutsches Sprachpaket für Magento 2 Community Edition (Version 2.3.0)
+Deutsches Sprachpaket für Magento 2 Community Edition (Version 2.3.1)
 
 Die Übersetzung wurde von deutschen Muttersprachlern nach eigenem Ermessen vorgenommen. Die Übersetzung ist komplett, d.h. alle Sprachausgaben von Magento 2 wurden vom Englischen ins Deutsche übersetzt. Gern können Änderungsvorschläge eingebracht oder auch das gesamte Repository geforkt werden, wenn abweichende Übersetzungen eingebracht werden sollen.
 
