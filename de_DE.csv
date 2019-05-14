@@ -211,6 +211,7 @@
  Copy, Kopie,module,Magento_Newsletter
  Example: ,Beispiel:,module,Magento_Checkout
  for more information or , für weitere Informationen oder,module,Magento_Shipping
+ in your cart.,im Warenkorb.,module,Amasty_Cart
  is not available. You still can process offline actions., ist nicht verfügbar. Sie können weiterhin Offline-Aktionen ausführen.,module,Magento_Payment
  is required., ist erforderlich.,module,Magento_Dhl
  is required., ist erforderlich.,module,Magento_Fedex
@@ -384,11 +385,6 @@
 * Required Fields,* Pflichtfelder,module,Magento_Review
 * Required Fields,* Pflichtfelder,module,Magento_SendFriend
 * Required Fields,* Pflichtfelder,module,Magento_Wishlist
-*' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.,"*' - entspricht jedem; 'xyz*' - entspricht jedem, der mit 'xyz' beginnt und nicht länger ist als %1.",,
-*' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.,"*' - passt zu allem; 'xyz*' - passt zu allem, das mit ""xyz"" beginnt und nicht länger als %1 ist.",,
-*' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.,"*' - entspricht jedem; 'xyz*' - entspricht jedem, der mit 'xyz' beginnt und nicht länger ist als %1.",module,Magento_Tax
-*' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.,"*' - entspricht jedem; 'xyz*' - entspricht jedem, der mit 'xyz' beginnt und nicht länger ist als %1.",module,Magento_Tax
-*' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.,"*' - entspricht jedem; 'xyz*' - entspricht jedem, der mit 'xyz' beginnt und nicht länger ist als %1.",module,Magento_Tax
 *' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.,"*' - entspricht einem beliebigen; 'xyz*' - entspricht einem beliebigen, der mit 'xyz' beginnt und nicht länger als %1 ist.",module,Magento_Tax
 &copy; Magento Inc.,&copy; Magento Inc.,,
 &nbsp;,&nbsp;,,
@@ -446,6 +442,8 @@
 %1 class doesn't implement \Klarna\Ordermanagement\Api\ApiInterface,%1-Klasse implementiert keine \Klarna\Ordermanagement\Api\Api\ApiInterface,module,Klarna_Ordermanagement
 %1 class doesn't implement \Magento\Payment\Model\MethodInterface,%1-Klasse implementiert nicht \Magento\Payment\Model\MethodInterface,,
 %1 class doesn't implement \Magento\Payment\Model\MethodInterface,%1-Klasse implementiert nicht \Magento\Payment\Model\MethodInterface,module,Magento_Payment
+%1 cookie group(s) has been successfully deleted,%1 Cookie-Gruppe(n) erfolgreich gelöscht,module,Amasty_GdprCookie
+%1 cookie(s) has been successfully deleted,%1 Cookie(s) erfolgreich gelöscht,module,Amasty_GdprCookie
 %1 could not delete log entries,%1 konnte keine Log-Einträge löschen.,module,Vertex_Tax
 %1 coupon(s) have been generated.,%1 Gutschein(e) ist/sind generiert worden.,,
 %1 coupon(s) have been generated.,%1 Gutschein(e) ist/sind generiert worden.,module,Magento_SalesRule
@@ -487,6 +485,7 @@
 %1 for %2,%1 für %2,,
 %1 for item %2 cannot be empty.,%1 für Artikel %2 darf nicht leer sein.,,
 %1 h,%1 h,module,Dotdigitalgroup_Email
+%1 has been added to your cart.,%1 wurde in den Warenkorb gelegt.,module,Amasty_Cart
 %1 has been added to your Wish List.,%1 wurde Ihrem Wunschzettel hinzugefügt.,module,Magento_Wishlist
 %1 has been moved to your wish list.,%1 wurde auf Ihren Wunschzettel verschoben.,,
 %1 has been removed from your Wish List.,%1 wurde von deiner Wunschliste entfernt.,module,Magento_Wishlist
@@ -1131,6 +1130,7 @@ Add this attribute to the list of column options in the product grid.,Dieses Att
 Add this attribute to the list of filter options in the product grid.,Dieses Attribut zur Liste der Filteroptionen im Produktraster hinzufügen..,module,Magento_Catalog
 Add Tier,Stufe hinzufügen,,
 Add to Cart,In den Warenkorb,,
+Add to cart,In den Warenkorb legen,module,Amasty_Cart
 Add To Cart,In den Warenkorb legen,module,Magento_Catalog
 Add to Column Options,Spaltenoptionen hinzufügen,,
 Add to Compare,Zur Vergleichsliste hinzufügen,,
@@ -1310,6 +1310,7 @@ Allow abandoned cart for non-subscribed contacts,Verlassenen Warenkorb für nich
 Allow Adding to Cart,Hinzufügen zum Einkaufswagen erlauben,,
 Allow Alert When Product Comes Back in Stock,"Alarm erlauben, wenn Produkt wieder auf Lager ist",,
 Allow Alert When Product Price Changes,Alarm bei Produktpreisänderung erlauben,,
+Allow all,Alle erlauben,module,Amasty_GdprCookie
 Allow All Products per Page,Alle Artikel pro Seite erlauben,,
 Allow Anonymous Guest Access,Anonymen Gastzugang erlauben,,
 Allow Browsing Category,Durchsuchen von Kategorien erlauben,,
@@ -1426,6 +1427,8 @@ An authentication error occurred. Verify and try again.,Es ist ein Authentifizie
 An email was not sent because the gift card account is not active.,"Eine E-Mail wurde nicht gesendet, weil das Geschenkkartenkonto nicht aktiv ist.",,
 An email wasn't specified. Enter the email and try again.,Eine E-Mail wurde nicht angegeben. Geben Sie die E-Mail ein und versuchen Sie es erneut.,module,Magento_CustomerImportExport
 An empty value disables this limitation.,Ein leerer Wert deaktiviert diese Einschränkung.,,
+An error has occured,Ein Fehler ist aufgetreten,module,Amasty_GdprCookie
+An error has occurred,Ein Fehler ist aufgetreten,module,Amasty_GdprCookie
 An error has occurred. See error log for details.,Ein Fehler ist aufgetreten. Details finden Sie im Fehlerprotokoll.,,
 An error occurred,Ein Fehler ist aufgetreten,,
 An error occurred during email sending.,Beim Senden von E-Mails ist ein Fehler aufgetreten.,module,Temando_Shipping
@@ -2128,7 +2131,6 @@ Button Text,Text der Schaltfläche,module,Magento_InstantPurchase
 button_label,button_label,,
 Buttons to show,Schaltflächen zum Anzeigen,module,Magento_Catalog
 Buy %1 for %2 each,%1 für jeweils %2 kaufen,,
-Buy %1 for %2 each and,Kaufen Sie %1 Stück für jeweils %2 und,module,Magento_ConfigurableProduct
 Buy %1 for %2 each and,Kaufen Sie %1 für jeweils %2 und,module,Magento_ConfigurableProduct
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","%1 für jeweils %2 kaufen und <strong class=""benefit""><span class=""percent tier-%3"">&nbsp;%4</span>% sparen</strong>",,
 Buy %1 for price %2,Kaufe %1 zum Preis von %2,,
@@ -2344,6 +2346,7 @@ Carrier:,Beförderer:,,
 Carrier/Method,Beförderer/Methode,,
 carriers,Spediteure,module,Temando_Shipping
 Carriers,Spediteure,module,Temando_Shipping
+Cart,Warenkorb,theme,frontend/Infortis/base
 Cart %1 does not contain item %2,Warenkorb %1 enthält Artikel %2 nicht,module,Magento_Quote
 Cart %1 doesn't contain item  %2,Warenkorb %1 enthält nicht den Artikel %2,,
 Cart %1 doesn't contain products,Einkaufswagen 1% enthält keine Produkte,,
@@ -2361,6 +2364,7 @@ Cart Price Rule,Warenkorb-Preisregel,,
 Cart Price Rules,Warenkorb-Preisregeln,,
 Cart Recommendation,Warenkorb-Empfehlung,module,Dotdigitalgroup_Email
 Cart Subtotal,Warenkorb-Zwischensumme,,
+Cart Subtotal:,Warenkorb-Zwischensumme,module,Amasty_Cart
 Cart URL,Warenkorb URL,module,Dotdigitalgroup_Email
 Carts,Warenkörbe,,
 Case entity not found.,Fallgruppe nicht gefunden.,module,Magento_Signifyd
@@ -2724,6 +2728,7 @@ Confirm New Password,Neues Passwort bestätigen,,
 Confirm Password,Passwort bestätigen,,
 Confirm Your Account,Bestätigen Sie Ihr Konto,,
 Confirm your new password.,Bestätigen Sie das neue Passwort.,,
+Confirmation bar,Einwilligungsleiste,module,Amasty_GdprCookie
 Confirmation Email Sender,Absender für Bestätigungs-Email,,
 Confirmation Email Template,Vorlage für Bestätigung-E-Mail,,
 Confirmation isn't needed.,Eine Bestätigung ist nicht erforderlich.,module,Magento_Customer
@@ -2746,7 +2751,7 @@ Connection failed! Test again?,Verbindung fehlgeschlagen! Erneut versuchen?,,
 Connection Name,Verbindungsname,module,Temando_Shipping
 Connection Timeout in Seconds,Timeout der Verbindung in Sekunden,,
 Connection Type,Verbindungstyp,,
-Connector Version,Version des Steckverbinders,module,Dotdigitalgroup_Email
+Connector Version,Version des Adapters,module,Dotdigitalgroup_Email
 Consent,Einwilligung,module,Dotdigitalgroup_Email
 "Consent text provided on registration, account dashboard and checkout","Zustimmungstext zur Registrierung, zum Dashboard und zur Kasse des Kontos",module,Dotdigitalgroup_Email
 Consent text provided to your subscribers above the newsletter signup form,"Einverständnistext, der Ihren Abonnenten über dem Anmeldeformular für den Newsletter zur Verfügung gestellt wird.",module,Dotdigitalgroup_Email
@@ -2805,6 +2810,7 @@ Continue,Fortsetzen,,
 Continue as Guest,Als Gast weitermachen,module,Amazon_Login
 Continue Processing,Bearbeitung fortfahren,,
 Continue Shopping,Mit dem Einkaufen fortfahren,,
+Continue shopping,Weiter einkaufen,module,Amasty_Cart
 Continue to Billing Information,Weiter zu Rechnungsinformationen,,
 Continue to PayPal,Weiter zu PayPal,module,Magento_Paypal
 Contribution must have attributes specified. Enter attributes and try again.,Der Beitrag muss mit Attributen versehen sein. Geben Sie Attribute ein und versuchen Sie es erneut.,module,Magento_ConfigurableProduct
@@ -2825,11 +2831,14 @@ Converting Invitation to Customer,Konvertiert Einladung zum Kunden,,
 Converting Invitation to Order,Konvertiert Einladung zur Bestellung,,
 Cookie (unsafe),Cookie (unsicher),,
 Cookie (unsafe),Cookie (unsicher),module,Magento_SendFriend
+Cookie Consents,Cookie Einstellungen,module,Amasty_GdprCookie
 Cookie Domain,Cookie-Domain,,
+Cookie Groups,Cookie-Gruppen,module,Amasty_GdprCookie
 Cookie Lifetime,Cookie-Lebensdauer,,
 "Cookie name cannot be empty and cannot contain these characters: =,; \t\r\n\013\014","Cookie-Name darf nicht leer sein oder diese Zeichen enthalten: =,; \t\r\n\013\014",,
 Cookie Path,Cookie-Pfad,,
 Cookie Restriction Mode,Cookie-Beschränkungsmodus,,
+Cookie Settings,Cookie Einstellungen,module,Amasty_GdprCookie
 Copied!,Kopiert!,module,Dotdigitalgroup_Email
 Copy,Kopieren,,
 Copy,Kopieren,,
@@ -3868,6 +3877,7 @@ Edit Block '%1',"Block ""%1"" bearbeiten",,
 Edit Catalog Event,Katalogereignis bearbeiten,,
 Edit Condition,Bedingung bearbeiten,,
 Edit Configurations,Konfigurationen bearbeiten,,
+Edit Cookie %1,Cookie editieren %1,module,Amasty_GdprCookie
 Edit Credit Card,Kreditkarte bearbeiten,,
 Edit custom instruction of robots.txt File,Benutzerdefinierte Anweisung der robots.txt-Datei bearbeiten,,
 Edit custom.css,custom.css bearbeiten,,
@@ -4915,6 +4925,7 @@ Go back to product details,Zurück zu Produktdetails,,
 "Go to <a href=""%1"">My Downloadable Products</a>","Gehe zu: <a href=""%1"">Meine Downloadartikel</a>",,
 Go to Advanced Reporting,Gehe zu Erweiterte Berichte,module,Magento_Analytics
 Go to Archive,Gehe zu Archiv,,
+Go to Category Page,Zur Kategorieseite gehen,module,Amasty_Cart
 Go to Checkout,Zur Kasse gehen,,
 Go to Details Page,Zur Detailseite gehen,,
 Go to Home Page,Zur Homepage,,
@@ -4992,6 +5003,7 @@ Guests,Gäste,module,Dotdigitalgroup_Email
 Handling Applied,Bearbeitung angewandt,,
 Handling Fee,Bearbeitungsgebühr,,
 has,hat,,
+has been added to your cart,wurde in den Warenkorb gelegt,module,Amasty_Cart
 Has State/Province,has Bundesland/Provinz,,
 "Have a gift card? <a href=""%1"">Click here</a> to redeem it.","Haben Sie eine Geschenkkarte? <a href=""%1"">Hier klicken</a>, um sie einzulösen.",,
 Header,Kopfzeile,,
@@ -5229,6 +5241,7 @@ in rows:,In Zeilen:,,
 In stock,Auf Lager,,
 In Stock,Auf Lager,,
 In stock alert! We wanted you to know that these products are now available:,"Verfügbarkeitsbenachrichtigung! Wir wollten Sie wissen lassen, dass diese Produkte ab sofort verfügbar sind:",,
+in your cart,in Ihrem Warenkorb,module,Amasty_Cart
 Inactive,Inaktiv,,
 Inc. Tax,Inkl. Steuern,,
 Incentive,Anreiz,,
@@ -5330,6 +5343,7 @@ Insert Widget...,Widget einfügen...,,
 Inserting a widget does not create a widget instance.,Das Einfügen eines Widgets erzeugt keine Widget-Instanz.,module,Magento_Widget
 Insights API Key,API Schlüssel einfügen,,
 Insights API URL,Einblick API URL,,
+Installed,Installiert,module,Amasty_Base
 Installed Currencies,Installierte Währungen,,
 Installment,Ratenzahlung,module,Magento_Paypal
 "Instance of the ""Magento\TestFramework\EventManager"" is expected.","Instanz von ""Magento\TestFramework\EventManager"" wird erwartet.",,
@@ -6402,6 +6416,7 @@ Negative Balance,Negative Bilanz,,
 "Negative list. The account number, street add ess, email address, or IP address for this order appears on your negative list","Negativliste. Die Kontonummer, Adresse, E-Mail-Adresse oder IP-Adresse für diese Bestellung erscheint auf Ihrer Negativliste.",,
 Neighbours and Children,Nachbarn und Kinder,,
 Never,Niemals,,
+never,niemals,module,Amasty_CronScheduleList
 Never (production),Nie (Produktion),,
 Never (production),Nie (Produktion),module,Magento_Config
 New,Neu,,
@@ -6433,6 +6448,8 @@ New code pool was generated.,Neuer Code-Pool wurde generiert.,,
 New Comment for RMA #%increment_id,Neuer Kommentar für RMA #%increment_id,,
 New Condition,Neue Bedingung,,
 New Contact Form,Neues Kontaktformular,module,Dotdigitalgroup_Email
+New Cookie,Neues Cookie,module,Amasty_GdprCookie
+New Cookie Group,Neue Cookie-Gruppe,module,Amasty_GdprCookie
 New Credit Card,Neue Kreditkarte,,
 New Credit Credit Memo,Neue Gutschrift Gutschrift,module,Dotdigitalgroup_Email
 New Credit Credit Memo Guest,Neue Gutschrift Gutschrift Gast,module,Dotdigitalgroup_Email
@@ -6765,6 +6782,7 @@ Note: Product IDs will be regenerated.,Hinweis: Produkt-IDs werden neu erstellt.
 Notes for this Order,Notizen zu dieser Bestellung,,
 notice,Beachten,,
 Notice that PayPal can handle up to 10 shipping options. That is why Magento will transfer only first 10 cheapest shipping options if there are more than 10 available.,"Beachten Sie, dass PayPal bis zu 10 Versandoptionen verarbeiten kann. Deshalb wird Magento die ersten 10 günstigsten Versandoptionen übertragen, wenn es mehr als 10 sind.",,
+Notification bar,Benachrichtigungsleiste,module,Amasty_GdprCookie
 Notification Not Applicable,Benachrichtigung nicht anwendbar,,
 Notifications,Benachrichtigungen,,
 Notified,Benachrichtigt,,
@@ -6803,6 +6821,7 @@ Number of maximum redirects for OAuth consumer credentials Post request.,Anzahl 
 Number of Multiple Wish Lists,Anzahl der mehrfachen Wunschzettel,,
 Number of Orders,Anzahl der Bestellungen,,
 Number of popular search terms to be cached for faster response. Use “0” to cache all results after a term is searched for the second time.,"Anzahl der populären Suchbegriffe, die zwischengespeichert werden sollen, um eine schnellere Antwort zu ermöglichen. Mit ""0"" können Sie alle Ergebnisse zwischenspeichern, nachdem ein Begriff zum zweiten Mal gesucht wurde.",module,Magento_CatalogSearch
+Number of Products in Cart,Anzahl der Produkte im Warenkorb,module,Amasty_Cart
 Number of Products per Page,Anzahl der Artikel pro Seite,,
 Number of Products to Display,"Anzahl der Artikel, die angezeigt werden",,
 Number of Products to display,"Anzahl der Artikel, die angezeigt werden",,
@@ -7475,6 +7494,7 @@ Please choose a valid discount amount.,Bitte wählen Sie einen gültigen Rabattb
 Please choose an action to add.,Bitte wählen Sie eine Aktion zum Hinzufügen.,,
 Please choose image(s),Bitte Bild(er) wählen),,
 Please choose image(s).,Bitte Bild(er) wählen.,module,Magento_ConfigurableProduct
+Please choose the options for your item,Bitte die Produktoptionen auswählen,module,Amasty_Cart
 "Please click <a href=""%1"">here</a> if you are not redirected automatically.","Bitte <a href=""%1"">hier</a> klicken, falls Sie nicht automatisch weitergeleitet werden.",,
 Please confirm scope switching. All data that hasn't been saved will be lost.,Bereichswechsel bitte bestätigen. Nicht gespeicherte Daten gehen verloren.,,
 Please confirm site switching. All data that hasn't been saved will be lost.,Bitte bestätigen Sie den Seitenwechsel. Alle nicht gespeicherten Daten gehen verloren.,,
@@ -8159,6 +8179,7 @@ Product has required options.,Produkt hat erforderliche Optionen,,
 "Product hasn\'t group price with such data: customerGroupId = \'%1\'' ', website = %2, qty = %3","Produkt hat keinen Gruppenpreis mit diesen Daten: Kundengruppen-ID = ""%1"" , Website = %2 , Menge = %3",,
 Product History,Produkthistorie,,
 Product ID,Produktnummer,,
+Product Image,Produktbild,module,Amasty_Cart
 Product Image Placeholders,Produktbild-Platzhalter,,
 Product Image Watermarks,Produktbild-Wasserzeichen,,
 Product In Websites,Produkt in Websites,,
@@ -8536,6 +8557,7 @@ Reindex Process,Reindexierungsprozess,,
 Reindex required,Neuindizierung erforderlich,,
 Reject Transaction if:,"Transaktion ablehnen , wenn:",,
 Rejected,Abgelehnt,,
+Related,Verknüpft,module,Amasty_Cart
 Related Banners,Zugehörige Banner,,
 Related Cart Price Rules,Zugehörige Warenkorbpreisregeln,,
 Related Catalog Price Rules,Zugehörige Katalogpreisregeln,,
@@ -8807,6 +8829,7 @@ Reward points will not be used in this order.,Belohnungspunkte werden für diese
 Reward Voucher Redemption,Belohnungsgutschein-Einlösung,,
 Rewarded Reviews Submission Quantity Limit,Maximale Punkte für die Absendung einer Bewertung,,
 Rewards Points Balance Redemption Threshold,Schwellenwert für Belohnungspunkterückzahlung,,
+Right,Rechts,module,Amasty_Cart
 Risk Factor,Risikofaktor,,
 Risk Factor Q,Risikofaktor Q,,
 Risk Factor V,Risikofaktor V,,
@@ -9272,6 +9295,7 @@ Set as default shipping,Als Standardversand festlegen,module,Magento_Customer
 Set Ascending Direction,In aufsteigender Reihenfolge,,
 Set Descending Direction,In absteigender Reihenfolge,,
 Set Items' Status to be In Stock When Order is Cancelled,"Artikel-Status auf 'Auf Lager' setzen, wenn Bestellung storniert wird.",,
+Set options,Optionen ändern,module,Amasty_Cart
 Set order for existing transactions not allowed,Bestellung aufzugeben für existierende Transaktionen ist nicht erlaubt,,
 Set Order Status to Suspected Fraud for CVV,"Bestellstatus auf ""Betrugsverdacht bzgl. CVV (Kreditkartenverifizierung)"" setzen",,
 Set Order Status to Suspected Fraud for Postcode AVS,"Bestellstatus auf ""Betrugsverdacht bzgl. AVS (Postleitzahl-Verifizierung)"" setzen",,
@@ -9926,6 +9950,7 @@ Status Label,Statuslabel,,
 Status:,Status:,,
 StatusText,StatusText,module,Magento_Catalog
 StatusText,Statustext,module,Magento_GroupedProduct
+Stay on Current Page,Auf dieser Seite bleiben,module,Amasty_Cart
 Step 1: Select Attributes,Schritt 1: Attribute auswählen,,
 Step 2: Attribute Values,Schritt 2: Attributwerte,,
 "Step 3: Bulk Images, Price and Quantity","Schritt 3: Bulk-Bilder, Preis und Menge",module,Magento_ConfigurableProduct
@@ -11031,6 +11056,7 @@ Theme: %1,Theme: %1,,
 Themes,Themes,,
 Themes JavaScript and CSS files combined to one file,Die JavaScript und CSS Dateien des Themes zusammengefaßt in einer Datei,module,Magento_Backend
 Themes JavaScript and CSS files combined to one file.,"Themes-, Javascript- und CSS-Dateien zu einer Datei zusammengefasst",,
+There are,Es gibt,module,Amasty_Cart
 There are {placeholder} messages requires your attention.,"Es gibt {placeholder} Nachrichten, die Ihre Aufmerksamkeit erfordern.",module,Magento_Ui
 There are %1 orders in this archive. All of them will be moved to the regular table after the archive is disabled.,"Es sind %1 Bestellungen in diesem Archiv. Alle dieser Bestellungen werden in die reguläre Tabelle verschoben, nachdem das Archiv deaktiviert wird.",,
 There are %remaining_days day(s) remaining to use %points_expiring of your reward points.,Es verbleiben noch %remaining_days Tag(e) um %points_expiring Ihrer Belohnungspunkte zu nutzen.,,
@@ -11057,6 +11083,7 @@ There are not websites for assign to product,"Es gibt keine Website, der dieses 
 There are Shipments in this Batch that are still being created. Please check Back soon to view these Shipments.,"In dieser Charge befinden sich Transporte, die noch in der Erstellung sind. Bitte schauen Sie bald wieder vorbei, um sich diese Sendungen anzusehen.",module,Temando_Shipping
 There are unsaved node data. Are you sure you want to continue?,Es bestehen ungespeicherte Knotendaten. Möchten Sie wirklich fortfahren?,,
 There has been a problem with the selected payment method on your Amazon account. Please choose another one.,Es gab ein Problem mit der gewählten Zahlungsmethode auf Ihrem Amazon-Konto. Bitte wählen Sie eine andere aus.,module,Amazon_Payment
+There is,Es gibt,module,Amasty_Cart
 "There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Es gibt bereits ein Konto mit dieser E-Mail-Adresse. Wenn Sie sicher sind, dass es sich um Ihre E-Mail-Adresse handelt, <a href=""%1"">klicken Sie hier</a>, um Ihr Passwort für den Zugriff auf Ihr Konto zu erhalten.",,
 There is an error in one of the option rows.,Ein Fehler befindet sich in einer der Optionszeilen.,,
 There is an error in quantities for item %1.,Es besteht ein Mengenfehler für Artikel %1.,,
@@ -11383,7 +11410,9 @@ Too many password reset requests. Please wait and try again or contact %1.,Zu vi
 Tools,Tools,,
 Top,Top,,
 Top destinations,Top-Ziele,,
+Top Left,Oben links,module,Amasty_Cart
 Top Level Category,Top-Level-Kategorie,,
+Top Right,Oben rechts,module,Amasty_Cart
 Top Search Terms,Häufigste Suchbegriffe,,
 Top/Left,Oben links,,
 Top/Right,Oben rechts,,
@@ -12077,6 +12106,7 @@ View and edit cart,Warenkorb ansehen und bearbeiten,,
 View and Edit Cart,Warenkorb ansehen und bearbeiten,module,Magento_Checkout
 View Another Order,Weitere Bestellungen ansehen,,
 View as,Ansicht als,,
+View Cart,Zum Warenkorb,module,Amasty_Cart
 View Combined Report,Zusammengefassten Report ansehen,,
 View Demo,Demo ansehen,,
 View Details,Details ,,
@@ -12187,6 +12217,7 @@ We can't add the item to your cart.,Wir können diesen Artikel nicht zu Ihrem Ei
 We can't add the order status right now.,Wir können den Bestellstatus zurzeit nicht hinzufügen.,,
 We can't add the product to the cart because of an option validation issue.,Wir können das Produkt wegen eines Optionsvalidierungsproblems nicht in den Warenkorb legen.,,
 We can't add this item to your shopping cart right now.,Dieser Artikel konnte zurzeit nicht zu Ihrem Warenkorb hinzugefügt werden.,,
+We can't add this item to your shopping cart.,Kann nicht in den Warenkorb gelegt werden.,module,Amasty_Cart
 We can't apply the rules.,Die Regeln können nicht angewandt werden.,,
 We can't archive the selected order(s).,Wir können die ausgewählten Bestellung(en) nicht archivieren.,,
 We can't cancel the billing agreement.,Die Abrechnungsvereinbarung konnte nicht storniert werden.,,
@@ -12216,6 +12247,8 @@ We can't create the wish list right now.,Wir können die Wunschliste zur Zeit ni
 "We can't create writeable directory ""%1"".","Beschreibbares Verzeichnis ""%1"" kann nicht erstellt werden.",,
 "We can't delete ""%1"" because the directory is not writable.","Wir können ""%1"" nicht löschen, da das Verzeichnis nicht beschreibbar ist.",,
 We can't delete all the items right now.,Wir können zur Zeit nicht alle dieser Artikel löschen.,,
+We can't delete cookie group right now. Please review the log and try again.,Cookie-Gruppe kann nicht gelöscht werden. Bitte Log prüfen und erneut versuchen.,module,Amasty_GdprCookie
+We can't delete cookie right now. Please review the log and try again.,Cookie kann nicht gelöscht werden. Bitte Log prüfen und erneut versuchen.,module,Amasty_GdprCookie
 We can't delete email template data right now. Please review log and try again.,Wir können die E-Mail-Vorlagen-Daten jetzt nicht löschen. Bitte überprüfen Sie das Protokoll und versuchen Sie es erneut.,,
 We can't delete item from Wish List right now.,Artikel kann im Moment nicht vom Wunschzettel entfernt werden.,,
 We can't delete one or more backups.,Ein oder mehrere Backups können nicht gelöscht werden.,,
@@ -12884,6 +12917,8 @@ You deleted the billing agreement.,Sie haben die Abrechnungsvereinbarung gelösc
 You deleted the block.,Sie haben den Block gelöscht.,,
 You deleted the category.,Sie haben die Kategorie gelöscht.,,
 You deleted the condition.,Sie haben die Bedingung gelöscht.,,
+You deleted the cookie group.,Die Cookie-Gruppe wurde gelöscht.,module,Amasty_GdprCookie
+You deleted the cookie.,Cookie gelöscht.,module,Amasty_GdprCookie
 You deleted the custom variable.,Sie haben die benutzerdefinierte Variable gelöscht.,,
 You deleted the customer address attribute.,Sie haben das Kundenadressen-Attribut gelöscht.,,
 You deleted the customer attribute.,Sie haben das Kunden-Attribut gelöscht.,,
@@ -12991,6 +13026,7 @@ You have viewed and resolved all recent system notices. Please refresh the web p
 You haven't created a gift registry yet.,Sie haben noch keine Geschenkeliste erstellt.,,
 You haven't selected any items!,Sie haben nichts ausgewählt!,,
 You matched the reminder rule.,Sie haben die Erinnerungsregel angepasst.,,
+You may be interested in the following items,Das könnte Sie interessieren,module,Amasty_Cart
 You may need more permissions to access this category.,Ihre Berechtigungen reichen nicht aus um diese Kategorie anzusehen.,,
 You may need more permissions to access this product.,Ihre Berechtigungen reichen nicht aus um diesen Artikel anzusehen.,,
 You moved the category,Sie haben die Kategorie verschoben.,,
@@ -13060,6 +13096,7 @@ You saved the gift card account.,Der Geschenkkarten Account wurde gespeichert.,,
 You saved the gift card message.,Sie haben die Geschenkkartennachricht gespeichert.,,
 You saved the gift registry type.,Der Geschenkeliste Typ wurde gespeichert.,,
 You saved the gift wrapping.,Sie haben die Geschenkeverpackung gespeichert.,,
+You saved the item.,Gespeichert,module,Amasty_GdprCookie
 You saved the newsletter queue.,Die Newsletter-Warteschlange wurde gespeichert.,,
 You saved the order status.,Sie haben den Bestellstatus gespeichert.,,
 You saved the page.,Sie haben die Seite gespeichert.,module,Magento_Cms
@@ -13090,6 +13127,7 @@ You saved the user.,Sie haben den Benutzer gespeichert.,,
 You saved the website.,Website gespeichert.,,
 You saved this gift registry.,Die Geschenkeliste wurde gespeichert.,,
 You saved this page.,Sie haben diese Seite gespeichert.,,
+You saved your cookie settings!,Cookie-Einstellungen gespeichert!,module,Amasty_GdprCookie
 You selected <strong>%count</strong> products for this bulk operation.,Sie haben <strong>%count</strong> Produkte für diese Massenoperation ausgewählt.,module,Magento_InventoryCatalogAdminUi
 You selected an invalid queue.,Sie haben eine ungültige Warteschlange ausgewählt.,,
 You selected the wrong RMA.,Sie haben die falsche Warenrücksendenummer ausgewählt.,,
