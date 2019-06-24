@@ -11230,7 +11230,7 @@ This group contains system attributes. Please move system attributes to another 
 This integration no longer exists.,Diese Integration ist nicht mehr vorhanden.,,
 "This invitation is addressed to a current customer: ""%1"".","Diese Einladung ist an einen Kunden adressiert. ""%1""",,
 This invitation is not valid.,Diese Einladung ist nicht gültig.,,
-This is a required field.,Dies ist ein Pflichtfeld,,
+This is a required field.,Dies ist ein Pflichtfeld.,,
 This is a required option.,Dies ist eine erforderliche Option.,,
 This is alternative method of producing a shipping label that will not use Magento Shipping.,"Dies ist eine alternative Methode zur Erstellung eines Versandetiketts, das nicht Magento Shipping verwendet.",module,Temando_Shipping
 This is an invalid subscription confirmation code.,Der Abonnement Bestätigungscode ist ungültig.,,
