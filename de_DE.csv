@@ -2190,7 +2190,7 @@ Campaign to send,Zu versendende Kampagne,module,Dotdigitalgroup_Email
 "Can be used only with catalog input type Yes/No, Dropdown, Multiple Select and Price","Kann nur mit der Katalogeingabeart Ja/Nein, Dropdown, Mehrfachauswahl und Preis verwendet werden.",module,Magento_LayeredNavigation
 "Can be used only with catalog input type Yes/No, Dropdown, Multiple Select and Price.","Kann nur mit der Katalogeingabeart Ja/Nein, Dropdown, Mehrfachauswahl und Preis verwendet werden.",module,Magento_LayeredNavigation
 "Can be used only with catalog input type Yes/No, Dropdown, Multiple Select and Price.
-                    <br>Price is not compatible with <b>'Filterable (no results)'</b> option - 
+                    <br>Price is not compatible with <b>'Filterable (no results)'</b> option -
                      it will make no affect on Price filter.","Kann nur mit der Katalogeingabeart Ja/Nein, Dropdown, Mehrfachauswahl und Preis verwendet werden.
                     <br>Preis ist nicht kompatibel mit <b>'Filterbar (keine Ergebnisse)'</b> Option -
                      wird es keinen Einfluss auf den Preisfilter haben.",module,Magento_LayeredNavigation
@@ -10685,7 +10685,7 @@ The most you may purchase is %1.,Die Höchstmenge ist %1.,,
 The new media gallery entry failed to save.,Der neue Mediengalerieeintrag konnte nicht gespeichert werden.,module,Magento_Catalog
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","""New Relic Integration benötigt den newrelic-php5 Agenten, der nicht installiert ist. Mehr Informationen über die Installation vom Agenten <a target=""_blank"" href=""%1"">hier</a>.",module,Magento_NewRelicReporting
-"The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
+"The New Relic integration requires the newrelic-php5 agent, which is not installed. More
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","Die New Relic-Integration erfordert den newrelic-php5-Agenten, der nicht installiert ist. Weitere
                         Informationen zur Installation des Agenten finden Sie <a target=""_blank"" href=""%1"">hier</a>.",module,Magento_NewRelicReporting
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","Die New Relic-Integration erfordert den newrelic-php5 Stellvertreter, der nicht installiert ist. Weitere Informationen zur Installation <a target=""_blank"" href=""%1"">hier</a>.",,
@@ -12822,7 +12822,7 @@ You can add only enabled products.,Sie können nur aktivierte Produkte hinzufüg
 You can adjust the scope of this synonym group by selecting an option from the list.,"Sie können den Geltungsbereich dieser Synonymgruppe anpassen, indem Sie eine Option aus der Liste wählen",,
 You can also share it with your friends and family by logging into your account and visiting the Gift Registry tab.,Sie können es außerdem mit Ihren Freunden und Ihrer Familie teilen indem Sie in Ihr Konto einloggen oder den Geschenkelisten-Reiter besuchen.,,
 You can buy %1 only in quantities of %2 at a time.,Sie können %1 nur in Mengen von %2 kaufen.,,
-You can buy this product only in quantities of %1 at a time.,Sie können dieses Produkt nur in Mengen von %2 kaufen.,,
+You can buy this product only in quantities of %1 at a time.,Sie können dieses Produkt nur in Mengen von %1 kaufen.,,
 You can buy up to %1 of these per purchase.,Sie können bis zu %1 dieser Produkte pro Bestellung kaufen.,,
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Sie können den Status Ihrer Bestellung per <a href=""%account_url"">Login zu Ihrem Konto</a> überprüfen.",,
 "You can check the status of your return <a href=""%form_url"">using your order number</a>.","Sie können den Status Ihrer Rücksendung verfolgen indem Sie <a href=""%form_url"">Ihre Bestellnummer hier eingeben</a>.",,
