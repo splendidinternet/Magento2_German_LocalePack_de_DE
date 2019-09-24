@@ -286,9 +286,9 @@
 """%field"" should be greater then 0.","""%field"" sollte größer als 0 sein.",module,Magento_Inventory
 """%field"" should be numeric.","""%field"" sollte numerisch sein.",module,Magento_Inventory
 """%fieldName"" is required. Enter and try again.","""%fieldName"" ist erforderlich. Bitte geben sie einen Wert ein und versuchen Sie es erneut.",module,Magento_Bundle
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" ist erforderlich. Treten Sie ein und versuchen Sie es erneut.",module,Magento_Customer
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" ist erforderlich. Treten Sie ein und versuchen Sie es erneut.",module,Magento_Integration
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" ist erforderlich. Treten Sie ein und versuchen Sie es erneut.",module,Magento_Tax
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" ist erforderlich. Geben Sie es ein und versuchen Sie es erneut.",module,Magento_Customer
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" ist erforderlich. Geben Sie es ein und versuchen Sie es erneut.",module,Magento_Integration
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" ist erforderlich. Geben Sie es ein und versuchen Sie es erneut.",module,Magento_Tax
 """Attribute code should be specified","""Attributcode sollte angegeben werden",module,Magento_EavGraphQl
 """Cap Reward Points Balance"" should be either a positive number or left empty.","""Belohnungspunkteguthaben"" sollte entweder eine positive Zahl oder leer sein.",,
 """Creditmemo Document Validation Error(s):\n"" .","""Gutschriftendokumentvalidierungsfehler:\n"" .",module,Magento_Sales
@@ -887,7 +887,7 @@ A total of %1 record(s) were updated.,Es wurde(n) insgesamt %1 Eintragung(en) ak
 A total of %1 record(s) were updated.,Es wurde(n) insgesamt %1 Eintragung(en) aktualisiert.,module,Magento_Newsletter
 A total of %1 synonym group(s) have been deleted.,Insgesamt wurden %1 Synonymgruppen gelöscht.,module,Magento_Search
 A user with the same user name or email already exists.,Ein Benutzer mit dem gleichen Benutzernamen oder der gleichen E-Mail ist bereits vorhanden.,,
-A valid password reset token is missing. Enter and try again.,Es fehlt ein gültiges Passwort Reset-Token. Treten Sie ein und versuchen Sie es erneut.,module,Magento_Customer
+A valid password reset token is missing. Enter and try again.,Es fehlt ein gültiges Passwort Reset-Token. Geben Sie es ein und versuchen Sie es erneut.,module,Magento_Customer
 A wrong PayPal Express Checkout Token is specified.,Ein falsches PayPal Express Checkout Token ist angegeben.,,
 "a,b,c","a,b,c",,
 Abandoned,Verlassen,module,Dotdigitalgroup_Email
@@ -10298,7 +10298,7 @@ The '%1' operation was skipped for %2 %3%4,Die Operation'%1' wurde für %2 %3%4 
 "The ""%1"" attribute doesn't include an option with ""%2"" ID.","Das Attribut ""%1"" enthält keine Option mit der ID ""%2"".",module,Magento_Eav
 "The ""%1"" attribute doesn't work with options.","Das Attribut ""%1"" funktioniert nicht mit Optionen.",module,Magento_Eav
 "The ""%1"" attribute has no option.","Das Attribut ""%1"" hat keine Option.",module,Magento_Eav
-"The ""%1"" attribute is required. Enter and try again.","Das Attribut ""%1"" ist erforderlich. Treten Sie ein und versuchen Sie es erneut.",module,Magento_Catalog
+"The ""%1"" attribute is required. Enter and try again.","Das Attribut ""%1"" ist erforderlich. Geben Sie es ein und versuchen Sie es erneut.",module,Magento_Catalog
 "The ""%1"" attribute name is invalid. Reset the name and try again.","Der Attributname ""%1"" ist ungültig. Setzen Sie den Namen zurück und versuchen Sie es erneut.",module,Magento_Eav
 "The ""%1"" attribute requested is invalid. Verify the attribute and try again.","Das angeforderte Attribut ""%1"" ist ungültig. Überprüfen Sie das Attribut und versuchen Sie es erneut.",module,Magento_Eav
 "The ""%1"" attribute set wasn't found. Verify and try again.","Das Attributset ""%1"" wurde nicht gefunden. Überprüfen Sie und versuchen Sie es erneut.",module,Magento_Eav
@@ -10447,8 +10447,8 @@ the Child of the Matched Product Categories,das Kind der übereinstimmenden Prod
 "The CMS page with the ""%1"" ID doesn't exist.","Die CMS-Seite mit der ID ""%1"" existiert nicht.",module,Magento_Cms
 The collection provider isn't registered.,Der Abholanbieter ist nicht registriert.,module,Magento_Catalog
 The columns for UPDATE statement are not defined,Die Spalten für die UPDATE-Anweisung sind nicht definiert,,
-The comment is missing. Enter and try again.,Der Kommentar fehlt. Treten Sie ein und versuchen Sie es erneut.,module,Magento_Sales
-The comment is missing. Enter and try again.,Der Kommentar fehlt. Treten Sie ein und versuchen Sie es erneut.,module,Magento_Shipping
+The comment is missing. Enter and try again.,Der Kommentar fehlt. Geben Sie ihn ein und versuchen Sie es erneut.,module,Magento_Sales
+The comment is missing. Enter and try again.,Der Kommentar fehlt. Geben Sie ihn ein und versuchen Sie es erneut.,module,Magento_Shipping
 The config can't be saved because it's empty. Complete the config and try again.,"Die Konfiguration kann nicht gespeichert werden, da sie leer ist. Vervollständigen Sie die Konfiguration und versuchen Sie es erneut.",module,Magento_Theme
 The configurable product does not have any variation attribute.,Das konfigurierbare Produkt hat kein Variationsattribut.,,
 "The configuration file has changed. Run the ""app:config:import"" or the ""setup:upgrade"" command to synchronize the configuration.","Die Konfigurationsdatei hat sich geändert. Führen Sie den Befehl ""app:config:import"" oder den Befehl ""setup:upgrade"" aus, um die Konfiguration zu synchronisieren.",module,Magento_Deploy
