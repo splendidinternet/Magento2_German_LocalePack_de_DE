@@ -2849,7 +2849,7 @@ Copy of %1,Kopie von %1,,
 Copy Selected to Wish List,Auswahlen zur Wunschliste hinzufügen,,
 Copy to Wish List,Zur Wunschliste hinzufügen,,
 Copyright,Copyright,,
-Copyright &copy; %1 Magento Commerce Inc. All rights reserved.,Copyright &Kopie; %1 Magento Commerce Inc. Alle Rechte vorbehalten.,module,Magento_Backend
+Copyright &copy; %1 Magento Commerce Inc. All rights reserved.,Copyright &copy; %1 Magento Commerce Inc. Alle Rechte vorbehalten.,module,Magento_Backend
 "Copyright &copy; %1 Magento, Inc. All rights reserved.","Copyright &copy; %1 Magento, Inc. Alle Rechte vorbehalten.",module,Magento_Backend
 Copyright &copy; %1 Magento. All rights reserved.,Copyright &copy; %1 Magento. Alle Rechte vorbehalten.,,
 "Copyright © 2013-present Magento, Inc. All rights reserved.","Copyright © 2013-gegenwärtig Magento, Inc. Alle Rechte vorbehalten.",module,Magento_Theme
