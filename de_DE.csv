@@ -209,7 +209,7 @@
  [deleted], [gelöscht],module,Magento_Backend
  [deleted], [gelöscht],module,Magento_Sales
  Copy, Kopie,module,Magento_Newsletter
- Example: ,Beispiel:,module,Magento_Checkout
+ Example: , Beispiel: ,module,Magento_Checkout
  for more information or , für weitere Informationen oder,module,Magento_Shipping
  in your cart.,im Warenkorb.,module,Amasty_Cart
  is not available. You still can process offline actions., ist nicht verfügbar. Sie können weiterhin Offline-Aktionen ausführen.,module,Magento_Payment
