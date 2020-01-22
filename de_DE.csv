@@ -13271,12 +13271,11 @@ Zero Subtotal Checkout,Zwischensumme Kasse Null,,
 ZIP,PLZ,,
 Zip,PLZ,,
 ZIP Code,PLZ,,
-Zip/Post Code,PLZ/Postleitzahl,,
-ZIP/Post Code,PLZ / Postleitzahl,,
+Zip/Post Code,Postleitzahl,,
 Zip/Post is Range,PLZ / Postleitzahl als Bereich,,
 Zip/Postal Code,Postleitzahl,,
-ZIP/Postal Code,PLZ / Postleitzahl,,
-Zip/Postal Code is Optional for,PLZ / Postleitzahl ist optional für,,
+ZIP/Postal Code,Postleitzahl,,
+Zip/Postal Code is Optional for,Postleitzahl ist optional für,,
 "Amazon Pay was unable to authenticate the payment instrument.  Please try again, or use a different payment method.","Amazon Pay konnte das Zahlungsinstrument nicht authentifizieren.  Bitte versuchen Sie es erneut, oder verwenden Sie eine andere Zahlungsmethode.",module,Amazon_Payment
 "The SCA challenge was not completed successfully.  Please try again, or use a different payment method.","Die SCA-Challenge wurde nicht erfolgreich abgeschlossen.  Bitte versuchen Sie es erneut, oder verwenden Sie eine andere Zahlungsmethode.",module,Amazon_Payment
 "If you are not redirected automatically, try refreshing the page, or return to your cart and use another payment method.","Wenn Sie nicht automatisch weitergeleitet werden, versuchen Sie, die Seite zu aktualisieren, oder kehren Sie zu Ihrem Warenkorb zurück und verwenden Sie eine andere Zahlungsmethode.",module,Amazon_Login
