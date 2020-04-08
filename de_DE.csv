@@ -211,6 +211,8 @@
  Copy, Kopie,module,Magento_Newsletter
  Example: , Beispiel: ,module,Magento_Checkout
  for more information or , für weitere Informationen oder,module,Magento_Shipping
+ Hour, Stunde,module,Dotdigitalgroup_Email
+ Hours, Stunden,module,Dotdigitalgroup_Email
  in your cart.,im Warenkorb.,module,Amasty_Cart
  is not available. You still can process offline actions., ist nicht verfügbar. Sie können weiterhin Offline-Aktionen ausführen.,module,Magento_Payment
  is required., ist erforderlich.,module,Magento_Dhl
@@ -244,6 +246,34 @@
 .,.,,
 . ':',. ':',module,Magento_Shipping
 ". "" which is inconsistent with state of scope resolver""",". "" was unvereinbar mit dem Status des Umfangsauflösers ist.""",module,Magento_CatalogSearch
+'*' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.,"'*' - entspricht einem beliebigen; 'xyz*' - entspricht einem beliebigen, der mit 'xyz' beginnt und nicht länger als %1 ist.",module,Magento_Tax
+'%1' file extension is not supported,Die Dateiendung '%1' wird nicht unterstützt.,module,Magento_ImportExport
+"'%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.","%value%' scheint ein DNS-Hostname zu sein, aber die angegebene Punycode-Notation kann nicht dekodiert werden.",module,Magento_Customer
+"'%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.","%value%' scheint ein DNS-Hostname zu sein, aber die angegebene Punycode-Notation kann nicht dekodiert werden.",module,Magento_Eav
+'%value%' does not look like a valid local network name.,%value%' sieht nicht wie ein gültiger lokaler Netzwerkname aus.,module,Magento_Customer
+'%value%' does not look like a valid local network name.,%value%' sieht nicht wie ein gültiger lokaler Netzwerkname aus.,module,Magento_Eav
+'%value%' looks like a DNS hostname but cannot extract TLD part.,"%value%' sieht aus wie ein DNS-Hostname, kann aber keinen TLD-Teil extrahieren.",module,Magento_Customer
+'%value%' looks like a DNS hostname but cannot extract TLD part.,"%value%' sieht aus wie ein DNS-Hostname, kann aber keinen TLD-Teil extrahieren.",module,Magento_Eav
+'%value%' looks like a DNS hostname but contains a dash in an invalid position.,"%value%' sieht aus wie ein DNS-Hostname, enthält aber einen Bindestrich an einer ungültigen Stelle.",module,Magento_Customer
+'%value%' looks like a DNS hostname but contains a dash in an invalid position.,"%value%' sieht aus wie ein DNS-Hostname, enthält aber einen Bindestrich an einer ungültigen Stelle.",module,Magento_Eav
+'%value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.,"%value%' sieht aus wie ein DNS-Hostname, aber wir können ihn nicht mit dem Hostnamenschema für die TLD'%tld%' vergleichen.",module,Magento_Customer
+'%value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.,"%value%' sieht aus wie ein DNS-Hostname, aber wir können ihn nicht mit dem Hostnamenschema für die TLD'%tld%' vergleichen.",module,Magento_Eav
+"'%value%' looks like a local network name, which is not an acceptable format.","%value%' sieht aus wie ein lokaler Netzwerkname, was kein akzeptables Format ist.",module,Magento_Customer
+"'%value%' looks like a local network name, which is not an acceptable format.","%value%' sieht aus wie ein lokaler Netzwerkname, was kein akzeptables Format ist.",module,Magento_Eav
+"'%value%' looks like an IP address, which is not an acceptable format.","%value%' sieht aus wie eine IP-Adresse, was kein akzeptables Format ist.",module,Magento_Customer
+"'%value%' looks like an IP address, which is not an acceptable format.","%value%' sieht aus wie eine IP-Adresse, was kein akzeptables Format ist.",module,Magento_Eav
+'Action Details - #' .,Action Details - #' .,module,Magento_AsynchronousOperations
+'category_id' only supports 'eq' condition type.,Die 'category_id' unterstützt nur die Konditionsart 'eq'.,module,Magento_CatalogGraphQl
+'Entity type model must be an instance of ' .,Das Entitätstypmodell muss eine Instanz von folgendem sein '.,module,Magento_CatalogImportExport
+'Error in CSV: ' .,'Fehler in CSV: ' .,module,Magento_ImportExport
+'Invalid Api Version: ' .,Ungültige Api-Version: ' .,module,Klarna_Core
+'Object is not instance of ' .,Objekt ist keine Instanz von '.,module,Magento_Config
+'search' or 'filter' input argument is required.,"Das Eingabeargument ""Suche"" oder ""Filter"" ist erforderlich.",module,Magento_CatalogGraphQl
+'The coupon code couldn't be applied: ' .,Der Gutscheincode konnte nicht angewendet werden: '.,module,Magento_Quote
+"'The XML in file ""%1"" is invalid:' . ""\n%2\nVerify the XML and try again.""","Das XML in der Datei ""%1"" ist ungültig:'. ""\n%2\nÜberprüfe das XML und versuche es erneut.""",module,Magento_Config
+"'The XML in file ""%1"" is invalid:' . ""\n%2\nVerify the XML and try again.""","Das XML in der Datei ""%1"" ist ungültig:'. ""\n%2\nÜberprüfe das XML und versuche es erneut.""",module,Magento_Ui
+"'The XML in file ""%1"" is invalid.' . ""\n%2\nVerify the XML and try again.""","Das XML in der Datei ""%1"" ist ungültig. . ""\n%2\nÜberprüfe das XML und versuche es erneut.""",module,Magento_Ui
+'There is no defined type ' .,Es gibt keinen definierten Typ '.,module,Magento_Config
 ’Internal Promotions’ for promotions field “Label”.,"""Interne Promotions"" für Promotionfeld ""Label""",,
 """%1"" cannot contain more than %2 lines.","""%1"" kann nicht aus mehr als %2 Zeilen bestehen.",,
 """%1"" contains non-alphabetic characters.","""%1"" enthält nicht-alphabetische Zeichen.",,
@@ -292,6 +322,7 @@
 """Attribute code should be specified","""Attributcode sollte angegeben werden",module,Magento_EavGraphQl
 """Cap Reward Points Balance"" should be either a positive number or left empty.","""Belohnungspunkteguthaben"" sollte entweder eine positive Zahl oder leer sein.",,
 """Creditmemo Document Validation Error(s):\n"" .","""Gutschriftendokumentvalidierungsfehler:\n"" .",module,Magento_Sales
+"""Email should be specified","""E-Mail sollte angegeben werden",module,Magento_CustomerGraphQl
 """Entity type should be specified","""Der Entitätstyp sollte angegeben werden.",module,Magento_EavGraphQl
 """file"" parameter must be specified","""file"" Parameter muss angegeben sein",,
 """file"" parameter must be specified and must not be empty","""file"" Parameter muss angegeben sein und darf nicht leer sein",,
@@ -311,6 +342,7 @@
 """model"" value should be specified","Der Wert ""model"" sollte angegeben werden.",module,Magento_GroupedProductGraphQl
 """model"" value should be specified","Der Wert ""model"" sollte angegeben werden.",module,Magento_QuoteGraphQl
 """model"" value should be specified","Der Wert ""model"" sollte angegeben werden.",module,Magento_UrlRewriteGraphQl
+"""model"" values should be specified","""Modell""-Werte sollten angegeben werden.",module,Magento_QuoteGraphQl
 """Need a New Relic account? <a href=""http://www.newrelic.com/magento"" target=""_blank"">Click here to get one","""Benötigen Sie einen neuen New Relic-Account? <a href=""http://www.newrelic.com/magento"" target=""_blank"">Hier klicken, um einen zu erhalten",,
 """Need a New Relic account? <a href=""http://www.newrelic.com/magento"" target=""_blank"">Click here to get one","""Benötigen Sie einen neuen New Relic-Account? <a href=""http://www.newrelic.com/magento"" target=""_blank"">Hier klicken, um einen zu erhalten",module,Magento_NewRelicReporting
 """option_id"" and ""parent_id"" values should be specified","""option_id"" und ""parent_id"" Werte sollten angegeben werden.",module,Magento_BundleGraphQl
@@ -323,6 +355,7 @@
 """Shipment Document Validation Error(s):\n"" .","""Versanddokumentvalidierungsfehler:\n"" .",module,Magento_Shipping
 """sku"" value should be specified","Der Wert ""sku"" sollte angegeben werden.",module,Magento_BundleGraphQl
 """Static"" defines the expiration date as precisely when the balance increases. ""Dynamic"" does not have an expiration date, but calculates one when the balance is checked for expiry.","""Statisch"" definiert das Ablaufdatum genau dann, wenn sich das Guthaben erhöht. ""Dynamisch"" besitzt kein Ablaufdatum,errechnet allerdings eines wenn das Guthaben auf Ablauf gechecked wird.",,
+"""Street Address"" cannot contain more than %1 lines.","""Street Address"" darf nicht mehr als %1 Zeilen enthalten.",module,Magento_QuoteGraphQl
 """url"" argument should be specified and not empty","Das Argument ""url"" sollte angegeben werden und nicht leer sein.",module,Magento_UrlRewriteGraphQl
 """User Name"" is required. Enter and try again.","""Benutzername"" ist erforderlich. Bitte geben Sie diesen ein und versuchen Sie es erneut.",module,Magento_User
 (Allow),(Erlauben),,
@@ -353,6 +386,7 @@
 [GLOBAL],[GLOBAL],module,Magento_Config
 [GLOBAL],[GLOBAL],module,Magento_Downloadable
 [ID: %1],[ID: %1],module,Magento_InventoryAdminUi
+[ID: %1] ,[ID: %1],module,Magento_InventoryAdminUi
 [ID: %value] %message,ID: %value] %message,module,Magento_InventoryAdminUi
 [ID: %value] The Source does not exist.,ID: %value] Die Quelle existiert nicht.,module,Magento_InventoryAdminUi
 [ID: %value] The Stock does not exist.,ID: %wert] Die Aktie existiert nicht.,module,Magento_InventoryAdminUi
@@ -562,6 +596,7 @@
 %1 x %2,%1 x %2,,
 %1; rev #%2,%1: Revision #%2,,
 "%1: Instance of %2 is expected, got %3 instead","%1: Instanz von %2 wird erwartet, stattdessen wurde %3 erhalten.",module,Magento_Config
+%1: Line %2,%1: Zeile %2,module,Magento_Checkout
 %1' file extension is not supported,%1-Dateierweiterung wird nicht unterstützt,,
 %1' file extension is not supported,%1-Dateierweiterung wird nicht unterstützt,module,Magento_ImportExport
 %1' file extension is not supported,%1' Dateierweiterung wird nicht ünterstützt,module,Magento_ImportExport
@@ -580,6 +615,7 @@
 %fieldName is a required field.,%fieldName ist ein Pflichtfeld.,module,Magento_Customer
 %fieldName is a required field.,FeldName ist ein erforderliches Feld.,module,Magento_Integration
 %fieldName is a required field.,%fieldName ist ein Pflichtfeld.,module,Magento_Tax
+%message,%Meldung,module,Magento_InventoryCatalog
 "%name,","%name,",,
 %operation_name - Scheduled Export Failed,%operation_name - Geplanter Export fehlgeschlagen,,
 %operation_name - Scheduled Import Failed,%operation_name - Geplanter Import fehlgeschlagen,,
@@ -1173,6 +1209,7 @@ Additional data,Zusätzliche Daten,,
 Additional Options,Weitere Optionen,,
 Additional Settings,Zusätzliche Einstellungen,,
 Address,Adresse,,
+"Address ""id"" value should be specified","Der Wert der Adresse ""id"" sollte angegeben werden.",module,Magento_CustomerGraphQl
 Address %1 <span>of %2</span>,Adresse %1 <span>von %2</span>,,
 Address Attributes,Adressattribute,,
 Address AVS check,Adressverifizierung (AVS),,
@@ -1398,9 +1435,11 @@ Amazon Pay,Amazon Pay,module,Amazon_Core
 Amazon Pay Logo,Amazon Pay Logo,module,Amazon_Core
 Amazon Pay refund successful.,Amazon Pay Rückerstattung erfolgreich.,module,Amazon_Payment
 Amazon Pay was not able to process your payment,Amazon Pay konnte Ihre Zahlung nicht bearbeiten.,module,Amazon_Payment
+"Amazon Pay was unable to authenticate the payment instrument.  Please try again, or use a different payment method.","Amazon Pay konnte das Zahlungsinstrument nicht authentifizieren.  Bitte versuchen Sie es erneut, oder verwenden Sie eine andere Zahlungsmethode.",module,Amazon_Payment
 AmazonPaymentAdapter: Bad status - no capture details available.,AmazonPaymentAdapter: Schlechter Status - keine Erfassungsdetails verfügbar.,module,Amazon_Payment
 "AmazonPaymentAdapter: Improperly formatted XML response, no response code available.","AmazonPaymentAdapter: Falsch formatierte XML-Antwort, kein Antwortcode verfügbar.",module,Amazon_Payment
 AmazonPaymentAdapter: Unable to capture pending information for capture.,"AmazonPaymentAdapter: Es ist nicht möglich, ausstehende Informationen zur Erfassung zu erfassen.",module,Amazon_Payment
+American Express,American Express,module,Magento_Payment
 Amount,Menge,,
 amount %1,Betrag %1,,
 Amount Balance,Saldobetrag,,
@@ -1597,6 +1636,7 @@ Are you sure to unsubscribe selected customers from newsletter?,"Sind Sie sicher
 "Are you sure you wan't to delete a ""${ $.$data.title }"" record?","Sind Sie sicher, dass Sie einen ""${$.$data.title}""-Eintrag löschen möchten?",module,Magento_Cms
 Are you sure you wan't to delete a ${ $.$data.title } record?,"Sind Sie sicher, dass Sie einen ${$.$data.title}-Eintrag löschen möchten?",,
 Are you sure you wan't to delete a ${ $.$data.title } record?,"Sind Sie sicher, dass Sie einen ${$.$data.title}-Eintrag löschen möchten?",module,Magento_Cms
+Are you sure you wan't to delete a file?,"Sind Sie sicher, dass Sie eine Datei nicht löschen wollen?",module,Magento_ImportExport
 Are you sure you wan't to delete selected items?,"Sind Sie sicher, dass Sie die ausgwählten Elemente löschen wollen?",,
 Are you sure you wan't to delete selected items?,"Sind Sie sicher, dass Sie die ausgewählten Elemente löschen wollen?",module,Magento_Cms
 Are you sure you want to accept this payment?,"Sind Sie sicher, dass Sie diese Zahlung akzeptieren wollen?",,
@@ -1738,6 +1778,7 @@ Art and Design,Kunst und Design,module,Magento_Analytics
 As Low as,Ab,,
 As low as,Ab,,
 As low as:,So niedrig wie:,module,Magento_ConfigurableProduct
+As low as: ,So niedrig wie:,module,Magento_ConfigurableProduct
 ASCII,ASCII,,
 Ask Customer,Kunden fragen,,
 Assign,Zuweisen,module,Magento_Ui
@@ -1755,6 +1796,7 @@ Assigned Sources,Zugeordnete Quellen,module,Magento_InventoryAdminUi
 Assigned sources,Zugeordnete Quellen,module,Magento_InventoryAdminUi
 Assigned Sources,Zugeordnete Quellen,module,Magento_InventoryCatalogAdminUi
 Assigned sources:,Zugeordnete Quellen:,module,Magento_InventoryAdminUi
+Assigned Sources:,Zugeordnete Quellen:,module,Magento_InventoryAdminUi
 Assigned to Website,der Website zugeordnet,,
 Assignment Information,Zuweisungsinformationen,,
 Associate to Website,Website zuordnen,,
@@ -1779,6 +1821,7 @@ Attribute %1 does not contain option with Id %2,Attribut %1 enthält nicht die O
 Attribute %1 doesn't have any option,Attribut %1 hat keine Option,,
 Attribute %1 doesn't work with options,Attribut %1 arbeitet nicht mit Optionen,,
 Attribute Code,Attribut-Code,,
+"Attribute code ""%1"" is invalid. Please use only letters (a-z or A-Z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Der Attributcode ""%1"" ist ungültig. Bitte verwenden Sie in diesem Feld nur Buchstaben (a-z oder A-Z), Zahlen (0-9) oder Unterstrich (_), und das erste Zeichen sollte ein Buchstabe sein.",module,Magento_Eav
 "Attribute code ""%1"" is invalid. Please use only letters (a-z or A-Z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","Der Attributcode ""%1"" ist ungültig. Bitte verwenden Sie in diesem Feld nur Buchstaben (a-z oder A-Z), Zahlen (0-9) oder Unterstrich (_), der erste Buchstabe sollte ein Buchstabe sein.",module,Magento_Catalog
 "Attribute code ""%1"" is invalid. Please use only letters (a-z), ' 'numbers (0-9) or underscore(_) in this field, first character should be a letter.","Attributcode ""%1"" ist ungültig. Bitte verwenden Sie nur Buchstaben (a-z), Zahlen (1-9) oder Unterstriche(_) in diesem Feld. Das erste Zeichen sollte ein Buchstabe sein.",,
 "Attribute code ""%1"" is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","Attributcode ""%1"" ist ungültig. Bitte verwenden Sie nur Buchstaben (a-z), Ziffern (0-9) oder Unterstriche(_). Das erste Zeichen sollte ein Buchstabe sein.",,
@@ -2180,6 +2223,7 @@ Calculation Settings,Berechnung,,
 Callback URL,Callback-URL,,
 Campaign,Kampagne,module,Dotdigitalgroup_Email
 Campaign,Kampagne,module,Dotdigitalgroup_Email
+Campaign ,Kampagne,module,Dotdigitalgroup_Email
 Campaign Id,Kampagnen-ID,module,Dotdigitalgroup_Email
 Campaign Report,Kampagnenbericht,module,Dotdigitalgroup_Email
 Campaign to Send,Zu versendende Kampagne,module,Dotdigitalgroup_Email
@@ -2194,6 +2238,12 @@ Campaign to send,Zu versendende Kampagne,module,Dotdigitalgroup_Email
                      it will make no affect on Price filter.","Kann nur mit der Katalogeingabeart Ja/Nein, Dropdown, Mehrfachauswahl und Preis verwendet werden.
                     <br>Preis ist nicht kompatibel mit <b>'Filterbar (keine Ergebnisse)'</b> Option -
                      wird es keinen Einfluss auf den Preisfilter haben.",module,Magento_LayeredNavigation
+"Can be used only with catalog input type Yes/No, Dropdown, Multiple Select and Price.
+                    <br>Price is not compatible with <b>'Filterable (no results)'</b> option - 
+                     it will make no affect on Price filter.","Kann nur mit der Katalogeingabeart Ja/Nein, Dropdown, Mehrfachauswahl und Preis verwendet werden.
+                    <br>Preis ist nicht kompatibel mit <b>'Filterbar (keine Ergebnisse)'</b> Option -
+                     wird es keinen Einfluss auf den Preisfilter haben.",module,Magento_LayeredNavigation
+"Can not change the visibility of the product with SKU equals ""%1"". URL key ""%2"" for specified store already exists.","Kann die Sichtbarkeit des Produkts nicht ändern, wenn die SKU gleich ""%1"" ist. Der URL-Schlüssel ""%2"" für den angegebenen Store ist bereits vorhanden.",module,Magento_CatalogUrlRewrite
 Can not create attribute set based on non product attribute set.,Kann Attributset nicht auf Basis eines Attributsets ohne Produkte erstellen.,,
 Can not create attribute set based on not existing attribute set,Kann Attributset nicht auf Basis eines nicht vorhandenen Attributsets erstellen.,,
 Can not delete link related to Default Source or Default Stock,"Der Link, der sich auf die Standardquelle oder den Standardbestand bezieht, kann nicht gelöscht werden.",module,Magento_InventoryCatalog
@@ -2309,6 +2359,7 @@ Cant create backups directory,Kann Backup-Verzeichnis nicht erstellen,,
 Cap Reward Points Balance At,Belohnungspunkteguthaben beschränken auf,,
 CAPTCHA,CAPTCHA,,
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA für die ""Benutzer anlegen"" und ""Passwort vergessen""-Formulare ist immer aktiviert, wenn ausgewählt.",,
+"CAPTCHA for ""Create user"", ""Forgot password"", ""Payflow Pro"" forms is always enabled if chosen.","CAPTCHA für die Formulare ""Benutzer anlegen"", ""Passwort vergessen"", ""Payflow Pro"" ist bei Auswahl immer aktiviert.",module,Magento_PaypalCaptcha
 CAPTCHA Timeout (minutes),CAPTCHA-Timeout (Minuten),,
 CAPTCHA Timeout (minutes),CAPTCHA-Timeout (Minuten),module,Magento_Captcha
 capture,Erfassen,,
@@ -2356,6 +2407,7 @@ Cart contains virtual product(s) only. Shipping address is not applicable.,Waren
 Cart contains virtual product(s) only. Shipping method is not applicable.,Warenkorb enthält nur virtuelle Produkte. Versandmethode ist nicht anwendbar.,,
 Cart contains virtual product(s) only. Shipping method is not applicable.,Warenkorb enthält nur virtuelle Produkte. Versandmethode ist nicht anwendbar.,module,Magento_Quote
 Cart Content URL,Warenkorb Inhalts-URL,module,Dotdigitalgroup_Email
+Cart ID length should to be 32 symbols.,Die Länge der Warenkorb-ID sollte 32 Symbole betragen.,module,Magento_QuoteGraphQl
 Cart isn't assigned to correct store,Der Warenkorb ist nicht dem richtigen Shop zugeordnet.,module,Magento_Quote
 Cart Item Attribute,Warenkorbartikelattribut,,
 Cart Line Items,Artikel im Einkaufswagen,,
@@ -2366,6 +2418,7 @@ Cart Recommendation,Warenkorb-Empfehlung,module,Dotdigitalgroup_Email
 Cart Subtotal,Warenkorb-Zwischensumme,,
 Cart Subtotal:,Warenkorb-Zwischensumme,module,Amasty_Cart
 Cart URL,Warenkorb URL,module,Dotdigitalgroup_Email
+"Cart with ID ""%1"" already exists.","Warenkorb mit der ID ""%1"" existiert bereits.",module,Magento_QuoteGraphQl
 Carts,Warenkörbe,,
 Case entity not found.,Fallgruppe nicht gefunden.,module,Magento_Signifyd
 Case Sensitive,Groß- und Kleinschreibung,,
@@ -2374,6 +2427,7 @@ Case with the same order id already exists.,Es existiert bereits ein Fall mit de
 Cash On Delivery Payment,Zahlung per Nachnahme,,
 Catalog,Katalog,,
 Catalog,Katalog,module,Dotdigitalgroup_Email
+Catalog ,Katalog,module,Dotdigitalgroup_Email
 Catalog Advanced Search,Erweiterte Katalogsuche,,
 Catalog Attributes,Katalogattribute,,
 Catalog Categories,Katalogkategorien,,
@@ -2422,6 +2476,7 @@ Category (Children Only),Kategorie (nur untergeordnet),module,Magento_SalesRule
 Category (Parent only),Kategorie (nur übergeordnet),module,Magento_SalesRule
 Category Data,Kategoriedaten,,
 Category does not contain specified product,Kategorie enthält angegebenes Produkt nicht.,,
+Category doesn't exist,Kategorie existiert nicht,module,Magento_CatalogGraphQl
 Category Eav Attributes,Kategorie-EAV-Attribute,,
 Category Flat Data,Kategorie-Flat-Daten,,
 Category ID,Kategorie-ID,,
@@ -2690,6 +2745,8 @@ Computation mode,Berechnungsmodus,module,Magento_InventoryDistanceBasedSourceSel
 Concrete type for %1 not implemented,Betontyp für %1 nicht implementiert,module,Magento_CatalogGraphQl
 Concurrent session information:,Information über gleichzeitige Sessions:,module,Magento_Security
 Condition,Bedingung,,
+Condition has to implement IsProductSalableForRequestedQtyInterface.,Bedingung muss IsProductSalableForRequestedQtyInterface implementieren.,module,Magento_InventorySales
+Condition has to implement IsProductSalableInterface.,"Bedingung ist, dass IsProductSalableInterface implementiert ist.",module,Magento_InventorySales
 Condition have to implement IsProductSalableForRequestedQtyInterface.,Die Bedingung muss die IsProductSalableForRequestedQtyInterface implementieren.,module,Magento_InventorySales
 Condition have to implement IsProductSalableInterface.,"Bedingung ist, dass die IsProductSalableInterface implementiert ist.",module,Magento_InventorySales
 Condition must implement %1,Bedingung muss %1 implementieren,module,Magento_InventorySales
@@ -2752,6 +2809,7 @@ Connection Name,Verbindungsname,module,Temando_Shipping
 Connection Timeout in Seconds,Timeout der Verbindung in Sekunden,,
 Connection Type,Verbindungstyp,,
 Connector Version,Version des Adapters,module,Dotdigitalgroup_Email
+Connector Version ,Connector Version,module,Dotdigitalgroup_Email
 Consent,Einwilligung,module,Dotdigitalgroup_Email
 "Consent text provided on registration, account dashboard and checkout","Zustimmungstext zur Registrierung, zum Dashboard und zur Kasse des Kontos",module,Dotdigitalgroup_Email
 Consent text provided to your subscribers above the newsletter signup form,"Einverständnistext, der Ihren Abonnenten über dem Anmeldeformular für den Newsletter zur Verfügung gestellt wird.",module,Dotdigitalgroup_Email
@@ -2786,6 +2844,7 @@ Contact Us,Kontaktieren Sie uns,,
 Contacts,Impressum,,
 Contacts,Kontakt,module,Magento_Contact
 Contacts,Kontakte,module,Dotdigitalgroup_Email
+Contacts ,Kontakte,module,Dotdigitalgroup_Email
 Contacts Section,Abschnitt Kontakte,module,Magento_Contact
 Container,Container,,
 Container Id,Container-ID,,
@@ -2800,11 +2859,13 @@ Content Height (css),Inhaltshöhe (CSS),module,Magento_CheckoutAgreements
 Content Management,Inhaltsverwaltung,,
 Content translation,Übersetzung von Inhalten,module,Magento_Backend
 Content Type,Inhaltstyp,,
+Content Type (Non Domestic),Inhaltsart (Ausland),module,Magento_Dhl
 Content-Type header is empty.,Content-Type-Header ist leer.,,
 Content-Type header is invalid.,Content-Type-Header ist ungültig.,,
 Contents,Inhalte,,
 Contents of %s could not be loaded or is empty,Inhalte von %s konnten nicht geladen werden oder sind leer,,
 Contents of a Static Block,Inhalt eines statischen Blcoks,,
+Contents of the specified CSS file could not be loaded or is empty,Inhalt der angegebenen CSS-Datei konnte nicht geladen werden oder ist leer.,module,Magento_Email
 Contents:,Inhalt:,module,Temando_Shipping
 Continue,Fortsetzen,,
 Continue as Guest,Als Gast weitermachen,module,Amazon_Login
@@ -2899,6 +2960,8 @@ Could not delete Tier Prices,Staffelpreise konnten nicht gelöscht werden,module
 "Could not find a address with ID ""%address_id""","Es konnte keine Adresse mit der ID ""%address_id"" gefunden werden.",module,Magento_QuoteGraphQl
 "Could not find a cart with ID ""%masked_cart_id""","Ein Warenkorb mit der ID ""%masked_cart_id"" konnte nicht gefunden werden.",module,Magento_QuoteGraphQl
 "Could not find a product with SKU ""%sku""","Ein Produkt mit SKU ""%sku"" konnte nicht gefunden werden.",module,Magento_QuoteGraphQl
+Could not find a token using public hash: %1,Ein Token mit öffentlichem Hash konnte nicht gefunden werden: %1,module,Magento_VaultGraphQl
+Could not find cart item with id: %1.,Warenkorb mit der ID: %1 konnte nicht gefunden werden.,module,Magento_QuoteGraphQl
 "Could not find the ""multiline_count"" config of the ""street"" Customer address attribute.","Die Konfiguration ""multiline_count"" des Attributs ""street"" Kundenadresse konnte nicht gefunden werden.",module,Amazon_Payment
 Could not get extension attributes,Erweiterungsattribute konnten nicht abgerufen werden,module,Magento_Catalog
 Could not get preview image information. Please check your connection and try again.,Konnte Vorschau-Bildinformationen nicht abrufen. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.,,
@@ -2907,6 +2970,7 @@ Could not load Source Item Configuration.,Die Konfiguration des Ausgangselements
 Could not load Sources for Stock,Quellen für den Bestand konnten nicht geladen werden.,module,Magento_Inventory
 Could not locate schema: '%1' at '%2',Schema konnte nicht lokalisiert werden: %1 in %2,,
 Could not move category,Konnte Kategorie nicht verschieben,,
+Could not parse resource url.,Die Ressourcen-URL konnte nicht analysiert werden.,module,Magento_CatalogImportExport
 Could not ping search engine: %1,Suchmaschine konnte nicht angepingt werden: %1,,
 Could not read config file,Config-Datei konnte nicht gelesen werden,,
 Could not rebuild index for empty products array,Konnte Index für leere Artikelreihe nicht wiederaufbauen.,,
@@ -2957,6 +3021,7 @@ Could not submit invoice to Vertex.,Die Rechnung konnte nicht an Vertex übermit
 Could not submit refund to Vertex.,Konnte keine Rückerstattung an Vertex senden.,module,Vertex_Tax
 Could not successfully delete record(s),Die Datensätze konnten nicht erfolgreich gelöscht werden.,module,Vertex_Tax
 "Could not update option with id ""%1""","Konnte Option mit ID ""%1"" nicht aktualisieren",,
+Could not update the product with SKU %sku: %message,Das Produkt konnte nicht mit SKU %sku aktualisiert werden: %message,module,Magento_QuoteGraphQl
 Count,Anzahl,,
 Countdown Ticker,Countdown-Ticker,,
 Countries Available for Collection Points,"Länder, die für Sammelstellen verfügbar sind",module,Temando_Shipping
@@ -3144,6 +3209,7 @@ Currency Amount,Währungsanzahl,,
 Currency Conversion required to cover negative balance,"Währungsumrechnung erforderlich, um negative Bilanz abzudecken",,
 Currency Converter API,Währungsumrechner API,module,Magento_Directory
 Currency doesn't match.,Währung stimmt nicht überein.,,
+Currency not allowed for store %1,Währung für Filiale nicht erlaubt %1,module,Magento_DirectoryGraphQl
 Currency Options,Währungsoptionen,,
 Currency Rates,Währungskurse,,
 Currency rates can't be retrieved.,Wechselkurse können nicht abgerufen werden.,module,Magento_Directory
@@ -3157,6 +3223,7 @@ Current Balance: %1,Aktuelles Guthaben: %1,,
 Current Configuration Scope:,Aktueller Konfigurationsberech:,,
 Current customer does not have an active cart.,Der aktuelle Kunde hat keinen aktiven Warenkorb.,module,Magento_Quote
 Current customer does not have permission to address id %1,Der aktuelle Kunde hat keine Berechtigung zur Adressierung der ID %1.,module,Magento_CustomerGraphQl
+"Current customer does not have permission to address with ID ""%address_id""","Der aktuelle Kunde hat keine Berechtigung, mit der ID ""%address_id"" zu sprechen.",module,Magento_CustomerGraphQl
 Current exchange rates:,Aktuelle Umrechnungskurse:,,
 Current implementation not supported this type (%1) of backup.,Die aktuelle Implementierung untertützt den Backup-Typ %1 nicht,,
 Current Modification,Aktuelle Modifikation,,
@@ -3165,6 +3232,7 @@ Current Month Starts,Starts im aktuellen Monat,,
 Current Password,Aktuelles Passwort,,
 Current Status: %1<br/>,Aktueller Status: %1<br/>,,
 Current store is not active.,Aktueller Store ist nicht aktiv.,,
+Current user does not have an active cart.,Der aktuelle Benutzer hat keinen aktiven Warenkorb.,module,Magento_QuoteGraphQl
 Current User Identity Verification,Identitätsbestätigung des aktuellen Benutzers,,
 Current Variations,Aktuelle Variationen,,
 Currently Active,Zurzeit aktiv,,
@@ -3337,6 +3405,7 @@ Dark Theme,Dunkles Theme,module,MSP_ReCaptcha
 Dash Every X Characters,Bindestrich alle X Zeichen,,
 Dashboard,Dashboard,,
 Dashboard,Dashboard,module,Dotdigitalgroup_Email
+Dashboard ,Dashboard,module,Dotdigitalgroup_Email
 Data Collector,Datenkollektor,,
 Data Field,Datenfeld,module,Dotdigitalgroup_Email
 Data Field Name,Datenfeldname,module,Dotdigitalgroup_Email
@@ -3775,6 +3844,7 @@ Document Name,Dokumentname,module,Temando_Shipping
 Documentation,Dokumentation,module,Temando_Shipping
 Documentation is not available.,Die Dokumentation ist nicht verfügbar.,module,Temando_Shipping
 Documents,Dokumente,,
+Documents Allowed Methods,Dokumente Erlaubte Methoden,module,Magento_Dhl
 does not contain,Beinhaltet nicht,,
 does not contains,enthält nicht,,
 does not exist,existiert nicht,,
@@ -3875,6 +3945,7 @@ Edit Billing Address,Rechnungsadresse bearbeiten,,
 Edit Block,Block bearbeiten,,
 Edit Block '%1',"Block ""%1"" bearbeiten",,
 Edit Catalog Event,Katalogereignis bearbeiten,,
+Edit Category Design,Kategorien-Design bearbeiten,module,Magento_Catalog
 Edit Condition,Bedingung bearbeiten,,
 Edit Configurations,Konfigurationen bearbeiten,,
 Edit Cookie %1,Cookie editieren %1,module,Amasty_GdprCookie
@@ -3915,9 +3986,11 @@ Edit Page '%1',"Seite ""%1"" bearbeiten",,
 Edit Page '%1' New Revision,"Neue Revision der Seite ""%1"" bearbeiten",,
 Edit Page '%1' Revision #%2,"Revision #%2 der Seite ""%1"" bearbeiten",,
 Edit Page '%1' Version '%2',"Version ""%2"" der Seite ""%1"" bearbeiten",,
+Edit Page Design,Seitendesign bearbeiten,module,Magento_Cms
 Edit Payment Information,Zahlungsinformationen bearbeiten,,
 Edit Product Attribute,Produktattribut bearbeiten.,,
 "Edit Product Attribute ""%1""","Produktattribut ""%1"" bearbeiten",,
+Edit Product Design,Produktdesign bearbeiten,module,Magento_Catalog
 Edit Product Template '%1',"Produktvorlage ""%1"" bearbeiten",,
 Edit Product Template Name,Produktvorlagenname bearbeiten,,
 Edit Queue,Warteschlange bearbeiten,,
@@ -4138,6 +4211,8 @@ Enable SSL verification,SSL-Verifikation aktivieren,,
 Enable Store Credit Functionality,Shopguthabenfunktionalität aktivieren,,
 Enable Submission to Robots.txt,Aktiviere Vorlage an Robots.txt,,
 Enable sync,Synchronisierung aktivieren,module,Temando_Shipping
+Enable Template Path Hints for Admin,Template-Pfadhinweise für den Administrator aktivieren,module,Magento_Backend
+Enable Template Path Hints for Storefront,Template-Pfadhinweise für das Storefront aktivieren,module,Magento_Backend
 Enable Terms and Conditions,AGB aktivieren,,
 "Enable this if you have a checkout process that allows the visitor to
                             enter their email address during the checkout, but it does not update quote table instantly.","Aktivieren Sie dies, wenn Sie einen Checkout-Prozess haben, der es dem Besucher ermöglicht.
@@ -4243,6 +4318,10 @@ error,Fehler,,
 Error #%1 : %2,Fehler #%1 : %2,,
 Error Code,Fehlercode,,
 Error communicating with PayPal.,Fehler bei der Kommunikation mit PayPal.,module,Magento_Braintree
+Error during coupons generator process occurred,Fehler beim Coupongeneratorprozess aufgetreten,module,Magento_SalesRule
+Error during coupons generator process occurred. Please check logs for detail,Fehler beim Generieren von Coupons aufgetreten. Bitte überprüfen Sie die Protokolle auf Details.,module,Magento_SalesRule
+Error during export process occurred,Fehler beim Exportvorgang aufgetreten,module,Magento_ImportExport
+Error during export process occurred. Please check logs for detail,Fehler beim Exportvorgang aufgetreten. Bitte überprüfen Sie die Protokolle auf Details.,module,Magento_ImportExport
 Error during VAT Number verification.,Fehler bei der Ust-ID-Verifikation,,
 Error Email Recipient,Empfänger von Fehler-E-Mail,,
 Error Email Sender,Absender für Fehler-E-Mail,,
@@ -4355,6 +4434,7 @@ Execution Time,Durchführungszeit,,
 exists,existiert,,
 Expand,Erweitern,,
 Expand All,Alles erweitern,,
+Expected Delivery:,Erwartete Lieferung:,module,Magento_Fedex
 Experiment Code,Experiment-Code,,
 Experiment code should be added to the original page only.,Experiment-Code sollte nur auf der Originalseite hinzugefügt werden.,,
 Expiration Date,Verfallsdatum,,
@@ -4424,6 +4504,7 @@ Failed to read data from %1,Konnte keine Daten aus %1 lesen,,
 Failed to rollback.,Fehler beim Rollback,,
 Failed to save new media gallery entry.,Fehler beim Speichern des neuen Mediengalerieeintrags,,
 Failed to synchronize data to the Magento Business Intelligence service.,Die Daten konnten nicht mit dem Magento Business Intelligence Service synchronisiert werden.,module,Magento_Analytics
+Failed to synchronize data to the Magento Business Intelligence service. ,Die Daten konnten nicht mit dem Magento Business Intelligence Service synchronisiert werden.,module,Magento_Analytics
 Failed to upload file %1 to ftp,FTP-Upload der Datei %1 fehlgeschlagen,,
 Failed to validate ftp account,Fehler bei der Bestätigung des FTP-Kontos,,
 Failed to validate FTP.,Fehler bei der FTP-Validierung,,
@@ -4517,6 +4598,7 @@ File is not ready yet.,Die Datei ist noch nicht fertig.,module,Magento_Analytics
 File Mode,Dateimodus,,
 File must be saved in UTF-8 encoding for proper import,"Die Datei muss in der UTF-8-Kodierung gespeichert sein, damit sie korrekt importiert werden kann.",module,Magento_ImportExport
 File Name,Dateiname,,
+File name,Dateiname,module,Magento_ImportExport
 File not found,Datei nicht gefunden,,
 "File not found: ""%1"".","Datei nicht gefunden: ""%1"".",,
 File not opened,Datei nicht geöffnet,,
@@ -4665,6 +4747,7 @@ For Type """"Local Server"""" use relative path to Magento installation e.g. var
 For Virtual Quotes Only,Nur für virtuelle Angebote,,
 For Windows server only.,Nur für Windows Server.,,
 Forbidden extensions has been used. Avoid usage of,Es wurden verbotene Erweiterungen verwendet. Vermeiden Sie die Verwendung von,lib,lib/web/mage/validation.js
+Forbidden extensions has been used. Avoid usage of ,Es wurden verbotene Erweiterungen verwendet. Vermeiden Sie die Verwendung von,lib,lib/web/mage/validation.js
 Force providers,Anbieter erzwingen,module,MSP_TwoFactorAuth
 Force Sign-In,Anmelden erzwingen,,
 Forced,Gezwungen,,
@@ -4998,6 +5081,7 @@ Groups,Gruppen,,
 Guest,Gast,,
 Guest checkout is disabled.,Gästekasse ist deaktiviert.,,
 Guest checkout will only work with shareable.,Gäste-Checkout funktioniert nur mit gemeinsam genutzten,,
+Guest email for cart is missing. Please enter,Gast-E-Mail für den Warenkorb fehlt. Bitte eingeben,module,Magento_QuoteGraphQl
 Guest Order,Gästebestellung,module,Dotdigitalgroup_Email
 Guests,Gäste,module,Dotdigitalgroup_Email
 Handling Applied,Bearbeitung angewandt,,
@@ -5138,6 +5222,7 @@ If there is an account associated with %1 you will receive an email with a link 
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","Wenn Sie ein registrierter MwSt-Kunde sind, <a href=""%1"">klicken Sie bitte hier</a>, um Ihre Versandadresse für eine korrekte Mehrwehrtsteuerkalkulation einzugeben.",,
 "If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your billing address for proper VAT calculation.","Wenn Sie ein registrierter MwSt-Kunde sind, klicken Sie bitte <a href=""%1"">hier</a>, um Ihre Rechnungsadresse für eine korrekte Mehrwehrtsteuerkalkulation einzugeben.",,
 "If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your shipping address for proper VAT calculation.","Wenn Sie ein registrierter MwSt-Kunde sind, klicken Sie bitte <a href=""%1"">hier</a>, um Ihre Versandadresse für eine korrekte Mehrwehrtsteuerkalkulation einzugeben.",,
+"If you are not redirected automatically, try refreshing the page, or return to your cart and use another payment method.","Wenn Sie nicht automatisch weitergeleitet werden, versuchen Sie, die Seite zu aktualisieren, oder kehren Sie zu Ihrem Warenkorb zurück und verwenden Sie eine andere Zahlungsmethode.",module,Amazon_Login
 If you believe it is the right one you can ignore this notice.,"Wenn Sie der Meinung sind, das ist richtig, können Sie diese Mitteilung ignorieren.",module,Magento_Checkout
 "If you believe this is an error, please contact us at %1","Wenn Sie glauben, dass dies ein Fehler ist, kontaktieren Sie uns bitte unter %1",,
 "If you continue to receive this message, please contact the store owner.","Wenn Sie diese Meldung weiterhin erhalten, kontaktieren Sie bitte den Shopbesitzer.",,
@@ -5466,6 +5551,7 @@ Invalid domain name:,Ungültige Domain:,,
 Invalid domain name: %1,Ungültiger Domainname: %1,module,Magento_Cookie
 Invalid download link type.,Ungültiger Download-Link-Typ.,,
 Invalid EAV attribute,Ungültiges EAV-Attribut,,
+Invalid email format,Ungültiges E-Mail-Format,module,Magento_QuoteGraphQl
 Invalid entity supplied,Ungültiger Datensatz angegeben,,
 Invalid entity supplied: %1,Ungültige Entität bereit gestellt: %1,,
 Invalid entity type,Ungültiger Entitätstyp,,
@@ -5929,6 +6015,7 @@ Log Rotation,Protokoll-Rotation,module,Vertex_Tax
 Log trace:,Log-Trace:,,
 Log Viewer,Protokollanzeige,module,Dotdigitalgroup_Email
 Log Viewer,Protokollanzeige,module,Dotdigitalgroup_Email
+Log Viewer ,Log Anzeige,module,Dotdigitalgroup_Email
 Logging,Protokollierung,module,Amazon_Core
 Login,Login,,
 Login / Pay,Anmelden / Bezahlen,module,Amazon_Core
@@ -5991,6 +6078,7 @@ Magento Shipping Return Shipment ID,Magento Shipping Rückholsendungs-ID,module,
 Magento Shipping Shipment ID,Magento Versand Versand Sendungs-ID,module,Temando_Shipping
 Magento System Log,Magento Systemprotokollierung,module,Dotdigitalgroup_Email
 Magento Version,Magento Version,module,Dotdigitalgroup_Email
+Magento Version ,Magento Version,module,Dotdigitalgroup_Email
 Magento was installed with a table prefix. Please re-install without prefix.,Magento wurde mit einem Tabellenpräfix installiert. Bitte installieren Sie die Software ohne Präfix neu.,module,Magento_Developer
 Magento Web API,Magento Web API,,
 Magento_Ui/js/dynamic-rows/record,Magento_Ui/js/dynamic-rows/record,module,Magento_Backend
@@ -6226,6 +6314,9 @@ message %1,Nachricht %1,module,Magento_UrlRewrite
 Message from %customer_name:,Nachricht von %customer_name:,,
 Message from %sender_name:,Nachricht von %sender_name:,,
 Message has been rejected: %1,Die Nachricht wurde abgelehnt: %1,module,Magento_MysqlMq
+Message is added to queue,Nachricht wird zur Warteschlange hinzugefügt,module,Magento_Catalog
+"Message is added to queue, wait to get your coupons soon","Nachricht wird zur Warteschlange hinzugefügt, warten Sie, bis Sie Ihre Gutscheine bald erhalten.",module,Magento_SalesRule
+"Message is added to queue, wait to get your file soon","Nachricht wird zur Warteschlange hinzugefügt, warten Sie, bis Ihre Datei bald verfügbar ist.",module,Magento_ImportExport
 Message is generated.,Die Nachricht wird generiert.,module,Magento_Signifyd
 Message length must not exceed %1 symbols,Nachrichtenlänge darf 1% Symbole nicht überschreiten,,
 "Message with ""%1"" and ""%2""","Nachricht mit ""%1"" und ""%2""",,
@@ -6280,12 +6371,15 @@ Minute of the Hour,Minute der Stunde,,
 Miscellaneous Feeds,Sonstige Feeds,,
 Miscellaneous HTML,Diverses HTML,,
 Miscellaneous Scripts,Sonstige Scripte,,
+"Missed ""qty"" in cart item data","Fehlende ""Menge"" in den Daten der Warenkorbposition",module,Magento_QuoteGraphQl
+"Missed ""sku"" in cart item data","Fehlende ""sku"" in den Daten des Warenkorbes",module,Magento_QuoteGraphQl
 Missed if Not Run Within,"Verpasst, wenn nicht ausgeführt innerhalb ",,
 Missed Mapper Interface for Criteria Interface: %1,Mapper-Schnittstelle fehlt für Kriterien-Schnittstelle: %1,,
 Missed required argument %1 in parent::__construct call. File: %2,Notwendiges Argument %1 fehlt in parent: __construct call. Datei: %2,,
 Missing %1 for the input %2.,Fehlt %1 für den Eingang %2.,module,Magento_EavGraphQl
 "Missing key ""cart_id"" in cart data","Fehlender Schlüssel ""cart_id"" in den Warenkorb-Daten",module,Magento_QuoteGraphQl
 "Missing key ""cartItems"" in cart data","Fehlender Schlüssel ""cartItems"" in den Warenkorb-Daten",module,Magento_QuoteGraphQl
+"Missing key ""model"" in cart address data","Fehlender Schlüssel ""Modell"" in den Adressdaten des Warenkorbs",module,Magento_QuoteGraphQl
 "Missing key ""model"" in Wishlist Item value data","Fehlender Schlüssel ""model"" in der Wunschliste Artikelwertdaten",module,Magento_WishlistGraphQl
 "Missing key ""model"" in Wishlist value data","Fehlender Schlüssel ""model"" in den Daten des Wunschlistenwerts",module,Magento_WishlistGraphQl
 "Missing key ""product"" in cart data","Fehlender Schlüssel ""product"" in den Warenkorb-Daten",module,Magento_QuoteGraphQl
@@ -6308,6 +6402,7 @@ Mobile Payment (made via a mobile phone),Mobile Payment (über ein Mobiltelefon)
 Mobile Verification,Mobile Verifizierung,,
 Mode,Modus,,
 Mode,Modus,module,Dotdigitalgroup_Email
+Mode ,Modus,module,Dotdigitalgroup_Email
 Model,Model,,
 Model class name for attribute is invalid,Modelklassenname für das Attribut ist ungültig,,
 Model collection resource name is not defined.,Model-Sammlung-Ressourcenname ist nicht definiert,,
@@ -6340,6 +6435,7 @@ Most Viewed Products,Meistgesehene Produkte,,
 Most Viewed Products Report,Bericht über am meisten angesehene Artikel,,
 Most Viewed URL,Meistgesehene URL,module,Dotdigitalgroup_Email
 Move,Verschieben,,
+Move JS code to the bottom of the page,JS-Code an den unteren Rand der Seite verschieben,module,Magento_Theme
 Move Selected to Wish List,Auswahlen auf die Wunschliste verschieben,,
 Move to Archive,Im Archiv ablegen,,
 Move to Order Management,In Bestellungsverwaltung verschieben,,
@@ -6356,6 +6452,7 @@ Multishipping Settings,Multishipping Einstellungen,,
 Multishipping Settings Section,Abschnitt Multishipping Einstellungen,module,Magento_Multishipping
 Must be category model instance or its id.,Muss Instanz oder ID des Kategoriemodells sein,,
 Must be in the allowed values list,Muss in der Liste der zugelassenen Werte sein,,
+Mutation requests allowed only for POST requests,Mutation Requests nur für POST-Anfragen erlaubt,module,Magento_GraphQl
 My Account,Mein Konto,,
 My billing and shipping address are the same,Gleiche Adresse für Bestellung und Versand,,
 My Cart,Mein Warenkorb,,
@@ -6641,6 +6738,7 @@ No Details matched,Keine Details übereinstimmend,,
 No Details matched. International,Keine Details übereinstimmend. International,,
 No downloadable link with the provided ID was found. Verify the ID and try again.,Es wurde kein herunterladbarer Link mit der angegebenen ID gefunden. Überprüfen Sie die ID und versuchen Sie es erneut.,module,Magento_Downloadable
 No downloadable sample with the provided ID was found. Verify the ID and try again.,Es wurde kein herunterladbares Beispiel mit der angegebenen ID gefunden. Überprüfen Sie die ID und versuchen Sie es erneut.,module,Magento_Downloadable
+No files for upload.,Keine Dateien zum Hochladen.,module,Magento_Customer
 No files found,Keine Dateien gefunden,,
 "No filter processor for ""%type"" given.","Kein Filterprozessor für ""%type"" angegeben.",module,Magento_InventoryImportExport
 No groups were specified to generate system report.,"Es wurden keine Gruppen angegeben, um den Systembericht zu generieren.",,
@@ -6723,6 +6821,7 @@ Node Levels to Include,Node Levels zum Einfügen,,
 Node Properties,Node-Eigenschaften,,
 Non Documents,Keine Dokumente,,
 Non documents,Keine Dokumente,,
+Non Documents Allowed Methods,Nicht dokumentierte erlaubte Methoden,module,Magento_Dhl
 Non-Anchor Categories,Nicht-Anker-Kategorien,,
 Non-rectangular,Nicht rechteckig,,
 None,Keine,,
@@ -6792,6 +6891,7 @@ Notify for Quantity Below,Benachrichtigen bei Menge unter,,
 Notify Low Stock RSS,Benachrichtigung bei niedrigem Bestand (RSS),,
 Notify me when the price drops,"Benachrichtigen Sie mich, wenn der Preis des Produkts sinkt",module,Magento_ProductAlert
 Notify me when this product is in stock,"Benachrichtigen Sie mich, wenn das Produkt auf Lager ist",module,Magento_ProductAlert
+Notify Qty,Menge benachrichtigen,module,Magento_InventoryLowQuantityNotificationAdminUi
 Notify Quantity,Menge melden,module,Magento_InventoryLowQuantityNotificationAdminUi
 Notify Quantity Use Default,Mengenbenachrichtigung Verwendung Standard,module,Magento_InventoryLowQuantityNotificationAdminUi
 Now accepting PayPal (150 X 40),Akzeptiert nun PayPal (150 X 40),,
@@ -7218,6 +7318,7 @@ Path,Pfad,,
 "Path ""%value%"" may not include parent directory traversal (""../"", ""..\).""","Pfad ""%value%"" enthalt eventuell keine übergeordneten Verzeichnis-Traversals (""../"", ""..\).""",,
 "Path ""%value%"" may not include parent directory traversal (""../"", ""..\).""","Pfad ""%value%"" enthalt eventuell keine übergeordneten Verzeichnis-Traversals (""../"", ""..\).""",module,Magento_MediaStorage
 "Path ""%value%"" may not include parent directory traversal (""../"", ""..\).""","Der Pfad ""%value%"" darf keine übergeordnete Verzeichnisdurchquerung (""../"", ""..\) beinhalten.""",module,Magento_MediaStorage
+"Path ""%value%"" may not include parent directory traversal (""../"", ""..\).""","Der Pfad ""%value%"" darf keine übergeordnete Verzeichnisdurchquerung (""../"", ""..\) beinhalten.""",module,Magento_MediaStorage
 Paths file already exists,Dateipfad existiert bereits,,
 Paths file cannot be created,Dateipfad kann nicht erstellt werden,,
 Pause,Pause,,
@@ -7326,39 +7427,13 @@ PayPal Express Checkout,PayPal Express Checkout,,
                         <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>
                 ","Mit PayPal Express Checkout können Sie den Kunden Zugang zur Finanzierung durch PayPal Credit® ermöglichen - ohne zusätzliche Kosten für Sie. Sie werden im Voraus bezahlt, auch wenn die Kunden mehr Zeit haben, um zu bezahlen. Über eine vorintegrierte Zahlungs-Schaltfläche können Kunden schnell bei PayPal Credit® zahlen. <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank""> Weitere Informationen </a>
                 ",module,Magento_Paypal
-"PayPal Express Checkout lets you give customers access to financing through PayPal Credit&#174; - at no additional cost to you.
-Period %1 %2 Days Up To Date
-Permissions do not depend on store views.
-Permission with the same scope
-Persist Comparison History
-Persist Currently Compared Products
-Persist Customer Group Membership and Segmentation
-Persist Recently Ordered Items
-Persist Recently Viewed Products
-Persist Wish List
-Phone inconsistencies. The customer’s phone number is suspicious
-Phone Verification
-Physical
-Placed on %created_at
-Please accept this invitation to join %store_name.
-Please <a href=""""%1"""">continue shopping</a>.""","PayPal Express Checkout erlaubt es Ihnen, Ihren Kunden Zugang zur Finanzierung mit PayPal Credit&#174 zu geben - ohne zusätzliche Kosten für Sie.
-Zeitraum %1 %2 Tage aktuell
-Berechtigungen sind nicht von Store Views abhängig
-Berechtigung mit dem gleichen Gültigkeitsbereich
-Vergleichsliste bestehen lassen
-Derzeit verglichene Produkte bestehen lassen
-Kundengruppenmitgliedschaft und Segmentation bestehen lassen
-Zuletzt bestelle Artikel bestehen lassen
-Zuletzt angesehene Produkte bestehen lassen
-Wunschzettel bestehen lassen
-Telefonnummerwidersprüche. Die Telefonnummer des Kunden ist verdächtig.
-Telefonverifizierung
-Physisch
-Aufgegeben am #created_at
-Bitte nehmen Sie diese Einladung an, %store_name beizutreten.
-Bitte <a href=""""%1"""">mit dem Einkaufen fortfahren</a>.",,
 "PayPal Express Checkout lets you give customers access to financing through PayPal Credit&#174; - at no additional cost to you. You get paid up front, even though customers have more time to pay. A pre-integrated payment button lets customers pay quickly with PayPal Credit&#174;. <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>","Mit PayPal Express Checkout können Sie den Kunden Zugang zur Finanzierung durch PayPal Credit® ermöglichen - ohne zusätzliche Kosten für Sie. Sie werden im Voraus bezahlt, auch wenn die Kunden mehr Zeit haben, um zu bezahlen. Über eine vorintegrierte Zahlungs-Schaltfläche können Kunden schnell bei PayPal Credit® zahlen. <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank""> Weitere Informationen </a>",,
 "PayPal Express Checkout lets you give customers access to financing through PayPal Credit&#174; - at no additional cost to you.You get paid up front, even though customers have more time to pay. A pre-integrated payment button lets customers pay quickly with PayPal Credit&#174;.<a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>","PayPal Express Checkout lässt Kunden Zugriff auf Finanzierung über PayPal Kredit&#174; - bei keinen zusätzlichen Kosten für Sie. Sie erhalten die Bezahlung im Voraus, auch wenn die Kunden mehr Zeit haben, um zu bezahlen. Über eine vorintegrierte Zahlungsschaltfläche können Kunden schnell mit PayPal Credit® zahlen. <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank""> Weitere Informationen </a>",,
+"PayPal Express Checkout Payflow Edition lets you give customers access to financing through PayPal Credit&#174; - at no additional cost to you.
+                            You get paid up front, even though customers have more time to pay. A pre-integrated payment button lets customers pay quickly with PayPal Credit&#174;.
+                            <a href=""https://www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>","Mit der PayPal Express Checkout Payflow Edition können Sie Ihren Kunden Zugang zur Finanzierung über PayPal Credit geben - ohne zusätzliche Kosten für Sie.
+                            Sie werden im Voraus bezahlt, auch wenn die Kunden mehr Zeit zum Bezahlen haben. Ein vorintegrierter Zahlungsbutton ermöglicht es Kunden, schnell mit PayPal Credit&#174; zu bezahlen.
+                            <a href=""https://www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Mehr erfahren</a>",module,Magento_Paypal
 PayPal Express Checkout Token does not exist.,PayPal Express Checkout Token existiert nicht.,,
 PayPal Fee Information,PayPal-Gebühren-Informationen,,
 PayPal gateway has rejected request. %1,PayPal-Gateway hat die Anfrage abgelehnt. %1,,
@@ -7418,13 +7493,22 @@ Percentage value must be a number between 0 and 100.,Der Prozentwert muss eine Z
 Perform an action on logs over a certain age at a regular interval,Führen Sie in regelmäßigen Abständen eine Aktion für Protokolle ab einem bestimmten Alter durch.,module,Vertex_Tax
 Perform following actions,Folgende Akionen ausführen,,
 Period,Zeitraum,,
+Period %1 %2 Days Up To Date,Zeitraum %1 %2 Tage aktuell,,
 Period of time in seconds after which account will be unlocked.,"Zeitraum in Sekunden, nach dem das Konto entsperrt wird.",module,Magento_Integration
 Permanent (301),Permanent (301),,
 Permanent (301),Permanent (301),module,Magento_UrlRewrite
 Permission denied to read file %1,Kann Datei %1 nicht lesen. Zugriff verweigert.,,
 Permission denied to write to %1,Schreibzugriff verweigert auf: %1,,
+Permission with the same scope,Berechtigung mit dem gleichen Gültigkeitsbereich,,
 Permissions,Berechtigungen,,
+Permissions do not depend on store views.,Berechtigungen sind nicht von Store Views abhängig.,,
+Persist Comparison History,Vergleichsliste bestehen lassen,,
+Persist Currently Compared Products,Derzeit verglichene Produkte bestehen lassen,,
+Persist Customer Group Membership and Segmentation,Kundengruppenmitgliedschaft und Segmentation bestehen lassen,,
+Persist Recently Ordered Items,Zuletzt bestelle Artikel bestehen lassen,,
+Persist Recently Viewed Products,Zuletzt angesehene Produkte bestehen lassen,,
 Persist Shopping Cart,Warenkorb bestehen lassen,,
+Persist Wish List,Wunschzettel bestehen lassen,,
 Persistence Lifetime (seconds),Beständigskeitsdauer (Sekunden),,
 Persistence Lifetime (seconds),Beständigskeitsdauer (Sekunden) (seconds),module,Magento_Persistent
 Persistent Shopping Cart,Bestehender Warenkorb,,
@@ -7432,8 +7516,10 @@ Personal Information,Persönliche Informationen,,
 Pet Goods,Haustierwaren,module,Magento_Analytics
 Pharma and Medical Devices,Pharma und Medizinprodukte,module,Magento_Analytics
 Phone,Telefon,,
+Phone inconsistencies. The customer’s phone number is suspicious,Telefonnummerwidersprüche. Die Telefonnummer des Kunden ist verdächtig,,
 Phone Number,Telefonnummer,,
 Phone Number: %telephone,Telefon: %telephone,,
+Phone Verification,Telefonverifizierung,,
 PHP max execution time,PHP maximale Ausführungszeit,module,Dotdigitalgroup_Email
 PHP SOAP extension is required.,PHP-SOAP-Extension erforderlich,,
 PHP Version,PHP-Version,module,Dotdigitalgroup_Email
@@ -7444,10 +7530,12 @@ Phrase 2,Satz 2,,
 Phrase 2 %1,Ausdruck 2 %1,,
 Phrase 2 with %a_lot of extra info for the brilliant %customer_name.,Ausdruck 2 mit %a_lot von zusätzlichen Informationen für den großartigen %customer_name.,,
 Phrase 3,Satz 3,,
+Physical,Physisch,,
 Picked Up,Aufgenommen,module,Temando_Shipping
 Pickup,Abholung,module,Temando_Shipping
 "Pickup ""%1"" does not exist.","Die Aufnahme ""%1"" existiert nicht.",module,Temando_Shipping
 Pickup #,Abholung #,module,Temando_Shipping
+Pickup # ,Abholung #,module,Temando_Shipping
 Pickup Canceled Template,Abholung Abgebrochen Vorlage,module,Temando_Shipping
 Pickup Collected Template,Abholung Zusammengestellt Vorlage,module,Temando_Shipping
 Pickup ID,Abhol-ID,module,Temando_Shipping
@@ -7466,8 +7554,11 @@ Pill,Pille,module,Magento_Paypal
 Place Order,Zahlungspflichtig bestellen,,
 Place Order Using Billing Agreements,Bestellung aufgeben unter Anwendung von Abrechnungsvereinbarungen,module,Magento_Paypal
 Placed from IP,Bestellt von IP,,
+Placed on %created_at,Aufgegeben am %created_at,,
 "Placed on <span class=""no-link"">%created_at</span>","Aufgegeben am <span class=""no-link"">%created_at</span>",,
 Platinum Partners,Platin-Partner,,
+"Please <a href=""""%1"""">continue shopping</a>.""","Bitte <a href=""""%1"""">mit dem Einkaufen fortfahren</a>.",,
+Please accept this invitation to join %store_name.,"Bitte nehmen Sie diese Einladung an, %store_name beizutreten.",,
 Please add rows to option.,Bitte Zeilen der Option hinzufügen.,,
 Please agree to all Terms and Conditions before placing the order.,Bitte stimmen Sie den Geschäftsbedingungen vor der Bestellung zu.,,
 Please agree to all the terms and conditions before placing the order.,"Bitte akzeptieren Sie die Geschäftsbedingungen, bevor Sie eine Bestellung aufgeben.",,
@@ -7555,6 +7646,7 @@ Please correct the server type.,Bitte den Servertyp korrigieren,,
 Please correct the tab configuration and try again.,Bitte korrigieren Sie die Tab-Konfiguration und versuchen Sie es erneut. Tab-ID darf nicht leer sein.,,
 Please correct the tab configuration and try again. Tab Id should be not empry,Bitte korrigieren Sie die Tab-Konfiguration und versuchen Sie es erneut. Tab-ID darf nicht leer sein.,,
 Please correct the tab configuration and try again. Tab Id should be not empty,Korrigieren Sie bitte die Konfiguration für den Reiter und versuchen Sie es nochmals. Und die Id des Reiters darf nicht leer sein.,module,Magento_Backend
+Please correct the target currency,Bitte korrigieren Sie die Zielwährung.,module,Magento_DirectoryGraphQl
 Please correct the target currency.,Bitte korrigieren Sie die Zielwährung.,,
 Please correct the timezone.,Bitte korrigieren Sie die Zeitzone.,,
 Please correct the transaction ID and try again.,Korrigieren Sie bitte die Transaktions-ID und versuchen es erneut.,,
@@ -7783,6 +7875,7 @@ Please note that these settings apply to individual items in the cart not to the
 "Please note that these settings apply to individual items in the cart, not to the entire cart.","Bitte beachten Sie, dass diese Einstellungen für einzelne Artikel im Warenkorb gelten, nicht für den gesamten Warenkorb.",,
 Please provide Email for all of recipients.,Bitte geben Sie für alle Empfänger eine E-Mail an.,module,Magento_SendFriendGraphQl
 Please provide Email of sender.,Bitte geben Sie die E-Mail des Absenders an.,module,Magento_SendFriendGraphQl
+Please provide export file name,Bitte geben Sie den Namen der Exportdatei an,module,Magento_ImportExport
 Please provide filter data.,Bitte stellen Sie Filterdaten bereit.,,
 Please provide Message.,Bitte geben Sie eine Nachricht an.,module,Magento_SendFriendGraphQl
 Please provide Name for all of recipients.,Bitte geben Sie für alle Empfänger einen Namen an.,module,Magento_SendFriendGraphQl
@@ -7827,6 +7920,7 @@ Please select all required options.,Bitte wählen Sie alle erforderlichen Option
 Please select an address.,Bitte wählen Sie eine Adresse,,
 Please select an industry.,Bitte wählen Sie eine Branche aus.,module,Magento_Analytics
 Please select an option.,Bitte eine Option auswählen.,,
+Please select at least one product to add to cart,"Bitte wählen Sie mindestens ein Produkt aus, das Sie in den Warenkorb legen möchten.",module,Magento_Checkout
 Please select attribute for {section} section.,Bitte wählen Sie ein Attribut für {section} Abschnitt.,module,Magento_ConfigurableProduct
 Please select attribute(s).,Bitte Attribut(e) wählen.,module,Magento_ConfigurableProduct
 Please Select Container First,Bitte zuerst Container auswählen.,,
@@ -8667,6 +8761,7 @@ Requested store is not found,Angeforderter Store wurde nicht gefunden.,,
 Requested system report has no data to display.,Angeforderter Systembericht hat keine Daten zum Anzeigen,,
 Requested system report has no data to output.,Angeforderter Systembericht hat keine Daten zum Ausgeben,,
 Requested system report no longer exists.,Angeforderter Systembericht existiert nicht mehr,,
+Requested transfer amount for sku %sku is not available,Der angeforderte Überweisungsbetrag für sku %sku ist nicht verfügbar.,module,Magento_InventoryCatalog
 Require Customer To Be Logged In To Checkout,"Kunde muss eingeloggt sein, um zur Kasse zu gehen",,
 Require Customer's Billing Address,Erfordert die Kundenrechnungsadresse,,
 Require CVV Entry,Erfordert CVV-Eintrag,,
@@ -8675,9 +8770,19 @@ Required,Erforderlich,,
 Required Fields,Erforderliche Felder,,
 Required for negotiated rates; 6-character UPS,Erforderlich für die ausgehandelten Tarife; 6-Zeichen UPS,,
 "Required parameter ""billing_address"" is missing","Erforderlicher Parameter ""billing_address"" fehlt",module,Magento_QuoteGraphQl
+"Required parameter ""carrier_code"" is missing.","Der erforderliche Parameter ""carrier_code"" fehlt.",module,Magento_QuoteGraphQl
 "Required parameter ""cart_address_id"" is missing","Erforderlicher Parameter ""cart_address_id"" fehlt",module,Magento_QuoteGraphQl
 "Required parameter ""cart_id"" is missing","Erforderlicher Parameter ""cart_id"" fehlt",module,Magento_QuoteGraphQl
+"Required parameter ""cart_id"" is missing.","Der erforderliche Parameter ""cart_id"" fehlt.",module,Magento_QuoteGraphQl
+"Required parameter ""cart_item_id"" for ""cart_items"" is missing.","Der erforderliche Parameter ""cart_item_id"" für ""cart_items"" fehlt.",module,Magento_QuoteGraphQl
+"Required parameter ""cart_item_id"" is missing.","Der erforderliche Parameter ""cart_item_id"" fehlt.",module,Magento_QuoteGraphQl
+"Required parameter ""cart_items"" is missing","Erforderlicher Parameter ""cart_items"" fehlt",module,Magento_QuoteGraphQl
+"Required parameter ""cart_items"" is missing.","Der erforderliche Parameter ""cart_items"" fehlt.",module,Magento_QuoteGraphQl
+"Required parameter ""code"" for ""payment_method"" is missing.","Der erforderliche Parameter ""code"" für ""payment_method"" fehlt.",module,Magento_QuoteGraphQl
 "Required parameter ""coupon_code"" is missing","Erforderlicher Parameter ""coupon_code"" fehlt",module,Magento_QuoteGraphQl
+"Required parameter ""email"" is missing","Erforderlicher Parameter ""email"" fehlt",module,Magento_QuoteGraphQl
+"Required parameter ""method_code"" is missing.","Der erforderliche Parameter ""method_code"" fehlt.",module,Magento_QuoteGraphQl
+"Required parameter ""quantity"" for ""cart_items"" is missing.","Der erforderliche Parameter ""Menge"" für ""cart_items"" fehlt.",module,Magento_QuoteGraphQl
 "Required parameter ""shipping_addresses"" is missing","Erforderlicher Parameter ""shipping_addresses"" fehlt",module,Magento_QuoteGraphQl
 "Required parameter ""shipping_carrier_code"" is missing","Erforderlicher Parameter ""shipping_carrier_code"" fehlt",module,Magento_QuoteGraphQl
 "Required parameter ""shipping_method_code"" is missing","Erforderlicher Parameter ""shipping_method_code"" fehlt",module,Magento_QuoteGraphQl
@@ -8762,6 +8867,7 @@ Return Shipment Tracking,Sendungsverfolgung bei Rücksendungen,module,Temando_Sh
 Return Shipments,Rücksendungen,module,Temando_Shipping
 Return Status,Rücksendungsstatus,,
 Return to,Zurück zu,module,Magento_Backend
+Return to ,Zurück zu,module,Magento_Backend
 Return To Location,Rückgabe an - Ort,module,Temando_Shipping
 Return To Name,Zurück Zu Name,module,Temando_Shipping
 Return to Order Management,Zurück zur Bestellungsverwaltung,,
@@ -8908,6 +9014,7 @@ Rule-Based Product Relations,Regelbasierte Produktrelationen,,
 Rule-based Settings,Regelbasierte Einstellungen,,
 Rules,Regeln,module,Dotdigitalgroup_Email
 Rules,Regeln,module,Dotdigitalgroup_Email
+Rules ,Regeln,module,Dotdigitalgroup_Email
 Run,Ausführen,,
 Run asynchronously,Asynchroner Betrieb,module,Magento_InventoryCatalogAdminUi
 Run Class,Klasse ausführen,,
@@ -9367,6 +9474,7 @@ Ship Bundle Items,Bündelartikel-Versand,,
 Ship Date,Versanddatum,,
 Ship From,Versand von,,
 Ship Here, Hier hin senden,,
+Ship here,Hier versenden,module,Magento_Checkout
 Ship To,Versenden an,,
 Ship to Applicable Countries,Versand in anwendbare Länder,,
 Ship to different address,An andere Adresse senden,,
@@ -9781,6 +9889,7 @@ Something went wrong: the paid amount doesn't match the order amount. Please cor
 Something went wrong: the paid amount doesn\'t match the order amount.' ' Please correct this and try again.,Es ist ein Fehler aufgetreten: Der bezahlte Betrag stimmt nicht mit dem Bestellbetrag überein. Bitte korrigieren und erneut versuchen.,,
 Something went wrong.,Etwas ist schiefgegangen.,module,Magento_ConfigurableProduct
 Something went wrong.,Etwas ist schiefgegangen.,module,Magento_Ui
+"Something went wrong. Export couldn't be executed, See log files for error details","Etwas ist schief gelaufen. Der Export konnte nicht ausgeführt werden, siehe Protokolldateien für Fehlerdetails.",module,Magento_InventoryExportStock
 Something went wrong. Please try again.,Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.,,
 Something went wrong. Please try to place the order again.,"Etwas ist schief gelaufen. Bitte versuchen Sie, die Bestellung erneut aufzugeben.",module,Magento_Quote
 "Sorry, but a rate for the same website, customer group and direction or covering rate already exists.","Rate der selben Webseite, Kundengruppe und Richtung oder Abdeckungsrate besteht bereits.",,
@@ -9800,6 +9909,7 @@ Something went wrong. Please try to place the order again.,"Etwas ist schief gel
 "Sorry, no quotes are available for this order at this time","Entschuldigung, für diese Bestellung liegen zurzeit keine Angebote vor",module,Magento_Checkout
 "Sorry, no quotes are available for this order right now.","Entschuldigung, es sind momentan keine Angebote zu dieser Bestellung verfügbar.",,
 "Sorry, no quotes are available for this order.",Es sind leider keine Angebote für diese Bestellung verfügbar.,,
+"Sorry, something went wrong during product attributes update. Please see log for details.","Sorry, etwas ist bei der Aktualisierung der Produkteigenschaften schief gelaufen. Bitte beachten Sie das Logbuch für Details.",module,Magento_Catalog
 "Sorry, something went wrong during product prices update. Please see log for details.","Sorry, etwas ist bei der Aktualisierung der Produktpreise schief gelaufen. Bitte beachten Sie das Logbuch für Details.",module,Magento_AsynchronousOperations
 "Sorry, something went wrong granting permissions. You can find out more in the exceptions log.","Entschuldigung, beim Erteilen der Berechtigungen ist ein Fehler aufgetreten. Sie können im Ausnahme-Protokoll mehr erfahren.",,
 "Sorry, something went wrong.","Entschuldigung, es ging etwas schief.",,
@@ -9837,6 +9947,7 @@ Source Data,Dateiquelle,,
 Source file coping failed,Quelldatei kopieren fehlgeschlagen,,
 Source Import Commands must implement %interface.,Quell-Importbefehle müssen %interface implementieren.,module,Magento_InventoryImportExport
 Source Information,Quelleninformationen,module,Magento_InventoryAdminUi
+Source item for %sku and %sourceCode does not exist,Quellobjekt für %sku und %sourceCode existiert nicht.,module,Magento_InventoryCatalog
 Source item not found by source code: %1 and sku: %2.,Quellobjekt wurde vom Quellcode nicht gefunden: %1 und sku: %2.,module,Magento_InventorySourceDeductionApi
 Source Item Status,Status des Ausgangselements,module,Magento_InventoryCatalogAdminUi
 Source item Validator must implement SourceItemValidatorInterface.,Source Item Validator muss SourceItemValidatorInterface implementieren.,module,Magento_InventoryApi
@@ -9851,6 +9962,7 @@ Source to Stock Assigning,Zuordnung von Quelle zu Bestand,module,Magento_Invento
 Source Validator must implement AssignValidatorInterface.,Der Source Validator muss AssignValidatorInterface implementieren.,module,Magento_InventoryCatalogApi
 Source Validator must implement BulkInventoryTransferValidatorInterface.,Der Source Validator muss BulkInventoryTransferValidatorInterface implementieren.,module,Magento_InventoryCatalogApi
 Source Validator must implement MassUnassignValidatorInterface.,Der Source Validator muss MassUnassignValidatorInterface implementieren.,module,Magento_InventoryCatalogApi
+Source Validator must implement PartialInventoryTransferValidatorInterface.,Der Source Validator muss PartialInventoryTransferValidatorInterface implementieren.,module,Magento_InventoryCatalogApi
 Source Validator must implement SourceValidatorInterface.,Der Source Validator muss das SourceValidatorInterface implementieren.,module,Magento_InventoryApi
 "Source with code ""%value"" does not exist.","Quelle mit dem Code ""%value"" existiert nicht.",module,Magento_Inventory
 "Source with source code ""%value"" does not exist.","Der Quellcode mit dem Quellcode ""%value"" existiert nicht.",module,Magento_InventoryAdminUi
@@ -9900,6 +10012,7 @@ Specify Banners,Banner angeben,,
 "Specify the ""email"" value.","Geben Sie den Wert ""E-Mail"" an.",module,Magento_CustomerGraphQl
 "Specify the ""newPassword"" value.","Geben Sie den Wert ""newPassword"" an.",module,Magento_CustomerGraphQl
 "Specify the ""password"" value.","Geben Sie den Wert ""Passwort"" an.",module,Magento_CustomerGraphQl
+"Specify the ""public_hash"" value.","Geben Sie den Wert ""public_hash"" an.",module,Magento_VaultGraphQl
 Specify the product's options.,Produktoptionen angeben,,
 Specify Types,Typen angeben,,
 Specify URL or {{base_url}} placeholder.,URL oder {{base_url}}-Platzhalter angeben.,,
@@ -9981,6 +10094,7 @@ Storage key was not set,Speicherschlüssel wurde nicht gesetzt,,
 Storage Root,Hauptverzeichnis,,
 Store,Shop,,
 Store affected:,Betroffene Filiale:,module,Vertex_Tax
+Store affected: ,Betroffene Filiale:,module,Vertex_Tax
 Store alternative addresses,Alternative Adressen des Shops,,
 Store alternative addresses (for shipping to multiple family members and friends),Alternative Adressen für den Shop anzugeben (für den Versand an mehrere Familienmitglieder und Freunde),,
 Store alternative addresses (for shipping to multiple family members and friends),Alternative Adressen für den Shop anzugeben (für den Versand an mehrere Familienmitglieder und Freunde),module,Magento_Customer
@@ -10029,6 +10143,7 @@ Storefront,Frontend,,
 Storefront Properties,Storefront-Eigenschaften,,
 Stores,Shops,,
 Stores affected:,Betroffene Filialen:,module,Vertex_Tax
+Stores affected: ,Betroffene Filialen:,module,Vertex_Tax
 Stores Configuration,Shop-Konfiguration,,
 Stores List,Liste der Shops,,
 Street,Straße,,
@@ -10226,6 +10341,7 @@ Taxable Goods,Steuerpflichtige Waren,,
 Taxes,Steuern,,
 Technology B2B,Technologie B2B,module,Magento_Analytics
 Telephone,Telefon,,
+Temando Shipping is not properly configured. Please register an account.,Temando Shipping ist nicht richtig konfiguriert. Bitte registrieren Sie ein Konto.,module,Temando_Shipping
 Template,Vorlage,,
 Template Content,Vorlagen-Inhalt,,
 Template Information,Vorlageninformationen,,
@@ -10487,6 +10603,7 @@ The current module form model pathname is undefined.,Der aktuelle Pfadname des F
 The current module pathname is undefined.,Der Pfadname des Moduls ist nicht definiert,,
 The current module XML block name is undefined.,Der Name des aktuellen XML-Blockes ist nicht definiert.,,
 "The current user cannot perform operations on cart ""%masked_cart_id""","Der aktuelle Benutzer kann keine Operationen im Warenkorb ""%masked_cart_id"" durchführen.",module,Magento_QuoteGraphQl
+The current user cannot perform operations on wishlist,Der aktuelle Benutzer kann keine Aktionen auf der Wunschliste durchführen.,module,Magento_WishlistGraphQl
 "The current user cannot use address with ID ""%address_id""","Der aktuelle Benutzer kann keine Adresse mit der ID ""%address_id"" verwenden.",module,Magento_QuoteGraphQl
 The custom option couldn't be removed.,Die benutzerdefinierte Option konnte nicht entfernt werden.,module,Magento_Catalog
 The customer address is not valid.,Die Kundenadresse ist ungültig.,,
@@ -10540,12 +10657,14 @@ The email template is currently being used.,Die E-Mail-Vorlage wird gerade verwe
 The encryption key format is invalid.,Das Format des Verschlüsselungsschlüssels ist ungültig,,
 The encryption key has been changed.,Der Kodierungsschlüssel wurde geändert.,,
 The encryption key is used to protect passwords and other sensitive data.,"Der Kodierungsschlüssel wird verwendet, um Passwörter und andere sensible Daten zu schützen.",,
+The endpoint ' . . ' is not permitted.,Der Endpunkt '' .' ist nicht zulässig.,module,Dotdigitalgroup_Email
 The entity adapter object must be an instance of %1 or %2.,Das Entität-Adapterobjekt muss eine Instanz von %1 oder %2 sein.,,
 "The entity attribute with the ""%1"" ID isn't found. Reset the attribute and try again.","Das Entity-Attribut mit der ID ""%1"" wird nicht gefunden. Setzen Sie das Attribut zurück und versuchen Sie es erneut.",module,Magento_Eav
 The entity ID is incorrect. Verify the ID and try again.,Die Entity-ID ist falsch. Überprüfen Sie die ID und versuchen Sie es erneut.,module,Magento_Eav
 The entity instance is not defined.,Die Entitätsinstanz ist nicht definiert.,,
 The entity sequence profile wasn't added to the meta active profile. Verify the profile and try again.,Das Entitäts-Sequenzprofil wurde dem aktiven Meta-Profil nicht hinzugefügt. Überprüfen Sie das Profil und versuchen Sie es erneut.,module,Magento_SalesSequence
 The entity supplied is invalid. Verify the entity and try again.,Die gelieferte Einheit ist ungültig. Überprüfen Sie die Entität und versuchen Sie es erneut.,module,Magento_Eav
+The entity supplied to collection is invalid. Verify the entity and try again.,Die der Sammlung gelieferte Einheit ist ungültig. Überprüfen Sie die Entität und versuchen Sie es erneut.,module,Magento_Eav
 The entity that was requested doesn't exist. Verify the entity and try again.,Die angeforderte Entität existiert nicht. Überprüfen Sie die Entität und versuchen Sie es erneut.,module,Magento_Sales
 The entity type is invalid. Verify the entity type and try again.,Der Entitätstyp ist ungültig. Überprüfen Sie den Entitätstyp und versuchen Sie es erneut.,module,Magento_Eav
 The existing product data is replaced with new data. <b>Exercise caution when replacing data because the existing product data will be completely cleared and all references in the system will be lost.</b>,"Die bestehenden Produktdaten werden durch neue Daten ersetzt. <b>Seien Sie beim Ersetzen von Daten vorsichtig, da die vorhandenen Produktdaten vollständig gelöscht werden und alle Referenzen im System verloren gehen.<b>",module,Magento_ImportExport
@@ -10577,6 +10696,7 @@ The file options format is not valid.,Das Dateioptionenformat ist ungültig.,,
 "The file or directory ""%1"" cannot be touched %2","Die Datei oder das Verzeichnis ""%1"" kann nicht geändert werden",,
 The file upload failed.,Datei-Upload fehlgeschlagen.,,
 The file upload failed. Try to upload again.,"Der Datei-Upload ist fehlgeschlagen. Versuchen Sie, erneut hochzuladen.",module,Magento_Catalog
+The file upload field is disabled.,Das Datei-Upload-Feld ist deaktiviert.,module,Magento_Ui
 The file was not uploaded.,Die Datei wurde nicht hochgeladen.,,
 The file was too big and couldn't be uploaded. Use a file smaller than %1 MBs and try to upload again.,"Die Datei war zu groß und konnte nicht hochgeladen werden. Verwenden Sie eine Datei, die kleiner als %1 MBs ist, und versuchen Sie, sie erneut hochzuladen.",module,Magento_Catalog
 The file you uploaded has no extension.,Die hochgeladene Datei hat keine Erweiterung.,,
@@ -10688,6 +10808,9 @@ The new media gallery entry failed to save.,Der neue Mediengalerieeintrag konnte
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","Die New Relic-Integration erfordert den newrelic-php5-Agenten, der nicht installiert ist. Weitere
                         Informationen zur Installation des Agenten finden Sie <a target=""_blank"" href=""%1"">hier</a>.",module,Magento_NewRelicReporting
+"The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
+                        information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","Die New Relic-Integration erfordert den newrelic-php5-Agenten, der nicht installiert ist. Mehr
+                        Informationen zur Installation des Agenten finden Sie <a target=""_blank"" href=""%1"">hier</a>.",module,Magento_NewRelicReporting
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","Die New Relic-Integration erfordert den newrelic-php5 Stellvertreter, der nicht installiert ist. Weitere Informationen zur Installation <a target=""_blank"" href=""%1"">hier</a>.",,
 The newsletter template has been deleted.,Die Newsletter-Vorlage wurde gelöscht.,,
 The newsletter template has been saved.,Die Newsletter-Vorlage wurde gespreichert.,,
@@ -10709,6 +10832,7 @@ The option type to get group instance is incorrect.,"Der Optionstyp,  um die Gru
 "The option with ""%1"" ID can't be deleted.","Die Option mit der ID ""%1"" kann nicht gelöscht werden.",module,Magento_ConfigurableProduct
 "The options for ""%1"" attribute can't be loaded.","Die Optionen für das Attribut ""%1"" können nicht geladen werden.",module,Magento_Eav
 The options you selected are not available.,Die ausgewählten Opionen sind nicht verfügbar.,,
+The order #%1 cannot be processed.,Der Auftrag #%1 kann nicht bearbeitet werden.,module,Magento_Braintree
 The order action is not available.,Die Bestell-Aktion ist nicht verfügbar.,,
 The order address couldn't be deleted.,Die Bestelladresse konnte nicht gelöscht werden.,module,Magento_Sales
 The order address couldn't be saved.,Die Bestelladresse konnte nicht gespeichert werden.,module,Magento_Sales
@@ -10831,6 +10955,7 @@ The reference ID is not set.,Die Referenz-ID ist nicht festgelegt.,,
 The refund action is not available.,Die Erstattungs-Aktion ist nicht verfügbar.,,
 The refund amount or the Amazon Order ID is incorrect.,Der Rückerstattungsbetrag oder die Amazon Bestellnummer ist falsch.,module,Amazon_Payment
 The report displays the top 5 most viewed products for each interval.,Der Bericht zeigt die 5 meist angesehenen Produkte für jedes Intervall an.,,
+The request is not allowed for logged in customers,Die Anfrage ist für angemeldete Kunden nicht erlaubt.,module,Magento_QuoteGraphQl
 The requested cart item doesn't exist.,Der angeforderte Warenkorb-Artikel existiert nicht.,,
 "The requested component (""' . . '"") is not found. ' . 'Before using, you must add the implementation.","Die angeforderte Komponente ("" . . "") wurde nicht gefunden. Sie müssen die Implementierung vor der Verwendung hinzufügen.",,
 The requested payment method is not available for multishipping.,Die aufgerufene Zahlungsmethode ist für Multishipping nicht verfügbar.,,
@@ -10862,6 +10987,7 @@ The sample information is invalid. Verify the information and try again.,Die Pro
 The sample title is empty. Enter the title and try again.,Der Probe-Titel ist leer. Geben Sie den Titel ein und versuchen Sie es erneut.,module,Magento_Downloadable
 The sample type is invalid. Verify the sample type and try again.,Der Probetyp ist ungültig. Überprüfen Sie den Probetyp und versuchen Sie es erneut.,module,Magento_Downloadable
 "The sample with ""%1"" ID can't be deleted.","Das Beispiel mit der ID ""%1"" kann nicht gelöscht werden.",module,Magento_Downloadable
+"The SCA challenge was not completed successfully.  Please try again, or use a different payment method.","Die SCA-Challenge wurde nicht erfolgreich abgeschlossen.  Bitte versuchen Sie es erneut, oder verwenden Sie eine andere Zahlungsmethode.",module,Amazon_Payment
 The scope object is invalid. Verify the scope object and try again.,Der Umfang Objekt ist ungültig. Überprüfen Sie den Umfang Objekt und versuchen Sie es erneut.,module,Magento_Store
 The scope or scope ID is invalid. Verify both and try again.,Der Scope oder die Scope-ID ist ungültig. Überprüfen Sie beide und versuchen Sie es erneut.,module,Magento_Theme
 The search failed because of a search engine misconfiguration.,Die Suche ist aufgrund einer Fehlkonfiguration der Suchmaschine fehlgeschlagen.,module,Magento_Elasticsearch6
@@ -10992,6 +11118,7 @@ The value of Admin scope can't be empty.,Der Wert des Admin-Bereichs darf nicht 
 "The value of attribute ""%1"" must be unique","Der Wert des Attributs ""%1"" muss eindeutig sein",,
 "The value of attribute ""%1"" must be unique.","Der Wert des Attributs ""%1"" muss eindeutig sein.",,
 The value of attribute not valid,Der Wert des Attributs ist nicht gültig,,
+"The value of attribute(s) ""%1"" must be unique","Der Wert von Attribut(en) ""%1"" muss eindeutig sein.",module,Magento_Catalog
 "The value of the ""%1"" attribute isn't unique. Set a unique value and try again.","Der Wert des Attributs ""%1"" ist nicht eindeutig. Setzen Sie einen eindeutigen Wert und versuchen Sie es erneut.",module,Magento_Catalog
 "The value of the ""%1"" attribute isn't unique. Set a unique value and try again.","Der Wert des Attributs ""%1"" ist nicht eindeutig. Setzen Sie einen eindeutigen Wert und versuchen Sie es erneut.",module,Magento_Eav
 The value specified in the URL Key field would generate a URL that already exists.,Der im Feld URL-Schlüssel angegebene Wert würde eine bereits vorhandene URL erzeugen.,module,Magento_UrlRewrite
@@ -11007,6 +11134,7 @@ The VAT ID is valid but no Customer Group is assigned for it.,"Die Umsatzsteuer-
 The VAT ID is valid.,Die Umsatzsteuer-Identifikationsnummer ist gültig.,,
 The VAT ID is valid. The current Customer Group will be used.,Die Umsatzsteuer-Identifikationsnummer ist gültig. Die aktuelle Kundengruppe wird verwendet.,,
 The verification transaction can't be voided.,Die Verifizierungstransaktion kann nicht storniert werden.,module,Magento_Paypal
+The verification transaction can't be voided. ,Die Verifizierungstransaktion kann nicht storniert werden.,module,Magento_Paypal
 The Vertex invoice has been refunded.,Die Vertex-Rechnung wurde zurückerstattet.,module,Vertex_Tax
 The Vertex invoice has been sent.,Die Vertex-Rechnung wurde gesendet.,module,Vertex_Tax
 The void action is not available.,Die Aufhebungs-Aktion ist nicht verfügbar.,,
@@ -11064,6 +11192,7 @@ There are more than one shipping addresses.,Es gibt mehr als eine Versandadresse
 There are no applicable items for return in this order.,Es existieren keine für eine Rückgabe gültigen Artikel in dieser Bestellung.,,
 There are no billing agreements yet.,Es gibt noch keine Abrechnungsvereinbarungen,,
 There are no customers for this alert.,Es gibt keine Kunden für diese Warnung.,,
+There are no export file with such name %1,Es gibt keine Exportdatei mit dem Namen %1.,module,Magento_ImportExport
 There are no grouped products.,Es gibt keine gruppierten Produkte.,,
 There are no items in customer's shopping cart.,Es sind keine Artikel im Kundenwarenkorb.,,
 There are no packing slips related to selected pickups.,"Es gibt keine Packzettel, die sich auf diese Auswahl beziehen.",module,Temando_Shipping
@@ -11077,6 +11206,7 @@ There are no sensitive configurations to fill,Es gibt keine empfindlichen Konfig
 There are no sent invitations.,Es bestehen keine gesendeten Einladungen.,,
 There are no shipping labels related to selected orders.,Es existieren keine Versandetiketten passend zu den ausgewählten Bestellungen.,,
 There are no shipping labels related to selected shipments.,Es sind keine Versandetiketten zu den ausgewählten Sendungen verfügbar.,,
+There are no source items with the in stock status,Es gibt keine Quellpositionen mit dem Status auf Lager.,module,Magento_InventorySales
 There are no subscribers selected.,Es sind keine Abonnenten ausgewählt.,,
 There are not enough parameters.,Es gibt nicht genügend Parameter.,,
 There are not websites for assign to product,"Es gibt keine Website, der dieses Produkt zugewiesen werden kann.",,
@@ -11192,6 +11322,7 @@ This customer didn't include a confirmed address.,Dieser Kunde hat keine bestät
 This customer has no tokens.,Dieser Kunde hat keine Token.,,
 "This defines the base currency scope (""Currency Setup"" > ""Currency Options"" > ""Base Currency"").","Dies definiert den Basiswährung-Geltungsbereich (""Währungs-Einstellungen""> ""Währungs-Optionen""> ""Basiswährung"").",,
 "This defines the base currency scope (""Currency Setup"" > ""Currency Options"" > ""Base Currency"").","Dies definiert den Basiswährung-Geltungsbereich (""Währungs-Einstellungen""> ""Währungs-Optionen""> ""Basiswährung"").",module,Magento_Catalog
+This element contains invalid data. Please resolve this before saving.,Dieses Element enthält ungültige Daten. Bitte beheben Sie dies vor dem Speichern.,module,Magento_Ui
 This email address already belongs to a registered customer. You can sign in or create an account with a different email address.,Diese E-Mail-Adresse gehört bereits zu einem registrierten Kunden. Sie können sich mit einer anderen E-Mail-Adresse anmelden oder ein neues Konto erstellen.,,
 This email address is already assigned to another user.,Diese E-Mail-Adresse ist bereits einem anderen Benutzer zugeordnet.,,
 This email address is already subscribed.,Diese E-Mail-Adresse ist bereits abonniert.,module,Magento_Newsletter
@@ -11319,6 +11450,8 @@ This user is locked,Dieser Benutzer ist gesperrt.,,
 This user no longer exists.,Dieser Benutzer existiert nicht mehr.,,
 "This value does not follow the specified format (for example, 200x300).",Dieser Wert entspricht nicht dem vorgegebenen Format (z.B. 200x300).,module,Magento_Catalog
 "This value does not follow the specified format (for example, 200X300).",Dieser Wert entspricht nicht dem angegebenen Format (z.B. 200X300).,module,Magento_Catalog
+This value must be compatible with the corresponding setting in the configured search engine.,Dieser Wert muss mit der entsprechenden Einstellung in der konfigurierten Suchmaschine kompatibel sein.,module,Magento_CatalogSearch
+This value must be compatible with the corresponding setting in the configured search engine. Be aware: a low query length limit may cause the performance impact.,Dieser Wert muss mit der entsprechenden Einstellung in der konfigurierten Suchmaschine kompatibel sein. Beachten Sie: Eine Begrenzung der Abfragelänge kann die Performance beeinträchtigen.,module,Magento_CatalogSearch
 This website cannot be deleted.,Diese Website kann nicht gelöscht werden.,,
 This will be displayed just before body closing tag.,Dies wird kurz vor dem schließenden Tag angezeigt.,,
 This will be displayed just before the body closing tag.,Dies wird kurz vor dem schließenden Tag angezeigt.,module,Magento_Theme
@@ -11406,8 +11539,10 @@ Token verifier and verifier token do not match,Token-Prüfer und Prüf-Token sti
 too many,zu viele,module,Magento_Catalog
 Too many concurrent attempts to refund this transaction. Try again later.,"Zu viele gleichzeitige Versuche, diese Transaktion zurückzuerstatten. Versuchen Sie es später noch einmal.",module,Magento_Braintree
 Too many concurrent attempts to void this transaction. Try again later.,"Zu viele gleichzeitige Versuche, diese Transaktion zu stornieren. Versuchen Sie es später noch einmal.",module,Magento_Braintree
+"Too many coupon code requests, please try again later.","Zu viele Gutschein-Code-Anfragen, bitte versuchen Sie es später noch einmal.",module,Magento_SalesRule
 Too many password reset requests. Please wait and try again or contact %1.,Zu viele Passwortwiederherstellungsanfragen. Bitte warten Sie und probieren es später noch einmal oder kontaktieren Sie %1,module,Magento_Security
 Tools,Tools,,
+Tooltip,Tooltip,module,Magento_Ui
 Top,Top,,
 Top destinations,Top-Ziele,,
 Top Left,Oben links,module,Amasty_Cart
@@ -11460,6 +11595,7 @@ Total Tax,Steuern gesamt,,
 Total Weight,Gesamtgewicht,,
 Total:,Gesamt:,,
 Total:,Insgesamt:,module,Dotdigitalgroup_Email
+Total: ,Insgesamt:,module,Dotdigitalgroup_Email
 Total: %1<br/>,Gesamt: %1<br/>,,
 Totals calculation is not applicable to empty cart,Summenberechnung ist nicht für leeren Korb anwendbar.,,
 Track All Shipments,Alle Sendungen verfolgen,module,Magento_Shipping
@@ -11523,6 +11659,7 @@ Transfer from source,Übertragung von der Quelle,module,Magento_InventoryCatalog
 Transfer Inventory To Source,Umlagerung Bestand an Quelle,module,Magento_InventoryCatalogAdminUi
 Transfer Shipping Options,Übertrage Versandoptionen,,
 Transfer source,Übertragungsquelle,module,Magento_InventoryCatalogAdminUi
+Transfer validation failed,Übertragungsprüfung fehlgeschlagen,module,Magento_InventoryCatalog
 Transition year is out of specified date range.,Übergangsjahr liegt außerhalb des angegebenen Datumsbereichs,,
 Transition year is out of system date range.,Übergangsjahr liegt außerhalb des Systemdatumsbereichs,,
 Translate,Übersetzen,,
@@ -11615,6 +11752,7 @@ Unable to load shipping address for specified quote.,Die Lieferadresse kann nich
 Unable to load stream events.,"Es ist nicht möglich, Stream-Ereignisse zu laden.",module,Temando_Shipping
 Unable to make payment authorization.,Die Zahlungsautorisierung konnte nicht ausgeführt werden.,module,Magento_Paypal
 Unable to make rollback because not all files are writable,"Rollback nicht möglich, da einige Dateien schreibgeschützt sind",,
+Unable to place order: %message,Bestellung kann nicht aufgegeben werden: %Meldung,module,Magento_QuoteGraphQl
 Unable to post data to consumer due to an unexpected error,"Aufgrund eines unerwarteten Fehlers nicht in der Lage, Daten an Verbraucher zu schreiben",,
 Unable to qualify order.,Die Bestellung konnte nicht qualifiziert werden.,module,Temando_Shipping
 Unable to read system report data to display.,Systemberichtanzeigedaten können nicht gelesen werden.,,
@@ -11761,6 +11899,7 @@ Unsubscribed,Abbestellt,,
 Unsubscription Email Sender,Absender für Abbestellungs-E-Mail,,
 Unsubscription Email Template,Vorlage für Abbestellungs-E-Mail,,
 Unsupported bookmark action.,Nicht unterstützte Lesezeichen-Aktion.,,
+Unsupported cart address type,Nicht unterstützter Warenkorb-Adresstyp,module,Magento_QuoteGraphQl
 Unsupported format of schema location: '%1',Nicht unterstütztes Format des Schemas: %1,,
 "Unsupported product type ""%1"".","Nicht unterstützter Produkttyp ""%1""",,
 Unsupported varnish version,Freitragende Lackversion,module,Magento_PageCache
@@ -11776,6 +11915,7 @@ Update,Aktualisieren,,
 Update Address,Adresse aktualisieren,module,Magento_Customer
 Update Attributes,Attribute aktualisieren,,
 Update attributes,Attribute aktualisieren,,
+Update attributes for ' . . ' selected products,Aktualisierungsattribute für ' ...‘ ausgewählte Produkte,module,Magento_Catalog
 Update Balance,Kontostand aktualisieren,,
 Update by Schedule,Update nach Plan,,
 Update Cart,Warenkorb aktualisieren,,
@@ -11918,6 +12058,9 @@ Use in Filter Options,In Filteroptionen verwenden,,
 Use in Forgot password,Verwendung bei Passwort vergessen?,module,MSP_ReCaptcha
 Use in Layered Navigation,In Filternavigation verwenden,,
 Use in login,Verwendung im Login,module,MSP_ReCaptcha
+Use in Newsletter,Verwendung im Newsletter,module,MSP_ReCaptcha
+Use in PayPal PayflowPro payment form,Verwendung im PayPal PayflowPro Zahlungsformular,module,Magento_PaypalReCaptcha
+Use in Review,Verwendung im Review,module,MSP_ReCaptcha
 Use in Search,In Suche verwenden,,
 Use in Search Option,In den Suchoptionen verwenden,,
 Use in Search Options,In den Suchoptionen verwenden,,
@@ -12014,6 +12157,7 @@ Validation failed. Required options were not filled or the file was not uploaded
 Validation has failed.,Validierung ist fehlgeschlagen.,,
 Validation is failed.,Die Validierung ist fehlgeschlagen.,,
 Validation Results,Bestätigung der Ergebnisse,,
+Validation Strategy,Validierungsstrategie,module,Magento_ImportExport
 Validator Exception,Validierungsausnahme,,
 Validator for field %1 does not exist.,Prüfer für Feld %1 existiert nicht.,,
 Validator must implement StockSourceLinkValidatorInterface.,Der Validator muss StockSourceLinkValidatorInterface implementieren.,module,Magento_InventoryApi
@@ -12145,6 +12289,7 @@ Virtual PayPal Debit Card Transaction,Virtuelle PayPal-Kreditkarten-Transaktion,
 Virtual Product,Virtuelles Produkt,,
 Virtual Terminal Payment,Virtual Terminal-Zahlung,,
 "Virtual, Downloadable, and virtual Gift Card products cannot be added to gift registries.","Virtuelle-, Herunterladbare- und Virtuelle-Geschenkkartenprodukte können nicht zur Geschenkeliste hinzugefügt werden.",,
+Visa,Visum,module,Magento_Payment
 Visibility,Sichtbarkeit,,
 Visible,Sichtbar,,
 Visible in Advanced Search,In erweiterter Suche sichtbar,,
@@ -12285,6 +12430,7 @@ We can't find a customer to revoke.,Es kann kein Kunde zum Widerrufen gefunden w
 We can't find a customer who matches this email and website code.,Es konnte kein Kunde mit dieser E-Mail und Websitecode gefunden werden.,,
 We can't find a page to delete.,Wir können keine Seite zum Löschen finden.,,
 We can't find a revision to delete.,Wir können keine Revision zum löschen finden.,,
+We can't find a role to delete.,Wir können keine Rolle zum Löschen finden.,module,Magento_User
 We can't find a rule to delete.,Es kann keine Regel zum Löschen gefunden werden.,,
 We can't find a search term to delete.,Es kann kein Suchbegriff zum Löschen gefunden werden.,,
 We can't find a sitemap to delete.,Es konnte keine Sitemap zum Löschen gefunden werden.,,
@@ -12406,6 +12552,7 @@ We can't update these gift registry items right now.,Wir können diese Geschenke
 We can't update your Wish List right now.,Wir können Ihren Wunschzettel jetzt nicht aktualisieren.,,
 We can't upload the CSS file right now.,Die CSS-Datei kann zurzeit nicht hochgeladen werden.,,
 We can't upload the file right now.,Wir können die Datei zurzeit nicht hochladen.,,
+We can't upload the file to current folder right now. Please try another folder.,Wir können die Datei im Moment nicht in den aktuellen Ordner hochladen. Bitte versuchen Sie einen anderen Ordner.,module,Magento_Cms
 We can't upload the JS file right now.,Die JS-Datei kann zurzeit nicht hochgeladen werden.,,
 We can't void the credit memo.,Wir können die Gutschrift nicht stornieren.,,
 We can't void the payment right now.,Wir können die Zahlung jetzt nicht ungültig machen.,,
@@ -12676,6 +12823,7 @@ When you enable this option your site may slow down.,"Wenn Sie diese Option akti
 "When you sign in to your account, you will be able to:","Wenn Sie sich mit Ihrem Konto anmelden, werden Sie in der Lage sein:",,
 "Whether to create a billing agreement, if there are no active billing agreements available.","Eine Abrechnungsvereinbarung erstellen, wenn keine aktiven Abrechnungsvereinbarungen verfügbar sind.",,
 "Whether to show ""All"" option in the ""Show X Per Page"" dropdown","""Alle""-Option im ""Zeige X pro Seite""-Dropdown anzeigen lassen",,
+Whether to use Documents or NonDocuments service for non domestic shipments. (Shipments within the EU are classed as domestic),Ob Sie den Service Dokumente oder Nichtdokumente für nicht inländische Sendungen nutzen möchten. (Sendungen innerhalb der EU gelten als Inlandssendungen),module,Magento_Dhl
 Widget,Widget,,
 "Widget ""%1""","Widget ""%1""",,
 Widget ID,Widget-Identifikationsnummer,,
@@ -12767,6 +12915,7 @@ Wrong Region,Falsche Region,,
 Wrong request.,Falsche Anfrage.,module,Magento_Vault
 Wrong response type,Falscher Antworttyp,,
 Wrong rule specified.,Falsche Regel angegeben,,
+"Wrong store code specified for cart ""%masked_cart_id""","Falscher Shopcode für den Warenkorb ""%masked_cart_id"" angegeben.",module,Magento_QuoteGraphQl
 Wrong transaction status,Falscher Transaktionsstatus,module,Magento_Braintree
 Wrong type specified: '%1',Falscher Typ angegeben: '%1',module,Magento_Deploy
 Wrong value %value for alias,Falscher Wert %value für Alias,module,Magento_InventoryMultiDimensionalIndexerApi
@@ -12827,6 +12976,7 @@ You can buy up to %1 of these per purchase.,Sie können bis zu %1 dieser Produkt
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Sie können den Status Ihrer Bestellung per <a href=""%account_url"">Login zu Ihrem Konto</a> überprüfen.",,
 "You can check the status of your return <a href=""%form_url"">using your order number</a>.","Sie können den Status Ihrer Rücksendung verfolgen indem Sie <a href=""%form_url"">Ihre Bestellnummer hier eingeben</a>.",,
 "You can check the status of your return by <a href=""%account_url"">logging into your account</a> or <a href=""%form_url"">using your order number</a>.","Sie können den Status Ihrer Rücksendung verfolgen indem Sie: <a href=""%account_url"">in Ihr Konto einloggen</a> oder <a href=""%form_url"">ihre Bestellnummer hier eingeben.</a>.",,
+You can check your coupons at sales rule page,Du kannst deine Gutscheine auf der Seite mit den Verkaufsregeln überprüfen.,module,Magento_SalesRule
 You can create an account after checkout.,Sie können nach dem Bestellprozess ein Kundenkonto erstellen.,,
 You can create auto-generated coupons using reminder promotion rules.,Sie können automatisch generierte Coupons mittels der Erinnerungswerbungsregeln erstellen.,,
 You can create orders only in an active store.,Bestellungen können nur in einem aktiven Shop erstellt werden.,,
@@ -12838,6 +12988,7 @@ You can not cancel Credit Memo,Sie können die Gutschrift nicht abbrechen,,
 You can not refund shipping if there is no shipping amount.,"Sie können den Versand nicht zurückerstatten, wenn es keinen Versandpreis gibt.",module,Magento_Sales
 "You can override this default value in CMS using the limit=""x"" variable.","Sie können diesen vorgegebenen Wert in CMS mittels der limit=""x"" Variablen überschreiben.",,
 "You can override this default value in CMS using the limit=""x"" variable. Leave empty for no limitation.","Sie können diesen vorgegebenen Wert in CMS mittels der limit=""x"" Variablen überschreiben. Für keine Limitierung lassen Sie das Feld leer.",,
+You can pick up your file at export main page,Du kannst deine Datei auf der Hauptseite des Exports abholen.,module,Magento_ImportExport
 You can reward up to %1 new reviews(s).,Sie können bis zu %1 neue Rezensionen belohnen.,,
 You can reward up to %s invitee purchase(s).,Sie können bis zu %1s Eingeladenen Käufe belohnen.,,
 You can reward up to %s invitee registration(s).,Sie können bis zu %1s Eingeladenen Registrierungen belohnen.,,
@@ -12890,6 +13041,7 @@ You cannot return %1.,Sie können %1 nicht zurückgeben.,,
 You cannot run this command because the Magento application is not installed.,"Sie können diesen Befehl nicht ausführen, da die Magento-Anwendung nicht installiert ist.",module,Magento_Config
 You cannot send more invitations,Sie können keine Einladungen mehr versenden.,,
 You cannot specify multiple shipping addresses.,Sie können nicht mehrere Lieferadressen angeben.,module,Magento_QuoteGraphQl
+You cannot specify multiple shipping methods.,Sie können nicht mehrere Versandarten angeben.,module,Magento_QuoteGraphQl
 You cannot upload this file.,Sie können diese Datei nicht hochladen.,,
 You cannot use decimal quantity for this product.,Für dieses Produkt können Sie keine dezimale Menge verwenden.,module,Magento_InventorySales
 You cannot void a verification transaction.,Sie können eine Verifizierungs-Transaktion nicht löschen.,,
@@ -13194,6 +13346,7 @@ Your Coupon was successfully applied,Gutschein wurde hinzugefügt,,
 Your coupon was successfully applied.,Ihr Gutschein wurde hinzugefügt.,module,Magento_SalesRule
 Your Coupon was successfully removed,Gutschein wurde entfernt,,
 Your coupon was successfully removed.,Ihr Gutschein wurde entfernt.,module,Magento_SalesRule
+Your coupons are ready,Deine Gutscheine sind fertig.,module,Magento_SalesRule
 Your credit card will be charged for,Ihre Kreditkarte wird belastet mit,,
 Your Credit Memo #%creditmemo_id for Order #%order_id,Ihre Gutschrift #%creditmemo_id für die Bestellung #%order_id,,
 "Your csv file must include ""sku"" and ""qty"" columns.","Ihre CSV Datei muss eine ""SKU"" sowie ""QTY"" Spalte enthalten.",,
@@ -13204,6 +13357,7 @@ Your current tax configuration may result in rounding errors. ,Ihre aktuelle Ste
 Your Customization,Ihre Anpassung,,
 "Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted try to use larger file-size image.","Ihr vorgegebens Logo wird in PDF und HTML Dokumenten benutzt. (JPEG, TIFF, PNG) Sollte Ihre Datei verzerrt angezeigt werden, versuchen sie die Dateigröße zu erhöhen.",,
 "Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted, try to use larger file-size image.","Ihr Standard-Logo wird in PDF- und HTML-Dokumenten verwendet. <br /> (jpeg, tiff, png) Wenn Ihr PDF-Bild verzerrt ist, versuchen Sie für eine größere Bild-Datei zu verwenden.",,
+Your export file is ready,Ihre Exportdatei ist fertig.,module,Magento_ImportExport
 Your Gift Registry Message,Ihre Geschenkeliste Nachricht,,
 Your invitation is not valid. Please contact us at %1.,Ihre Aufforderung ist nicht zulässig. Bitte kontaktieren Sie uns unter %1.,,
 Your invitation is not valid. Please create an account.,Ihre Aufforderung ist nicht zulässig. Bitte erstellen Sie ein Konto.,,
@@ -13276,173 +13430,3 @@ Zip/Post is Range,PLZ / Postleitzahl als Bereich,,
 Zip/Postal Code,Postleitzahl,,
 ZIP/Postal Code,Postleitzahl,,
 Zip/Postal Code is Optional for,Postleitzahl ist optional für,,
-"Amazon Pay was unable to authenticate the payment instrument.  Please try again, or use a different payment method.","Amazon Pay konnte das Zahlungsinstrument nicht authentifizieren.  Bitte versuchen Sie es erneut, oder verwenden Sie eine andere Zahlungsmethode.",module,Amazon_Payment
-"The SCA challenge was not completed successfully.  Please try again, or use a different payment method.","Die SCA-Challenge wurde nicht erfolgreich abgeschlossen.  Bitte versuchen Sie es erneut, oder verwenden Sie eine andere Zahlungsmethode.",module,Amazon_Payment
-"If you are not redirected automatically, try refreshing the page, or return to your cart and use another payment method.","Wenn Sie nicht automatisch weitergeleitet werden, versuchen Sie, die Seite zu aktualisieren, oder kehren Sie zu Ihrem Warenkorb zurück und verwenden Sie eine andere Zahlungsmethode.",module,Amazon_Login
-Campaign ,Kampagne,module,Dotdigitalgroup_Email
-Catalog ,Katalog,module,Dotdigitalgroup_Email
-Contacts ,Kontakte,module,Dotdigitalgroup_Email
-Dashboard ,Dashboard,module,Dotdigitalgroup_Email
-Log Viewer ,Log Anzeige,module,Dotdigitalgroup_Email
-Rules ,Regeln,module,Dotdigitalgroup_Email
-The endpoint ' . . ' is not permitted.,Der Endpunkt '' .' ist nicht zulässig.,module,Dotdigitalgroup_Email
- Hour, Stunde,module,Dotdigitalgroup_Email
- Hours, Stunden,module,Dotdigitalgroup_Email
-Mode ,Modus,module,Dotdigitalgroup_Email
-Magento Version ,Magento Version,module,Dotdigitalgroup_Email
-Connector Version ,Connector Version,module,Dotdigitalgroup_Email
-Total: ,Insgesamt:,module,Dotdigitalgroup_Email
-'Invalid Api Version: ' .,Ungültige Api-Version: ' .,module,Klarna_Core
-Failed to synchronize data to the Magento Business Intelligence service. ,Die Daten konnten nicht mit dem Magento Business Intelligence Service synchronisiert werden.,module,Magento_Analytics
-'Action Details - #' .,Action Details - #' .,module,Magento_AsynchronousOperations
-Return to ,Zurück zu,module,Magento_Backend
-The order #%1 cannot be processed.,Der Auftrag #%1 kann nicht bearbeitet werden.,module,Magento_Braintree
-Category doesn't exist,Kategorie existiert nicht,module,Magento_CatalogGraphQl
-'search' or 'filter' input argument is required.,"Das Eingabeargument ""Suche"" oder ""Filter"" ist erforderlich.",module,Magento_CatalogGraphQl
-'category_id' only supports 'eq' condition type.,Die 'category_id' unterstützt nur die Konditionsart 'eq'.,module,Magento_CatalogGraphQl
-'Entity type model must be an instance of ' .,Das Entitätstypmodell muss eine Instanz von folgendem sein '.,module,Magento_CatalogImportExport
-Could not parse resource url.,Die Ressourcen-URL konnte nicht analysiert werden.,module,Magento_CatalogImportExport
-"Can not change the visibility of the product with SKU equals ""%1"". URL key ""%2"" for specified store already exists.","Kann die Sichtbarkeit des Produkts nicht ändern, wenn die SKU gleich ""%1"" ist. Der URL-Schlüssel ""%2"" für den angegebenen Store ist bereits vorhanden.",module,Magento_CatalogUrlRewrite
-Message is added to queue,Nachricht wird zur Warteschlange hinzugefügt,module,Magento_Catalog
-Update attributes for ' . . ' selected products,Aktualisierungsattribute für ' ...‘ ausgewählte Produkte,module,Magento_Catalog
-"The value of attribute(s) ""%1"" must be unique","Der Wert von Attribut(en) ""%1"" muss eindeutig sein.",module,Magento_Catalog
-"Sorry, something went wrong during product attributes update. Please see log for details.","Sorry, etwas ist bei der Aktualisierung der Produkteigenschaften schief gelaufen. Bitte beachten Sie das Logbuch für Details.",module,Magento_Catalog
-%1: Line %2,%1: Zeile %2,module,Magento_Checkout
-Please select at least one product to add to cart,"Bitte wählen Sie mindestens ein Produkt aus, das Sie in den Warenkorb legen möchten.",module,Magento_Checkout
-We can't upload the file to current folder right now. Please try another folder.,Wir können die Datei im Moment nicht in den aktuellen Ordner hochladen. Bitte versuchen Sie einen anderen Ordner.,module,Magento_Cms
-"'The XML in file ""%1"" is invalid:' . ""\n%2\nVerify the XML and try again.""","Das XML in der Datei ""%1"" ist ungültig:'. ""\n%2\nÜberprüfe das XML und versuche es erneut.""",module,Magento_Config
-'There is no defined type ' .,Es gibt keinen definierten Typ '.,module,Magento_Config
-'Object is not instance of ' .,Objekt ist keine Instanz von '.,module,Magento_Config
-"Current customer does not have permission to address with ID ""%address_id""","Der aktuelle Kunde hat keine Berechtigung, mit der ID ""%address_id"" zu sprechen.",module,Magento_CustomerGraphQl
-"Address ""id"" value should be specified","Der Wert der Adresse ""id"" sollte angegeben werden.",module,Magento_CustomerGraphQl
-"""Email should be specified","""E-Mail sollte angegeben werden",module,Magento_CustomerGraphQl
-No files for upload.,Keine Dateien zum Hochladen.,module,Magento_Customer
-"'%value%' looks like an IP address, which is not an acceptable format.","%value%' sieht aus wie eine IP-Adresse, was kein akzeptables Format ist.",module,Magento_Customer
-'%value%' looks like a DNS hostname but contains a dash in an invalid position.,"%value%' sieht aus wie ein DNS-Hostname, enthält aber einen Bindestrich an einer ungültigen Stelle.",module,Magento_Customer
-'%value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.,"%value%' sieht aus wie ein DNS-Hostname, aber wir können ihn nicht mit dem Hostnamenschema für die TLD'%tld%' vergleichen.",module,Magento_Customer
-'%value%' looks like a DNS hostname but cannot extract TLD part.,"%value%' sieht aus wie ein DNS-Hostname, kann aber keinen TLD-Teil extrahieren.",module,Magento_Customer
-'%value%' does not look like a valid local network name.,%value%' sieht nicht wie ein gültiger lokaler Netzwerkname aus.,module,Magento_Customer
-"'%value%' looks like a local network name, which is not an acceptable format.","%value%' sieht aus wie ein lokaler Netzwerkname, was kein akzeptables Format ist.",module,Magento_Customer
-"'%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.","%value%' scheint ein DNS-Hostname zu sein, aber die angegebene Punycode-Notation kann nicht dekodiert werden.",module,Magento_Customer
-Currency not allowed for store %1,Währung für Filiale nicht erlaubt %1,module,Magento_DirectoryGraphQl
-Please correct the target currency,Bitte korrigieren Sie die Zielwährung.,module,Magento_DirectoryGraphQl
-"'%value%' looks like an IP address, which is not an acceptable format.","%value%' sieht aus wie eine IP-Adresse, was kein akzeptables Format ist.",module,Magento_Eav
-'%value%' looks like a DNS hostname but contains a dash in an invalid position.,"%value%' sieht aus wie ein DNS-Hostname, enthält aber einen Bindestrich an einer ungültigen Stelle.",module,Magento_Eav
-'%value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.,"%value%' sieht aus wie ein DNS-Hostname, aber wir können ihn nicht mit dem Hostnamenschema für die TLD'%tld%' vergleichen.",module,Magento_Eav
-'%value%' looks like a DNS hostname but cannot extract TLD part.,"%value%' sieht aus wie ein DNS-Hostname, kann aber keinen TLD-Teil extrahieren.",module,Magento_Eav
-'%value%' does not look like a valid local network name.,%value%' sieht nicht wie ein gültiger lokaler Netzwerkname aus.,module,Magento_Eav
-"'%value%' looks like a local network name, which is not an acceptable format.","%value%' sieht aus wie ein lokaler Netzwerkname, was kein akzeptables Format ist.",module,Magento_Eav
-"'%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.","%value%' scheint ein DNS-Hostname zu sein, aber die angegebene Punycode-Notation kann nicht dekodiert werden.",module,Magento_Eav
-The entity supplied to collection is invalid. Verify the entity and try again.,Die der Sammlung gelieferte Einheit ist ungültig. Überprüfen Sie die Entität und versuchen Sie es erneut.,module,Magento_Eav
-"Attribute code ""%1"" is invalid. Please use only letters (a-z or A-Z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Der Attributcode ""%1"" ist ungültig. Bitte verwenden Sie in diesem Feld nur Buchstaben (a-z oder A-Z), Zahlen (0-9) oder Unterstrich (_), und das erste Zeichen sollte ein Buchstabe sein.",module,Magento_Eav
-Contents of the specified CSS file could not be loaded or is empty,Inhalt der angegebenen CSS-Datei konnte nicht geladen werden oder ist leer.,module,Magento_Email
-Expected Delivery:,Erwartete Lieferung:,module,Magento_Fedex
-Mutation requests allowed only for POST requests,Mutation Requests nur für POST-Anfragen erlaubt,module,Magento_GraphQl
-Validation Strategy,Validierungsstrategie,module,Magento_ImportExport
-"Message is added to queue, wait to get your file soon","Nachricht wird zur Warteschlange hinzugefügt, warten Sie, bis Ihre Datei bald verfügbar ist.",module,Magento_ImportExport
-Please provide export file name,Bitte geben Sie den Namen der Exportdatei an,module,Magento_ImportExport
-There are no export file with such name %1,Es gibt keine Exportdatei mit dem Namen %1.,module,Magento_ImportExport
-Your export file is ready,Ihre Exportdatei ist fertig.,module,Magento_ImportExport
-You can pick up your file at export main page,Du kannst deine Datei auf der Hauptseite des Exports abholen.,module,Magento_ImportExport
-Error during export process occurred,Fehler beim Exportvorgang aufgetreten,module,Magento_ImportExport
-Error during export process occurred. Please check logs for detail,Fehler beim Exportvorgang aufgetreten. Bitte überprüfen Sie die Protokolle auf Details.,module,Magento_ImportExport
-'%1' file extension is not supported,Die Dateiendung '%1' wird nicht unterstützt.,module,Magento_ImportExport
-'Error in CSV: ' .,'Fehler in CSV: ' .,module,Magento_ImportExport
-Are you sure you wan't to delete a file?,"Sind Sie sicher, dass Sie eine Datei nicht löschen wollen?",module,Magento_ImportExport
-[ID: %1] ,[ID: %1],module,Magento_InventoryAdminUi
-Source Validator must implement PartialInventoryTransferValidatorInterface.,Der Source Validator muss PartialInventoryTransferValidatorInterface implementieren.,module,Magento_InventoryCatalogApi
-Transfer validation failed,Übertragungsprüfung fehlgeschlagen,module,Magento_InventoryCatalog
-Requested transfer amount for sku %sku is not available,Der angeforderte Überweisungsbetrag für sku %sku ist nicht verfügbar.,module,Magento_InventoryCatalog
-%message,%Meldung,module,Magento_InventoryCatalog
-Source item for %sku and %sourceCode does not exist,Quellobjekt für %sku und %sourceCode existiert nicht.,module,Magento_InventoryCatalog
-"Something went wrong. Export couldn't be executed, See log files for error details","Etwas ist schief gelaufen. Der Export konnte nicht ausgeführt werden, siehe Protokolldateien für Fehlerdetails.",module,Magento_InventoryExportStock
-Condition has to implement IsProductSalableInterface.,"Bedingung ist, dass IsProductSalableInterface implementiert ist.",module,Magento_InventorySales
-There are no source items with the in stock status,Es gibt keine Quellpositionen mit dem Status auf Lager.,module,Magento_InventorySales
-Condition has to implement IsProductSalableForRequestedQtyInterface.,Bedingung muss IsProductSalableForRequestedQtyInterface implementieren.,module,Magento_InventorySales
-"Can be used only with catalog input type Yes/No, Dropdown, Multiple Select and Price.
-                    <br>Price is not compatible with <b>'Filterable (no results)'</b> option - 
-                     it will make no affect on Price filter.","Kann nur mit der Katalogeingabeart Ja/Nein, Dropdown, Mehrfachauswahl und Preis verwendet werden.
-                    <br>Preis ist nicht kompatibel mit <b>'Filterbar (keine Ergebnisse)'</b> Option -
-                     wird es keinen Einfluss auf den Preisfilter haben.",module,Magento_LayeredNavigation
-"Path ""%value%"" may not include parent directory traversal (""../"", ""..\).""","Der Pfad ""%value%"" darf keine übergeordnete Verzeichnisdurchquerung (""../"", ""..\) beinhalten.""",module,Magento_MediaStorage
-"The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
-                        information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","Die New Relic-Integration erfordert den newrelic-php5-Agenten, der nicht installiert ist. Mehr
-                        Informationen zur Installation des Agenten finden Sie <a target=""_blank"" href=""%1"">hier</a>.",module,Magento_NewRelicReporting
-Visa,Visum,module,Magento_Payment
-American Express,American Express,module,Magento_Payment
-The verification transaction can't be voided. ,Die Verifizierungstransaktion kann nicht storniert werden.,module,Magento_Paypal
-"Missed ""sku"" in cart item data","Fehlende ""sku"" in den Daten des Warenkorbes",module,Magento_QuoteGraphQl
-"Missed ""qty"" in cart item data","Fehlende ""Menge"" in den Daten der Warenkorbposition",module,Magento_QuoteGraphQl
-Current user does not have an active cart.,Der aktuelle Benutzer hat keinen aktiven Warenkorb.,module,Magento_QuoteGraphQl
-"Wrong store code specified for cart ""%masked_cart_id""","Falscher Shopcode für den Warenkorb ""%masked_cart_id"" angegeben.",module,Magento_QuoteGraphQl
-"""Street Address"" cannot contain more than %1 lines.","""Street Address"" darf nicht mehr als %1 Zeilen enthalten.",module,Magento_QuoteGraphQl
-You cannot specify multiple shipping methods.,Sie können nicht mehrere Versandarten angeben.,module,Magento_QuoteGraphQl
-"Required parameter ""carrier_code"" is missing.","Der erforderliche Parameter ""carrier_code"" fehlt.",module,Magento_QuoteGraphQl
-"Required parameter ""method_code"" is missing.","Der erforderliche Parameter ""method_code"" fehlt.",module,Magento_QuoteGraphQl
-"Required parameter ""cart_items"" is missing","Erforderlicher Parameter ""cart_items"" fehlt",module,Magento_QuoteGraphQl
-"Missing key ""model"" in cart address data","Fehlender Schlüssel ""Modell"" in den Adressdaten des Warenkorbs",module,Magento_QuoteGraphQl
-Unsupported cart address type,Nicht unterstützter Warenkorb-Adresstyp,module,Magento_QuoteGraphQl
-Cart ID length should to be 32 symbols.,Die Länge der Warenkorb-ID sollte 32 Symbole betragen.,module,Magento_QuoteGraphQl
-"Cart with ID ""%1"" already exists.","Warenkorb mit der ID ""%1"" existiert bereits.",module,Magento_QuoteGraphQl
-Guest email for cart is missing. Please enter,Gast-E-Mail für den Warenkorb fehlt. Bitte eingeben,module,Magento_QuoteGraphQl
-Unable to place order: %message,Bestellung kann nicht aufgegeben werden: %Meldung,module,Magento_QuoteGraphQl
-"Required parameter ""cart_id"" is missing.","Der erforderliche Parameter ""cart_id"" fehlt.",module,Magento_QuoteGraphQl
-"Required parameter ""cart_item_id"" is missing.","Der erforderliche Parameter ""cart_item_id"" fehlt.",module,Magento_QuoteGraphQl
-"Required parameter ""email"" is missing","Erforderlicher Parameter ""email"" fehlt",module,Magento_QuoteGraphQl
-Invalid email format,Ungültiges E-Mail-Format,module,Magento_QuoteGraphQl
-The request is not allowed for logged in customers,Die Anfrage ist für angemeldete Kunden nicht erlaubt.,module,Magento_QuoteGraphQl
-"Required parameter ""code"" for ""payment_method"" is missing.","Der erforderliche Parameter ""code"" für ""payment_method"" fehlt.",module,Magento_QuoteGraphQl
-"""model"" values should be specified","""Modell""-Werte sollten angegeben werden.",module,Magento_QuoteGraphQl
-"Required parameter ""cart_items"" is missing.","Der erforderliche Parameter ""cart_items"" fehlt.",module,Magento_QuoteGraphQl
-"Required parameter ""cart_item_id"" for ""cart_items"" is missing.","Der erforderliche Parameter ""cart_item_id"" für ""cart_items"" fehlt.",module,Magento_QuoteGraphQl
-"Required parameter ""quantity"" for ""cart_items"" is missing.","Der erforderliche Parameter ""Menge"" für ""cart_items"" fehlt.",module,Magento_QuoteGraphQl
-Could not find cart item with id: %1.,Warenkorb mit der ID: %1 konnte nicht gefunden werden.,module,Magento_QuoteGraphQl
-Could not update the product with SKU %sku: %message,Das Produkt konnte nicht mit SKU %sku aktualisiert werden: %message,module,Magento_QuoteGraphQl
-'The coupon code couldn't be applied: ' .,Der Gutscheincode konnte nicht angewendet werden: '.,module,Magento_Quote
-"Message is added to queue, wait to get your coupons soon","Nachricht wird zur Warteschlange hinzugefügt, warten Sie, bis Sie Ihre Gutscheine bald erhalten.",module,Magento_SalesRule
-"Too many coupon code requests, please try again later.","Zu viele Gutschein-Code-Anfragen, bitte versuchen Sie es später noch einmal.",module,Magento_SalesRule
-Your coupons are ready,Deine Gutscheine sind fertig.,module,Magento_SalesRule
-You can check your coupons at sales rule page,Du kannst deine Gutscheine auf der Seite mit den Verkaufsregeln überprüfen.,module,Magento_SalesRule
-Error during coupons generator process occurred,Fehler beim Coupongeneratorprozess aufgetreten,module,Magento_SalesRule
-Error during coupons generator process occurred. Please check logs for detail,Fehler beim Generieren von Coupons aufgetreten. Bitte überprüfen Sie die Protokolle auf Details.,module,Magento_SalesRule
-'*' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.,"'*' - entspricht einem beliebigen; 'xyz*' - entspricht einem beliebigen, der mit 'xyz' beginnt und nicht länger als %1 ist.",module,Magento_Tax
-"'The XML in file ""%1"" is invalid:' . ""\n%2\nVerify the XML and try again.""","Das XML in der Datei ""%1"" ist ungültig:'. ""\n%2\nÜberprüfe das XML und versuche es erneut.""",module,Magento_Ui
-"'The XML in file ""%1"" is invalid.' . ""\n%2\nVerify the XML and try again.""","Das XML in der Datei ""%1"" ist ungültig. . ""\n%2\nÜberprüfe das XML und versuche es erneut.""",module,Magento_Ui
-We can't find a role to delete.,Wir können keine Rolle zum Löschen finden.,module,Magento_User
-"Specify the ""public_hash"" value.","Geben Sie den Wert ""public_hash"" an.",module,Magento_VaultGraphQl
-Could not find a token using public hash: %1,Ein Token mit öffentlichem Hash konnte nicht gefunden werden: %1,module,Magento_VaultGraphQl
-The current user cannot perform operations on wishlist,Der aktuelle Benutzer kann keine Aktionen auf der Wunschliste durchführen.,module,Magento_WishlistGraphQl
-Temando Shipping is not properly configured. Please register an account.,Temando Shipping ist nicht richtig konfiguriert. Bitte registrieren Sie ein Konto.,module,Temando_Shipping
-Pickup # ,Abholung #,module,Temando_Shipping
-Stores affected: ,Betroffene Filialen:,module,Vertex_Tax
-Store affected: ,Betroffene Filiale:,module,Vertex_Tax
-Assigned Sources:,Zugeordnete Quellen:,module,Magento_InventoryAdminUi
-This element contains invalid data. Please resolve this before saving.,Dieses Element enthält ungültige Daten. Bitte beheben Sie dies vor dem Speichern.,module,Magento_Ui
-Tooltip,Tooltip,module,Magento_Ui
-Forbidden extensions has been used. Avoid usage of ,Es wurden verbotene Erweiterungen verwendet. Vermeiden Sie die Verwendung von,lib,lib/web/mage/validation.js
-The file upload field is disabled.,Das Datei-Upload-Feld ist deaktiviert.,module,Magento_Ui
-Enable Template Path Hints for Storefront,Template-Pfadhinweise für das Storefront aktivieren,module,Magento_Backend
-Enable Template Path Hints for Admin,Template-Pfadhinweise für den Administrator aktivieren,module,Magento_Backend
-This value must be compatible with the corresponding setting in the configured search engine. Be aware: a low query length limit may cause the performance impact.,Dieser Wert muss mit der entsprechenden Einstellung in der konfigurierten Suchmaschine kompatibel sein. Beachten Sie: Eine Begrenzung der Abfragelänge kann die Performance beeinträchtigen.,module,Magento_CatalogSearch
-This value must be compatible with the corresponding setting in the configured search engine.,Dieser Wert muss mit der entsprechenden Einstellung in der konfigurierten Suchmaschine kompatibel sein.,module,Magento_CatalogSearch
-Edit Product Design,Produktdesign bearbeiten,module,Magento_Catalog
-Edit Category Design,Kategorien-Design bearbeiten,module,Magento_Catalog
-Ship here,Hier versenden,module,Magento_Checkout
-Edit Page Design,Seitendesign bearbeiten,module,Magento_Cms
-As low as: ,So niedrig wie:,module,Magento_ConfigurableProduct
-Content Type (Non Domestic),Inhaltsart (Ausland),module,Magento_Dhl
-Whether to use Documents or NonDocuments service for non domestic shipments. (Shipments within the EU are classed as domestic),Ob Sie den Service Dokumente oder Nichtdokumente für nicht inländische Sendungen nutzen möchten. (Sendungen innerhalb der EU gelten als Inlandssendungen),module,Magento_Dhl
-Documents Allowed Methods,Dokumente Erlaubte Methoden,module,Magento_Dhl
-Non Documents Allowed Methods,Nicht dokumentierte erlaubte Methoden,module,Magento_Dhl
-File name,Dateiname,module,Magento_ImportExport
-Notify Qty,Menge benachrichtigen,module,Magento_InventoryLowQuantityNotificationAdminUi
-"CAPTCHA for ""Create user"", ""Forgot password"", ""Payflow Pro"" forms is always enabled if chosen.","CAPTCHA für die Formulare ""Benutzer anlegen"", ""Passwort vergessen"", ""Payflow Pro"" ist bei Auswahl immer aktiviert.",module,Magento_PaypalCaptcha
-Use in PayPal PayflowPro payment form,Verwendung im PayPal PayflowPro Zahlungsformular,module,Magento_PaypalReCaptcha
-"PayPal Express Checkout Payflow Edition lets you give customers access to financing through PayPal Credit&#174; - at no additional cost to you.
-                            You get paid up front, even though customers have more time to pay. A pre-integrated payment button lets customers pay quickly with PayPal Credit&#174;.
-                            <a href=""https://www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>","Mit der PayPal Express Checkout Payflow Edition können Sie Ihren Kunden Zugang zur Finanzierung über PayPal Credit geben - ohne zusätzliche Kosten für Sie.
-                            Sie werden im Voraus bezahlt, auch wenn die Kunden mehr Zeit zum Bezahlen haben. Ein vorintegrierter Zahlungsbutton ermöglicht es Kunden, schnell mit PayPal Credit&#174; zu bezahlen.
-                            <a href=""https://www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Mehr erfahren</a>",module,Magento_Paypal
-Move JS code to the bottom of the page,JS-Code an den unteren Rand der Seite verschieben,module,Magento_Theme
-Use in Review,Verwendung im Review,module,MSP_ReCaptcha
-Use in Newsletter,Verwendung im Newsletter,module,MSP_ReCaptcha
