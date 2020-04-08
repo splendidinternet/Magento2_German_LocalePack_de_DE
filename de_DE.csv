@@ -7326,37 +7326,21 @@ PayPal Express Checkout,PayPal Express Checkout,,
                         <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>
                 ","Mit PayPal Express Checkout können Sie den Kunden Zugang zur Finanzierung durch PayPal Credit® ermöglichen - ohne zusätzliche Kosten für Sie. Sie werden im Voraus bezahlt, auch wenn die Kunden mehr Zeit haben, um zu bezahlen. Über eine vorintegrierte Zahlungs-Schaltfläche können Kunden schnell bei PayPal Credit® zahlen. <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank""> Weitere Informationen </a>
                 ",module,Magento_Paypal
-"PayPal Express Checkout lets you give customers access to financing through PayPal Credit&#174; - at no additional cost to you.
-Period %1 %2 Days Up To Date
-Permissions do not depend on store views.
-Permission with the same scope
-Persist Comparison History
-Persist Currently Compared Products
-Persist Customer Group Membership and Segmentation
-Persist Recently Ordered Items
-Persist Recently Viewed Products
-Persist Wish List
-Phone inconsistencies. The customer’s phone number is suspicious
-Phone Verification
-Physical
-Placed on %created_at
-Please accept this invitation to join %store_name.
-Please <a href=""""%1"""">continue shopping</a>.""","PayPal Express Checkout erlaubt es Ihnen, Ihren Kunden Zugang zur Finanzierung mit PayPal Credit&#174 zu geben - ohne zusätzliche Kosten für Sie.
-Zeitraum %1 %2 Tage aktuell
-Berechtigungen sind nicht von Store Views abhängig
-Berechtigung mit dem gleichen Gültigkeitsbereich
-Vergleichsliste bestehen lassen
-Derzeit verglichene Produkte bestehen lassen
-Kundengruppenmitgliedschaft und Segmentation bestehen lassen
-Zuletzt bestelle Artikel bestehen lassen
-Zuletzt angesehene Produkte bestehen lassen
-Wunschzettel bestehen lassen
-Telefonnummerwidersprüche. Die Telefonnummer des Kunden ist verdächtig.
-Telefonverifizierung
-Physisch
-Aufgegeben am #created_at
-Bitte nehmen Sie diese Einladung an, %store_name beizutreten.
-Bitte <a href=""""%1"""">mit dem Einkaufen fortfahren</a>.",,
+"Period %1 %2 Days Up To Date","Zeitraum %1 %2 Tage aktuell",,
+"Permissions do not depend on store views.","Berechtigungen sind nicht von Store Views abhängig.",,
+"Permission with the same scope","Berechtigung mit dem gleichen Gültigkeitsbereich",,
+"Persist Comparison History","Vergleichsliste bestehen lassen",,
+"Persist Currently Compared Products","Derzeit verglichene Produkte bestehen lassen",,
+"Persist Customer Group Membership and Segmentation","Kundengruppenmitgliedschaft und Segmentation bestehen lassen",,
+"Persist Recently Ordered Items","Zuletzt bestelle Artikel bestehen lassen",,
+"Persist Recently Viewed Products","Zuletzt angesehene Produkte bestehen lassen",,
+"Persist Wish List","Wunschzettel bestehen lassen",,
+"Phone inconsistencies. The customer’s phone number is suspicious","Telefonnummerwidersprüche. Die Telefonnummer des Kunden ist verdächtig",,
+"Phone Verification","Telefonverifizierung",,
+"Physical","Physisch",,
+"Placed on %created_at","Aufgegeben am %created_at",,
+"Please accept this invitation to join %store_name.","Bitte nehmen Sie diese Einladung an, %store_name beizutreten.",,
+"Please <a href=""""%1"""">continue shopping</a>.""","Bitte <a href=""""%1"""">mit dem Einkaufen fortfahren</a>.",,
 "PayPal Express Checkout lets you give customers access to financing through PayPal Credit&#174; - at no additional cost to you. You get paid up front, even though customers have more time to pay. A pre-integrated payment button lets customers pay quickly with PayPal Credit&#174;. <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>","Mit PayPal Express Checkout können Sie den Kunden Zugang zur Finanzierung durch PayPal Credit® ermöglichen - ohne zusätzliche Kosten für Sie. Sie werden im Voraus bezahlt, auch wenn die Kunden mehr Zeit haben, um zu bezahlen. Über eine vorintegrierte Zahlungs-Schaltfläche können Kunden schnell bei PayPal Credit® zahlen. <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank""> Weitere Informationen </a>",,
 "PayPal Express Checkout lets you give customers access to financing through PayPal Credit&#174; - at no additional cost to you.You get paid up front, even though customers have more time to pay. A pre-integrated payment button lets customers pay quickly with PayPal Credit&#174;.<a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>","PayPal Express Checkout lässt Kunden Zugriff auf Finanzierung über PayPal Kredit&#174; - bei keinen zusätzlichen Kosten für Sie. Sie erhalten die Bezahlung im Voraus, auch wenn die Kunden mehr Zeit haben, um zu bezahlen. Über eine vorintegrierte Zahlungsschaltfläche können Kunden schnell mit PayPal Credit® zahlen. <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank""> Weitere Informationen </a>",,
 PayPal Express Checkout Token does not exist.,PayPal Express Checkout Token existiert nicht.,,
