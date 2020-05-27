@@ -6,6 +6,10 @@ Die Übersetzung wurde von deutschen Muttersprachlern nach eigenem Ermessen vorg
 
 Und für Magento 1.x gibt es weiterhin das deutsche Sprachpaket von Rico Neitzel: https://github.com/riconeitzel/German_LocalePack_de_DE
 
+German language pack for Magento 2 Community Edition (Version 2.3.5)
+
+The translation was carried out by native German speakers at their own discretion. The translation is complete, i.e. All Magento 2 language editions have been translated from English to German. Suggestions for changes can be made or the entire repository can be researched if different translations are to be introduced.
+
 # Installation
  - Alle Dateien nach `/app/i18n/splendid/de_DE/` kopieren
 
