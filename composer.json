@@ -6,7 +6,7 @@
     ],
     "version":"1.58.0",
     "require": {
-        "magento/framework": "^100.0.0 || ^101.0.0 || ^102.0.0"
+        "magento/framework": "^100.0.0 || ^101.0.0 || ^102.0.0 || ^103.0.0"
     },
     "type": "magento2-language",
     "autoload": {
