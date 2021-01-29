@@ -4942,8 +4942,7 @@ File Type,Dateityp,module,Temando_Shipping
 File validation failed.,Die Dateiüberprüfung ist fehlgeschlagen.,module,Magento_Catalog
 File validation failed.,Die Dateiüberprüfung ist fehlgeschlagen.,module,Magento_Cms
 "File with an extension ""%value%"" is protected and cannot be uploaded","Dateien mit der Erweiterung ""%value%"" sind geschützt und können nicht hochgeladen werden",,
-File you are trying to upload exceeds maximum file size limit.,"Die Datei, die sie hochladen möchten, überschreitet die maximal zulässige Dateigröße.
-",module,Magento_Ui
+File you are trying to upload exceeds maximum file size limit.,"Die Datei, die sie hochladen möchten, überschreitet die maximal zulässige Dateigröße.",module,Magento_Ui
 Filename,Dateiname,,
 Files ids can not be empty.,Dateien ids können nicht leer sein.,module,Magento_AdobeStockClient
 Filesystem is not writable.,Das Dateisystem ist nicht beschreibbar.,module,Magento_Config
