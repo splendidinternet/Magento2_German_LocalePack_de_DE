@@ -264,7 +264,7 @@
 .,.,,
 . ' Field #%1',. Feld #%1'.,module,Vertex_Tax
 ". ', e.g. <i>product_images</i>, <i>import_images/batch1</i>.<br><br>For example, in case <i>product_images</i>, files should be placed into <i>&lt;Magento root directory&gt;/' . . '/product_images</i> folder.' 'i' 'br'",". z.B. <i>product_images</i>, <i>import_images/batch1</i>.<br><br>.br><br> Im Fall <i>product_images</i> sollten die Dateien z.B. in <i>&lt;Magento Stammverzeichnis&gt;/' . '/product_images</i> folder' abgelegt werden. 'i' 'br'",module,Magento_ImportExport
-. ': %error_message',. ': %fehler_nachricht'.,module,Magento_AdobeStockClient
+. ': %error_message',. ': %error_message'.,module,Magento_AdobeStockClient
 . ':',. ':',module,Magento_Shipping
 ". "" type not defined in schema.""",". "" Typ nicht im Schema definiert"".",module,Magento_CatalogGraphQl
 ". "" which is inconsistent with state of scope resolver""",". "" was unvereinbar mit dem Status des Umfangsauflösers ist.""",module,Magento_CatalogSearch
@@ -649,7 +649,7 @@
 %fieldName is a required field.,%fieldName ist ein Pflichtfeld.,module,Magento_Customer
 %fieldName is a required field.,FeldName ist ein erforderliches Feld.,module,Magento_Integration
 %fieldName is a required field.,%fieldName ist ein Pflichtfeld.,module,Magento_Tax
-%message,%Meldung,module,Magento_InventoryCatalog
+%message,%message,module,Magento_InventoryCatalog
 "%name,","%name,",,
 %operation_name - Scheduled Export Failed,%operation_name - Geplanter Export fehlgeschlagen,,
 %operation_name - Scheduled Import Failed,%operation_name - Geplanter Import fehlgeschlagen,,
@@ -1559,23 +1559,23 @@ An error has occured,Ein Fehler ist aufgetreten,module,Amasty_GdprCookie
 An error has occurred,Ein Fehler ist aufgetreten,module,Amasty_GdprCookie
 An error has occurred. See error log for details.,Ein Fehler ist aufgetreten. Details finden Sie im Fehlerprotokoll.,,
 An error occurred,Ein Fehler ist aufgetreten,,
-An error occurred during adobe stock asset save: %error,Beim Speichern von Adobe-Aktien ist ein Fehler aufgetreten: %Fehler,module,Magento_AdobeStockAsset
+An error occurred during adobe stock asset save: %error,Beim Speichern von Adobe-Aktien ist ein Fehler aufgetreten: %error,module,Magento_AdobeStockAsset
 An error occurred during email sending.,Beim Senden von E-Mails ist ein Fehler aufgetreten.,module,Temando_Shipping
 An error occurred during get asset keywords: %1,Bei den get asset-Schlüsselwörtern ist ein Fehler aufgetreten: %1,module,Magento_MediaGallery
-An error occurred during get asset list: %error,Während des Abrufs der Bestandsliste ist ein Fehler aufgetreten: %Fehler,module,Magento_AdobeStockAsset
+An error occurred during get asset list: %error,Während des Abrufs der Bestandsliste ist ein Fehler aufgetreten: %error,module,Magento_AdobeStockAsset
 An error occurred during get media asset list: %1,Beim Abrufen der Media-Asset-Liste ist ein Fehler aufgetreten: %1,module,Magento_MediaGallery
 An error occurred during get user data. Contact support.,Beim Abrufen von Benutzerdaten ist ein Fehler aufgetreten. Kontaktieren Sie den Support.,module,Magento_AdobeIms
 An error occurred during logout operation.,Während des Abmeldevorgangs ist ein Fehler aufgetreten.,module,Magento_AdobeIms
 An error occurred during mass deletion of data collector backups. Please review log and try again.,Bei der Massenlöschung der Datensammlungs-Backups ist ein Fehler aufgetreten. Bitte überprüfen Sie das Protokoll und versuchen Sie es erneut.,,
 An error occurred during mass deletion of system reports. Please review log and try again.,Bei der Massenlöschung der Systemberichte ist ein Fehler aufgetreten. Bitte überprüfen Sie das Protokoll und versuchen Sie es erneut.,,
 An error occurred during media asset save: %1,Beim Speichern von Medien-Assets ist ein Fehler aufgetreten: %1,module,Magento_MediaGallery
-An error occurred during related images serialization: %error,Bei der Serialisierung verwandter Bilder ist ein Fehler aufgetreten: %Fehler,module,Magento_AdobeStockImage
+An error occurred during related images serialization: %error,Bei der Serialisierung verwandter Bilder ist ein Fehler aufgetreten: %error,module,Magento_AdobeStockImage
 An error occurred during retrieve files information.,Beim Abrufen von Dateiinformationen ist ein Fehler aufgetreten.,module,Magento_AdobeStockClient
 An error occurred during save asset keyword links: %1,Beim Speichern von Asset-Schlüsselwort-Verknüpfungen ist ein Fehler aufgetreten: %1,module,Magento_MediaGallery
 An error occurred during save asset keyword: %1,Ein Fehler ist beim Speichern des Asset-Schlüsselwortes aufgetreten: %1,module,Magento_MediaGallery
 An error occurred during test Adobe Stock API connection,Beim Testen der Adobe Stock API-Verbindung ist ein Fehler aufgetreten,module,Magento_AdobeStockAdminUi
 "An error occurred during the attempt to grant permissions. For details, see the exceptions log.","Beim Versuch, Berechtigungen zu vergeben, ist ein Fehler aufgetreten. Weitere Informationen finden Sie im Ausnahmeprotokoll.",module,Magento_Integration
-An error occurred during user profile save: %error,Beim Speichern des Benutzerprofils ist ein Fehler aufgetreten: %Fehler,module,Magento_AdobeIms
+An error occurred during user profile save: %error,Beim Speichern des Benutzerprofils ist ein Fehler aufgetreten: %error,module,Magento_AdobeIms
 An error occurred on attempt to fetch related images.,"Beim Versuch, verwandte Bilder abzurufen, ist ein Fehler aufgetreten.",module,Magento_AdobeStockImageAdminUi
 An error occurred on attempt to license and save the image.,"Beim Versuch, das Bild zu lizenzieren und zu speichern, ist ein Fehler aufgetreten.",module,Magento_AdobeStockImageAdminUi
 An error occurred on attempt to retrieve image licensing information.,"Beim Versuch, Bildlizenzierungsinformationen abzurufen, ist ein Fehler aufgetreten.",module,Magento_AdobeStockImageAdminUi
@@ -2395,7 +2395,7 @@ Campaign to send,Zu versendende Kampagne,module,Dotdigitalgroup_Email
                     <br>Preis ist nicht kompatibel mit <b>'Filterbar (keine Ergebnisse)'</b> Option -
                      wird es keinen Einfluss auf den Preisfilter haben.",module,Magento_LayeredNavigation
 "Can be used only with catalog input type Yes/No, Dropdown, Multiple Select and Price.
-                    <br>Price is not compatible with <b>'Filterable (no results)'</b> option - 
+                    <br>Price is not compatible with <b>'Filterable (no results)'</b> option -
                      it will make no affect on Price filter.","Kann nur mit der Katalogeingabeart Ja/Nein, Dropdown, Mehrfachauswahl und Preis verwendet werden.
                     <br>Preis ist nicht kompatibel mit <b>'Filterbar (keine Ergebnisse)'</b> Option -
                      wird es keinen Einfluss auf den Preisfilter haben.",module,Magento_LayeredNavigation
@@ -3131,7 +3131,7 @@ Could not delete Custom Option Flexible Field Mapping,Konnte benutzerdefinierte 
 Could not delete gift card from quote,Geschenkkartencode konnte nicht vom Angebot gelöscht werden.,,
 Could not delete log entries,Log-Einträge konnten nicht gelöscht werden,module,Vertex_Tax
 Could not delete log entry,Log-Eintrag konnte nicht gelöscht werden,module,Vertex_Tax
-Could not delete media asset with path %path: %error,Konnte Mediendatei mit Pfad %pfad nicht löschen: %fehler,module,Magento_MediaGallery
+Could not delete media asset with path %path: %error,Konnte Mediendatei mit Pfad %pfad nicht löschen: %error,module,Magento_MediaGallery
 Could not delete order address,Bestelladresse konnte nicht gelöscht werden,,
 Could not delete Prices,Preise konnten nicht gelöscht werden,module,Magento_Catalog
 Could not delete shipment,Versand konnte nicht gelöscht werden,,
@@ -3218,7 +3218,7 @@ Could not save Vertex invoice refund comment,Der Kommentar zur Rückerstattung v
 Could not submit invoice to Vertex.,Die Rechnung konnte nicht an Vertex übermittelt werden.,module,Vertex_Tax
 Could not submit refund to Vertex.,Konnte keine Rückerstattung an Vertex senden.,module,Vertex_Tax
 Could not successfully delete record(s),Die Datensätze konnten nicht erfolgreich gelöscht werden.,module,Vertex_Tax
-Could not update cart item: %message,Konnte den Artikel im Warenkorb nicht aktualisieren: %Nachricht,module,Magento_QuoteGraphQl
+Could not update cart item: %message,Konnte den Artikel im Warenkorb nicht aktualisieren: %message,module,Magento_QuoteGraphQl
 "Could not update option with id ""%1""","Konnte Option mit ID ""%1"" nicht aktualisieren",,
 Could not update the product with SKU %sku: %message,Das Produkt konnte nicht mit SKU %sku aktualisiert werden: %message,module,Magento_QuoteGraphQl
 Couldn't log you in,Konnte Sie nicht einloggen,module,Magento_AdobeStockImageAdminUi
@@ -3966,7 +3966,7 @@ Die Kategorie enth√§lt die angegebenen Produkte nicht.,module,Magento_Catalog
 Die region_id stimmt nicht mit dem ausgew√§hlten Land oder der ausgew√§hlten Region √ºberein,module,Magento_CustomerGraphQl,
 Die region_id stimmt nicht mit dem ausgew√§hlten Land oder der ausgew√§hlten Region √ºberein,module,Magento_QuoteGraphQl,
 "Die Speicheransicht, die f√ºr den Versand von Begr√º√üungs-E-Mails ausgew√§hlt wurde, steht in keinem Zusammenhang mit der zugeh√∂rigen Website des Kunden.",module,Magento_Customer,
-"Die Versandinformationen konnten nicht gespeichert werden. Fehler: ""%Nachricht""",module,Magento_Checkout,
+"Die Versandinformationen konnten nicht gespeichert werden. Fehler: ""%message""",module,Magento_Checkout,
 Die Wunschliste ist derzeit nicht verf√ºgbar.,module,Magento_WishlistGraphQl,
 "Die Zahlung kann nicht akzeptiert werden, da die Transaktion vom H√§ndler abgelehnt wurde.",module,Magento_Paypal,
 "Dies ist eine Demo-Installation der <a href=""https://www.splendid-internet.de/magento-agentur"" style=""color:#fff"" target=""blank"" rel=""nofollow""><<strong>Splendid Internet GmbH</strong></a> f√ºr Magento DE Hosting.Bestellungen in diesem Shop werden nicht ausgef√ºhrt. Kontakt: info@splendid-internet.de.",module,Magento_Backend,
@@ -4818,7 +4818,7 @@ Failed Messages Lifetime,Lebensdauer fehlgeschlagener Nachrichten,,
 Failed to create backup,Fehler bei der Erstellung des Backups,,
 Failed to create directory %1,Konnte Verzeichnis nicht erstellen: %1,,
 Failed to delete %1 synonym group(s).,%1 Synonymgruppe(n) konnten nicht gelöscht werden.,module,Magento_Search
-Failed to delete the image: %error,Das Bild konnte nicht gelöscht werden: %Fehler,module,Magento_AdobeStockImage
+Failed to delete the image: %error,Das Bild konnte nicht gelöscht werden: %error,module,Magento_AdobeStockImage
 Failed to get the quote,Angebot nicht erhalten,module,Magento_Ups
 Failed to initialize customer,Kundeninitialisierung fehlgeschlagen,,
 Failed to log Vertex Request,Protokollierung der Vertex-Anforderung fehlgeschlagen,module,Vertex_Tax
@@ -6226,21 +6226,21 @@ Klarna Payments Design,Klarna Zahlungsverkehr Design,module,Klarna_Kp
 Klarna Payments is not enabled,Klarna Payments ist nicht aktiviert.,module,Klarna_Kp
 "Konnte das Produkt mit SKU ""%1"" nicht in den Warenkorb legen",module,Magento_Sales,
 "Konnte das Produkt mit SKU ""%1"" nicht in den Warenkorb legen: %2",module,Magento_Sales,
-"Konnte das Produkt mit SKU ""%sku"" nicht auf die Wunschliste setzen:: %Nachricht",module,Magento_Wishlist,
+"Konnte das Produkt mit SKU ""%sku"" nicht auf die Wunschliste setzen:: %message",module,Magento_Wishlist,
 Konnte die Asset-Schl√ºsselwort-Verkn√ºpfungen nicht speichern,module,Magento_MediaGallery,
 Konnte die Media Assets nicht speichern: %Verm√∂genswerte,module,Magento_MediaGallery,
 Konnte die Zusammenfassung der Produktbewertung nicht erhalten.,module,Magento_ReviewGraphQl,
 "Konnte ein Produkt mit der ID ""%1"" nicht finden",module,Magento_Sales,
-Konnte keine Media Assets f√ºr Pfade erhalten: %Pfade,module,Magento_MediaGallery,
+Konnte keine Media Assets f√ºr Pfade erhalten: %paths,module,Magento_MediaGallery,
 "Konnte keinen Eintrag auf der Wunschliste mit der ID ""%id"" finden",module,Magento_Wishlist,
-Konnte Medien-Assets nach Pfad nicht l√∂schen %pfad: %Fehler,module,Magento_MediaGallery,
-Konnte Medien-Assets nach Pfaden nicht l√∂schen: %Pfade,module,Magento_MediaGallery,
+Konnte Medien-Assets nach Pfad nicht l√∂schen %pfad: %error,module,Magento_MediaGallery,
+Konnte Medien-Assets nach Pfaden nicht l√∂schen: %paths,module,Magento_MediaGallery,
 Konnte Medien-Assets nicht abrufen,module,Magento_MediaGallery,
 Konnte Medieninhaltsbeziehungen f√ºr Assets nicht entfernen ids: %ids,module,Magento_MediaContent,
 "Konnte Produkte ""%Produkte"" nicht in Kategorie %Kategorie speichern",module,Magento_Catalog,
 Konnte Schl√ºsselw√∂rter f√ºr Asset-IDs nicht speichern: %ids,module,Magento_MediaGallery,
-Konnte Verzeichnisse nicht l√∂schen: %Pfade,module,Magento_MediaGallery,
-Konnte Verzeichnisse nicht speichern: %Pfade,module,Magento_MediaGallery,
+Konnte Verzeichnisse nicht l√∂schen: %paths,module,Magento_MediaGallery,
+Konnte Verzeichnisse nicht speichern: %paths,module,Magento_MediaGallery,
 Kount Merchant ID,Händlerkonto ID,module,Magento_Braintree
 Kunden mit dieser ID gibt es nicht mehr.,module,Magento_LoginAsCustomerAdminUi,
 Kunden sind nicht mehr vorhanden.,module,Magento_LoginAsCustomerFrontendUi,
@@ -7266,7 +7266,7 @@ No such entity with %fieldName = %fieldValue,Keine Eintrag mit %fieldName = %fie
 "No such entity with %fieldName = %fieldValue, %field2Name = %field2Value","Kein Objekt mit %fieldName = %fieldValue, %field2Name = %field2Value",module,Magento_Customer
 "No such entity with Customer Group = %customerGroup. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Keine solche Einheit mit Kundengruppe = %customerGroup. Zeilen-ID: SKU = %SKU, websiteId: %websiteId, Kundengruppe: %customerGroup, Menge: %qty.",module,Magento_Catalog
 No such entity with instance_id = %instance_id,Keine solche Entität mit instance_id = %instance_id,module,Magento_Widget
-No such entity with rp_token = %value,Keine solche Entität mit rp_token = %-Wert,module,Magento_Customer
+No such entity with rp_token = %value,Keine solche Entität mit rp_token = %value,module,Magento_Customer
 No such entity.,Keine solche Einheit,,
 No such latitude and longitude from address provider: %1,Keine solchen Breiten- und Längengrade vom Adressanbieter: %1,module,Magento_InventoryDistanceBasedSourceSelectionApi
 No such order id.,Keine solche Bestellnummer.,,
@@ -10148,7 +10148,7 @@ Shopping cart %1 amount %2 %3:,Einkaufswagen %1 Menge %2 %3,,
 Shopping Cart %1 Amount %2 %3:,Einkaufswagen %1 Menge %2 %3:,,
 Shopping cart %1 only virtual items,Einkaufswagen %1 nur virtuelle Artikel,,
 Shopping Cart Display Settings,Warenkorb-Anzeigeeinstellungen,,
-Shopping cart error: %message,Warenkorbfehler: %Meldung,module,Magento_QuoteGraphQl
+Shopping cart error: %message,Warenkorbfehler: %message,module,Magento_QuoteGraphQl
 Shopping cart errors,Warenkorb-Fehler,module,Magento_QuoteGraphQl
 Shopping Cart for %1 in %2,Einkaufswagen für %1 in %2,,
 Shopping Cart from %1,Warenkorb von %1,,
@@ -11411,7 +11411,7 @@ The new media gallery entry failed to save.,Der neue Mediengalerieeintrag konnte
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","Die New Relic-Integration erfordert den newrelic-php5-Agenten, der nicht installiert ist. Weitere
                         Informationen zur Installation des Agenten finden Sie <a target=""_blank"" href=""%1"">hier</a>.",module,Magento_NewRelicReporting
-"The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
+"The New Relic integration requires the newrelic-php5 agent, which is not installed. More
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","Die New Relic-Integration erfordert den newrelic-php5-Agenten, der nicht installiert ist. Mehr
                         Informationen zur Installation des Agenten finden Sie <a target=""_blank"" href=""%1"">hier</a>.",module,Magento_NewRelicReporting
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","Die New Relic-Integration erfordert den newrelic-php5 Stellvertreter, der nicht installiert ist. Weitere Informationen zur Installation <a target=""_blank"" href=""%1"">hier</a>.",,
@@ -12390,7 +12390,7 @@ Unable to load shipping address for specified quote.,Die Lieferadresse kann nich
 Unable to load stream events.,"Es ist nicht möglich, Stream-Ereignisse zu laden.",module,Temando_Shipping
 Unable to make payment authorization.,Die Zahlungsautorisierung konnte nicht ausgeführt werden.,module,Magento_Paypal
 Unable to make rollback because not all files are writable,"Rollback nicht möglich, da einige Dateien schreibgeschützt sind",,
-Unable to place order: %message,Bestellung kann nicht aufgegeben werden: %Meldung,module,Magento_QuoteGraphQl
+Unable to place order: %message,Bestellung kann nicht aufgegeben werden: %message,module,Magento_QuoteGraphQl
 Unable to post data to consumer due to an unexpected error,"Aufgrund eines unerwarteten Fehlers nicht in der Lage, Daten an Verbraucher zu schreiben",,
 Unable to qualify order.,Die Bestellung konnte nicht qualifiziert werden.,module,Temando_Shipping
 Unable to read system report data to display.,Systemberichtanzeigedaten können nicht gelesen werden.,,
