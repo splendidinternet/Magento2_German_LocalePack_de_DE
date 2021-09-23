@@ -2918,7 +2918,7 @@ Complaint,Beschwerde,,
 Complete,Vollständig,,
 Complete in,Vollständig in,module,Dotdigitalgroup_Email
 Computation mode,Berechnungsmodus,module,Magento_InventoryDistanceBasedSourceSelectionAdminUi
-Concrete type for %1 not implemented,Betontyp für %1 nicht implementiert,module,Magento_CatalogGraphQl
+Concrete type for %1 not implemented,Konkreter Typ für %1 nicht implementiert,module,Magento_CatalogGraphQl
 Concurrent session information:,Information über gleichzeitige Sessions:,module,Magento_Security
 Condition,Bedingung,,
 Condition has to implement IsProductSalableForRequestedQtyInterface.,Bedingung muss IsProductSalableForRequestedQtyInterface implementieren.,module,Magento_InventorySales
