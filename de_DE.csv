@@ -2918,7 +2918,7 @@ Complaint,Beschwerde,,
 Complete,Vollständig,,
 Complete in,Vollständig in,module,Dotdigitalgroup_Email
 Computation mode,Berechnungsmodus,module,Magento_InventoryDistanceBasedSourceSelectionAdminUi
-Concrete type for %1 not implemented,Betontyp für %1 nicht implementiert,module,Magento_CatalogGraphQl
+Concrete type for %1 not implemented,Konkreter Typ für %1 nicht implementiert,module,Magento_CatalogGraphQl
 Concurrent session information:,Information über gleichzeitige Sessions:,module,Magento_Security
 Condition,Bedingung,,
 Condition has to implement IsProductSalableForRequestedQtyInterface.,Bedingung muss IsProductSalableForRequestedQtyInterface implementieren.,module,Magento_InventorySales
@@ -4728,7 +4728,7 @@ Excessive name changes. The customer changed the name two or more times in the l
 Excl. %1 VAT,Exkl. %1 Steuern,module,FireGento_MageSetup
 "excl. <a href=""%1"">Shipping Cost</a>","exkl. <a href=""%1"">Versandkosten</a>",module,FireGento_MageSetup
 Excl. Tax,Exkl. Steuern,,
-Excl. tax:,Zzgl. Steuern:,,
+Excl. tax:,Exkl. Steuern:,,
 Exclude,Ausschließen,,
 Exclude from Navigation Menu,Vom Navigationsmenü ausschließen,,
 Exclude media folder from backup,Medienordner aus dem Backup ausschließen,,
