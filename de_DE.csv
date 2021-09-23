@@ -4728,7 +4728,7 @@ Excessive name changes. The customer changed the name two or more times in the l
 Excl. %1 VAT,Exkl. %1 Steuern,module,FireGento_MageSetup
 "excl. <a href=""%1"">Shipping Cost</a>","exkl. <a href=""%1"">Versandkosten</a>",module,FireGento_MageSetup
 Excl. Tax,Exkl. Steuern,,
-Excl. tax:,Zzgl. Steuern:,,
+Excl. tax:,Exkl. Steuern:,,
 Exclude,Ausschließen,,
 Exclude from Navigation Menu,Vom Navigationsmenü ausschließen,,
 Exclude media folder from backup,Medienordner aus dem Backup ausschließen,,
