@@ -1770,7 +1770,7 @@ Are you sure you want to assign selected items to inventory sources?,"Sind Sie s
 Are you sure you want to authorize full order amount?,"Sind Sie sicher, dass Sie den vollen Bestellwert autorisieren möchten?",module,Magento_Paypal
 Are you sure you want to cancel this order?,"Sind Sie sicher, dass Sie diese Bestellung stornieren wollen?",,
 Are you sure you want to cancel this order?,"Sind Sie sicher, dass Sie diese Bestellung stornieren wollen?",module,Magento_Sales
-Are you sure you want to cancel this pickup?,"Bist du sicher, dass du diese Abholung absagen willst?",module,Temando_Shipping
+Are you sure you want to cancel this pickup?,"Sind Sie sicher, dass Sie diese Abholung absagen wollen?",module,Temando_Shipping
 Are you sure you want to cancel this shipment?,"Sind Sie sicher, dass Sie diese Sendung stornieren möchten?",module,Temando_Shipping
 Are you sure you want to clear your cart?,"Sind Sie sicher, dass Sie Ihren Einkaufswagen leeren möchten?",,
 Are you sure you want to close this returns request?,"Sind Sie sicher, dass Sie diese Rücksendeanfrage schließen möchten?",,
@@ -2868,7 +2868,7 @@ Comma Separated Product Id's,Kommagetrennte Produkt-ID's,module,Dotdigitalgroup_
                             Wenn das Feld leer ist, sind die Schaltflächen für alle Kunden sichtbar.",module,Amazon_Core
 Comma-separated,kommagetrennt,,
 "Comma-separated list of synonyms. The terms entered (separated by commas) will be used as an “OR” search query to search your entire store. For example, if you enter “shoes,footwear”, and user were to search for ""shoes"", the search results will include any product or content with term “shoes"" or ""footwear.”","Komma-getrennte Liste von Synonymen. Die eingegebenen Begriffe (durch Komma getrennt) werden als „ODER“-Suchanfrage verwendet, um Ihren gesamten Shop zu durchsuchen. ",,
-"Comma-separated list of synonyms. The terms entered (separated by commas) will be used as an “OR” search query to search your entire store. For example, if you enter “shoes,footwear”, and user were to search for ""shoes"", the search results will include any product or content with term “shoes"" or ""footwear.”","Komma-getrennte Liste von Synonymen. Die eingegebenen Begriffe (durch Komma getrennt) werden als „ODER“-Suchanfrage verwendet, um Ihren gesamten Shop zu durchsuchen. Wenn sie z.B. “shoes,footwear” eingeben, und der Kunde sucht nach ""shoes"", wird das Suchergebnis alle Produkte oder Inhalte mit “shoes"" oder ""footwear” enthalten.",module,Magento_Search
+"Comma-separated list of synonyms. The terms entered (separated by commas) will be used as an “OR” search query to search your entire store. For example, if you enter “shoes,footwear”, and user were to search for ""shoes"", the search results will include any product or content with term “shoes"" or ""footwear.”","Komma-getrennte Liste von Synonymen. Die eingegebenen Begriffe (durch Komma getrennt) werden als „ODER“-Suchanfrage verwendet, um Ihren gesamten Shop zu durchsuchen. Wenn Sie z.B. “shoes,footwear” eingeben, und der Kunde sucht nach ""shoes"", wird das Suchergebnis alle Produkte oder Inhalte mit “shoes"" oder ""footwear” enthalten.",module,Magento_Search
 Comma-separated.,Kommagetrennt.,,
 Command %1 does not exist.,Befehl %1 existiert nicht.,,
 Command Executor for %1 is not defined.,Kommando Executor für %1 ist nicht definiert.,module,Magento_Payment
@@ -3954,7 +3954,7 @@ DHL,DHL,,
 DHL service is not available at %s date,DHL-Service ist am %s nicht verfügbar,,
 Dictionary (Translation on Storefront side),Wörterbuch (Übersetzung auf Frontend-Seite),,
 Dictionary (Translation on Storefront side),Wörterbuch (Übersetzung auf Frontend-Seite),module,Magento_Translation
-Did you mean,Meintest du damit,module,Magento_AdvancedSearch
+Did you mean,Meinten Sie,module,Magento_AdvancedSearch
 Die Angaben zur Region sind nicht eindeutig. Geben Sie die region_id an.,module,Magento_QuoteGraphQl,
 Die angegebene Region ist nicht Teil des ausgewählten Landes oder der ausgewählten Region,module,Magento_CustomerGraphQl,
 Die angegebene Region ist nicht Teil des ausgewählten Landes oder der ausgewählten Region,module,Magento_QuoteGraphQl,
@@ -4571,7 +4571,7 @@ Enter the Name and try again.,Geben Sie den Namen ein und versuchen Sie es erneu
 Enter URL where Oauth credentials can be sent when using Oauth for token exchange. We strongly recommend using https://.,"URL eingeben, wo Oauth-Anmeldeinformationen gesendet werden können, wenn Oauth für den Tokenwechsel benutzt wird. Wir empfehlen dringend https:// zu benutzen.",,
 enter your billing address for proper VAT calculation,Geben Sie Ihre Rechnungsadresse für eine korrekte Mehrwertsteuerberechnung an.,,
 Enter your email address,E-Mail-Adresse eingeben,,
-Enter your email address.  You will receive an email with a link to reset your password.,Geben sie ihre E-Mail-Adresse ein. Sie erhalten eine E-Mail mit einem Link zum Zurücksetzen des Passworts.,,
+Enter your email address.  You will receive an email with a link to reset your password.,Geben Sie ihre E-Mail-Adresse ein. Sie erhalten eine E-Mail mit einem Link zum Zurücksetzen des Passworts.,,
 enter your shipping address for proper VAT calculation,Geben Sie Ihre Versandadresse für eine korrekte Mehrwertsteuerberechnung an.,,
 Entering no value or a value greater than the expiration lifetime disables the warning notification.,Kein eingegebener Wert oder ein Wert größer als die Verfallslaufzeit deaktiviert die Warnungsbenachrichtigung.,,
 Entität 1,module,Magento_ImportExport,
@@ -4942,7 +4942,7 @@ File Type,Dateityp,module,Temando_Shipping
 File validation failed.,Die Dateiüberprüfung ist fehlgeschlagen.,module,Magento_Catalog
 File validation failed.,Die Dateiüberprüfung ist fehlgeschlagen.,module,Magento_Cms
 "File with an extension ""%value%"" is protected and cannot be uploaded","Dateien mit der Erweiterung ""%value%"" sind geschützt und können nicht hochgeladen werden",,
-File you are trying to upload exceeds maximum file size limit.,"Die Datei, die sie hochladen möchten, überschreitet die maximal zulässige Dateigröße.",module,Magento_Ui
+File you are trying to upload exceeds maximum file size limit.,"Die Datei, die Sie hochladen möchten, überschreitet die maximal zulässige Dateigröße.",module,Magento_Ui
 Filename,Dateiname,,
 Files ids can not be empty.,Dateien ids können nicht leer sein.,module,Magento_AdobeStockClient
 Filesystem is not writable.,Das Dateisystem ist nicht beschreibbar.,module,Magento_Config
@@ -5477,7 +5477,7 @@ Helper arguments should not be used in custom layout updates.,Hilfsargumente sol
 Helper instance cannot be redefined.,HIlfsinstanz kann nicht neu definiert werden.,,
 Helper instance is not defined yet.,Hilfsinstanz ist noch nicht definiert.,,
 here,Hier,,
-Here are the products you're about to create.,"Hier sind die Produkte, die sie gerade erstellen.",module,Magento_ConfigurableProduct
+Here are the products you're about to create.,"Hier sind die Produkte, die Sie gerade erstellen.",module,Magento_ConfigurableProduct
 Hidden,Versteckt,,
 Hidden Virtual PayPal Debit Card Transaction,Versteckte virtuelle PayPal-Kreditkarten-Transaktion,,
 Hide Contact Information,Kontaktinformationen verbergen,,
@@ -5617,7 +5617,7 @@ If you believe it is the right one you can ignore this notice.,"Wenn Sie der Mei
 "If you requested this change, reset your password here:","Wenn Sie diese Änderung beauftragt haben, setzen Sie Ihr Passwort hier neu:",,
 "If you requested this change, set a new password here:","Wenn Sie diese Änderung beauftragt haben, setzen Sie hier ein neues Passwort fest:",,
 If you select and save the rule you will be able to generate multiple coupon codes.,"Wenn Sie die Regel auswählen und speichern, sind Sie in der Lage, mehrere Gutschein-Codes zu generieren.",,
-"If you think this is an error, try signing out and signing in again.","Wenn du denkst, dass dies ein Fehler ist, versuche dich abzumelden und dich erneut anzumelden.",module,Magento_Backend
+"If you think this is an error, try signing out and signing in again.","Wenn Sie denken, dass dies ein Fehler ist, versuchen Sie sich abzumelden und sich erneut anzumelden.",module,Magento_Backend
 "If you're experiencing consistent errors with transferring keys, click <a href=""%1"" target=""_blank"">Manual Transfer Instructions</a> to learn more.","Wenn Sie bei der Übertragung von Schlüsseln konsistente Fehler feststellen, klicken Sie auf <a href=""%1"" target=""_blank"">Manuelle Übertragungsanweisungen</a>, um mehr zu erfahren.",module,Amazon_Core
 "If your Magento installation has multiple websites, you can edit the scope to associate the customer with a specific site.","Wenn Ihr Magento mehrere Webseiten hat, können Sie den Geltungsbereich bearbeiten, um den Kunden einer bestimmten Webseite zuzuordnen.",,
 "If your Magento installation has multiple websites, you can edit the scope to use the product on specific sites.","Wenn Ihr Magento mehrere Webseiten hat, können Sie den Geltungsbereich bearbeiten, um das Produkt auf einzelnen Webseiten darzustellen.",,
@@ -8164,7 +8164,7 @@ Please do not use different configurations for the same address.,Bitte verwenden
 Please enable Store Credit to refund the gift card amount to your customer,"Bitte aktivieren Sie das Shopguthaben, um dem Kunden den Geschenkkartenbetrag zurück zu erstatten.",,
 Please enter {0} words or less.,Bitte {0} Wörter oder weniger eingeben.,,
 Please enter {0} words or less.,Bitte {0} Wörter oder weniger eingeben.,module,Magento_Ui
-Please enter 6 or more characters. Leading and trailing spaces will be ignored.,Bitte geben sie 6 oder mehr Zeichen ein. Leerzeichen an Anfang und Ende werden ignoriert.,module,Magento_Ui
+Please enter 6 or more characters. Leading and trailing spaces will be ignored.,Bitte geben Sie 6 oder mehr Zeichen ein. Leerzeichen an Anfang und Ende werden ignoriert.,module,Magento_Ui
 Please enter 6 or more characters. Leading or trailing spaces will be ignored.,Bitte geben Sie 6 oder mehr Zeichen ein. Führende oder nachfolgende Leerzeichen werden ignoriert.,,
 "Please enter 7 or more characters, using both numeric and alphabetic.","Bitte geben Sie 7 oder mehr Zeichen ein, sowohl numerisch als auch alphabetisch.",,
 Please enter a comment.,Bitte geben Sie einen Kommentar ein.,,
@@ -8219,7 +8219,7 @@ Please enter a valid $ amount. For example $100.00.,"Bitte geben Sie einen gült
 Please enter a valid comment.,Bitte geben Sie einen gültigen Kommentar ein.,,
 Please enter a valid credit card expiration date.,Bitte geben Sie ein gültiges Kreditkarten-Ablaufdatum ein.,,
 Please enter a valid credit card number.,Bitte geben Sie eine gültige Kreditkartennummer ein.,,
-Please enter a valid credit card type number.,Bitte geben sie eine gültige Kreditkartentypnummer ein.,module,Magento_Payment
+Please enter a valid credit card type number.,Bitte geben Sie eine gültige Kreditkartentypnummer ein.,module,Magento_Payment
 Please enter a valid credit card verification number.,Bitte geben Sie eine gültige Kreditkarten-Prüfnummer ein.,,
 Please enter a valid customer ID.,Bitte geben Sie eine gültige Kundennummer ein.,,
 Please enter a valid date (ISO).,Bitte geben Sie ein gültiges Datum (ISO) ein.,lib,lib/web/mage/validation.js
@@ -8260,7 +8260,7 @@ Please enter a valid social security number (Ex: 123-45-6789).,Bitte geben Sie e
 "Please enter a valid time, between 00:00 and 23:59","Bitte geben Sie eine gültige Zeit ein, von 0.00 Uhr bis 23.59 Uhr.",,
 Please enter a valid tracking number.,Bitte geben Sie eine gültige Tracking-Nummer ein,,
 "Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","Bitte geben Sie einen gültigen URL-Schlüssel an (z.B.:""example-page"", ""example-page.html"" oder ""anotherlevel/example-page"").",,
-"Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","Bitte verwenden sie einen gültigen URL Schlüssel (Bsp: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").",module,Magento_Ui
+"Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","Bitte verwenden Sie einen gültigen URL Schlüssel (Bsp: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").",module,Magento_Ui
 Please enter a valid URL.,Bitte geben Sie eine gültige URL ein.,lib,lib/web/mage/validation.js
 Please enter a valid URL. For example http://www.example.com or www.example.com.,Bitte geben Sie eine gültige URL ein. Zum Beispiel http://www.example.com oder www.example.com.,,
 "Please enter a valid URL. Protocol (http://, https://) is required.","Bitte geben Sie eine gültige URL ein. Ein Protokoll (http://, https://) ist erforderlich.",module,Temando_Shipping
@@ -8348,7 +8348,7 @@ Please enter your email.,Bitte geben Sie Ihre E-Mail-Adresse ein.,,
 Please fill in the values for {section} section.,Bitte geben Sie Werte für {section} Abschnitt ein.,module,Magento_ConfigurableProduct
 Please fill in the values for the section,Bitte Werte für diesen Abschnitt ausfüllen,,
 Please fill in the values for the section,Bitte tragen Sie die Werte für diese Sektion ein.,,
-Please fill-in correct values.,Bitte geben sie korrekte Werte ein.,module,Magento_ConfigurableProduct
+Please fill-in correct values.,Bitte geben Sie korrekte Werte ein.,module,Magento_ConfigurableProduct
 "Please fix errors and re-upload file or simply press ""Import"" button to skip rows with errors","Bitte beheben Sie Fehler und laden Sie die Datei erneut hoch oder drücken Sie einfach die Taste ""Import"", um fehlerhafte Zeilen zu überspringen.",module,Magento_ImportExport
 Please fix this field.,Bitte dieses Feld ausfüllen.,lib,lib/web/mage/validation.js
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Bitte gehen Sie zu <a href=""%1"">Cache Management</a> und aktualisieren Sie die Cache-Typen",,
@@ -8584,7 +8584,7 @@ Points to Currency,Punkte zu Währung,,
 Points voided at order #%1 refund.,Punkte entfernt bei der Rückerstattung der Bestellung #%1,,
 Popular Search Terms,Beliebte Suchbegriffe,,
 Popularity,Popularität,module,Magento_AdobeStockImageAdminUi
-Popup Blocker is enabled! Please add this site to your exception list.,Ein Popup Blocker ist aktiviert! Bitte fügen sie diese Site der Ausnahmeliste hinzu.,module,Magento_Integration
+Popup Blocker is enabled! Please add this site to your exception list.,Ein Popup Blocker ist aktiviert! Bitte fügen Sie diese Site der Ausnahmeliste hinzu.,module,Magento_Integration
 Port,Port,module,Dotdigitalgroup_Email
 Port (25),Port (25),,
 Port (25),Port (25),module,Magento_Backend
@@ -10501,7 +10501,7 @@ Something went wrong. Please try to place the order again.,"Etwas ist schief gel
 "Sorry, we haven't installed the base currency you selected.",Leider haben wir die von Ihnen ausgewählte Basiswährung nicht installiert.,,
 "Sorry, we haven't installed the default display currency you selected.",Leider haben wir die von Ihnen ausgewählte Standardanzeigewährung nicht installiert.,,
 "Sorry, we're unable to complete this request.","Es tut uns leid, wir können diese Anforderung nicht abschließen.",,
-"Sorry, you need permissions to view this content.","Sorry, du brauchst Berechtigungen, um diesen Inhalt anzusehen.",module,Magento_Backend
+"Sorry, you need permissions to view this content.","Entschuldigung, Sie brauchen Berechtigungen, um diesen Inhalt anzusehen.",module,Magento_Backend
 Sort By,Sortieren nach,,
 Sort by,Sortieren nach,module,Magento_AdobeStockImageAdminUi
 Sort Custom Option,Benutzerdefinierte Optionen sortieren,,
@@ -11302,7 +11302,7 @@ The file you uploaded has no extension.,Die hochgeladene Datei hat keine Erweite
 The file you uploaded is larger than %1 Megabytes allowed by server,Die hochgeladene Datei ist größer als die von unserem Server erlaubten %1 MB.,,
 The file you're uploading exceeds the server size limit of %1 kilobytes.,"Die Datei, die Sie hochladen, überschreitet das Serverlimit von %1 KB.",,
 The filter must be an object. Please set the correct filter.,Der Filter muss ein Objekt sein. Bitte setzen Sie einen korrekten Filter.,,
-The filters are invalid. Set them in an array and try again.,Die Filter sind ungültig. Setzt sie in ein Array und versucht es erneut.,module,Magento_Catalog
+The filters are invalid. Set them in an array and try again.,Die Filter sind ungültig. Setzen Sie diese in ein Array und versuchen es erneut.,module,Magento_Catalog
 The filters must be an array.,Die Filter müssen ein Array sein.,,
 The Flat Catalog module has a limit of %2$d filterable and/or sortable attributes.' 'Currently there are %1$d of them.' 'Please reduce the number of filterable/sortable attributes in order to use this module,Das Flat-Katalog-Modul hat eine Begrenzung von %2$d filter und/oder sortierbaren Attributen.' 'Zur Zeit sind dort %1$d.' 'Bitte reduzieren Sie die Nummer an filterbaren/sortierbaren Attributen um dieses Modul zu benutzen.,,
 The Flat Catalog module has a limit of %2$d filterable and/or sortable attributes.Currently there are %1$d of them.Please reduce the number of filterable/sortable attributes in order to use this module,"Das Modul des flachen Katalogs hat ein Limit von %2 filterbaren und/oder sortierbaren Attributen. Es gibt zurzeit %1. Bitte reduzieren Sie die Anzahl von filterbaren/sortierbaren Attributen, um dieses Modul zu verwenden.",,
@@ -11998,7 +11998,7 @@ This is the wrong RMA item status.,Dies ist der falsche Warenrücksende-Artikel 
 This is the wrong RMA order ID.,Dies ist die falsche Warenrücksendeauftrags(RMA) ID.,,
 This is used internally. Make sure you don't use spaces or more than %1 symbols.,"Dies wird intern verwendet. Stellen Sie sicher, keine Leerzeichen oder mehr als %1 Symbole zu verwenden.",,
 This is what you provided Feefo during account setup and is usually your website domain name.,"Dies ist das, was Sie Feefo bei der Kontoeinrichtung zur Verfügung gestellt haben und ist normalerweise Ihr Website-Domainname.",module,Dotdigitalgroup_Email
-This is your new encryption key: %1. Be sure to write it down and take good care of it!,Das ist Ihre neue Verschlüsselung: %1. Schreiben Sie sie unbedingt nieder und bewahren sie sie gut auf!,module,Magento_EncryptionKey
+This is your new encryption key: %1. Be sure to write it down and take good care of it!,Das ist Ihre neue Verschlüsselung: %1. Schreiben Sie sie unbedingt nieder und bewahren Sie sie gut auf!,module,Magento_EncryptionKey
 "This is your new encryption key: <span style=""font-family:monospace;"">%1</span>. ' 'Be sure to write it down and take good care of it!","Dies ist Ihr Verschlüsselungs-Key: <span style=""font-family:monospace;"">%1</span>. ' 'Versichern Sie Sich, dass Sie ihn aufschreiben und sicher verwahren!",,
 "This is your new encryption key: <span style=""font-family:monospace;"">%1</span>. Be sure to write it down and take good care of it!","Das ist Ihr neuer Kodierungsschlüssel: <span style=""font-family: Monospace;"">%1</span>. Achten Sie darauf, ihn aufzuschreiben und ihn gut zu bewahren!",,
 This item has no weight,Dieser Artikel hat kein Gewicht,,
@@ -13659,11 +13659,11 @@ You already have a permission with this scope.,Sie haben bereits die Berechtigun
 You already have an account with us. Sign in or continue as guest.,Sie haben bereits ein Konto bei uns. Melden Sie sich an oder fahren Sie als Gast fort.,,
 You already have an identical search term query.,Sie haben bereits eine identische Suchanfrage gestellt.,,
 You applied the custom currency symbols.,Sie haben die benutzerdefinierten Währungssymbole angewandt.,,
-"You are about to allow dotdigital to import customers that haven't explicitly opted into your emails. This means Customers and Guests address book will contain contacts that you might not be able to reach out, depending on the applicable regulations. Do you wish to continue?","Sie sind dabei, dotdigital den Import von Kunden zu erlauben, die sich nicht ausdrücklich in Ihren E-Mails entschieden haben. Das bedeutet, dass das Adressbuch von Kunden und Gästen Kontakte enthält, die Sie je nach den geltenden Vorschriften möglicherweise nicht erreichen können. Möchtest du fortfahren?",module,Dotdigitalgroup_Email
+"You are about to allow dotdigital to import customers that haven't explicitly opted into your emails. This means Customers and Guests address book will contain contacts that you might not be able to reach out, depending on the applicable regulations. Do you wish to continue?","Sie sind dabei, dotdigital den Import von Kunden zu erlauben, die sich nicht ausdrücklich in Ihren E-Mails entschieden haben. Das bedeutet, dass das Adressbuch von Kunden und Gästen Kontakte enthält, die Sie je nach den geltenden Vorschriften möglicherweise nicht erreichen können. Möchten Sie fortfahren?",module,Dotdigitalgroup_Email
 You are about to delete all products in this attribute set. Are you sure you want to do that?,"Sie sind dabei, alle Produkte dieses Attributsets zu löschen. Sind Sie sicher, dass Sie dies tun wollen?",,
 You are about to delete all products in this attribute set. Are you sure you want to do that?,"Sie sind dabei, alle Produkte dieses Attributsets zu löschen. Sind Sie sicher, dass Sie dies tun wollen?",module,Magento_Catalog
 You are about to delete all products in this product template. ' 'Are you sure you want to do that?,Sie sind dabei alle Produkte in dieser Produktvorlagen zu löschen. Möchten Sie dies wirklich tun?,,
-You are about to enable this feature for customers that haven't explicitly opted into your emails. Do you wish to continue?,"Sie sind dabei, diese Funktion für Kunden zu aktivieren, die sich nicht ausdrücklich für Ihre E-Mails entschieden haben. Möchtest du fortfahren?",module,Dotdigitalgroup_Email
+You are about to enable this feature for customers that haven't explicitly opted into your emails. Do you wish to continue?,"Sie sind dabei, diese Funktion für Kunden zu aktivieren, die sich nicht ausdrücklich für Ihre E-Mails entschieden haben. Möchten Sie fortfahren?",module,Dotdigitalgroup_Email
 You are not allowed to change CMS pages design settings,Sie dürfen die Designeinstellungen der CMS-Seiten nicht ändern.,module,Magento_Cms
 You are not using store credit in your shopping cart.,Sie benutzen kein Shopguthaben in Ihrem Einkaufswagen.,,
 You are signed out,Sie haben sich ausgeloggt,module,Magento_Customer
@@ -13682,7 +13682,7 @@ You can buy up to %1 of these per purchase.,Sie können bis zu %1 dieser Produkt
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Sie können den Status Ihrer Bestellung per <a href=""%account_url"">Login zu Ihrem Konto</a> überprüfen.",,
 "You can check the status of your return <a href=""%form_url"">using your order number</a>.","Sie können den Status Ihrer Rücksendung verfolgen indem Sie <a href=""%form_url"">Ihre Bestellnummer hier eingeben</a>.",,
 "You can check the status of your return by <a href=""%account_url"">logging into your account</a> or <a href=""%form_url"">using your order number</a>.","Sie können den Status Ihrer Rücksendung verfolgen indem Sie: <a href=""%account_url"">in Ihr Konto einloggen</a> oder <a href=""%form_url"">ihre Bestellnummer hier eingeben.</a>.",,
-You can check your coupons at sales rule page,Du kannst deine Gutscheine auf der Seite mit den Verkaufsregeln überprüfen.,module,Magento_SalesRule
+You can check your coupons at sales rule page,Sie können Ihre Gutscheine auf der Seite mit den Verkaufsregeln überprüfen.,module,Magento_SalesRule
 You can create an account after checkout.,Sie können nach dem Bestellprozess ein Kundenkonto erstellen.,,
 You can create auto-generated coupons using reminder promotion rules.,Sie können automatisch generierte Coupons mittels der Erinnerungswerbungsregeln erstellen.,,
 You can create orders only in an active store.,Bestellungen können nur in einem aktiven Shop erstellt werden.,,
@@ -13694,7 +13694,7 @@ You can not cancel Credit Memo,Sie können die Gutschrift nicht abbrechen,,
 You can not refund shipping if there is no shipping amount.,"Sie können den Versand nicht zurückerstatten, wenn es keinen Versandpreis gibt.",module,Magento_Sales
 "You can override this default value in CMS using the limit=""x"" variable.","Sie können diesen vorgegebenen Wert in CMS mittels der limit=""x"" Variablen überschreiben.",,
 "You can override this default value in CMS using the limit=""x"" variable. Leave empty for no limitation.","Sie können diesen vorgegebenen Wert in CMS mittels der limit=""x"" Variablen überschreiben. Für keine Limitierung lassen Sie das Feld leer.",,
-You can pick up your file at export main page,Du kannst deine Datei auf der Hauptseite des Exports abholen.,module,Magento_ImportExport
+You can pick up your file at export main page,Sie können Ihre Datei auf der Hauptseite des Exports abrufen.,module,Magento_ImportExport
 You can reward up to %1 new reviews(s).,Sie können bis zu %1 neue Rezensionen belohnen.,,
 You can reward up to %s invitee purchase(s).,Sie können bis zu %1s Eingeladenen Käufe belohnen.,,
 You can reward up to %s invitee registration(s).,Sie können bis zu %1s Eingeladenen Registrierungen belohnen.,,
@@ -13827,7 +13827,7 @@ You don’t have permission to perform this operation. Selected reviews must be 
 You don’t have permission to perform this operation. Selected reviews must be in Pending Status only.,"Sie haben keine Erlaubnis, diese Operation durchzuführen. Ausgewählte Rezensionen dürfen sich nur im Status Ausstehend befinden.",module,Magento_Review
 You don’t have permission to perform this operation. The selected review must be in Pending Status.,"Sie haben keine Erlaubnis, diese Operation durchzuführen. Die ausgewählte Überprüfung muss sich im Status Ausstehend befinden.",module,Magento_Review
 You duplicated the block.,Sie haben den Block dupliziert.,module,Magento_Cms
-You duplicated the page.,Du hast die Seite dupliziert.,module,Magento_Cms
+You duplicated the page.,Sie haben die Seite dupliziert.,module,Magento_Cms
 You duplicated the product.,Sie haben das Produkt dupliziert.,,
 "You entered an invalid email address: ""%1"".","Sie haben eine ungültige E-Mail Adresse angegeben: ""%1"".",,
 "You entered an invalid hostname: ""%1""","Sie haben einen ungültigen Hostnamen angegeben: ""%1"".",,
@@ -13894,7 +13894,7 @@ You may be interested in the following items,Das könnte Sie interessieren,modul
 You may need more permissions to access this category.,Ihre Berechtigungen reichen nicht aus um diese Kategorie anzusehen.,,
 You may need more permissions to access this product.,Ihre Berechtigungen reichen nicht aus um diesen Artikel anzusehen.,,
 You moved the category,Sie haben die Kategorie verschoben.,,
-You moved the category.,Du hast die Kategorie verschoben.,module,Magento_Catalog
+You moved the category.,Sie haben die Kategorie verschoben.,module,Magento_Catalog
 You must buy at least %1 of these per purchase.,Sie müssen mindestens %1 dieser Artikel pro Bestellung kaufen.,,
 You must confirm your %customer_email email before you can sign in (link is only valid once):,"Sie müssen Ihre %customer_email Email bestätigen, bevor Sie sich einloggen (Link ist nur einmal gültig):",,
 You must confirm your %customer_email email before you can sign in (link is only valid once):,"Sie müssen Ihre %customer_email Email bestätigen, bevor Sie sich einloggen (Link ist nur einmal gültig):",module,Magento_Customer
@@ -14072,7 +14072,7 @@ Your current session has been expired.,Ihre aktuelle Sitzung ist abgelaufen.,mod
 Your current session is terminated by another user of this account.,Ihre aktuelle Sitzung wurde von einem anderen Benutzer dieses Kontos beendet.,module,Magento_Security
 Your current tax configuration may result in rounding errors. ,Ihre aktuelle Steuerkonfiguration kann auf Rundungsfehler hinauslaufen.,module,Magento_Tax
 Your Customization,Ihre Anpassung,,
-"Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted try to use larger file-size image.","Ihr vorgegebens Logo wird in PDF und HTML Dokumenten benutzt. (JPEG, TIFF, PNG) Sollte Ihre Datei verzerrt angezeigt werden, versuchen sie die Dateigröße zu erhöhen.",,
+"Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted try to use larger file-size image.","Ihr vorgegebens Logo wird in PDF und HTML Dokumenten benutzt. (JPEG, TIFF, PNG) Sollte Ihre Datei verzerrt angezeigt werden, versuchen Sie die Dateigröße zu erhöhen.",,
 "Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted, try to use larger file-size image.","Ihr Standard-Logo wird in PDF- und HTML-Dokumenten verwendet. <br /> (jpeg, tiff, png) Wenn Ihr PDF-Bild verzerrt ist, versuchen Sie für eine größere Bild-Datei zu verwenden.",,
 Your export file is ready,Ihre Exportdatei ist fertig.,module,Magento_ImportExport
 Your Gift Registry Message,Ihre Geschenkeliste Nachricht,,
