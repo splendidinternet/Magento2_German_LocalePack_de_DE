@@ -1707,7 +1707,7 @@ Apply custom Shipping Policy,Benutzerdefinierte Versandbedingungen anwenden,,
 Apply Customer Tax,Verwende Kundensteuerklasse,,
 Apply Design to Products,Design auf Produkte anwenden,,
 Apply Discount,Rabatt anwenden,,
-Apply Discount Code,Rabattcode anwenden,,
+Apply Discount Code,Gutscheincode anwenden,,
 "Apply discount on price including tax is calculated based on store tax if ""Apply Tax after Discount"" is selected.","""Wende Rabatt auf Preise inklusive Steuern an"" basiert auf der eingestellten Shop-Steuer, wenn 'Wende Steuern nach Rabatt an' ausgewählt ist.",,
 Apply Discount On Prices,Wende Rabatt auf Preise an,,
 Apply Filters,Filter anwenden,,
@@ -4551,7 +4551,7 @@ Enter a New Address,Geben Sie eine neue Adresse ein,,
 Enter a search term and try again.,Geben Sie einen Suchbegriff ein und versuchen Sie es erneut.,module,Magento_CatalogSearch
 Enter a valid payment method and try again.,Geben Sie eine gültige Zahlungsmethode ein und versuchen Sie es erneut.,module,Magento_Quote
 Enter country and postal code to search for a collection point.,"Geben Sie Land und Postleitzahl ein, um nach einer Sammelstelle zu suchen.",module,Temando_Shipping
-Enter discount code,Rabattcode eingeben,,
+Enter discount code,Gutscheincode eingeben,,
 Enter Each Email on New Line,Geben Sie jede E-Mail in einer neuen Zeile ein,,
 Enter Email,E-Mail eingeben,,
 Enter Feefo logon above before using this URL.,"Geben Sie oben die Feefo-Anmeldung ein, bevor Sie diese URL verwenden.",module,Dotdigitalgroup_Email
