@@ -11157,7 +11157,7 @@ the Child of the Matched Product Categories,das Kind der übereinstimmenden Prod
 "The CMS block with the ""%1"" ID doesn't exist.","Der CMS-Block mit der ID ""%1"" existiert nicht.",module,Magento_CmsGraphQl
 "The CMS block with the ""%1"" ID doesn't exist.","Der CMS-Block mit der ID ""%1"" existiert nicht.",module,Magento_Cms
 "The CMS page with the ""%1"" ID doesn't exist.","Die CMS-Seite mit der ID ""%1"" existiert nicht.",module,Magento_Cms
-The collection provider isn't registered.,Der Abholanbieter ist nicht registriert.,module,Magento_Catalog
+The collection provider isn't registered.,Der Collection Provider ist nicht registriert.,module,Magento_Catalog
 The columns for UPDATE statement are not defined,Die Spalten für die UPDATE-Anweisung sind nicht definiert,,
 The comment is missing. Enter and try again.,Der Kommentar fehlt. Geben Sie ihn ein und versuchen Sie es erneut.,module,Magento_Sales
 The comment is missing. Enter and try again.,Der Kommentar fehlt. Geben Sie ihn ein und versuchen Sie es erneut.,module,Magento_Shipping
