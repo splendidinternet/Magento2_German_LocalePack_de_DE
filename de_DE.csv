@@ -12964,7 +12964,7 @@ Virtual PayPal Debit Card Transaction,Virtuelle PayPal-Kreditkarten-Transaktion,
 Virtual Product,Virtuelles Produkt,,
 Virtual Terminal Payment,Virtual Terminal-Zahlung,,
 "Virtual, Downloadable, and virtual Gift Card products cannot be added to gift registries.","Virtuelle-, Herunterladbare- und Virtuelle-Geschenkkartenprodukte können nicht zur Geschenkeliste hinzugefügt werden.",,
-Visa,Visum,module,Magento_Payment
+Visa,Visa,module,Magento_Payment
 Visibility,Sichtbarkeit,,
 Visible,Sichtbar,,
 Visible in Advanced Search,In erweiterter Suche sichtbar,,
