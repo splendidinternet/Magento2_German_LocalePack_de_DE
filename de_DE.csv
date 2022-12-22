@@ -7299,7 +7299,7 @@ Not all items were included.,Nicht alle Artikel wurden berücksichtigt.,module,M
 Not all of your products are available in the requested quantity.,Nicht alle Ihrer Produkte sind in der gewünschten Menge verfügbar.,,
 Not allowed parameters: %1. Please use only %2 and %3.,Nicht erlaubte Parameter: %1. Bitte benutzen Sie nur %2 und %3.,,
 Not allowed to edit the category's design attributes,"Es ist nicht erlaubt, die Design-Attribute der Kategorie zu bearbeiten",module,Magento_Catalog
-Not allowed to edit the product's design attributes,"Es ist nicht erlaubt, die Konstruktionsattribute des Produkts zu bearbeiten",module,Magento_Catalog
+Not allowed to edit the product's design attributes,"Es ist nicht erlaubt, die Design-Attribute des Produkts zu bearbeiten",module,Magento_Catalog
 Not Approved,Nicht genehmigt,,
 Not Available,Nicht verfügbar,module,Temando_Shipping
 Not available,Nicht verfügbar,module,Dotdigitalgroup_Email
