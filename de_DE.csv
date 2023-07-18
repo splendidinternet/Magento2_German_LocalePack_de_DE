@@ -14154,4 +14154,32 @@ ZIP/Postal Code,Postleitzahl,,
 Zip/Postal Code is Optional for,Postleitzahl ist optional für,,
 "Zitatadresse für fehlgeschlagene Bestell-ID ""%1"" nicht gefunden.",module,Magento_Multishipping,
 Zugeordnete Auftragsposition konnte nicht gefunden werden.,module,Magento_SalesGraphQl,
-Zuletzt aktualisiert am,module,Magento_Customer,
+"Subscribed on Store View","Angemeldet in StoreView",module,Magento_Customer
+"Last Updated At","Zuletzt aktualisiert am",module,Magento_Customer
+"Excluded Website(s)","Ausgeschlossene Webseiten",module,Magento_Customer
+"Select websites you want to exclude from this customer group.","Wählen Sie die Websites aus, die Sie für diese Kundengruppe ausschließen möchten.",module,Magento_Customer
+"Today","Heute",module,Magento_Customer
+"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your shipping address for proper VAT calculation.' 'If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your billing address for proper VAT calculation.","'Wenn Sie ein registrierter Steuer-Kunde sind, klicken Sie bitte <a href="%1">hier</a>, um Ihre Versandadresse einzugeben, damit die Steuerberechnung korrekt erfolgen kann.' 'Wenn Sie ein registrierter Steuer-Kunde sind, klicken Sie bitte <a href="%1">hier</a>, um Ihre Rechnungsadresse einzugeben, damit die Steuerberechnung korrekt erfolgen kann.'",module,Magento_Customer
+"Address not found.","Addresse nicht gefunden",module,Magento_Customer
+"The Store View selected for sending Welcome email from is not related to the customer's associated website.","Die ausgewählte Store View zum Versenden der Willkommens-E-Mail steht nicht in Verbindung mit der zugehörigen Website des Kunden.",module,Magento_Customer
+"Provided customer ID ""%customer_id"" isn't related to current customer address.","Die angegebene Kunden-ID ""%customer_id"" gehört nicht zu der Kundenadresse.",module,Magento_Customer
+"Partial Match","Teilweise Übereinstimmung",module,Magento_Customer
+"Prefix Match","Präfixübereinstimmung",module,Magento_Customer
+"Full Match","Vollständige Übereinstimmung",module,Magento_Customer
+"Could not delete customer group website with ID: %1","Die Kundengruppen-Website mit der ID %1 konnte nicht gelöscht werden.",module,Magento_Customer
+"Could not save customer group website to exclude with ID: %1","Die Kundengruppen-Website mit der ID %1 konnte nicht als auszuschließende Website gespeichert werden.",module,Magento_Customer
+"The specified customer group id does not exist.","Die angegebene Kundengruppen-ID existiert nicht.",module,Magento_Customer
+"Could not save customer group website to exclude from customer group: ""%1""","Die Kundengruppen-Website konnte nicht als auszuschließende Website für die Kundengruppe ""%1"" gespeichert werden.",module,Magento_Customer
+"Could not retrieve excluded customer group websites by customer group: ""%1""","Die ausgeschlossenen Kundengruppen-Websites konnten nicht anhand der Kundengruppe ""%1"" abgerufen werden.",module,Magento_Customer
+"Could not retrieve all excluded customer group websites.","Es war nicht möglich, alle ausgeschlossenen Kundengruppen-Websites abzurufen.",module,Magento_Customer
+"Could not delete customer group with its excluded websites.","Die Kundegruppe mit ausgeschlossenen Webseiten konnte nicht gelöscht werden.",module,Magento_Customer
+"Could not delete customer group excluded website by id.","Die Kundegruppe mit ausgeschlossenen Webseiten konnte nicht gelöscht werden.",module,Magento_Customer
+"The session has expired, please login again.","Die Sitzung ist abgelaufen. Bitte melden Sie sich erneut an.",module,Magento_Customer
+"This website is excluded from customer's group.","Diese Website ist von der Kundengruppe ausgeschlossen.",module,Magento_Customer
+"AuthenticationException","AuthenticationException",module,Magento_Customer
+"File with an extension php is protected and cannot be uploaded","Die Datei mit der Erweiterung "".php"" ist geschützt und kann nicht hochgeladen werden.",module,Magento_Customer
+"Customer does not exist","Kunde existiert nicht",module,Magento_Customer
+"Street Address: Line %1","Adresszeile %1",module,Magento_Customer
+"Show Password","Passwort anzeigen",module,Magento_Customer
+"Require email confirmation if email has been changed","Erfordere eine E-Mail-Bestätigung, wenn die E-Mail-Adresse geändert wurde.",module,Magento_Customer
+"Add/Update Address","Adresse hinzufügen/ändern",module,Magento_Customer
