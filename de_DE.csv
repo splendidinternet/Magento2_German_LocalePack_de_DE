@@ -14183,3 +14183,10 @@ Zugeordnete Auftragsposition konnte nicht gefunden werden.,module,Magento_SalesG
 "Show Password","Passwort anzeigen",module,Magento_Customer
 "Require email confirmation if email has been changed","Erfordere eine E-Mail-Bestätigung, wenn die E-Mail-Adresse geändert wurde.",module,Magento_Customer
 "Add/Update Address","Adresse hinzufügen/ändern",module,Magento_Customer
+"Login as Customer not enabled","Einloggen als Kunde ist nicht aktiviert.",module,Magento_LoginAsCustomerAssistance
+"The user has not enabled the ""Allow remote shopping assistance"" functionality. Contact the customer to discuss this user configuration.","Der Benutzer hat die Funktion ""Remote-Einkaufsunterstützung zulassen"" nicht aktiviert. Kontaktieren Sie den Kunden, um diese Benutzerkonfiguration zu besprechen.",module,Magento_LoginAsCustomerAssistance
+"Login as Customer assistance is disabled for this Customer.","Die Funktion ""Als Kunde einloggen"" ist für diesen Kunden deaktiviert.",module,Magento_LoginAsCustomerAssistance
+"You have no permission to change Opt-In preference.","Sie haben keine Berechtigung, die Opt-In-Präferenz zu ändern.",module,Magento_LoginAsCustomerAssistance
+"Title for Login as Customer opt-in checkbox","Titel für die Opt-In-Checkbox "Als Kunde einloggen"",module,Magento_LoginAsCustomerAssistance
+"Login as Customer checkbox tooltip","Tooltip für die "Als Kunde einloggen" Checkbox",module,Magento_LoginAsCustomerAssistance
+"Allow remote shopping assistance","Erlaube Remote-Einkaufsunterstützung",module,Magento_LoginAsCustomerAssistance
