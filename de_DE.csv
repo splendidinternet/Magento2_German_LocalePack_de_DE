@@ -5261,7 +5261,7 @@ Get User Profile,Benutzerprofil abrufen,module,Magento_AdobeIms
 Get Video Information,Erhalte Videoinformationen,,
 GetContent-Elemente müssen %1 implementieren.,module,Magento_MediaContentApi,
 Gift,Geschenk,,
-Gift Card,Geschenkkartenkonto generieren bei Bestellartikel,,
+Gift Card,Geschenkkarte,,
 "Gift Card ""%1"" was added.","Geschenkkarte ""%1"" wurde hinzugefügt.",,
 "Gift Card ""%1"" was redeemed.","Geschenkkarte ""%1"" wurde eingelöst.",,
 "Gift Card ""%1"" was removed.","Geschenkkarte ""%1"" wurde entfernt.",,
