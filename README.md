@@ -1,67 +1,63 @@
 # Magento 2 German LocalePack de_DE
 
-Deutsches Sprachpaket für Magento 2 Community Edition (Version 2.4.4)
+Deutsches Sprachpaket (de_DE) für **Magento Open Source 2.4** und **Mage-OS**, gepflegt von der [Splendid Internet GmbH](https://www.splendid-internet.de/).
 
-Die Übersetzung wurde von deutschen Muttersprachlern nach eigenem Ermessen vorgenommen. Die Übersetzung ist komplett, d.h. alle Sprachausgaben von Magento 2 wurden vom Englischen ins Deutsche übersetzt. Gern können Änderungsvorschläge eingebracht oder auch das gesamte Repository geforkt werden, wenn abweichende Übersetzungen eingebracht werden sollen.
+Getestet mit Magento Open Source 2.4.7 und 2.4.9 sowie Mage-OS 4.0.0. Das Paket übersetzt Backend und Frontend und enthält auch Texte für Module, die Mage-OS mitbringt (zum Beispiel den KI-Assistenten Mago, SEO, Produktfeeds und Passkey-Anmeldung), für das Hyvä Theme und für verbreitete Erweiterungen wie den Akeneo Connector und Mollie. Ältere Versionen von Magento 2.4 werden weiter unterstützt. Module, die es nur in Adobe Commerce gibt, sind nicht vollständig übersetzt.
 
-Und für Magento 1.x gibt es weiterhin das deutsche Sprachpaket von Rico Neitzel: https://github.com/riconeitzel/German_LocalePack_de_DE
+Die Übersetzungen stammen von deutschen Muttersprachlern. Fehlende oder bessere Übersetzungen sind als Pull Request willkommen (siehe unten).
 
-German language pack for Magento 2 Community Edition (Version 2.4.4)
+Für Magento 1 gibt es das deutsche Sprachpaket von Rico Neitzel: https://github.com/riconeitzel/German_LocalePack_de_DE
 
-The translation was carried out by native German speakers at their own discretion. The translation is complete, i.e. All Magento 2 language editions have been translated from English to German. Suggestions for changes can be made or the entire repository can be researched if different translations are to be introduced.
-
-# Installation
- - Alle Dateien nach `/app/i18n/splendid/de_DE/` kopieren
-
-Aus dem Magento-Root-Verzeichnis folgende Befehle aufrufen:
-```bash
-rm pub/static/frontend/Magento/luma/de_DE/js-translation.json
-php bin/magento setup:static-content:deploy -f de_DE
-php bin/magento setup:upgrade
-rm -rf var/di
-php bin/magento setup:di:compile
-```
+German language pack (de_DE) for **Magento Open Source 2.4** and **Mage-OS**, maintained by Splendid Internet GmbH. Tested with Magento Open Source 2.4.7 and 2.4.9 and Mage-OS 4.0.0. It covers backend and frontend, including modules bundled with Mage-OS (such as the Mago AI assistant), the Hyvä theme and common extensions. Contributions are welcome as pull requests.
 
 # Installation mit Composer
+
 ```bash
 composer require splendidinternet/mage2-locale-de-de
-rm pub/static/frontend/Magento/luma/de_DE/js-translation.json
-php bin/magento setup:static-content:deploy de_DE
+bin/magento setup:upgrade
+bin/magento setup:static-content:deploy -f de_DE
+bin/magento cache:flush
 ```
 
-# Add new phrases
+Im Production-Modus zusätzlich `bin/magento setup:di:compile` vor dem Static-Content-Deploy. Bei einem Update des Pakets reicht `composer update splendidinternet/mage2-locale-de-de`, danach Static-Content-Deploy und `cache:flush`.
 
-To translate new phrases follow these steps:
+# Installation ohne Composer
 
-### Get phrases from Magento
+Alle Dateien dieses Repositorys nach `app/i18n/splendid/de_de/` kopieren, danach dieselben Befehle wie oben ab `setup:upgrade`.
 
-Run this in your Magento 2 installation:
+# Sprache einschalten
+
+- **Frontend:** `Shops` -> `Konfiguration` -> `Allgemein` -> `Allgemein` -> `Regionale Optionen` -> `Region` auf Deutsch (Deutschland), im gewünschten Bereich (Website oder Store View). Im englischen Backend heißt das `Stores` -> `Configuration` -> `General` -> `General` -> `Locale Options` -> `Locale`.
+- **Backend:** je Benutzer unter `Kontoeinstellung` -> `Schnittstelle Sprachumgebung` (`Account Setting` -> `Interface Locale`), für andere Benutzer unter `System` -> `Berechtigungen` -> `Alle Benutzer`.
+
+# Neue Texte ergänzen
+
+### Texte aus Magento sammeln
+
+In einer Magento- oder Mage-OS-Installation:
 
 ```bash
-php bin/magento i18n:collect-phrases -m > phrases.csv
+bin/magento i18n:collect-phrases -m -o phrases.csv
 ```
 
-### Compare phrases with old translation file
+### Mit der vorhandenen Übersetzung abgleichen
 
-Copy the `phrases.csv` into this repository and run:
+`phrases.csv` in dieses Repository kopieren und ausführen:
 
 ```bash
 php check_new.php
 ```
 
-This will output a new file `de_DE_new.csv` which only contains the
-phrases that are not yet translated in `de_DE.csv`.
+Das Skript schreibt `de_DE_new.csv` mit allen Texten, die in `de_DE.csv` noch fehlen.
 
-### Translate phrases
+### Übersetzen und einfügen
 
-Now you should translate these phrases. Enter the translated phrase
-in the *second* column.
+Die Übersetzung in die *zweite* Spalte eintragen und die neuen Zeilen in `de_DE.csv` übernehmen. Die Datei ist ohne Beachtung der Groß- und Kleinschreibung nach der ersten Spalte sortiert, neue Zeilen bitte passend einsortieren und bestehende Zeilen nicht verändern. Begriffe wie in der vorhandenen Übersetzung verwenden (zum Beispiel „Shops“, „Store View“, „Konfiguration“), Anrede „Sie“. Platzhalter wie `%1` und HTML bleiben unverändert.
 
-### Copy new phrases and create a pull request
+### Pull Request stellen
 
-Copy the new phrases to `de_DE.csv`.
+Dann einen [Pull Request](https://docs.github.com/de/pull-requests) mit den Änderungen stellen.
 
-**IMPORTANT**: sort the file alphabetically based on the first column, e.g. with LibreOffice.
+# Releases
 
-Now create a [new pull request](https://help.github.com/articles/creating-a-pull-request/) with
-your changes!
+Neue Versionen erscheinen als GitHub-Release mit Tag (zum Beispiel `1.73.0`) und sind kurz danach über [Packagist](https://packagist.org/packages/splendidinternet/mage2-locale-de-de) installierbar.
