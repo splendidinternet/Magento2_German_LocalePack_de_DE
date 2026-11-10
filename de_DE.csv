@@ -9818,7 +9818,7 @@ no such entity exception,keine solche Ausnahme,module,Magento_Store
 No such entity found with matching URL key: %url,Keine solche Entität mit passendem URL-Schlüssel gefunden: %url,module,Magento_UrlRewriteGraphQl
 No such entity with %fieldName = %fieldValue,Kein Objekt mit %fieldName = %fieldValue,module,Magento_Customer
 No such entity with %fieldName = %fieldValue,Keine solche Entität mit %fieldName = %fieldValue,module,Magento_Newsletter
-No such entity with %fieldName = %fieldValue,Keine Eintrag mit %fieldName = %fieldValue,module,Magento_Tax
+No such entity with %fieldName = %fieldValue,Kein Eintrag mit %fieldName = %fieldValue,module,Magento_Tax
 "No such entity with %fieldName = %fieldValue, %field2Name = %field2Value","Kein Objekt mit %fieldName = %fieldValue, %field2Name = %field2Value",module,Magento_Customer
 "No such entity with Customer Group = %customerGroup. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Keine solche Einheit mit Kundengruppe = %customerGroup. Zeilen-ID: SKU = %SKU, websiteId: %websiteId, Kundengruppe: %customerGroup, Menge: %qty.",module,Magento_Catalog
 No such entity with instance_id = %instance_id,Keine solche Entität mit instance_id = %instance_id,module,Magento_Widget
