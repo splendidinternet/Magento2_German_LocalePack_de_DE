@@ -2,13 +2,13 @@
 
 Deutsches Sprachpaket (de_DE) für **Magento Open Source 2.4** und **Mage-OS**, gepflegt von der [Splendid Internet GmbH](https://www.splendid-internet.de/).
 
-Getestet mit Magento Open Source 2.4.7 und 2.4.9 sowie Mage-OS 4.0.0. Das Paket übersetzt Backend und Frontend und enthält auch Texte für Module, die Mage-OS mitbringt (zum Beispiel den KI-Assistenten Mago, SEO, Produktfeeds und Passkey-Anmeldung), für das Hyvä Theme und für verbreitete Erweiterungen wie den Akeneo Connector und Mollie. Ältere Versionen von Magento 2.4 werden weiter unterstützt. Module, die es nur in Adobe Commerce gibt, sind nicht vollständig übersetzt.
+Getestet mit Magento Open Source 2.4.7 und 2.4.9 sowie Mage-OS 4.0.0. Das Paket übersetzt Backend und Frontend und enthält auch Texte für Module, die Mage-OS mitbringt (zum Beispiel den KI-Assistenten Mago, SEO, Produktfeeds und Passkey-Anmeldung), für das Hyvä Theme, den Hyvä Checkout und für verbreitete Erweiterungen wie den Akeneo Connector und Mollie. Ältere Versionen von Magento 2.4 werden weiter unterstützt. Module, die es nur in Adobe Commerce gibt, sind nicht vollständig übersetzt.
 
 Die Übersetzungen stammen von deutschen Muttersprachlern. Fehlende oder bessere Übersetzungen sind als Pull Request willkommen (siehe unten).
 
 Für Magento 1 gibt es das deutsche Sprachpaket von Rico Neitzel: https://github.com/riconeitzel/German_LocalePack_de_DE
 
-German language pack (de_DE) for **Magento Open Source 2.4** and **Mage-OS**, maintained by Splendid Internet GmbH. Tested with Magento Open Source 2.4.7 and 2.4.9 and Mage-OS 4.0.0. It covers backend and frontend, including modules bundled with Mage-OS (such as the Mago AI assistant), the Hyvä theme and common extensions. Contributions are welcome as pull requests.
+German language pack (de_DE) for **Magento Open Source 2.4** and **Mage-OS**, maintained by Splendid Internet GmbH. Tested with Magento Open Source 2.4.7 and 2.4.9 and Mage-OS 4.0.0. It covers backend and frontend, including modules bundled with Mage-OS (such as the Mago AI assistant), the Hyvä theme, Hyvä Checkout and common extensions. Contributions are welcome as pull requests.
 
 # Installation mit Composer
 
