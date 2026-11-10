@@ -344,6 +344,7 @@
  · %1 min read, · %1 Min. Lesezeit,module,MageOS_BlogHyva
 """%1""","""%1""",module,MageOS_Seo
 """%1"" entity type not set in providers","Der Entitätstyp ""%1"" ist in den Providern nicht festgelegt",module,Magento_EavGraphQl
+"""%1"" is a required field.","""%1"" ist ein Pflichtfeld.",module,Hyva_Checkout
 """%1"" is not a valid gender value.","""%1"" ist kein gültiger Wert für das Geschlecht.",module,Magento_CustomerGraphQl
 """%1"" is not a valid input to accept file uploads.","""%1"" ist keine gültige Eingabe für Datei-Uploads.",module,Magento_Customer
 """%1"" must be later than the current date.","""%1"" muss nach dem aktuellen Datum liegen.",module,Magento_Security
@@ -383,6 +384,8 @@
 %1 (not a field of this template),%1 (kein Feld dieser Vorlage),module,MageOS_Seo
 %1 (Parent Only),%1 (nur übergeordnetes Produkt),module,Magento_SalesRule
 %1 Access support in multiple languages with priority for Hyvä merchants.,"%1 Support in mehreren Sprachen, mit Vorrang für Hyvä-Händler.",module,Hyva_MollieThemeBundle
+%1 address cannot be shown due to a technical malfunction.,Die Adresse (%1) kann wegen eines technischen Fehlers nicht angezeigt werden.,module,Hyva_Checkout
+%1 address could not be found.,Die Adresse (%1) wurde nicht gefunden.,module,Hyva_Checkout
 %1 author(s) disabled.,%1 Autor(en) deaktiviert.,module,MageOS_Blog
 %1 author(s) enabled.,%1 Autor(en) aktiviert.,module,MageOS_Blog
 %1 cannot be more than %2.,%1 darf nicht größer als %2 sein.,module,MageOS_Seo
@@ -758,6 +761,7 @@
 %1 doesn't implement SourceSelectionInterface,%1 implementiert keine SourceSelectionInterface.,module,Magento_InventorySourceSelectionApi
 %1 email(s) were sent.,%1 E-Mail(s) gesendet.,,
 %1 Error has been logged.,%1 Fehler wurde protokolliert.,module,Vertex_Tax
+%1 Excl. Tax,%1 exkl. Steuern,module,Hyva_Checkout
 "%1 for ""%2""","%1 für ""%2""",,
 "%1 for ""%2"".","%1 für ""%2"".",,
 %1 for %2,%1 für %2,,
@@ -1235,6 +1239,7 @@ A feed file could not be written.,Eine Feed-Datei konnte nicht geschrieben werde
 A feed read from remote storage could not be buffered.,Ein aus dem Remote-Speicher gelesener Feed konnte nicht zwischengespeichert werden.,module,MageOS_Aeo
 A feed rebuild is already running; this one was not started.,"Es läuft bereits eine Feed-Neuerstellung, diese wurde daher nicht gestartet.",module,MageOS_Aeo
 A fieldset with the same code alredy exists.,Eine Feldgruppe mit demselben Code existiert bereits,,
+"A form modifier with name ""%1"" already exists","Ein Formular-Modifikator mit dem Namen ""%1"" existiert bereits",module,Hyva_Checkout
 A group with the same name already exists.,Eine Gruppe mit diesem Namen existiert bereits.,,
 "A grouped product is made up of multiple, standalone products that are presented as a group. You can offer variations of a single product, or group them by season or theme to create a coordinated set. Each product can be purchased separately, or as part of the group.","Ein gruppiertes Produkt wird aus vielen, eigenständigen Produkten zusammengesetzt, die als eine Gruppe präsentiert werden. Sie können Varianten eines einzelnen Produktes anbieten, oder Produkte saisonal oder thematisch zusammenstellen, um ein zusammenpassendes Set zu erhalten. Jedes Produkt kann getrennt, oder als ein Teil der Gruppe gekauft werden.",module,Magento_GroupedProduct
 A Header is too large to fit in the segment!,Ein Header ist zu groß für das Segment!,module,Magento_MediaGalleryMetadata
@@ -1383,6 +1388,7 @@ Accept payments with a PCI compliant checkout that keeps customers on your site.
 Accept payments with a PCI-compliant checkout that keeps customers on your site.,"Akzeptieren Sie Zahlungen mit einem PCI-konformen Checkout, so dass die Kunden auf Ihrer Website bleiben.",,
 Accept payments with a PCI-compliant checkout that keeps customers on your site. (<u>Includes Express Checkout</u>),"Akzeptieren Sie Zahlungen mit einer PCI-konformen Kasse, sodass die Kunden auf Ihrer Website bleiben. (<u>Beinhaltet Express Checkout</u>)",module,Magento_Paypal
 Accept Rate,Rate akzeptieren,,
+Accept Terms,AGB akzeptieren,module,Hyva_Checkout
 Acceptance Mark,Akzeptanzzeichen,,
 Acceptance Mark Image,Akzeptanzzeichen-Bild,,
 Accepted,Akzeptiert,,
@@ -1711,6 +1717,7 @@ Address Attributes,Adressattribute,,
 Address AVS check,Adressverifizierung (AVS),,
 Address Book,Adressbuch,,
 Address Book Mapping,Adressbuchzuordnung,module,Dotdigitalgroup_Email
+Address cannot be shown due to a technical malfunction.,Die Adresse kann wegen eines technischen Fehlers nicht angezeigt werden.,module,Hyva_Checkout
 Address country handler %1 must be of type %2,Adressland Handler %1 muss vom Typ %2 sein.,module,Amazon_Core
 Address Data,Adressdaten,module,Magento_InventoryAdminUi
 Address does not exist.,Adresse existiert nicht,,
@@ -1718,6 +1725,8 @@ Address id %1 does not exist.,Die Adress-ID %1 existiert nicht.,module,Magento_C
 Address Information,Adressinformationen,,
 Address is empty.,Adresse ist leer,,
 Address is invalid. Please contact the store administrator.,Die Adresse ist ungültig. Bitte wenden Sie sich an den Shop-Administrator.,module,Magento_Braintree
+Address List,Adressliste,module,Hyva_Checkout
+Address successfully saved.,Adresse erfolgreich gespeichert.,module,Hyva_Checkout
 Address Templates,Adress-Vorlagen,,
 Address Type,Adresstyp,,
 Address Validation,Adressvalidierung,module,Vertex_AddressValidation
@@ -2230,6 +2239,7 @@ An unexpected error occurred while preparing package dimensions.,Beim Vorbereite
 An unique ID of your magento instance.,Eine eindeutige ID Ihrer Magento-Instanz.,module,Magento_GoogleShoppingAds
 An unknown error occurred. Please try again.,Ein unbekannter Fehler ist aufgetreten. Bitte versuchen Sie es erneut.,module,Magento_PageBuilder
 An unknown error occurred. Please try another payment method,Es ist ein unbekannter Fehler aufgetreten. Bitte versuchen Sie eine andere Zahlungsmethode.,module,Klarna_Kp
+An unknown validation exception occurred.,Ein unbekannter Validierungsfehler ist aufgetreten.,module,Hyva_Checkout
 An unspecified error occurred. Please contact us for assistance.,Ein unbekannter Fehler ist aufgetreten. Kontaktieren Sie uns bitte für Hilfestellung.,module,Magento_Customer
 An unsupported currency is currently selected. Please review our configuration guide.,Eine nicht unterstützte Währung ist derzeit ausgewählt. Bitte lesen Sie unsere Konfigurationsanleitung.,module,Amazon_Core
 An up-sell item is offered to the customer as a pricier or higher-quality alternative to the product the customer is looking at.,"Ein Up-Sell-Artikel wird den Kunden als teurere oder hochwertigere Alternative zu dem Artikel angeboten, den sie sich anschauen.",,
@@ -2301,6 +2311,7 @@ API username,API-Benutzername,module,Dotdigitalgroup_Email
 API Uses Proxy,API verwendet Proxy,,
 API valid,API gültig,module,Dotdigitalgroup_Email
 API Version,API-Version,module,Klarna_Core
+"Apologies, but an error occurred while updating the checkout, please refresh the current page to resolve the issue.","Leider ist beim Aktualisieren des Checkouts ein Fehler aufgetreten. Bitte laden Sie die Seite neu, um das Problem zu beheben.",module,Hyva_Checkout
 App Key,App-Taste,module,Yotpo_Yotpo
 App Secret,App Secret,module,MageOS_PageBuilderTemplateImportExport
 Appearance,Darstellung,module,MageOS_PageBuilderWidget
@@ -2646,6 +2657,7 @@ attachment,Anhang,,
 Attempt to add an invalid object,"Versuch, ein ungültiges Objekt hinzuzufügen",,
 Attention,Achtung,,
 Attention: Captcha is case sensitive.,Achtung: Captcha berücksichtigt Groß- u. Kleinschreibung,module,Magento_Captcha
+"Attention: The website you are attempting to access is not secure, and your connection may not be private. Continuing is at your own risk, and we are not responsible for any issues that may arise.","Achtung: Die aufgerufene Website ist nicht sicher und Ihre Verbindung ist möglicherweise nicht privat. Das Fortfahren geschieht auf eigenes Risiko, wir übernehmen keine Verantwortung für mögliche Probleme.",module,Hyva_Checkout
 Attribute,Attribut,module,Dotdigitalgroup_Email
 Attribute '%1' is locked. %2,"Attribut ""%1"" ist gesperrt. %2",,
 "Attribute ""%1"" is required.","Attribut ""%1"" ist nicht erforderlich.",,
@@ -2833,8 +2845,10 @@ Awaiting the Signifyd guarantee disposition.,In Erwartung der Signifyd-Garantie 
 AWS S3,AWS S3,module,Magento_AwsS3
 "Baby/Children’s Apparel, Gear and Toys","Baby/Kinderbekleidung, Ausrüstung und Spielzeug",module,Magento_Analytics
 Back,Zurück,,
+Back to %1,Zurück zu %1,module,Hyva_Checkout
 Back to Billing Agreements,Zurück zu den Abrechnungsvereinbarungen,,
 Back to Billing Information,Zurück zu den Rechnungsinformationen,,
+Back to Cart,Zurück zum Warenkorb,module,Hyva_Checkout
 Back to Category,Zurück zur Kategorie,,
 Back to Invitations,Zurück zu Einladungen,,
 Back to Main Product Info,Zurück zu den Produktinformationen,,
@@ -3104,6 +3118,7 @@ Browse the directory,Verzeichnis durchsuchen,module,MageOS_ExtensionDirectory
 Browse to find or drag image here,"Durchsuchen, um ein Bild zu finden und es hierhin zu ziehen",,
 Browser,Browser,module,MageOS_PasskeyAuth
 Browser Capabilities Detection,Browserfunktionserkennung,,
+Browser Storage is unavailable.,Der Browserspeicher ist nicht verfügbar.,module,Hyva_Checkout
 Browsing Category,Kategorie durchsuchen,,
 btn btn-secondary,btn btn-secondary,module,MageOS_RMA
 Bucket and region are required values,Bucket und Region sind Pflichtangaben,module,Magento_AwsS3
@@ -3699,6 +3714,8 @@ Checkout as a new customer,Als Neukunde auschecken,module,Magento_Customer
 Checkout Cart Page,Warenkorb-Checkout-Seite,,
 Checkout Conditions,Checkout-Bedingungen,,
 Checkout failed to initialize. Verify and try again.,Die Kasse konnte nicht initialisiert werden. Überprüfen Sie und versuchen Sie es erneut.,module,Magento_Braintree
+Checkout Main,Checkout-Hauptbereich,module,Hyva_Checkout
+Checkout Message navigation,Navigation der Checkout-Meldungen,module,Hyva_Checkout
 Checkout Method,Checkout-Methode,module,Dotdigitalgroup_Email
 Checkout now,Jetzt auschecken,module,Amazon_Payment
 Checkout Options,Checkout-Optionen,,
@@ -4055,6 +4072,7 @@ confirm password shown,Passwortbestätigung angezeigt,module,frontend/Hyva/defau
 Confirm Your %store_name Order Cancellation,Bestätigen Sie die Stornierung Ihrer Bestellung bei %store_name,module,Magento_OrderCancellation
 Confirm Your Account,Bestätigen Sie Ihr Konto,,
 Confirm your new password.,Bestätigen Sie das neue Passwort.,,
+Confirmation,Bestätigung,module,Hyva_Checkout
 Confirmation bar,Einwilligungsleiste,module,Amasty_GdprCookie
 Confirmation Email Sender,Absender für Bestätigungs-Email,,
 Confirmation Email Template,Vorlage für Bestätigung-E-Mail,,
@@ -5246,6 +5264,7 @@ Deny,Verweigern,,
 Deny Items,Einträge ablehnen,module,MageOS_CatalogDataAI
 Deny Payment,Zahlung ablehnen.,,
 Deny Selected,Ausgewählte ablehnen,module,MageOS_CatalogDataAI
+Deny Terms,AGB ablehnen,module,Hyva_Checkout
 Depends on design theme,Vom Design Theme abhängig,,
 Depends on design theme.,Vom Design Theme abhängig.,module,Magento_Catalog
 Deployment API Mode,Deployment-API-Modus,module,Magento_NewRelicReporting
@@ -5406,6 +5425,7 @@ Discount Amount,Rabattbetrag,,
 Discount amount is applied to subtotal and shipping amount separately,Rabattbetrag wird auf die Zwischensumme und Versandkosten getrennt angewandt,module,Magento_SalesRule
 Discount amount is applied to subtotal only,Rabattbetrag wird nur auf die Zwischensumme angewandt,,
 Discount amount is distributed among subtotal and shipping amount. Cases when multiple discounts applied to shipping amount are not supported. The option is going to be removed in future releases.,"Der Rabattbetrag wird auf Zwischensumme und Versandkosten verteilt. Fälle, in denen mehrere Rabatte auf die Versandkosten angewendet werden, werden nicht unterstützt. Diese Option wird in zukünftigen Versionen entfernt.",module,Magento_SalesRule
+Discount code,Gutscheincode,module,Hyva_Checkout
 Discount Qty Step (Buy X),Mengenrabatt (X bezahlen),,
 Discount Qty Step (Buy X),Mengenrabatt (Kaufe X),module,Magento_SalesRule
 Discount value should be 0 or greater.,Rabattwert sollte größer als 0 sein.,,
@@ -5810,11 +5830,13 @@ Elasticsearch Server Timeout,Elasticsearch Server Zeitüberschreitung,module,Mag
 Electronic payments save the trees.,Elektronische Zahlungen retten die Bäume.,module,Magento_Authorizenet
 Electronics & Gadgets,Elektronik & Gadgets,module,MageOS_Seo
 Elektronisches Lastschriftverfahren - German ELV,Elektronisches Lastschriftverfahren - Deutsch ELV,module,Magento_Paypal
+Element %1 could not be resolved while searching for %2,Element %1 konnte bei der Suche nach %2 nicht aufgelöst werden,module,Hyva_Checkout
 element comment,Element-Kommentar,,
 element hint,Element-Hinweis,,
 Element ID must not be numeric: '%1'.,Element-ID darf nicht numerisch sein: %1,,
 element label,Element-Label,,
 Element name and destination must be specified.,Elementname- und Ziel muss angegeben werden.,,
+"Element renderer for ""%1"" not found in ""%2""","Element-Renderer für ""%1"" in ""%2"" nicht gefunden",module,Hyva_Checkout
 element tooltip,Element-Tooltip,,
 Element with ID '%1' already exists.,"Elemente mit der ID ""%1"" existieren bereits",,
 Element with ID '%1' is already defined.,"Elemente mit der ID ""%1"" sind bereits definiert",,
@@ -5823,6 +5845,8 @@ Email,E-Mail,,
 email,E-Mail,module,Magento_User
 Email address,E-Mail-Adresse,,
 Email Address,E-Mail-Adresse,,
+Email address cannot be empty.,Die E-Mail-Adresse darf nicht leer sein.,module,Hyva_Checkout
+Email address field could not be found.,Das Feld für die E-Mail-Adresse wurde nicht gefunden.,module,Hyva_Checkout
 "Email address impact. The customer uses a free email provider, or the email address is risky",E-Mail-Adressen-Auswirkung. Der Kunde verwendet einen kostenlosen E-Mail-Provider oder die E-Mail-Adresse ist riskant.,,
 Email address is not valid,Die E-Mail-Adresse ist ungültig,module,Magento_CustomerGraphQl
 Email Address:,E-Mail-Adresse:,module,Amazon_Payment
@@ -6312,6 +6336,8 @@ Euro Region,Euro-Raum,module,Amazon_Core
 Europack,Europack,,
 Europe First Priority,Europa First Priorität,,
 European Union Countries,EU-Länder,,
+Evaluation Malfunction,Fehler bei der Auswertung,module,Hyva_Checkout
+Evaluation result can only be of type %1,Das Auswertungsergebnis kann nur vom Typ %1 sein,module,Hyva_Checkout
 Event,Ereignis,,
 Event Code,Ereigniscode,,
 Event Country,Ereignisland,,
@@ -6474,6 +6500,7 @@ Extra Large,Extra groß,module,Amazon_Core
 Extra parameters passed to parent construct: %1. File: %2,Zusätzliche Parameter an den Ursprung übergeben: %1 Datei: %2,,
 F,F,module,Magento_Customer
 Facebook,Facebook,module,MageOS_Blog
+"Factory ""%1"" does not implement %2","Factory ""%1"" implementiert %2 nicht",module,Hyva_Checkout
 Fade,Überblenden,module,Magento_PageBuilder
 Fail to get authentication data.,Die Authentifizierungsdaten konnten nicht abgerufen werden.,module,Magento_LoginAsCustomer
 "Fügen Sie den folgenden Parameter zur URL hinzu, um Vorlagenhinweise anzuzeigen ?templatehints=[parameter_value]",module,Magento_Backend,
@@ -6878,6 +6905,7 @@ For Virtual Quotes Only,Nur für virtuelle Angebote,,
 For Windows server only.,Nur für Windows Server.,,
 Forbidden extensions has been used. Avoid usage of,Es wurden verbotene Erweiterungen verwendet. Vermeiden Sie die Verwendung von,lib,lib/web/mage/validation.js
 Forbidden extensions has been used. Avoid usage of ,Es wurden verbotene Erweiterungen verwendet. Vermeiden Sie die Verwendung von,lib,lib/web/mage/validation.js
+Force,Erzwingen,module,Hyva_Checkout
 Force providers,Anbieter erzwingen,module,MSP_TwoFactorAuth
 Force Sign-In,Anmelden erzwingen,,
 Forced,Gezwungen,,
@@ -6897,6 +6925,7 @@ Forgot Password Email Template,"Vorlage für ""Passwort vergessen""-E-Mail",,
 Forgot Your Password,Passwort vergessen,,
 Forgot Your Password?,Passwort vergessen?,,
 Forgot your password?,Haben Sie Ihr Passwort vergessen?,,
+"Form ""%1"" has no save service because it persists itself.","Das Formular ""%1"" hat keinen Speicherdienst, da es sich selbst speichert.",module,Hyva_Checkout
 "Form ""%form"" could not be found.","Das Formular ""%form"" wurde nicht gefunden.",module,Magento_EavGraphQl
 form appears when field is selected,"Formular erscheint, wenn das Feld ausgewählt ist",module,frontend/Hyva/default
 Form Code,Formularcode,,
@@ -6929,6 +6958,7 @@ Fraud Message,Betrugsnachricht,,
 Fraud Protection,Betrugsschutz,module,Magento_Signifyd
 Fraud Protection Information,Informationen zum Betrugsschutz,module,Magento_Signifyd
 Fraud Protection Section,Abteilung Betrugsschutz,module,Magento_Signifyd
+Free,Kostenlos,module,Hyva_Checkout
 Free Method,Freie Methode,,
 Free return,Kostenlose Rücksendung,module,MageOS_Seo
 Free Shipping,Kostenloser Versand,,
@@ -7232,6 +7262,7 @@ Globally Editable,Global bearbeitbar,,
 Globalmail business,Globalmail business,,
 Go back,Zurück,,
 Go back to product details,Zurück zu Produktdetails,,
+Go back to the cart,Zurück zum Warenkorb,module,Hyva_Checkout
 "Go to <a href=""%1"">My Downloadable Products</a>","Gehe zu: <a href=""%1"">Meine Downloadartikel</a>",,
 Go to Advanced Reporting,Gehe zu Erweiterte Berichte,module,Magento_Analytics
 Go to Archive,Gehe zu Archiv,,
@@ -7785,6 +7816,7 @@ Incoming Message,Einkommende Nachricht,,
 Incompatible argument type: Required type: %1. Actual type: %2; File: %3%4%5,Inkompatibler Argumenttyp: Benötigter Typ: %1 Gegebener Typ: %2 Datei: %3%4%5,,
 Incompatible parameter type [%1 $%2] in %3::%4. It must be compatible with %5,"Inkompatibler Parametertyp [%1 $%2] in %3::%4, muss mit %5 kompatibel sein.",,
 Incomplete,Unvollständig,,
+Incomplete Checkout Process,Unvollständiger Bestellvorgang,module,Hyva_Checkout
 Incomplete payment information.,Unvollständige Zahlungsinformationen,,
 Incomplete PayPal account information.,Unvollständige PayPal-Kontoinformationen.,module,Magento_Braintree
 Incorrect argument sequence in class %1 in %2%3Required: $%4%5Actual  : $%6%7,"Fehlerhafte Argumentensequenz in der Klasse %1 in %2%3, Benötigt: $%4%5 Gegeben: $%6%7",,
@@ -7851,6 +7883,7 @@ Info,Info,module,MageOS_ShoppingFeed
 Info about column,Infos zur Spalte,module,MageOS_ShoppingFeed
 Info:,Info:,,
 Information,Informationen,,
+Information has been updated,Die Daten wurden aktualisiert,module,Hyva_Checkout
 Ingredients,Inhaltsstoffe,module,MageOS_Seo
 Ingredients / Material,Zutaten / Material,module,MageOS_Seo
 "Inherit (parent category, then the store's Category Pages default)","Erben (übergeordnete Kategorie, danach der Standard für Kategorieseiten des Shops)",module,MageOS_Seo
@@ -8314,6 +8347,8 @@ It is not allowed to change sources,Das Ändern von Quellen ist nicht erlaubt,mo
 "It is recommended to set this value to ""Debit or Credit Card"" per store views.","Es wird empfohlen, diesen Wert auf ""Lastschrift oder Kreditkarte"" pro Store View zu setzen.",,
 "It is recommended to set this value to ""Magento_Paypal"" per store views.","Es wird empfohlen, diesen Wert auf ""Magento_Paypal"" pro Store View zu setzen.",,
 "It is recommended to set this value to ""PayPal"" per store views.","Es wird empfohlen, diesen Wert auf ""PayPal"" pro Store View zu setzen.",,
+"It looks like some steps were missed along the way. Don’t worry, we will take you back to the first step that needs to be completed. Please review it, then continue with your checkout.","Es wurden offenbar einige Schritte übersprungen. Keine Sorge, wir bringen Sie zum ersten Schritt zurück, der noch abgeschlossen werden muss. Bitte prüfen Sie ihn und setzen Sie dann Ihre Bestellung fort.",module,Hyva_Checkout
+It looks like you selected a country which is not available (%1). Please select a different country from the available options.,Das gewählte Land ist nicht verfügbar (%1). Bitte wählen Sie ein anderes Land aus den verfügbaren Optionen.,module,Hyva_Checkout
 "It seems that you'd like to cancel your order #%order_id. If this is correct, please <a href=""%guest_order_url"" target=""_blank"">click here</a> to confirm your cancellation request.","Sie möchten offenbar Ihre Bestellung #%order_id stornieren. Wenn das zutrifft, <a href=""%guest_order_url"" target=""_blank"">klicken Sie bitte hier</a>, um Ihre Stornierungsanfrage zu bestätigen.",module,Magento_OrderCancellation
 It will apply catalog price rules when computing the Sale Price.,Wendet bei der Berechnung des Angebotspreises Katalogpreisregeln an.,module,MageOS_ShoppingFeed
 It will be retried automatically at %1.,Ein neuer Versuch erfolgt automatisch um %1.,module,MageOS_Seo
@@ -9350,6 +9385,7 @@ My Passkeys,Meine Passkeys,module,MageOS_PasskeyAuth
 My Product Reviews,Meine Produktbewertungen,,
 My Recent Reviews,Meine letzten Bewertungen,,
 My Returns,Meine Rücksendungen,,
+My shipping and billing address are the same,Versand- und Rechnungsadresse sind identisch,module,Hyva_Checkout
 My special attribute,Mein Spezialattribut,,
 My Wish List,Mein Wunschzettel,,
 My Wish List Link,"""Mein Merkzettel""-Verlinkung",,
@@ -9392,6 +9428,7 @@ Name: %name,Name: %name,,
 Name: A to Z,Name: A bis Z,module,Magento_MediaGalleryUi
 Name: Z to A,Name: Z bis A,module,Magento_MediaGalleryUi
 National Freight,nationale Fracht,,
+Navigation error. Please try again.,Navigationsfehler. Bitte versuchen Sie es erneut.,module,Hyva_Checkout
 Near PayPal Credit checkout button,In der Nähe des PayPal Credit Checkout Button,,
 "Necessary only if an image has been uploaded above. Enter image height size in pixels without appending ""px"".","Nur notwendig, wenn ein Bild hochgeladen wurde. Geben Sie die Anzahl der Pixel ohne „px“ ein.",,
 "Necessary only if an image has been uploaded above. Enter number of pixels, without appending ""px"".","Nur notwendig, wenn ein Bild hochgeladen wurde. Geben Sie die Anzahl der Pixel ohne „px“ ein.",,
@@ -9605,9 +9642,11 @@ Next Day Air Letter,Next Day Air Letter,,
 Next Day Air Saver,Next Day Air Saver,,
 Next Day Air Saver Letter,Next Day Air Saver Letter,,
 Next image,Nächstes Bild,module,frontend/Hyva/default
+Next Message,Nächste Meldung,module,Hyva_Checkout
 Next page,Nächste Seite,,
 Next Page,Nächste Seite,module,frontend/Hyva/default
 Next slide,Nächste Folie,module,frontend/Hyva/default
+next step,nächster Schritt,module,Hyva_Checkout
 Next steps,Nächste Schritte,module,Magento_Backend
 Next →,Nächste →,module,MageOS_BlogHyva
 Next/Previous,Weiter/Zurück,,
@@ -9615,11 +9654,13 @@ NGO / Charity,NGO / Gemeinnützige Organisation,module,MageOS_Seo
 Nickname,Nickname,,
 No,Nein,,
 no,Nein,,
+No %1 accessory found for element %2,Kein Zubehör vom Typ %1 für Element %2 gefunden,module,Hyva_Checkout
 No %1 service configured yet. Add one under Stores > Configuration > Mage-OS > AI Configuration.,Es ist noch kein %1-Dienst konfiguriert. Fügen Sie einen unter Shops > Konfiguration > Mage-OS > KI-Konfiguration hinzu.,module,MageOS_AiBase
 No (price without tax),Nein (Preis ohne Steuer),,
 No (price without tax),Nein (Preis ohne Steuer),module,Magento_Tax
 No active admin users found.,Keine aktiven Admin-Benutzer gefunden.,module,MagoAssistant_Mago
 No additional customer payment is applicable for this return shipment,Für diese Rücksendung ist keine zusätzliche Kundenzahlung erforderlich.,module,Temando_Shipping
+No addresses available.,Keine Adressen verfügbar.,module,Hyva_Checkout
 No AI provider can be used on this environment yet.,In dieser Umgebung kann noch kein KI-Anbieter verwendet werden.,module,MageOS_AiBase
 "No AI service configured for code ""%1"".","Für den Code ""%1"" ist kein KI-Dienst konfiguriert.",module,MageOS_AiBase
 "No AI service configured for code ""%1"". Configure one under Stores > Configuration > Mage-OS > AI Configuration.","Für den Code ""%1"" ist kein KI-Dienst konfiguriert. Konfigurieren Sie einen unter Shops > Konfiguration > Mage-OS > KI-Konfiguration.",module,MageOS_AiBase
@@ -9648,6 +9689,8 @@ No category with the provided `%1` was found,Es wurde keine Kategorie mit dem an
 No change,Kein Wechselgeld,,
 No changes,Keine Änderungen,,
 No channel found for Admin website channel configuration.,Für die Kanalkonfiguration der Admin-Website wurde kein Kanal gefunden.,module,Akeneo_Connector
+No checkout steps found,Keine Checkout-Schritte gefunden,module,Hyva_Checkout
+No checkout steps found (customer ID: %1),Keine Checkout-Schritte gefunden (Kunden-ID: %1),module,Hyva_Checkout
 No child sku found for product link.,Keine untergeordnete SKU gefunden für Produktlink.,module,Magento_CatalogGraphQl
 no client bridge available,keine Client-Bridge verfügbar,module,MageOS_AiBase
 No codes left in the pool.,Keine Codes im Pool übrig.,,
@@ -9757,7 +9800,10 @@ No report code is specified.,Es ist kein Berichtscode angegeben.,,
 No results from Akeneo for the family: %1,Keine Ergebnisse von Akeneo für die Familie: %1,module,Akeneo_Connector
 No results retrieved from Akeneo,Keine Ergebnisse von Akeneo abgerufen,module,Akeneo_Connector
 No search modules were registered,Es wurden keine Suchmodule registriert.,,
+No shipping address set.,Keine Versandadresse angegeben.,module,Hyva_Checkout
 No shipping information available,Keine Versandinformationen verfügbar.,,
+No shipping method selected.,Keine Versandmethode ausgewählt.,module,Hyva_Checkout
+No shipping methods available.,Keine Versandmethoden verfügbar.,module,Hyva_Checkout
 No shipping required.,Kein Versand erforderlich.,module,Magento_Multishipping
 No Simulation,Keine Simulation,module,Amazon_Core
 No skill usage data for this period.,Keine Skill-Nutzungsdaten für diesen Zeitraum.,module,MagoAssistant_Mago
@@ -9817,6 +9863,7 @@ none,Keine,,
 NONE,KEINE,module,Magento_Email
 None of the address information matched,Keine der Adressinformationen übereinstimmend,,
 "None of the configured AI services can be used through the bundled client: %1. Install the bridge package for one of them, or request a specific service by code.",Keiner der konfigurierten KI-Dienste kann über den mitgelieferten Client verwendet werden: %1. Installieren Sie das Bridge-Paket für einen davon oder fordern Sie einen bestimmten Dienst per Code an.,module,MageOS_AiBase
+None of the given checkout types were found,Keiner der angegebenen Checkout-Typen wurde gefunden,module,Hyva_Checkout
 Nonsensical input. The customer name and address fields contain meaningless words or language,Widersinnige Eingabe. Kundenname oder Adressfelder enthalten bedeutungslose Worte oder Sprache.,,
 nope,nein,module,MageOS_Blog
 Normal,Normal,module,MSP_ReCaptcha
@@ -10096,6 +10143,7 @@ Only the first 100 errors are shown.,Nur die ersten 100 Fehler werden gezeigt.,m
 Only the first 100 errors are shown. ,Nur die ersten 100 Fehler werden gezeigt.,module,Magento_ImportExport
 Only X left Threshold,"Grenzwert, ab dem ""Nur X übrig"" angezeigt wird",,
 Only X of Y available,Nur X von Y verfügbar,module,Magento_CatalogInventory
+Oops! It looks like some steps were not fully completed. We’ll guide you back to the first step that needs your attention. Please review and complete it before proceeding.,"Hoppla! Einige Schritte wurden nicht vollständig abgeschlossen. Wir führen Sie zum ersten Schritt zurück, der Ihre Aufmerksamkeit braucht. Bitte prüfen und vervollständigen Sie ihn, bevor Sie fortfahren.",module,Hyva_Checkout
 Open,Offen,,
 Open %1,%1 öffnen,module,MagoAssistant_Mago
 Open %1 %2 to %3,Öffnen %1 %2 bis %3,module,Temando_Shipping
@@ -10244,6 +10292,7 @@ Order notified for pickup at: %1,Abholbereitschaft der Bestellung gemeldet am: %
 Order of the items on the cart page and in the mini cart in Hyvä themes.,Reihenfolge der Artikel auf der Warenkorbseite und im Mini-Warenkorb in Hyvä-Themes.,module,Hyva_Theme
 Order of the items on the cart page and in the mini cart.,Reihenfolge der Artikel auf der Warenkorbseite und im Mini-Warenkorb.,module,Hyva_Theme
 Order place error,Bestellort-Fehler,,
+Order process completed successfully.,Bestellvorgang erfolgreich abgeschlossen.,module,Hyva_Checkout
 Order processed by Klarna.,Bestellung durch Klarna abgewickelt.,module,Klarna_Ordermanagement
 Order Quantity,Bestellmenge,,
 Order Ready For Pickup Email Sender,Absender der E-Mail zur Abholbereitschaft,module,Magento_InventoryInStorePickupSalesAdminUi
@@ -10854,6 +10903,7 @@ Platinum Partners,Platin-Partner,,
 Play Only When Visible,"Nur abspielen, wenn sichtbar",module,Magento_PageBuilder
 Playground,Spielplatz,module,Klarna_Core
 "Please <a href=""""%1"""">continue shopping</a>.""","Bitte <a href=""""%1"""">mit dem Einkaufen fortfahren</a>.",,
+Please accept all terms & conditions,Bitte akzeptieren Sie alle Geschäftsbedingungen,module,Hyva_Checkout
 Please accept this invitation to join %store_name.,"Bitte nehmen Sie diese Einladung an, %store_name beizutreten.",,
 Please add rows to option.,Bitte Zeilen der Option hinzufügen.,,
 Please agree to all Terms and Conditions before placing the order.,Bitte stimmen Sie den Geschäftsbedingungen vor der Bestellung zu.,,
@@ -10891,6 +10941,7 @@ Please choose the options for your item,Bitte die Produktoptionen auswählen,mod
 Please confirm scope switching. All data that hasn't been saved will be lost.,Bereichswechsel bitte bestätigen. Nicht gespeicherte Daten gehen verloren.,,
 Please confirm site switching. All data that hasn't been saved will be lost.,Bitte bestätigen Sie den Seitenwechsel. Alle nicht gespeicherten Daten gehen verloren.,,
 Please confirm that you want to delete this credit card,"Bitte bestätigen Sie, dass Sie diese Kreditkarte löschen möchten.",,
+Please confirm you are not a robot.,"Bitte bestätigen Sie, dass Sie kein Roboter sind.",module,Hyva_Checkout
 Please confirm your %store_name account,Bitte bestätigen Sie Ihr %store_name Konto,,
 "Please correct %1 ""%2"" in the Row #%3.","Bitte %1 ""%2"" in Reihe #%3 korrigieren .",,
 "Please correct Country ""%1"" in the Row #%2.","Bitte Land ""%1"" korrigieren in Reihe #%2.",,
@@ -11326,6 +11377,7 @@ Please set available and/or protected paths list(s) before validation.,Bitte und
 Please set available and/or protected paths list(s) before validation.,Bitte und/oder-geschützte Pfad-Liste(n) vor der Validierung verfügbar machen,module,Magento_MediaStorage
 Please set resource file and link type.,Bitte setzen Sie Ressourcendatei und Link-Typ.,,
 Please setup or sign in into your 3rd party account to complete setup of this integration.,"Bitte melden Sie sich in Ihrem Third-Party-Konto an oder richten es ein, um das Setup dieser Integration abzuschließen.",,
+Please shorten your address. It contains more characters than we can store.,"Bitte kürzen Sie Ihre Adresse. Sie enthält mehr Zeichen, als gespeichert werden können.",module,Hyva_Checkout
 "Please sign in to download your product or purchase <a href=""%1"">%2</a>.","Bitte loggen Sie sich ein, um Ihr Produkt herunterzuladen oder <a href=""%1"">%2</a> zu kaufen.",,
 Please sign in to download your product.,"Bitte loggen Sie sich ein, um Ihr Produkt herunterzuladen.",,
 Please sign in to register a passkey.,"Bitte melden Sie sich an, um einen Passkey zu registrieren.",module,MageOS_PasskeyAuth
@@ -11504,6 +11556,8 @@ Preload video only when it is visible on the screen.,"Video nur vorladen, wenn e
 Premium,Prämie,module,Magento_AdobeStockImageAdminUi
 Prepare for Pickup,Vorbereitung der Abholung,module,Temando_Shipping
 Prepare layout problem.,Layoutvorbereitungsproblem,,
+Preparing address form,Adressformular wird vorbereitet,module,Hyva_Checkout
+Preparing form,Formular wird vorbereitet,module,Hyva_Checkout
 Preparing system report data: Detected Single Row Mode but data may be incomplete.,"Bereite Systemberichtdaten vor: Single Row-Modus erkannt, aber Daten könnten unvollständig sein",,
 Preprocessed view files and static files,Vorverarbeitete Ansicht- und statische Dateien,,
 "Prerender is faster, but can skew analytics data unless accounted for, due to JS executing before a page is actually opened.","Prerender ist schneller, kann aber Analysedaten verfälschen, sofern dies nicht berücksichtigt wird, da JS ausgeführt wird, bevor eine Seite tatsächlich geöffnet wird.",module,MageOS_ThemeOptimization
@@ -11518,10 +11572,13 @@ Preview Sale,Verkaufsvorschau,,
 Preview Template,Vorlagenvorschau,,
 Previous,Zurück,,
 Previous image,Vorheriges Bild,module,frontend/Hyva/default
+Previous Message,Vorherige Meldung,module,Hyva_Checkout
 Previous page,Vorherige Seite,,
 previous page,vorherige Seite,module,Magento_Backend
 Previous Page,Vorherige Seite,module,frontend/Hyva/default
+Previous selected shipping method is no longer available. Please select a different shipping method and try again.,Die zuvor gewählte Versandmethode ist nicht mehr verfügbar. Bitte wählen Sie eine andere Versandmethode und versuchen Sie es erneut.,module,Hyva_Checkout
 Previous slide,Vorherige Folie,module,frontend/Hyva/default
+previous step,vorheriger Schritt,module,Hyva_Checkout
 Price,Preis,,
 Price (percentage),Preis (Prozentsatz),,
 Price Alert Email Template,Preisalarm E-Mail Vorlage,,
@@ -11640,6 +11697,7 @@ Private Sales: Login and Register,Privatverkäufe: Anmelden und Registrieren,,
 Private Sales: Login Only,Privatverkäufe: Nur Anmelden,,
 Private Wish List,Privater Wunschzettel,,
 Proceed through checkout faster,Schneller durch den Checkout zu gelangen,,
+Proceed to %1,Weiter zu %1,module,Hyva_Checkout
 Proceed to Checkout,Zur Kasse gehen,,
 Proceed to Shipment,Weiter zum Versand,module,Magento_InventoryShippingAdminUi
 Process payments using your own internet merchant account.,Abwicklung von Zahlungen mit Ihrem eigenen Internet-Händler-Konto.,,
@@ -11649,6 +11707,7 @@ Processed Items for Pickup,Bearbeitete Positionen für die Abholung,module,Teman
 Processing,Verarbeitung,,
 Processing ...,Bearbeitung...,,
 Processing Failure - unable to authorize transaction.,Verarbeitungsfehler - kann die Transaktion nicht autorisieren.,module,Amazon_Payment
+Processing your order,Ihre Bestellung wird verarbeitet,module,Hyva_Checkout
 Processor %1 doesn't implement BaseSelectProcessorInterface,Prozessor %1 führt BaseSelectProcessorInterface nicht durch,module,Magento_Catalog
 Processor %1 doesn't implement WysiwygConfigDataProcessorInterface. It will be skipped,Der Prozessor %1 implementiert WysiwygConfigDataProcessorInterface nicht. Es wird übersprungen.,module,Magento_Catalog
 Processor authorization code cannot be set unless for a voice authorization.,Der Autorisierungscode des Prozessors kann nur für eine Sprachautorisierung festgelegt werden.,module,Magento_Braintree
@@ -11902,6 +11961,7 @@ Provided sample information is invalid.,Die vorgesehene Sampleinformation ist un
 Provided Zip/Postal Code seems to be invalid.,Die eingegebene Postleitzahl scheint ungültig zu sein.,module,Magento_Checkout
 Provided Zip/Postal Code seems to be invalid. Example: 12345-6789; 12345. If you believe it is the right one you can ignore this notice.,"Angegebene Postleitzahl scheint ungültig zu sein. Beispiel: 12345-6789; 12345. Wenn sie richtig eingegeben wurde, können Sie diese Warnung ignorieren.",,
 Provided Zip/Postal Code seems to be invalid. Example: 12345. If you believe it is the right one you can ignore this notice.,"Die angegebene Postleitzahl scheint ungültig zu sein. Beispiel: 12345. Sollte sie korrekt sein, können Sie diese Warnung ignorieren.",,
+Provided Zip/Postal Code seems to be invalid. Example: %1,Die angegebene Postleitzahl scheint ungültig zu sein. Beispiel: %1,module,Hyva_Checkout
 Provider,Anbieter,module,Magento_InventoryDistanceBasedSourceSelectionAdminUi
 Provider %1 has been reset for user %2,Provider %1 wurde für Benutzer %2 zurückgesetzt.,module,MSP_TwoFactorAuth
 Provider code,Anbietercode,module,MSP_TwoFactorAuth
@@ -12037,6 +12097,7 @@ Read More,Weiterlesen,,
 Read more →,Weiterlesen →,module,MageOS_BlogHyva
 Read Only,Nur lesen,module,MagoAssistant_Mago
 Read our policy,Lesen Sie unsere Richtlinie,module,frontend/Hyva/default
+Read Terms & Conditions,AGB lesen,module,Hyva_Checkout
 Read-only property cannot be changed.,Schreibgeschützte Eigenschaft kann nicht geändert werden,,
 Reading configuration...,Konfiguration wird gelesen...,module,MagoAssistant_Mago
 Reading field values from the form on screen...,Feldwerte aus dem Formular auf der Seite werden gelesen...,module,MagoAssistant_Mago
@@ -12128,6 +12189,7 @@ Redeem Gift Card,Geschenkkarte einlösen,,
 Redeemable,Einlösbar,,
 Redeemed,Eingelöst,,
 Redeemed for order #%1,Eingelöst für Bestellung #%1,,
+Redirect,Weiterleitung,module,Hyva_Checkout
 Redirect Customer to Account Dashboard after Logging in,Kunden nach dem Login zum Konto-Dashboard weiterleiten,,
 Redirect to CMS-page if Cookies are Disabled,"Leite auf CMS-Seite um, wenn Cookies beschädigt sind.",,
 Redirect Type,Redirect-Typ,,
@@ -12151,6 +12213,7 @@ Refresh Cache Type,Cache-Typ aktualisieren,module,Magento_Backend
 Refresh Data,Daten aktualisieren,,
 Refresh Lifetime Statistics,Gesamtstatistik aktualisieren,,
 Refresh Models,Modelle aktualisieren,module,MageOS_AiBase
+Refresh page,Seite neu laden,module,Hyva_Checkout
 Refresh Segment Data,Segmentdaten aktualisieren,,
 Refresh Statistics,Statistiken aktualisieren,,
 Refresh Statistics for the Last Day,Aktualisieren Sie die Statistik des letzten Tages,,
@@ -12229,6 +12292,7 @@ Registry owner,Registry-Owner:,,
 Regular,Regulär,,
 Regular Pickup,regelmäßige Abholung,,
 Regular Price,Normalpreis,,
+Regular shopper?,Bereits Kunde?,module,Hyva_Checkout
 Regular Stop,Regelmäßige Abholung,module,Magento_Fedex
 Reimbursement for a chargeback.,Kostenerstattung für eine Rückbuchung.,,
 Reimbursement of Chargeback,Erstattung der Ausgleichsbuchung,,
@@ -12332,6 +12396,8 @@ Removing PageBuilder's advanced content tools,Die erweiterten Inhaltswerkzeuge v
 Rename,Umbenennen,module,MageOS_PasskeyAuth
 Rename this service,Diesen Dienst umbenennen,module,MageOS_AiBase
 Render Metadata in HTML Head.,Metadaten im HTML-Head rendern,,
+Renderer by code %1 does not exist,Renderer mit dem Code %1 existiert nicht,module,Hyva_Checkout
+"Renderers block ""%1"" not found","Renderer-Block ""%1"" nicht gefunden",module,Hyva_Checkout
 Renders a FAQ group as an accordion and adds matching FAQPage structured data.,Stellt eine FAQ-Gruppe als Akkordeon dar und fügt passende strukturierte Daten vom Typ FAQPage hinzu.,module,MageOS_Faq
 Renders a list of posts filtered by category or tag.,Gibt eine nach Kategorie oder Tag gefilterte Liste von Beiträgen aus.,module,MageOS_Blog
 Reopen,Wieder öffnen,module,MagoAssistant_Mago
@@ -12600,6 +12666,7 @@ Review Submission,Absendung einer Bewertung,,
 Review Sync,Bewertungssynchronisation,module,Dotdigitalgroup_Email
 "Review the errors below. If there is an issue which can be resolved with the carrier, please contact them directly.","Überprüfen Sie die folgenden Fehler. Wenn es ein Problem gibt, das mit dem Spediteur gelöst werden kann, wenden Sie sich bitte direkt an ihn.",module,Temando_Shipping
 "Review the errors, address them where possible and attempt to re-process the Order/s.","Überprüfen Sie die Fehler, beheben Sie sie, wenn möglich, und versuchen Sie, die Bestellung(en) erneut zu bearbeiten.",module,Temando_Shipping
+Review Your Order,Bestellung überprüfen,module,Hyva_Checkout
 Review: %1 <br/>,Bewertung: %1 <br/>,,
 Reviews,Bewertungen,,
 Reviews & Ratings,Rezensionen & Bewertungen,module,Yotpo_Yotpo
@@ -12883,7 +12950,14 @@ Save View As...,View speichern als...,,
 Save Web Site,Website speichern,,
 Save Widget Configuration,Widget-Konfiguration speichern,module,MageOS_PageBuilderWidget
 "Save your colums before adding rules here. The find & replace will apply at column output. The more rules you apply the slower your feed will be, not recommended for large catalogs.","Speichern Sie Ihre Spalten, bevor Sie hier Regeln hinzufügen. Suchen und Ersetzen wird bei der Spaltenausgabe angewendet. Je mehr Regeln Sie anwenden, desto langsamer wird Ihr Feed; für große Kataloge nicht empfohlen.",module,MageOS_ShoppingFeed
+saved successfully,erfolgreich gespeichert,module,Hyva_Checkout
+saving,wird gespeichert,module,Hyva_Checkout
+Saving method,Methode wird gespeichert,module,Hyva_Checkout
+Saving purchase order number,Bestellnummer wird gespeichert,module,Hyva_Checkout
+Saving shipping method,Versandmethode wird gespeichert,module,Hyva_Checkout
+Saving your address,Ihre Adresse wird gespeichert,module,Hyva_Checkout
 Saving your API credentials,Speichern Ihrer API-Zugangsdaten,module,Dotdigitalgroup_Email
+Saving your preference,Ihre Auswahl wird gespeichert,module,Hyva_Checkout
 Saving...,Wird gespeichert...,module,frontend/Hyva/default
 Scent / Fragrance,Duft / Duftnote,module,MageOS_Seo
 Schedule,Zeitplan,,
@@ -13522,6 +13596,7 @@ Show Actual Values,Aktuelle Werte zeigen,,
 Show Add To Compare In Product List,Vergleichsfunktion in der Produktliste anzeigen,module,Hyva_Theme
 Show Add To Compare On Product Page,Vergleichsfunktion auf der Produktseite anzeigen,module,Hyva_Theme
 Show Addressbooks to Customer,Adressbücher dem Kunden zeigen,module,Dotdigitalgroup_Email
+Show all,Alle anzeigen,module,Hyva_Checkout
 Show all...,Zeige alle...,,
 Show Amazon Pay button in minicart,Amazon Pay Button im Minicart anzeigen,module,Amazon_Core
 Show Amazon Pay button on product page,Amazon Pay Button auf der Produktseite anzeigen,module,Amazon_Core
@@ -13554,6 +13629,7 @@ Show in navigation menu.,Im Navigationsmenü anzeigen,,
 Show in Sidebar,In der Sidebar anzeigen,module,Magento_Wishlist
 Show Install Commands,Installationsbefehle anzeigen,module,MageOS_ExtensionDirectory
 Show items per page,Artikel pro Seite anzeigen,module,frontend/Hyva/default
+Show less,Weniger anzeigen,module,Hyva_Checkout
 Show List,Liste anzeigen,module,Magento_AdminNotification
 Show Log,Protokoll anzeigen,,
 Show Login with Amazon in authentication popup,Login mit Amazon im Authentifizierungs-Popup anzeigen,module,Amazon_Login
@@ -13801,6 +13877,7 @@ some_label,ein_label,,
 Someone logged into this account from another device or browser. Your current session is terminated.,Ein anderer Benutzer hat sich in diesem Konto von einem anderen Gerät oder Browser angemeldet. Ihre aktuelle Sitzung wurde beendet.,module,Magento_Security
 Something is off in your Varnish configuration.,In Ihrer Varnish-Konfiguration stimmt etwas nicht.,module,Elgentos_VarnishExtended
 Something is wrong with the file upload settings.,Etwas stimmt nicht mit den Datei-Upload-Einstellungen.,,
+Something needs your attention before you can proceed with checkout.,"Bevor Sie mit der Bestellung fortfahren können, ist noch eine Eingabe nötig.",module,Hyva_Checkout
 Something was wrong during assigning customer.,Beim Zuordnen des Kunden ist ein Fehler aufgetreten.,module,Magento_CompareListGraphQl
 Something was wrong during creating compare list,Beim Erstellen der Vergleichsliste ist ein Fehler aufgetreten,module,Magento_CompareListGraphQl
 Something was wrong during removing compare list,Beim Entfernen der Vergleichsliste ist ein Fehler aufgetreten,module,Magento_CompareListGraphQl
@@ -13813,13 +13890,16 @@ Something went wrong and the operation failed.,Es ist ein Fehler aufgetreten und
 Something went wrong creating a shipping label.,Beim Erstellen eines Versandetiketts ist ein Fehler aufgetreten.,,
 Something went wrong deleting this rate.,Beim Löschen dieses Satzes ist ein Fehler aufgetreten.,,
 Something went wrong deleting this tax rule.,Es gab einen Fehler beim Löschen dieser Steuerregel.,,
+Something went wrong during checkout initialization. Please refresh the page.,Beim Laden des Checkouts ist ein Fehler aufgetreten. Bitte laden Sie die Seite neu.,module,Hyva_Checkout
 Something went wrong during Gateway request.,Bei der Gateway-Anfrage ist etwas schief gelaufen.,module,Amazon_Payment
 Something went wrong during the item options declaration.,Bei der Artikeloption-Deklaration ist ein Fehler aufgetreten.,,
 Something went wrong during the operation.,Während der Operation ist etwas schief gelaufen.,module,Magento_InventoryCatalogAdminUi
 Something went wrong in the payment gateway.,Im Payment-Gateway ist ein Fehler aufgetreten.,,
+Something went wrong while activating the address.,Beim Aktivieren der Adresse ist ein Fehler aufgetreten.,module,Hyva_Checkout
 Something went wrong while adding products to websites.,Beim Hinzufügen der Produkte zu den Websites ist ein Fehler aufgetreten.,,
 Something went wrong while assigning the order status.,Bei der Zuordnung des Auftragsstatus ist ein Fehler aufgetreten.,,
 Something went wrong while changing the password.,Bei der Passwortänderung ist ein Fehler aufgetreten.,,
+Something went wrong while collecting the order price summary.,Beim Zusammenstellen der Bestellübersicht ist ein Fehler aufgetreten.,module,Hyva_Checkout
 Something went wrong while compiling a list of allowed resources. ' 'You can find out more in the exceptions log.,Bei der Kompilierung einer Liste von erlaubten Ressourcen ist ein Fehler aufgetreten. Sie können im Ausnahmeprotokoll mehr erfahren.,,
 Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.,Bei der Kompilierung der Liste von erlaubten Ressourcen ist ein Fehler aufgetreten. Details finden Sie in der Ausnahmelogdatei.,,
 Something went wrong while connecting to the host. Error#%1 - %2.,Bei der Verbindung zum Host ist ein Fehler aufgetreten. Error#%1 - %2,,
@@ -13848,6 +13928,7 @@ Something went wrong while preparing the gift card.,Beim Vorbereiten der Geschen
 Something went wrong while processing the request.,Bei der Verarbeitung der Anfrage ist ein Fehler aufgetreten.,,
 Something went wrong while processing your order.,Bei der Bearbeitung Ihrer Bestellung ist ein Fehler aufgetreten.,,
 Something went wrong while processing your order. Please try again later.,Bei der Bearbeitung Ihrer Bestellung ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.,,
+Something went wrong while processing your order. Please try again.,Bei der Verarbeitung Ihrer Bestellung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.,module,Hyva_Checkout
 Something went wrong while processing.,Bei der Verarbeitung ist ein Fehler aufgetreten.,,
 Something went wrong while putting your store into maintenance mode.,Bei der Aktivierung des Wartungsmodus ist ein Fehler aufgetreten.,,
 Something went wrong while removing products from the websites.,Beim Entfernen der Produkte von den Websites ist ein Fehler aufgetreten.,,
@@ -13855,6 +13936,7 @@ Something went wrong while reordering this product.,Bei der Neubestellung des Pr
 Something went wrong while resetting customer password.,Bei der Zurücksetzung des Kundenpassworts ist ein Fehler aufgetreten.,,
 Something went wrong while saving file.,Beim Speichern der Datei ist ein Fehler aufgetreten.,module,Magento_Customer
 Something went wrong while saving option.,Beim Speichern der Option ist ein Fehler aufgetreten.,,
+Something went wrong while saving the address.,Beim Speichern der Adresse ist ein Fehler aufgetreten.,module,Hyva_Checkout
 Something went wrong while saving the attribute set.,Beim Speichern des Attributsets ist ein Fehler aufgetreten.,,
 Something went wrong while saving the attribute.,Beim Speichern des Attributs ist ein Fehler aufgetreten.,,
 Something went wrong while saving the block.,Beim speichern des Blocks ist ein Fehler aufgetreten.,module,Magento_Cms
@@ -13884,6 +13966,11 @@ Something went wrong while saving this group.,Beim Speichern der Gruppe ist ein 
 Something went wrong while saving this review.,Beim Speichern dieser Bewertung ist ein Fehler aufgetreten.,,
 Something went wrong while saving this template.,Beim Speichern dieser Vorlage ist ein Fehler aufgetreten.,,
 Something went wrong while saving URL Rewrite.,Bei der Speicherung des URL-Rewrites ist ein Fehler aufgetreten.,,
+Something went wrong while saving your address preferences.,Beim Speichern Ihrer Adresseinstellungen ist ein Fehler aufgetreten.,module,Hyva_Checkout
+Something went wrong while saving your billing preferences.,Beim Speichern Ihrer Rechnungseinstellungen ist ein Fehler aufgetreten.,module,Hyva_Checkout
+Something went wrong while saving your order comment. Please try again.,Beim Speichern Ihres Bestellkommentars ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.,module,Hyva_Checkout
+Something went wrong while saving your payment preferences.,Beim Speichern Ihrer Zahlungseinstellungen ist ein Fehler aufgetreten.,module,Hyva_Checkout
+Something went wrong while saving your shipping preferences.,Beim Speichern Ihrer Versandeinstellungen ist ein Fehler aufgetreten.,module,Hyva_Checkout
 Something went wrong while saving your subscription.,Beim Speichern Ihres Abonnements ist ein Fehler aufgetreten.,,
 Something went wrong while saving. Please review the error log.,Beim Speichern ist ein Fehler aufgetreten. Bitte überprüfen Sie das Fehlerprotokoll.,,
 Something went wrong while scheduling operations.,Beim Einplanen der Vorgänge ist ein Fehler aufgetreten.,module,Magento_CatalogUrlRewrite
@@ -13893,6 +13980,8 @@ Something went wrong while sending an email to %1.,Beim Senden einer E-mail an %
 Something went wrong while sending email(s).,Beim Senden der E-mail(s) ist ein Fehler aufgetreten.,,
 Something went wrong while sharing the gift registry.,Beim Teilen der Geschenkeliste ist ein Fehler aufgetreten.,,
 Something went wrong while trying to delete the category.,Beim Löschen der Kategorie ist ein Fehler aufgetreten.,,
+Something went wrong while trying to fetch the available shipping methods.,Beim Abrufen der verfügbaren Versandmethoden ist ein Fehler aufgetreten.,module,Hyva_Checkout
+Something went wrong while trying to load the checkout.,Beim Laden des Checkouts ist ein Fehler aufgetreten.,module,Hyva_Checkout
 Something went wrong while unassigning the order.,Bei der Aufhebung der Bestellungszuweisung ist ein Fehler aufgetreten.,,
 Something went wrong while unsubscribing you.,Etwas ist während Ihrer Abmeldung schiefgelaufen.,,
 Something went wrong while updating the product(s) attributes.,Bei der Aktualisierung der Produktattribute ist ein Fehler aufgetreten.,,
@@ -13906,6 +13995,7 @@ Something went wrong while validating coupon code length. Please review the log 
 Something went wrong while validating the login and password.,Beim Überpfüfen des Logins und des Passworts ist ein Fehler aufgetreten.,,
 Something went wrong while validating the VAT ID.,Bei der Validierung der Umsatzsteuer-Identifikationsnummer ist ein Fehler aufgetreten.,,
 "Something went wrong while writing to the backup file ""%1"".","Beim Beschreiben der Backup-Datei ""%1"" ist ein Fehler aufgetreten.",,
+Something went wrong with reCAPTCHA. Please contact the store owner.,Bei reCAPTCHA ist ein Fehler aufgetreten. Bitte wenden Sie sich an den Shopbetreiber.,module,Hyva_Checkout
 Something went wrong with the subscription.,Da lief was falsch mit dem Abonnement.,,
 Something went wrong with your request. Please try again later.,Etwas ist bei Ihrer Anfrage schief gelaufen. Bitte versuchen Sie es später noch einmal.,module,Magento_Checkout
 Something went wrong with your request. Please try again later.,Etwas ist bei Ihrer Anfrage schief gelaufen. Bitte versuchen Sie es später noch einmal.,module,Magento_Paypal
@@ -13917,6 +14007,7 @@ Something went wrong.,Etwas ist schiefgegangen.,module,Magento_Ui
 Something went wrong. Please try again.,Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.,,
 Something went wrong. Please try to place the order again.,"Etwas ist schief gelaufen. Bitte versuchen Sie, die Bestellung erneut aufzugeben.",module,Magento_Quote
 Something.,Etwas.,module,MageOS_Seo
+"Sorry, an unexpected error occurred",Leider ist ein unerwarteter Fehler aufgetreten,module,Hyva_Checkout
 "Sorry, but a rate for the same website, customer group and direction or covering rate already exists.","Rate der selben Webseite, Kundengruppe und Richtung oder Abdeckungsrate besteht bereits.",,
 "Sorry, but something went wrong","Entschuldigung, da hat wohl etwas nicht funktioniert.",module,Magento_Braintree
 "Sorry, but something went wrong","Entschuldigen Sie, aber etwas ist schiefgelaufen",module,Magento_Paypal
@@ -14144,6 +14235,8 @@ Step 2: Attribute Values,Schritt 2: Attributwerte,,
 "Step 3: Bulk Images, Price and Quantity","Schritt 3: Bulk-Bilder, Preis und Menge",module,Magento_ConfigurableProduct
 "Step 3: Bulk Images, Price, and Quantity","Schritt 3: Massenbilder, Preis und Menge",,
 Step 4: Summary,Schritt 4: Zusammenfassung,,
+Step %1 cannot be set as the current step,Schritt %1 kann nicht als aktueller Schritt gesetzt werden,module,Hyva_Checkout
+Step not found.,Schritt nicht gefunden.,module,Hyva_Checkout
 Steps to find a solution,Schritte zur Lösungsfindung,module,Temando_Shipping
 Stock,Lagerbestand,,
 Stock Alert,Bestandsmeldung,module,Dotdigitalgroup_Email
@@ -14258,6 +14351,9 @@ Street Address 2,Adresse Straße 2,,
 Street address is required.,Straße muss angegeben werden.,module,Magento_Braintree
 Street address is too long.,Die Straßenadresse ist zu lang.,module,Magento_Braintree
 Street Address Line 2,Adresszeile 2,,
+Street Address line one is a required field.,Die erste Adresszeile ist ein Pflichtfeld.,module,Hyva_Checkout
+Street Address line three is a required field.,Die dritte Adresszeile ist ein Pflichtfeld.,module,Hyva_Checkout
+Street Address line two is a required field.,Die zweite Adresszeile ist ein Pflichtfeld.,module,Hyva_Checkout
 Stretch,Strecken,,
 String,Zeichenkette,module,Dotdigitalgroup_Email
 string with 'single quotes',String mit 'einfachen Anführungszeichen',,
@@ -14394,6 +14490,8 @@ Switch translation scope,Übersetzungsbereich wechseln,module,MageOS_AutomaticTr
 Switch/Solo/Maestro Issue Number,Switch/Solo/Maestro-Issue-Nummer,,
 Switch/Solo/Maestro Only,Switch/Solo/Nur Maestro,,
 Switch/Solo/Maestro Start Date,Switch/Solo/Maestro-Startdatum,,
+Switching address,Adresse wird gewechselt,module,Hyva_Checkout
+Switching country,Land wird gewechselt,module,Hyva_Checkout
 Switching this off stops the section as well as the request to askmago.com; nothing is fetched until it is on.,"Wenn Sie dies deaktivieren, werden sowohl der Bereich als auch die Anfrage an askmago.com abgeschaltet. Solange die Option deaktiviert ist, wird nichts abgerufen.",module,MagoAssistant_Mago
 Symbols Used in CAPTCHA,Verwendete Symbole im CAPTCHA,,
 Sync,Synchronisieren,module,Dotdigitalgroup_Email
@@ -14470,6 +14568,7 @@ Target Rule/Product,Ziel Regel/Produkt,,
 "Task ""%1"": ","Aufgabe ""%1"":",module,Magento_AsynchronousOperations
 Tax,Steuer,,
 Tax Amount,Steuerbetrag,,
+Tax Breakdown,Steueraufschlüsselung,module,Hyva_Checkout
 Tax Calculation Based On,Steuerberechnung basierend auf,,
 Tax Calculation Method Based On,Steuerberechnungsmethode basiert auf,,
 Tax Class,Steuerklasse,,
@@ -14772,6 +14871,7 @@ The base directory to upload file is not specified.,Das Basisverzeichnis zum Hoc
 The behavior token for %1 is invalid.,Der Behavior-Token für %1 ist ungültig.,,
 "The billing address cannot contain ""customer_address_id"" and ""address"" at the same time.","Die Rechnungsadresse darf nicht gleichzeitig ""customer_address_id"" und ""address"" enthalten.",module,Magento_QuoteGraphQl
 "The billing address cannot contain ""customer_address_id"" or ""customer_address_uid"" together with ""address"".","Die Rechnungsadresse darf ""customer_address_id"" oder ""customer_address_uid"" nicht zusammen mit ""address"" enthalten.",module,Magento_QuoteGraphQl
+The billing address is locked by the shipping address.,Die Rechnungsadresse ist durch die Versandadresse festgelegt.,module,Hyva_Checkout
 "The billing address must contain either ""customer_address_id"" or ""address"".","Die Rechnungsadresse muss entweder ""customer_address_id"" oder ""address"" enthalten.",module,Magento_QuoteGraphQl
 "The billing address must contain either ""customer_address_id"", ""customer_address_uid"", ""address"", or ""same_as_shipping"".","Die Rechnungsadresse muss entweder ""customer_address_id"", ""customer_address_uid"", ""address"" oder ""same_as_shipping"" enthalten.",module,Magento_QuoteGraphQl
 The billing address will be used when a shipping address is absent.,"Die Rechnungsadresse wird verwendet, wenn eine Lieferadresse fehlt.",module,Vertex_Tax
@@ -15122,6 +15222,7 @@ The JS file must be less than %1M.,Die JS-Datei muss kleiner als %1M sein.,,
 "The JSON download contains this conversation as it was stored, so it can hold store and customer data. Read it before attaching it to a public issue.","Der JSON-Download enthält diese Unterhaltung so, wie sie gespeichert wurde, und kann daher Shop- und Kundendaten enthalten. Prüfen Sie ihn, bevor Sie ihn an ein öffentliches Issue anhängen.",module,MagoAssistant_Mago
 The last status can't be changed and needs to stay assigned to its current state.,Der letzte Status kann nicht geändert werden und muss dem aktuellen Status zugeordnet bleiben.,module,Magento_Sales
 The last status can't be unassigned from its current state.,Der letzte Status kann nicht unzugeordnet vom aktuellen Zustand sein.,,
+"The layout update handle ""%1"" is reserved for the step in that position. Rename the checkout or the step it was generated from.","Das Layout-Handle ""%1"" ist für den Schritt an dieser Position reserviert. Benennen Sie den Checkout oder den Schritt um, aus dem es erzeugt wurde.",module,Hyva_Checkout
 The Leeway must be a numeric value.,Die Toleranz (Leeway) muss ein numerischer Wert sein.,module,Magento_TwoFactorAuth
 The link has expired.,Der Link ist abgelaufen.,,
 The link information is invalid. Verify the link and try again.,Die Linkinformationen sind ungültig. Überprüfen Sie den Link und versuchen Sie es erneut.,module,Magento_Downloadable
@@ -15285,6 +15386,7 @@ The payment is authorized but not settled.,"Die Zahlung ist autorisiert, aber ni
 The payment is pending because it was made to an email address that is not yet registered or confirmed.,"Die Zahlung ist ausstehend, weil sie mit einer E-Mail-Adresse getätigt wurde, die noch nicht registriert ist oder bestätigt wurde.",,
 The payment is pending while it is being reviewed by PayPal for risk.,"Die Zahlung ist ausstehend, während das Risiko von PayPal überprüft wird.",,
 The payment method code is not set.,Der Zahlungsmethoden-Code ist nicht gesetzt.,,
+The payment method is missing. Select the payment method and try again.,Es wurde keine Zahlungsmethode ausgewählt. Wählen Sie eine Zahlungsmethode und versuchen Sie es erneut.,module,Hyva_Checkout
 The payment method isn't selected. Enter the payment method and try again.,Die Zahlungsmethode ist nicht ausgewählt. Geben Sie die Zahlungsmethode ein und versuchen Sie es erneut.,module,Magento_Multishipping
 The payment method isn't selected. Enter the payment method and try again.,Die Zahlungsmethode ist nicht ausgewählt. Geben Sie die Zahlungsmethode ein und versuchen Sie es erneut.,module,Magento_Sales
 The payment method you requested is not available.,Die von Ihnen angeforderte Zahlungsmethode ist nicht verfügbar.,,
@@ -15298,6 +15400,7 @@ The PayPal gateway rejected the request. %1,Das PayPal-Gateway hat die Anfrage a
 The PDF total model %1 must be or extend \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.,PDF Gesamtmodell %1 muss sein oder sich erstrecken auf \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.,module,Magento_Sales
 The permissions could not be saved. Reference: %1,Die Berechtigungen konnten nicht gespeichert werden. Referenz: %1,module,MagoAssistant_Mago
 The preview image information is unavailable. Check your connection and try again.,Die Vorschaubildinformationen sind nicht verfügbar. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.,module,Magento_ProductVideo
+"The previous active payment method is no longer available. To complete your order, please select a different payment option.","Die zuvor gewählte Zahlungsmethode ist nicht mehr verfügbar. Bitte wählen Sie eine andere Zahlungsmethode, um Ihre Bestellung abzuschließen.",module,Hyva_Checkout
 The price depends on the chosen options,Der Preis hängt von den gewählten Optionen ab,module,frontend/Hyva/default
 The price depends on the options chosen on the product page,Der Preis hängt von den auf der Produktseite gewählten Optionen ab,module,frontend/Hyva/default
 The priority must be between 0 and 1.,Die Priorität muss zwischen 0 und 1 liegen.,,
@@ -15348,6 +15451,7 @@ The provider rejected the API key. Check the key saved for this service.,Der Anb
 The provider rejected the request. Check the model saved for this service.,Der Anbieter hat die Anfrage abgelehnt. Prüfen Sie das für diesen Dienst gespeicherte Modell.,module,MageOS_AiBase
 The provider returned an error.,Der Anbieter hat einen Fehler zurückgegeben.,module,MageOS_AiBase
 The published revision is unavailable.,Die veröffentlichte Revision ist nicht verfügbar.,,
+The purchase order number is a required field.,Die Bestellnummer ist ein Pflichtfeld.,module,Hyva_Checkout
 The qty value is required to update quote item.,"Der Mengenwert wird benötigt, um Angebotsartikel zu aktualisieren.",,
 "The quantity of ""%1"" product added to cart exceeds the quantity desired by the Gift Registry owner. The quantity added has been adjusted to meet remaining quantity %2.","Die Menge des Produkts ""%1"", welches zum Einkaufswagen hinzugefügt wurde, überschreitet die gewünschte Menge des Besitzers der Geschenkeliste. Die hinzugefügte Menge wurde angepasst um %2 zu entsprechen.",,
 The quantity of a wish list item cannot be 0,Die Menge eines Wunschlistenartikels darf nicht 0 sein,module,Magento_Wishlist
@@ -15366,6 +15470,10 @@ The quote items are incorrect. Verify the quote items and try again.,Die Angebot
 The Rate Percent is invalid. Enter a positive number and try again.,Der Prozentsatz ist ungültig. Geben Sie eine positive Zahl ein und versuchen Sie es erneut.,module,Magento_Tax
 The Rate Percent should be a positive number.,Die Prozentrate sollte eine positive Zahl sein.,,
 The rated answer,Die bewertete Antwort,module,MagoAssistant_Mago
+The reCAPTCHA challenge for placing your order could not be verified. Please try again.,Die reCAPTCHA-Prüfung für Ihre Bestellung konnte nicht bestätigt werden. Bitte versuchen Sie es erneut.,module,Hyva_Checkout
+The reCAPTCHA challenge for signing in could not be verified. Please try again.,Die reCAPTCHA-Prüfung für die Anmeldung konnte nicht bestätigt werden. Bitte versuchen Sie es erneut.,module,Hyva_Checkout
+The reCAPTCHA challenge for the discount code could not be verified. Please try again.,Die reCAPTCHA-Prüfung für den Gutscheincode konnte nicht bestätigt werden. Bitte versuchen Sie es erneut.,module,Hyva_Checkout
+"The reCAPTCHA response for form ""%1"" was rejected.","Die reCAPTCHA-Antwort für das Formular ""%1"" wurde abgelehnt.",module,Hyva_Checkout
 "The reference already exists: %1. New index: %2, old index: %3",Die Referenz existiert bereits: %1. Alter Index: %2 Neuer Index: %3,,
 The reference ID is not set.,Die Referenz-ID ist nicht festgelegt.,,
 The refund action is not available.,Die Erstattungs-Aktion ist nicht verfügbar.,,
@@ -15431,6 +15539,7 @@ The search failed because of a search engine misconfiguration.,Die Suche ist auf
 The search failed because of a search engine misconfiguration.,Die Suche ist aufgrund einer Fehlkonfiguration der Suchmaschine fehlgeschlagen.,module,Magento_Elasticsearch
 The secret parameter is invalid or malformed.,Der Secret-Parameter ist ungültig oder fehlerhaft.,module,Magento_ReCaptchaValidationApi
 The secret parameter is missing.,Der Secret-Parameter fehlt.,module,Magento_ReCaptchaValidationApi
+The security check has not finished yet. Please try again in a moment.,Die Sicherheitsprüfung ist noch nicht abgeschlossen. Bitte versuchen Sie es gleich noch einmal.,module,Hyva_Checkout
 The security validation of the XML document has failed.,Die Sicherheitsüberprüfung des XML-Dokuments ist fehlgeschlagen.,module,Magento_Dhl
 The security validation of the XML document has failed.,Die Sicherheitsüberprüfung des XML-Dokuments ist fehlgeschlagen.,module,Magento_Shipping
 "The selected AI service (id ""%1"") is not available. It may have been deleted or disabled. Pick another one, or restore it under Stores > Configuration > Mage-OS > AI Configuration.","Der ausgewählte KI-Dienst (ID ""%1"") ist nicht verfügbar. Möglicherweise wurde er gelöscht oder deaktiviert. Wählen Sie einen anderen aus oder stellen Sie ihn unter Shops > Konfiguration > Mage-OS > KI-Konfiguration wieder her.",module,MageOS_AiBase
@@ -15711,6 +15820,7 @@ There are no customers for this alert.,Es gibt keine Kunden für diese Warnung.,
 There are no export file with such name %1,Es gibt keine Exportdatei mit dem Namen %1.,module,Magento_ImportExport
 There are no grouped products.,Es gibt keine gruppierten Produkte.,,
 There are no items in customer's shopping cart.,Es sind keine Artikel im Kundenwarenkorb.,,
+"There are no items in your cart. Refresh the page to be redirected, or do so manually.","Ihr Warenkorb enthält keine Artikel. Laden Sie die Seite neu, um weitergeleitet zu werden, oder wechseln Sie manuell zum Warenkorb.",module,Hyva_Checkout
 There are no packing slips related to selected pickups.,"Es gibt keine Packzettel, die sich auf diese Auswahl beziehen.",module,Temando_Shipping
 There are no printable documents related to selected orders.,Es gibt keine druckbaren Dokumente zu den ausgewählten Bestellungen.,,
 There are no product types available for export,Es stehen keine Produktvarianten für den Export zur Verfügung,,
@@ -15831,6 +15941,7 @@ This account isn't confirmed. Verify and try again.,Dieses Konto ist nicht best�
 This account isn't confirmed. Verify and try again.,Dieses Konto ist nicht bestätigt. Überprüfen Sie und versuchen Sie es erneut.,module,Magento_Customer
 This action cannot be undone.,Die Aktion kann nicht rückgängig gemacht werden.,,
 This action will delete your custom instructions and reset robots.txt file to system's default settings.,Diese Aktion wird Ihre benutzerdefinierte Anweisungen löschen und die robots.txt-Datei auf die System-Standardeinstellungen zurücksetzen.,,
+This address does not belong to you. Please try again,Diese Adresse gehört nicht zu Ihnen. Bitte versuchen Sie es erneut,module,Hyva_Checkout
 This administrator account is open in more than one location. Note that other locations might be different browsers or sessions on the same computer.,"Das Administratorkonto ist an mehr als einem Ort offen. Beachten Sie, dass andere Orte andere Browser oder Sessions auf demselben Computer sein können.
 ",module,Magento_Security
 "This allows a previously generated coupon code to be resent to the same customer. If set to no, a new coupon will be generated.","Dadurch kann ein zuvor generierter Gutscheincode erneut an denselben Kunden gesendet werden. Wenn auf Nein gesetzt, wird ein neuer Gutschein generiert.",module,Dotdigitalgroup_Email
@@ -16449,6 +16560,7 @@ Unable to make payment authorization.,Die Zahlungsautorisierung konnte nicht aus
 Unable to make rollback because not all files are writable,"Rollback nicht möglich, da einige Dateien schreibgeschützt sind",,
 Unable to place order: %message,Bestellung kann nicht aufgegeben werden: %message,module,Magento_QuoteGraphQl
 Unable to post data to consumer due to an unexpected error,"Aufgrund eines unerwarteten Fehlers nicht in der Lage, Daten an Verbraucher zu schreiben",,
+Unable to process your order due to a missing service. Please consider an alternative payment method.,Ihre Bestellung kann wegen eines fehlenden Dienstes nicht verarbeitet werden. Bitte wählen Sie eine andere Zahlungsmethode.,module,Hyva_Checkout
 Unable to qualify order.,Die Bestellung konnte nicht qualifiziert werden.,module,Temando_Shipping
 Unable to read system report data to display.,Systemberichtanzeigedaten können nicht gelesen werden.,,
 Unable to refund payment for this order.,Die Zahlung für diese Bestellung kann nicht zurückerstattet werden.,module,Klarna_Ordermanagement
@@ -16464,6 +16576,8 @@ Unable to remove shipment assignments.,Die Zuordnung von Sendungen kann nicht en
 Unable to remove Stock Status for product %1,Der Lagerbestand mit der Nummer %1 kann nicht entfernt werden.,module,Magento_CatalogInventory
 "Unable to remove Stock with id ""%1""","Der Lagerbestand mit der Nummer ""%1"" kann nicht entfernt werden.",module,Magento_CatalogInventory
 Unable to rename passkey. Please try again.,Der Passkey konnte nicht umbenannt werden. Bitte versuchen Sie es erneut.,module,MageOS_PasskeyAuth
+Unable to render form element for %1.,Formularelement für %1 kann nicht dargestellt werden.,module,Hyva_Checkout
+Unable to render form element.,Formularelement kann nicht dargestellt werden.,module,Hyva_Checkout
 Unable to retrieve shipping label,Versandetikett kann nicht abgerufen werden.,,
 Unable to retrieve tracking,Tracking kann nicht abgerufen werden.,,
 Unable to revoke the passkey. Please try again.,Der Passkey konnte nicht widerrufen werden. Bitte versuchen Sie es erneut.,module,MageOS_PasskeyAuth
@@ -16473,6 +16587,7 @@ Unable to save address. Please check input data.,Adresse kann nicht gespeichert 
 Unable to save Billing Agreement:,"Nicht in der Lage, die Abrechnungsvereinbarung zu speichern:",,
 Unable to save checkout agreement %1,Checkout-Vereinbarung %1 kann nicht gespeichert werden.,,
 Unable to save collection point.,"Es ist nicht möglich, die Sammelstelle zu speichern.",module,Temando_Shipping
+Unable to save configuration changes. Please refresh the page and try again.,Die Konfigurationsänderungen konnten nicht gespeichert werden. Bitte laden Sie die Seite neu und versuchen Sie es erneut.,module,Hyva_Checkout
 Unable to save Cron expression,Cron-Ausdruck kann nicht gespeichert werden,,
 Unable to save Customer Code,Kundencode kann nicht gespeichert werden,module,Vertex_Tax
 Unable to save event stream.,"Es ist nicht möglich, den Ereignisstream zu speichern.",module,Temando_Shipping
@@ -16539,6 +16654,7 @@ Unexpected GIF version,Unerwartete GIF-Version,module,Magento_MediaGalleryMetada
 "Unexpected model list response from %1: missing ""providers"" list.","Unerwartete Antwort auf die Modellliste von %1: Liste ""providers"" fehlt.",module,MageOS_AiBase
 Unfortunately Amazon Pay declined the payment for your order in our online shop %storeName. Please contact us.,Leider hat Amazon Pay die Zahlung für Ihre Bestellung in unserem Online-Shop %storeName abgelehnt. Bitte kontaktieren Sie uns.,module,Amazon_Payment
 "Unfortunately it is not possible to use Amazon Pay for this order, please choose another payment method.","Leider ist es nicht möglich, Amazon Pay für diese Bestellung zu verwenden, bitte wählen Sie eine andere Zahlungsmethode.",module,Amazon_Payment
+"Unfortunately, something went wrong while trying to update a component on the page. As a result, a page refresh is required to attempt to resolve this issue. By clicking OK, the page will automatically reload itself. We apologize for this inconvenience and thank you for your patience.","Leider ist beim Aktualisieren eines Bereichs der Seite ein Fehler aufgetreten. Die Seite muss neu geladen werden, um das Problem zu beheben. Mit einem Klick auf OK wird die Seite automatisch neu geladen. Wir bitten, die Unannehmlichkeiten zu entschuldigen, und danken für Ihre Geduld.",module,Hyva_Checkout
 Ungültiger Match-Filter. Die Mindestlänge beträgt %1.,module,Magento_CatalogGraphQl,
 "Ungültiger URL-Schlüssel. Der Name der Kategorie ""%1"" kann nicht zur Erzeugung eines lateinischen URL-Schlüssels verwendet werden. Bitte fügen Sie einen URL-Schlüssel hinzu oder ändern Sie den Kategorienamen mit lateinischen Buchstaben und Zahlen, um Probleme mit dem URL-Schlüssel zu vermeiden.",module,Magento_CatalogUrlRewrite,
 "Ungültiger URL-Schlüssel. Der URL-Schlüssel ""%1"" kann nicht zur Erzeugung eines lateinischen URL-Schlüssels verwendet werden. Bitte verwenden Sie lateinische Buchstaben und Zahlen, um Probleme bei der Generierung des URL-Schlüssels zu vermeiden.",module,Magento_CatalogUrlRewrite,
@@ -17674,6 +17790,7 @@ We'll email you an order confirmation with details and tracking info.,Wir schick
 We'll send your order confirmation here.,Wir werden Ihre Bestellbestätigung an diese E-Mail senden.,,
 We'll use the default description above if you leave this empty.,"Obige Standardbeschreibung wird verwendet, wenn Sie diese leer lassen.",,
 We'll use the default error above if you leave this empty.,"Wir werden den obigen Standardfehler nutzen, wenn Sie dies leer lassen.",,
+"We're sorry this happened. It looks like something did not go as expected. To continue, press OK — this will reload the page automatically and try to resolve the issue.","Es tut uns leid, offenbar ist etwas nicht wie erwartet gelaufen. Klicken Sie auf OK, um fortzufahren: Die Seite wird dann automatisch neu geladen und versucht, das Problem zu beheben.",module,Hyva_Checkout
 "We're sorry, an error has occurred while generating this content.","Es tut uns leid, es ist ein Fehler bei der Erstellung dieses Inhalts aufgetreten.",module,Magento_Email
 "We're sorry, an error has occurred while generating this email.",Bei der Generierung dieser E-Mail ist ein Fehler aufgetreten.,,
 We're unable to delete the segement.,Wir sind nicht in der Lage diesen Abschnitt zu löschen.,,
@@ -17836,6 +17953,7 @@ Which product ?,Welches Produkt?,module,MageOS_ShoppingFeed
 Which product?,Welches Produkt?,module,MageOS_ShoppingFeed
 Which products are running low on stock?,Welche Produkte haben einen niedrigen Lagerbestand?,module,MagoAssistant_Mago
 White No Border,Weiß ohne Rahmen,module,Magento_Paypal
+"Whoops, our bad... the step you requested was not found.","Hoppla, der angeforderte Schritt wurde nicht gefunden.",module,Hyva_Checkout
 Widget,Widget,,
 "Widget ""%1""","Widget ""%1""",,
 Widget ID,Widget-Identifikationsnummer,,
@@ -18005,6 +18123,7 @@ You are about to delete all products in this attribute set. Are you sure you wan
 You are about to delete all products in this product template. ' 'Are you sure you want to do that?,Sie sind dabei alle Produkte in dieser Produktvorlagen zu löschen. Möchten Sie dies wirklich tun?,,
 You are about to enable this feature for customers that haven't explicitly opted into your emails. Do you wish to continue?,"Sie sind dabei, diese Funktion für Kunden zu aktivieren, die sich nicht ausdrücklich für Ihre E-Mails entschieden haben. Möchten Sie fortfahren?",module,Dotdigitalgroup_Email
 You are about to Login as Customer,Sie melden sich gleich als Kunde an,module,Magento_LoginAsCustomerAdminUi
+You are being redirected. Please wait...,Sie werden weitergeleitet. Bitte warten Sie...,module,Hyva_Checkout
 You are connected as <strong>%1</strong> on %2,Sie sind als <strong>%1</strong> auf %2 verbunden,module,frontend/Hyva/default
 "You are interacting with an AI assistant, not a human.","Sie interagieren mit einem KI-Assistenten, nicht mit einem Menschen.",module,MagoAssistant_Mago
 You are logged in,Sie sind angemeldet,module,Magento_LoginAsCustomerFrontendUi
@@ -18099,6 +18218,7 @@ You cannot delete this tax class because it is used in Tax Rules. You have to de
 You cannot delete this tax class because it is used in Tax Rules.' ' You have to delete the rules it is used in first.,"Sie können diese Steuerklasse nicht löschen, da sie in den Steuerregeln verwendet wird. Sie müssen erst die Regel löschen, in der sie benutzt wird.",,
 You cannot delete your own account.,Sie können Ihr eigenes Konto nicht löschen.,,
 You cannot edit this attribute.,Sie können dieses Attribut nicht bearbeiten.,,
+"You cannot proceed with such operation, your reCAPTCHA reputation is too low.","Diese Aktion ist nicht möglich, Ihre reCAPTCHA-Bewertung ist zu niedrig.",module,Hyva_Checkout
 "You cannot proceed with such operation, your reCaptcha reputation is too low.","Sie können mit einer solchen Operation nicht fortfahren, Ihr reCaptcha-Reputation ist zu niedrig.",module,MSP_ReCaptcha
 You cannot remove the hold.,Sie können die Wartestellung nicht entfernen.,,
 You cannot return %1.,Sie können %1 nicht zurückgeben.,,
@@ -18269,6 +18389,7 @@ You must confirm your %customer_email email before you can sign in (link is only
 You must confirm your %customer_email email before you can sign in (link is only valid once):,"Sie müssen Ihre %customer_email Email bestätigen, bevor Sie sich einloggen (Link ist nur einmal gültig):",module,Magento_Customer
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Sie müssen Ihr Konto bestätigen. Bitte überprüfen Sie Ihr E-Mail-Postfach für den Bestätigungslink oder <a href=""%1"">klicken Sie hier</a> für einen neuen Link.",,
 You must first configure currency options before being able to see currency rates.,"Sie müssen zuerst Währungsoptionen konfigurieren, um die Währungsraten zu sehen.",module,Magento_CurrencySymbol
+You must login or register to activate an address.,"Sie müssen sich anmelden oder registrieren, um eine Adresse zu aktivieren.",module,Hyva_Checkout
 You must login or register to add items to your wishlist.,"Sie müssen sich anmelden oder registrieren, um Artikel zu Ihrer Wunschliste hinzuzufügen.",module,Magento_Wishlist
 "You must provide a valid <a href=""%s"" target=""_blank"">Google Maps API key</a> to use a map.","Sie müssen einen gültigen <a href=""%s"" target=""_blank"">Google Maps API-Schlüssel</a> angeben, um eine Karte zu verwenden.",module,Magento_PageBuilder
 You must provide a valid <a href='%1' target='_blank'>Google Maps API key</a> to use a map.,"Sie müssen einen gültigen <a href='%1' target='_blank'>Google Maps API-Schlüssel</a> angeben, um eine Karte zu verwenden.",module,Magento_PageBuilder
@@ -18418,6 +18539,7 @@ You're reviewing:,Sie bewerten:,,
 You've been sent a gift card for use at %store_name and it is now ready to be used for purchases.,Sie haben eine Geschenkkarte für %store_name erhalten. Diese kann nun für Ihre Einkäufe genutzt werden.,,
 You've earned a coupon with this code: %coupon_code,Sie haben einen Gutschein mit diesem Code erhalten: %coupon_code,module,MageOS_NewsletterCoupon
 You've met your limit of %1 sends in an hour.,Sie haben Ihr Limit von %1 Sendungen pro Stunde erreicht.,,
+You've reached the maximum amount of characters,Sie haben die maximale Zeichenanzahl erreicht,module,Hyva_Checkout
 Your %store_name email and password has been changed,Ihre %store_name Email und Passwort haben sich geändert,,
 Your %store_name email has been changed,Ihre %store_name Email hat sich geändert,,
 Your %store_name order confirmation,Bestellbestätigung für Ihre Bestellung bei %store_name,,
@@ -18445,6 +18567,8 @@ Your billing agreement # is: ,Ihre Rechnungsvereinbarungsnummer # ist:,module,Ma
 Your billing agreement # is: %1.,Ihre Rechnungsvereinbarungsnummer ist: %1.,,
 Your browser does not support passkeys.,Ihr Browser unterstützt keine Passkeys.,module,MageOS_PasskeyAuth
 Your browser does not support passkeys. Please use a modern browser over HTTPS.,Ihr Browser unterstützt keine Passkeys. Bitte verwenden Sie einen modernen Browser über HTTPS.,module,MageOS_PasskeyAuth
+Your cart appears to be empty,Ihr Warenkorb scheint leer zu sein,module,Hyva_Checkout
+Your checkout information has been updated in the background. Please refresh the page to continue the checkout process in this window.,"Ihre Checkout-Daten wurden im Hintergrund aktualisiert. Bitte laden Sie die Seite neu, um den Bestellvorgang in diesem Fenster fortzusetzen.",module,Hyva_Checkout
 Your Coupon was successfully applied,Gutschein wurde hinzugefügt,,
 Your coupon was successfully applied.,Ihr Gutschein wurde hinzugefügt.,module,Magento_SalesRule
 Your Coupon was successfully removed,Gutschein wurde entfernt,,
