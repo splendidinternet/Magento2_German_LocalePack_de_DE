@@ -6848,7 +6848,6 @@ Food Product,Lebensmittel,module,MageOS_Seo
 "Food, Beverage and Grocery","Lebensmittel, Getränke und Lebensmittel",module,Magento_Analytics
 Footer,Fußzeile,,
 Footer Template,Footer-Vorlage,,
-for,"Folgen Sie diesem Link, um sich abzumelden <!-- Dieser Tag ist für den Abbestellungslink  -->' '<a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}' '</a>",,
 "For %1 revoked passkey(s), the customer could not be signed out of their sessions and apps. See the error log.",Bei %1 widerrufenen Passkey(s) konnte der Kunde nicht von seinen Sitzungen und Apps abgemeldet werden. Weitere Informationen finden Sie im Fehlerprotokoll.,module,MageOS_PasskeyAuth
 "For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone.","Für eine genaue Berichterstattung, aktualisieren Sie die Lebenszeit-Statistiken, wenn Sie die Zeitzone ändern.",,
 For associated products of configurable products.,Für zugehörige Produkte konfigurierbarer Produkte.,module,MageOS_ShoppingFeed
@@ -16675,11 +16674,9 @@ Unique Value (not shared with other products),Einmaliger Wert (wird nicht mit an
 Unit of measure,Maßeinheit,module,MageOS_ShoppingFeed
 Unit of measure:,Maßeinheit:,module,MageOS_ShoppingFeed
 Unit Price,Einzelpreis,,
-United Kingdom,Vereinigtes Königreich,module,Amazon_Core
 United Parcel Service,United Parcel Service (UPS),,
 United Parcel Service REST,United Parcel Service REST,module,Magento_Ups
 United Parcel Service XML,United Parcel Service (UPS) XML,,
-United States,Vereinigte Staaten,module,Amazon_Core
 Universal Analytics,Universal Analytics,,
 Unknown,Unbekannt,,
 Unknown (ID: %1),Unbekannt (ID: %1),module,MageOS_RMA
