@@ -18671,7 +18671,7 @@ Zugeordnete Auftragsposition konnte nicht gefunden werden.,module,Magento_SalesG
 "Excluded Website(s)","Ausgeschlossene Webseiten",module,Magento_Customer
 "Select websites you want to exclude from this customer group.","Wählen Sie die Websites aus, die Sie für diese Kundengruppe ausschließen möchten.",module,Magento_Customer
 "Today","Heute",module,Magento_Customer
-"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your shipping address for proper VAT calculation.' 'If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your billing address for proper VAT calculation.","'Wenn Sie ein registrierter Steuer-Kunde sind, klicken Sie bitte <a href="%1">hier</a>, um Ihre Versandadresse einzugeben, damit die Steuerberechnung korrekt erfolgen kann.' 'Wenn Sie ein registrierter Steuer-Kunde sind, klicken Sie bitte <a href="%1">hier</a>, um Ihre Rechnungsadresse einzugeben, damit die Steuerberechnung korrekt erfolgen kann.'",module,Magento_Customer
+"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your shipping address for proper VAT calculation.' 'If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your billing address for proper VAT calculation.","'Wenn Sie ein registrierter Steuer-Kunde sind, klicken Sie bitte <a href=""%1"">hier</a>, um Ihre Versandadresse einzugeben, damit die Steuerberechnung korrekt erfolgen kann.' 'Wenn Sie ein registrierter Steuer-Kunde sind, klicken Sie bitte <a href=""%1"">hier</a>, um Ihre Rechnungsadresse einzugeben, damit die Steuerberechnung korrekt erfolgen kann.'",module,Magento_Customer
 "Address not found.","Adresse nicht gefunden",module,Magento_Customer
 "The Store View selected for sending Welcome email from is not related to the customer's associated website.","Die ausgewählte Store View zum Versenden der Willkommens-E-Mail steht nicht in Verbindung mit der zugehörigen Website des Kunden.",module,Magento_Customer
 "Provided customer ID ""%customer_id"" isn't related to current customer address.","Die angegebene Kunden-ID ""%customer_id"" gehört nicht zu der Kundenadresse.",module,Magento_Customer
@@ -18699,8 +18699,8 @@ Zugeordnete Auftragsposition konnte nicht gefunden werden.,module,Magento_SalesG
 "The user has not enabled the ""Allow remote shopping assistance"" functionality. Contact the customer to discuss this user configuration.","Der Benutzer hat die Funktion ""Remote-Einkaufsunterstützung zulassen"" nicht aktiviert. Kontaktieren Sie den Kunden, um diese Benutzerkonfiguration zu besprechen.",module,Magento_LoginAsCustomerAssistance
 "Login as Customer assistance is disabled for this Customer.","Die Funktion ""Als Kunde einloggen"" ist für diesen Kunden deaktiviert.",module,Magento_LoginAsCustomerAssistance
 "You have no permission to change Opt-In preference.","Sie haben keine Berechtigung, die Opt-In-Präferenz zu ändern.",module,Magento_LoginAsCustomerAssistance
-"Title for Login as Customer opt-in checkbox","Titel für die Opt-In-Checkbox "Als Kunde einloggen"",module,Magento_LoginAsCustomerAssistance
-"Login as Customer checkbox tooltip","Tooltip für die "Als Kunde einloggen" Checkbox",module,Magento_LoginAsCustomerAssistance
+"Title for Login as Customer opt-in checkbox","Titel für die Opt-In-Checkbox ""Als Kunde einloggen""",module,Magento_LoginAsCustomerAssistance
+"Login as Customer checkbox tooltip","Tooltip für die ""Als Kunde einloggen"" Checkbox",module,Magento_LoginAsCustomerAssistance
 "Allow remote shopping assistance","Erlaube Remote-Einkaufsunterstützung",module,Magento_LoginAsCustomerAssistance
 zlib gzcompress() && zlib gzuncompress() must be enabled in php configuration,zlib gzcompress() && zlib gzuncompress() müssen in der PHP-Konfiguration aktiviert sein,module,Magento_MediaGalleryMetadata
 – Please Select assets –,-- Bitte Assets auswählen --,module,Magento_MediaGalleryCatalogUi
