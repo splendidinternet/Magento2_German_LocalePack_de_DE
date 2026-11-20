@@ -1168,6 +1168,8 @@ $websiteId parameter is required,Der Parameter $websiteId ist erforderlich.,modu
 7.0,7.0,module,Akeneo_Connector
 "86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","Standardmäßig 86400 , wenn nicht festgelegt. Um sofort zu aktualisieren, deaktivieren Sie den Block HTML-Output-Cache.",,
 "86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","Standardmäßig 86400, wenn nicht festgelegt. Um sofort zu aktualisieren, deaktivieren Sie den Block-HTML-Output-Cache. ",,
+-- No icon --,-- Kein Symbol --,module,MageOS_Widgetkit
+-- No preview styling --,-- Vorschau ohne Gestaltung --,module,MageOS_Widgetkit
 : You are about to set max session size in admin to be lower than recommended default session size. Low max session size in admin could break admin functionalities such as admin panel login. Are you sure you want to make this change?,": Sie sind dabei, die maximale Sitzungsgröße im Admin niedriger als die empfohlene Standard-Sitzungsgröße festzulegen. Eine niedrige maximale Sitzungsgröße im Admin kann Admin-Funktionen wie den Login in das Admin-Panel beeinträchtigen. Möchten Sie diese Änderung wirklich vornehmen?",module,Magento_Security
 : You are about to set max session size in storefront to be lower than  recommended default session size. Low max session size in storefront could break storefront functionalities such as customer login. Are you sure you want to make this change?,": Sie sind dabei, die maximale Sitzungsgröße im Frontend niedriger als die empfohlene Standard-Sitzungsgröße festzulegen. Eine niedrige maximale Sitzungsgröße im Frontend kann Frontend-Funktionen wie den Kunden-Login beeinträchtigen. Möchten Sie diese Änderung wirklich vornehmen?",module,Magento_Security
 "<b>Yes:</b> Mini cart updates only after user interaction when page is restored from cache (except Hyvä).<br>
@@ -1412,6 +1414,7 @@ Access Token,Zugriffstoken,,
 Access Token Expiration,Ablauf der Zugriffstoken,module,Magento_Integration
 Access token has been revoked,Zugriffstoken wurde widerrufen,,
 Access Token Secret,Zugriffstoken-Geheimnis,,
+Accordion items,Einträge des Akkordeons,module,MageOS_Widgetkit
 Account,Konto,,
 Account &amp; Shipping Information,Konto &amp; Versandinformationen,,
 Account Activity,Kontoaktivität,module,Magento_Security
@@ -1446,6 +1449,7 @@ ACH Withdrawal,ACH-Widerrufsrecht,,
 Acknowledgements,Danksagungen,module,Magento_Securitytxt
 Action,Aktion,,
 "Action ""%1"" is not supported.","Die Aktion ""%1"" wird nicht unterstützt.",module,Magento_Sales
+action cart,Aktion,module,Maisondunet_SaveQuote
 Action Details - #,Aktionsdetails - #,module,Magento_AsynchronousOperations
 Action Details - #' .,Action Details - #' .,module,Magento_AsynchronousOperations
 Action Group,Aktionsgruppe,,
@@ -1518,6 +1522,7 @@ Add Date,Datum hinzufügen,,
 Add Design Change,Designänderung hinzufügen,,
 Add Details,Details hinzufügen,,
 Add Dotdigital API credentials and enable the connector,Dotdigital API-Anmeldeinformationen hinzufügen und den Konnektor aktivieren,module,Dotdigitalgroup_Email
+Add Entry,Eintrag hinzufügen,module,BitExpert_ForceCustomerLogin
 Add Event...,Event hinzufügen,,
 Add Frontend App,Frontend-App hinzufügen,,
 Add Gift Card,Geschenkgutschein hinzufügen,,
@@ -3044,6 +3049,7 @@ Birthdate,Geburtsdatum,module,Vertex_Tax
 "Bitte wählen Sie eine Store View, um sich anzumelden.",module,Magento_LoginAsCustomerAdminUi,
 bla,bla,,
 Black,Schwarz,module,Magento_Paypal
+Blank,Neues Fenster,module,MageOS_Widgetkit
 Block,Block,,
 Block %1 throws exception and cannot be rendered.,Block %1 kann nicht wiedergegeben werden,,
 Block after Info Column,Block nach Info-Spalte,,
@@ -3487,6 +3493,7 @@ Card Verification Number Visual Reference,Kartenprüfnummer (Visuelle Referenz),
 Cardholder Name,Name des Karteninhabers,,
 Cardholder name is too long.,Der Name des Karteninhabers ist zu lang.,module,Magento_Braintree
 CardinalCommerce,KardinalCommerce,module,Magento_CardinalCommerce
+Carousel,Karussell,module,MageOS_Widgetkit
 Carousel Mode,Karussell-Modus,module,Magento_PageBuilder
 Carousel Settings,Karussell-Einstellungen,module,Magento_PageBuilder
 Carrier,Beförderer,,
@@ -3511,10 +3518,12 @@ Cart contains virtual product(s) only. Shipping address is not applicable.,Waren
 Cart contains virtual product(s) only. Shipping method is not applicable.,Warenkorb enthält nur virtuelle Produkte. Versandmethode ist nicht anwendbar.,,
 Cart contains virtual product(s) only. Shipping method is not applicable.,Warenkorb enthält nur virtuelle Produkte. Versandmethode ist nicht anwendbar.,module,Magento_Quote
 Cart Content URL,Warenkorb Inhalts-URL,module,Dotdigitalgroup_Email
+cart empty,Der Warenkorb ist leer,module,Maisondunet_SaveQuote
 Cart ID length should to be 32 symbols.,Die Länge der Warenkorb-ID sollte 32 Symbole betragen.,module,Magento_QuoteGraphQl
 Cart is empty,Der Warenkorb ist leer,module,frontend/Hyva/default
 Cart isn't assigned to correct store,Der Warenkorb ist nicht dem richtigen Shop zugeordnet.,module,Magento_Quote
 Cart Item Attribute,Warenkorbartikelattribut,,
+Cart Items,Artikel im Warenkorb,module,Maisondunet_SaveQuote
 Cart Line Items,Artikel im Einkaufswagen,,
 Cart Merge Preference,Einstellung zum Zusammenführen des Warenkorbs,module,Magento_Checkout
 Cart not found,Warenkorb nicht gefunden,module,Magento_WishlistGraphQl
@@ -4062,6 +4071,8 @@ Configured attribute data providers should implement GetAttributeValueInterface,
                 GetAttributeSelectedOptionInterface","Konfigurierte Datenprovider für ausgewählte Attributoptionen sollten
                 GetAttributeSelectedOptionInterface implementieren",module,Magento_EavGraphQl
 Configured Services,Konfigurierte Dienste,module,MageOS_AiBase
+Configures if the module is enabled,"Legt fest, ob das Modul aktiv ist",module,BitExpert_ForceCustomerLogin
+"Configures the target for redirecting, if whitelist rules do not match","Legt das Ziel der Weiterleitung fest, wenn keine Regel der Ausnahmeliste zutrifft",module,BitExpert_ForceCustomerLogin
 "Configures the x-html-safe Alpine plugin, which renders sanitized HTML through a fixed allowlist. Available since Alpine's CSP build dropped x-html support.","Konfiguriert das Alpine-Plugin x-html-safe, das bereinigtes HTML anhand einer festen Allowlist rendert. Verfügbar, seit der CSP-Build von Alpine x-html nicht mehr unterstützt.",module,Hyva_Theme
 Confirm,Bestätigen,,
 Confirm New Password,Neues Passwort bestätigen,,
@@ -4272,6 +4283,7 @@ Could not add gift card code,Geschenkkartencode konnte nicht hinzugefügt werden
 Could not add gift message to shopping cart,Konnte Geschenk-Nachricht nicht in den Warenkorb legen,,
 Could not add item to wishlist.,Der Artikel konnte nicht zur Wunschliste hinzugefügt werden.,module,frontend/Hyva/default
 Could not add item to your Wish List.,Der Artikel konnte nicht zu Ihrer Wunschliste hinzugefügt werden.,module,frontend/Hyva/default
+Could not add record: %s,Der Datensatz konnte nicht hinzugefügt werden: %s,module,BitExpert_ForceCustomerLogin
 "Could not add the product with SKU ""%1"" to the shopping cart","Das Produkt mit der SKU ""%1"" konnte nicht in den Warenkorb gelegt werden",module,Magento_Sales
 "Could not add the product with SKU ""%1"" to the shopping cart: %2","Das Produkt mit der SKU ""%1"" konnte nicht in den Warenkorb gelegt werden: %2",module,Magento_Sales
 "Could not add the product with SKU ""%sku"" to the wishlist:: %message","Das Produkt mit der SKU ""%sku"" konnte nicht zur Wunschliste hinzugefügt werden:: %message",module,Magento_Wishlist
@@ -4305,6 +4317,7 @@ Could not delete enrichment: %1,Anreicherung konnte nicht gelöscht werden: %1,m
 Could not delete gift card from quote,Geschenkkartencode konnte nicht vom Angebot gelöscht werden.,,
 Could not delete log entries,Log-Einträge konnten nicht gelöscht werden,module,Vertex_Tax
 Could not delete log entry,Log-Eintrag konnte nicht gelöscht werden,module,Vertex_Tax
+Could not delete manage entry with id %s.,Der Eintrag mit der ID %s konnte nicht gelöscht werden.,module,BitExpert_ForceCustomerLogin
 Could not delete media asset with path %path: %error,Konnte Mediendatei mit Pfad %pfad nicht löschen: %error,module,Magento_MediaGallery
 Could not delete media assets by path %path: %error,Die Medien-Assets unter dem Pfad %path konnten nicht gelöscht werden: %error,module,Magento_MediaGallery
 Could not delete media assets by paths: %paths,Die Medien-Assets unter folgenden Pfaden konnten nicht gelöscht werden: %paths,module,Magento_MediaGallery
@@ -4313,6 +4326,8 @@ Could not delete order address,Bestelladresse konnte nicht gelöscht werden,,
 Could not delete passkey credential: %1,Passkey-Zugangsdaten konnten nicht gelöscht werden: %1,module,MageOS_PasskeyAuth
 Could not delete post: %1,Beitrag konnte nicht gelöscht werden: %1,module,MageOS_Blog
 Could not delete Prices,Preise konnten nicht gelöscht werden,module,Magento_Catalog
+Could not delete QuoteDescription.,Der gespeicherte Warenkorb konnte nicht gelöscht werden.,module,Maisondunet_SaveQuote
+Could not delete QuoteDescription. Original message: {message},Der gespeicherte Warenkorb konnte nicht gelöscht werden. Ursprüngliche Meldung: {message},module,Maisondunet_SaveQuote
 Could not delete shipment,Versand konnte nicht gelöscht werden,,
 "Could not delete source ""%1"": %2","Quelle ""%1"" konnte nicht gelöscht werden: %2",module,Magento_InventoryAdminUi
 Could not delete Source Items,Quell-Elemente konnten nicht gelöscht werden,module,Magento_Inventory
@@ -4358,6 +4373,7 @@ Could not find any product with this SKU.,Es wurde kein Produkt mit dieser SKU g
 Could not find cart item with id: %1.,Warenkorb mit der ID: %1 konnte nicht gefunden werden.,module,Magento_QuoteGraphQl
 Could not find payment information for cart.,Es konnten keine Zahlungsinformationen für den Warenkorb gefunden werden.,module,Magento_PaypalGraphQl
 "Could not find product for the wishlist item with ID ""%1""","Für den Wunschlistenartikel mit der ID ""%1"" wurde kein Produkt gefunden",module,Magento_WishlistGraphQl
+Could not find QuoteDescription with id: `%id`,Der gespeicherte Warenkorb mit der ID `%id` wurde nicht gefunden,module,Maisondunet_SaveQuote
 Could not find specified product.,Konnte das angegebene Produkt nicht finden.,module,Magento_ConfigurableProductGraphQl
 "Could not find the ""multiline_count"" config of the ""street"" Customer address attribute.","Die Konfiguration ""multiline_count"" des Attributs ""street"" Kundenadresse konnte nicht gefunden werden.",module,Amazon_Payment
 Could not find the specified wishlist,Die angegebene Wunschliste wurde nicht gefunden,module,Magento_WishlistGraphQl
@@ -4372,6 +4388,7 @@ Could not locate schema: '%1' at '%2',Schema konnte nicht lokalisiert werden: %1
 Could not move category,Konnte Kategorie nicht verschieben,,
 Could not parse resource url.,Die Ressourcen-URL konnte nicht analysiert werden.,module,Magento_CatalogImportExport
 Could not parse the image file for metadata: %path,Die Metadaten der Bilddatei konnten nicht ausgelesen werden: %path,module,Magento_MediaGalleryMetadata
+Could not persist manage entry.,Der Eintrag konnte nicht gespeichert werden.,module,BitExpert_ForceCustomerLogin
 Could not ping search engine: %1,Suchmaschine konnte nicht angepingt werden: %1,,
 Could not prepare product for the wishlist item with ID %1,Das Produkt für den Wunschlistenartikel mit der ID %1 konnte nicht vorbereitet werden,module,Magento_WishlistGraphQl
 Could not read config file,Config-Datei konnte nicht gelesen werden,,
@@ -4383,8 +4400,10 @@ Could not remove item from compare.,Der Artikel konnte nicht aus der Vergleichsl
 Could not remove item from quote,Konnte Artikel nicht aus Angebot entfernen,,
 Could not remove item from your Wish List.,Der Artikel konnte nicht von Ihrer Wunschliste entfernt werden.,module,frontend/Hyva/default
 Could not remove media content relations for assets ids: %ids,Die Medieninhaltsbeziehungen für folgende Asset-IDs konnten nicht entfernt werden: %ids,module,Magento_MediaContent
+Could not remove record: %s,Der Datensatz konnte nicht entfernt werden: %s,module,BitExpert_ForceCustomerLogin
 Could not replace Sales Channels for Stock,Konnte die Vertriebskanäle für den Lagerbestand nicht ersetzen.,module,Magento_InventorySales
 Could not replace Tier Prices,Staffelpreise konnten nicht ersetzt werden,module,Magento_Catalog
+Could not restore default whitelist!,Die Standardwerte der Ausnahmeliste konnten nicht wiederhergestellt werden!,module,BitExpert_ForceCustomerLogin
 Could not retrieve asset keywords.,Die Schlüsselwörter des Assets konnten nicht abgerufen werden.,module,Magento_MediaGallery
 Could not retrieve files information.,Konnte keine Dateiinformationen abrufen.,module,Magento_AdobeStockClient
 Could not retrieve image details.,Die Bilddetails konnten nicht abgerufen werden.,module,Magento_MediaGalleryUi
@@ -4418,6 +4437,8 @@ Could not save Prices.,Preise konnten nicht gespeichert werden.,module,Magento_C
 Could not save product option,Produktoption konnte nicht gespeichert werden.,,
 "Could not save products ""%products"" to category %category","Die Produkte ""%products"" konnten nicht in der Kategorie %category gespeichert werden",module,Magento_Catalog
 Could not save quote,Angebot konnte nicht gespeichert werden,,
+Could not save QuoteDescription.,Der Warenkorb konnte nicht gespeichert werden.,module,Maisondunet_SaveQuote
+Could not save QuoteDescription. Original message: {message},Der Warenkorb konnte nicht gespeichert werden. Ursprüngliche Meldung: {message},module,Maisondunet_SaveQuote
 Could not save shipment,Versand konnte nicht gespeichert werden,,
 Could not save Source,Quelle konnte nicht gespeichert werden,module,Magento_Inventory
 Could not save Source Item,Quellobjekt konnte nicht gespeichert werden,module,Magento_Inventory
@@ -5204,6 +5225,7 @@ Delete Packages,Pakete löschen,module,Temando_Shipping
 Delete Page,Seite löschen,,
 Delete Passkey,Passkey löschen,module,MageOS_PasskeyAuth
 Delete payment reminder,Zahlungserinnerung löschen,module,Mollie_Payment
+Delete product,Produkt löschen,module,MageOS_AdvancedWidget
 Delete Rate,Satz löschen,,
 Delete Rating,Bewertung löschen,,
 Delete record #%1,Datensatz #%1 löschen,module,Magento_UrlRewrite
@@ -5560,6 +5582,7 @@ dotdigital Log Viewer,dotdigital Log Viewer,module,Dotdigitalgroup_Email
 Dotdigital smtp host region is not defined,Dotdigitales smtp-Gastgebergebiet ist nicht definiert,module,Dotdigitalgroup_Email
 dotmailer Configuration,dotmailer Konfiguration,module,Dotdigitalgroup_Email
 Dotmailer connector API endpoint cannot be empty.,Der API-Endpunkt des Dotmailer-Konnektors darf nicht leer sein.,module,Dotdigitalgroup_Email
+Dotnav,Punktnavigation,module,MageOS_Widgetkit
 Dotted,Gepunktet,module,Magento_PageBuilder
 Double,Doppelt,module,Magento_PageBuilder
 Double click on a group to rename it.,"Doppelklicken Sie auf eine Gruppe, um sie umzubenennen.",,
@@ -5649,6 +5672,7 @@ Each module's detail page on the,Die Detailseite jedes Moduls im,module,MageOS_E
                         ist eine Ausfuhrgenehmigung erforderlich. Eine Lieferung (unabhängig vom Wert) geht nach Kanada und erfordert
                         keine Ausfuhrgenehmigung. Benutzer können <b>%2</b> in das Feld AESITN eingeben, wenn der Wert der Lieferung
                         die Befreiungskriterien erfüllt. Bitte wenden Sie sich für weitere Informationen an USPS.",module,Magento_Usps
+Eager,Sofort laden,module,MageOS_Widgetkit
 Eagerness,Eagerness,module,Hyva_Theme
 EAN / Barcode,EAN / Barcode,module,MageOS_Seo
 EARLY END,VORZEITIGES ENDE,module,MageOS_ShoppingFeed
@@ -6028,6 +6052,7 @@ Enable lazy-loading by default for background images,Lazy Loading für Hintergru
 Enable Login with Amazon,Login mit Amazon aktivieren,module,Amazon_Core
 Enable MAP,MAP aktivieren,,
 Enable Maximum Alias Limit,Alias-Limit aktivieren,module,Magento_GraphQl
+Enable Module,Modul aktivieren,module,BitExpert_ForceCustomerLogin
 Enable Multiple Wish Lists,Mehrere Wunschzettel aktivieren,,
 Enable Negotiated Rates,Vereinbarte Preise aktivieren,,
 Enable New Relic Integration,New Relic Integration aktivieren,,
@@ -6068,6 +6093,7 @@ Enable Reward Points Functionality on Storefront,Belohnungspunktefunktionalität
 Enable RMA on Product Level,RMA auf Produktebene aktivieren,,
 Enable RMA on Storefront,RMA im Frontend aktivieren,,
 Enable RSS,RSS aktivieren,,
+Enable Save Cart,Speichern von Warenkörben aktivieren,module,Maisondunet_SaveQuote
 Enable Scheduled Backup,Geplantes Backup aktivieren,,
 Enable Scheduled File History Cleaning,Planmäßige Dateihistoriebereinigung aktivieren,,
 Enable Search Recommendations,Suchempfehlungen aktivieren,,
@@ -6117,9 +6143,12 @@ Enabled Braintree,Braintree aktiviert,,
 Enabled by Default,Standardmäßig aktiviert,,
 Enabled email capture,Aktivierte E-Mail-Erfassung,module,Dotdigitalgroup_Email
 Enabled for Admin,Für Admin aktiviert,,
+Enabled For All Customer Groups,Für alle Kundengruppen aktiviert,module,CustomGento_Invoice
 Enabled for Checkout,Aktiviert für Kasse,,
 Enabled for RMA,Für RMA aktiviert,,
 Enabled for Storefront,Für Frontend aktiviert,,
+Enabled Only For The Admin Area,Nur für den Admin-Bereich aktiviert,module,CustomGento_Invoice
+Enabled Only For The Following Customer Groups,Nur für die folgenden Kundengruppen aktiviert,module,CustomGento_Invoice
 Enabled Optional Fields,Aktivierte optionale Felder,module,MageOS_Seo
 Enabled PayPal through Braintree,PayPal mit Braintree aktiviert,,
 Enabled syncs,Aktivierte Synchronisierungen,module,Dotdigitalgroup_Email
@@ -6767,6 +6796,7 @@ First character must be letter.,Das erste Zeichen muss ein Buchstabe sein.,modul
 First Customer Order,Erster Kundenauftrag,module,Dotdigitalgroup_Email
 First Day of Week,Erster Tag der Woche,,
 First Invoice Created Date,Erstes Rechnungserstellungsdatum,,
+First item,Erster Eintrag,module,MageOS_Widgetkit
 First Name,Vorname,,
 First Name is a required field.,Vorname ist ein Pflichtfeld.,,
 First name is too long.,Der Vorname ist zu lang.,module,Magento_Braintree
@@ -6905,10 +6935,16 @@ For Windows server only.,Nur für Windows Server.,,
 Forbidden extensions has been used. Avoid usage of,Es wurden verbotene Erweiterungen verwendet. Vermeiden Sie die Verwendung von,lib,lib/web/mage/validation.js
 Forbidden extensions has been used. Avoid usage of ,Es wurden verbotene Erweiterungen verwendet. Vermeiden Sie die Verwendung von,lib,lib/web/mage/validation.js
 Force,Erzwingen,module,Hyva_Checkout
+Force Customer Login,Login-Pflicht für Kunden,module,BitExpert_ForceCustomerLogin
+Force Customer Login - Create new Entry,Login-Pflicht für Kunden – Neuen Eintrag anlegen,module,BitExpert_ForceCustomerLogin
+Force Customer Login - Edit Entry,Login-Pflicht für Kunden – Eintrag bearbeiten,module,BitExpert_ForceCustomerLogin
+Force Customer Login - Overview,Login-Pflicht für Kunden – Übersicht,module,BitExpert_ForceCustomerLogin
 Force providers,Anbieter erzwingen,module,MSP_TwoFactorAuth
+Force Secure Redirect,Sichere Weiterleitung erzwingen,module,BitExpert_ForceCustomerLogin
 Force Sign-In,Anmelden erzwingen,,
 Forced,Gezwungen,,
 "Forces ""Out of Stock"" for all sub-items when the configurable item is Out of Stock.","Erzwingt ""Nicht auf Lager"" für alle Unterartikel, wenn der konfigurierbare Artikel nicht auf Lager ist.",module,MageOS_ShoppingFeed
+Forces the redirect to use a secure connection,Erzwingt für die Weiterleitung eine sichere Verbindung,module,BitExpert_ForceCustomerLogin
 Forgot Admin Password,Admin-Passwort vergessen,module,Dotdigitalgroup_Email
 Forgot an Item?,Einen Artikel vergessen?,,
 Forgot an Item?,Einen Artikel vergessen?,module,Magento_Checkout
@@ -7013,6 +7049,7 @@ Fulfilled Quantity,Erfüllte Anzahl,,
 Full,Vollständig,,
 Full Action,Vollständige Aktion,module,MageOS_AdminActivityLog
 Full Action Name,Vollständiger Aktionsname,,
+Full background – card centered over a full-bleed image,Vollflächiger Hintergrund – Karte mittig über einem randlosen Bild,module,MageOS_Widgetkit
 Full Bleed,Randlos,module,Magento_PageBuilder
 Full bleed appearance will work only with supported layouts.,Die randlose Darstellung funktioniert nur mit unterstützten Layouts.,module,Magento_PageBuilder
 Full Details,Vollständige Details,,
@@ -7275,6 +7312,9 @@ Go to Pickup,Zur Abholung gehen,module,Temando_Shipping
 Go to Review Your Order,Ihre Bestellung überprüfen,,
 Go To Sale,Gehe zu Verkauf,,
 Go to Shipping Information,Gehe zu den Versandinformationen,,
+Go to slide,Zur Folie,module,MageOS_Widgetkit
+Go to slide %1,Zur Folie %1,module,MageOS_Widgetkit
+Go to slide %1: %2,Zur Folie %1: %2,module,MageOS_Widgetkit
 Go to Top,Gehe nach oben,,
 Go to Wish List,Zum Wunschzettel gehen,,
 Go to Wish List page,Zur Wunschliste,module,frontend/Hyva/default
@@ -7359,11 +7399,13 @@ greater than,Mehr als,,
 Grid,Raster,,
 Grid (default) / List,Raster (Standard) / Liste,,
 Grid (default) / List,Raster (Standard) / Liste,module,Magento_Catalog
+Grid items,Einträge des Rasters,module,MageOS_Widgetkit
 Grid Only,Nur Raster,,
 Grid Settings,Rastereinstellungen,module,Magento_Sales
 Grid Size,Rastergröße,module,Magento_PageBuilder
 "Grid size cannot be smaller than the current total amount of columns, minus any empty columns.",Die Rastergröße darf nicht kleiner sein als die aktuelle Gesamtzahl der Spalten abzüglich leerer Spalten.,module,Magento_PageBuilder
 Grid size determines the default number of columns available.,Die Rastergröße legt die standardmäßig verfügbare Anzahl an Spalten fest.,module,Magento_PageBuilder
+Grid stacked items,Einträge des gestapelten Rasters,module,MageOS_Widgetkit
 Groove,Eingekerbt,module,Magento_PageBuilder
 Gross Amount,Bruttobetrag,,
 Ground,Grund,,
@@ -7445,6 +7487,7 @@ Health & Wellness,Gesundheit & Wellness,module,MageOS_Seo
 Height,Höhe,,
 "Height, width and length should be equal or greater than %1","Höhe, Breite und Länge sollten gleich oder größer als %1 sein.",,
 hello,Hallo,,
+Hello guest if you want to saved your cart you have to login,"Bitte melden Sie sich an, um Ihren Warenkorb zu speichern",module,Maisondunet_SaveQuote
 Hello World!,Hallo Welt!,,
 "Hello,","Hallo,",,
 Help,Hilfe,,
@@ -7455,10 +7498,13 @@ Helper instance cannot be redefined.,Hilfsinstanz kann nicht neu definiert werde
 Helper instance is not defined yet.,Hilfsinstanz ist noch nicht definiert.,,
 here,Hier,,
 Here are the products you're about to create.,"Hier sind die Produkte, die Sie gerade erstellen.",module,Magento_ConfigurableProduct
+"Hero left – image right half, content on a primary-color left half","Hero links – Bild in der rechten Hälfte, Inhalt auf der linken Hälfte in der Primärfarbe",module,MageOS_Widgetkit
+"Hero right – image left half, content on a primary-color right half","Hero rechts – Bild in der linken Hälfte, Inhalt auf der rechten Hälfte in der Primärfarbe",module,MageOS_Widgetkit
 "Hi %1, what needs doing?","Hallo %1, was ist zu tun?",module,MagoAssistant_Mago
 "Hi %name,","Hallo %name,",module,MageOS_PasskeyAuth
 Hidden,Versteckt,,
 Hidden Virtual PayPal Debit Card Transaction,Versteckte virtuelle PayPal-Kreditkarten-Transaktion,,
+Hide,Ausblenden,module,MageOS_Widgetkit
 Hide Contact Information,Kontaktinformationen verbergen,,
 Hide Customer IP,Kunden-IP verbergen,,
 Hide Details,Details verbergen,,
@@ -7662,6 +7708,7 @@ If you select and save the rule you will be able to generate multiple coupon cod
 "If your store is using a custom attribute for stock status, change this to No.","Wenn Ihr Shop ein eigenes Attribut für den Lagerstatus verwendet, stellen Sie dies auf Nein.",module,MageOS_ShoppingFeed
 Ignition,Ignition,module,Swissup_Ignition
 Illustration,Abbildung,module,Magento_AdobeStockImageAdminUi
+Illustrative preview — the countdown ticks live on the storefront.,Beispielhafte Vorschau – im Shop läuft der Countdown in Echtzeit.,module,MageOS_Widgetkit
 Image,Bild,,
 Image Adapter,Bild-Adapter,,
 Image Attribute Height,Höhenattribut des Bildes,module,Hyva_Theme
@@ -7687,6 +7734,7 @@ Image Size,Bildgröße,module,Magento_ConfigurableProduct
 Image Size,Bildgröße,module,Magento_ProductVideo
 Image Size,Bildgröße,module,Magento_Swatches
 Image Size ,Bildgröße,,
+Image Slider,Bild-Slider,module,MageOS_Widgetkit
 Image with the same file name already exits.,Bild mit dem gleichen Dateinamen wird bereits beendet.,module,Magento_AdobeStockImage
 Images,Bilder,,
 "Images (.gif, .jpg, .png)","Bilder (.gif, .jpg, .png)",,
@@ -7882,6 +7930,7 @@ Info,Info,module,MageOS_ShoppingFeed
 Info about column,Infos zur Spalte,module,MageOS_ShoppingFeed
 Info:,Info:,,
 Information,Informationen,,
+Information grid items,Einträge des Info-Rasters,module,MageOS_Widgetkit
 Information has been updated,Die Daten wurden aktualisiert,module,Hyva_Checkout
 Ingredients,Inhaltsstoffe,module,MageOS_Seo
 Ingredients / Material,Zutaten / Material,module,MageOS_Seo
@@ -8550,6 +8599,7 @@ Layout update is invalid,Layout-Update ist ungültig,module,Magento_Cms
 Layout Update XML,Layout XML aktualisieren,,
 Layout Updates,Layout-Updates,,
 Layouts,Layouts,,
+Lazy,Verzögert laden,module,MageOS_Widgetkit
 Lazy Load,Lazy Load,module,Hyva_Theme
 Lazy Loading,Lazy Loading,module,Hyva_Theme
 Lazyload Tag Manager,Tag Manager per Lazy Loading laden,module,Hyva_Theme
@@ -8667,6 +8717,7 @@ List of Products Recently Compared and Removed from the Compare List by Visitor,
 List of Products Recently Compared by Visitor,Liste der zuletzt verglichenen Produkte nach Besuchern,module,Magento_Catalog
 List of Products Recently Viewed by Visitor,"Liste der Produkte, die vor kurzem vom Besucher angesehen wurden",,
 List of Products that are set as New,"Liste der Produkte, die als neu festgelegt sind",,
+List of your saved carts,Ihre gespeicherten Warenkörbe,module,Maisondunet_SaveQuote
 List Only,Nur Liste,,
 List property for the catalog page,Listeneigenschaft für die Katalogliste,,
 List property for the cross-sell block,Listeneigenschaft für den Cross-Sell-Block,,
@@ -8853,7 +8904,45 @@ Magento was installed with a table prefix. Please re-install without prefix.,Mag
 Magento Web API,Magento Web API,,
 Magento Webapi,Magento Webapi,module,Magento_Integration
 Magento_Ui/js/dynamic-rows/record,Magento_Ui/js/dynamic-rows/record,module,Magento_Backend
+MageOS Accordion,MageOS-Akkordeon,module,MageOS_Widgetkit
+MageOS accordion widget – collapsible content sections,MageOS-Widget für ein Akkordeon – aufklappbare Inhaltsabschnitte,module,MageOS_Widgetkit
+MageOS Banner,MageOS-Banner,module,MageOS_Widgetkit
+MageOS banner widget – image + title/text/CTA in 5 layout variants,"MageOS-Widget für ein Banner – Bild mit Titel, Text und Schaltfläche in 5 Layoutvarianten",module,MageOS_Widgetkit
+MageOS Countdown,MageOS-Countdown,module,MageOS_Widgetkit
+MageOS countdown widget – counts down to a target date,MageOS-Widget für einen Countdown – zählt bis zu einem Zieldatum herunter,module,MageOS_Widgetkit
+MageOS Grid,MageOS-Raster,module,MageOS_Widgetkit
+MageOS Grid Stacked,MageOS-Raster gestapelt,module,MageOS_Widgetkit
+"MageOS grid stacked widget – full-width stacked rows, in 3 layout variants","MageOS-Widget für ein gestapeltes Raster – übereinanderliegende Zeilen in voller Breite, in 3 Layoutvarianten",module,MageOS_Widgetkit
+MageOS grid widget – displays items in a responsive CSS grid layout,MageOS-Widget für ein Raster – zeigt Einträge in einem responsiven CSS-Raster,module,MageOS_Widgetkit
+MageOS Hyvä Accordion Template,MageOS-Hyvä-Vorlage für das Akkordeon,module,MageOS_Widgetkit
+MageOS Hyvä Countdown Template,MageOS-Hyvä-Vorlage für den Countdown,module,MageOS_Widgetkit
+MageOS Hyvä Grid Template,MageOS-Hyvä-Vorlage für das Raster,module,MageOS_Widgetkit
+MageOS Hyvä Information Grid Template,MageOS-Hyvä-Vorlage für das Info-Raster,module,MageOS_Widgetkit
+MageOS Hyvä Marquee Template,MageOS-Hyvä-Vorlage für das Laufband,module,MageOS_Widgetkit
+MageOS Hyvä Product Grid Template,MageOS-Hyvä-Vorlage für das Produktraster,module,MageOS_Widgetkit
+MageOS Hyvä Product Slider Full Template,MageOS-Hyvä-Vorlage für den Produkt-Slider in voller Breite,module,MageOS_Widgetkit
+MageOS Hyvä Product Slider Template,MageOS-Hyvä-Vorlage für den Produkt-Slider,module,MageOS_Widgetkit
+MageOS Hyvä Slider Full Template,MageOS-Hyvä-Vorlage für den Slider in voller Breite,module,MageOS_Widgetkit
+MageOS Hyvä Slider Template,MageOS-Hyvä-Vorlage für den Slider,module,MageOS_Widgetkit
+MageOS Hyvä Slideshow Template,MageOS-Hyvä-Vorlage für die Slideshow,module,MageOS_Widgetkit
+MageOS Hyvä Tab Template,MageOS-Hyvä-Vorlage für die Reiter,module,MageOS_Widgetkit
+MageOS Information Grid,MageOS-Info-Raster,module,MageOS_Widgetkit
+"MageOS information grid widget – icon, title, description and a CTA button per item, in a responsive CSS grid layout","MageOS-Widget für ein Info-Raster – je Eintrag Symbol, Titel, Beschreibung und eine Schaltfläche, in einem responsiven CSS-Raster",module,MageOS_Widgetkit
+MageOS Marquee,MageOS-Laufband,module,MageOS_Widgetkit
+MageOS marquee widget – an infinitely scrolling strip of logos/content,MageOS-Widget für ein Laufband – ein endlos durchlaufender Streifen mit Logos oder Inhalten,module,MageOS_Widgetkit
+MageOS Product Grid,MageOS-Produktraster,module,MageOS_Widgetkit
+MageOS product grid widget – displays catalog products in a responsive CSS grid layout,MageOS-Widget für ein Produktraster – zeigt Katalogprodukte in einem responsiven CSS-Raster,module,MageOS_Widgetkit
+MageOS Product Slider,MageOS-Produkt-Slider,module,MageOS_Widgetkit
+MageOS product slider widget – displays a scrollable slider of catalog products,MageOS-Widget für einen Produkt-Slider – zeigt Katalogprodukte in einem Slider zum Durchblättern,module,MageOS_Widgetkit
 MageOS SEO,MageOS SEO,module,MageOS_Seo
+MageOS Slider,MageOS-Slider,module,MageOS_Widgetkit
+MageOS slider widget,MageOS-Widget für einen Slider,module,MageOS_Widgetkit
+MageOS Slideshow,MageOS-Slideshow,module,MageOS_Widgetkit
+MageOS slideshow widget,MageOS-Widget für eine Slideshow,module,MageOS_Widgetkit
+MageOS Tab,MageOS-Reiter,module,MageOS_Widgetkit
+MageOS tab widget – switchable content panels,MageOS-Widget für Reiter – umschaltbare Inhaltsbereiche,module,MageOS_Widgetkit
+MageOS Widgetkit,MageOS Widgetkit,module,MageOS_Widgetkit
+MageOS Widgetkit Section,MageOS-Widgetkit-Abschnitt,module,MageOS_Widgetkit
 Mago %1 · Magento %2 · PHP %3,Mago %1 · Magento %2 · PHP %3,module,MagoAssistant_Mago
 Mago Assistant,Mago Assistant,module,MagoAssistant_Mago
 "Mago e-mails the customer of an order at most once in this many minutes, so a repeated or bulk request cannot flood the customer's inbox. 0 removes the limit (default: 60).","Mago sendet dem Kunden einer Bestellung höchstens einmal innerhalb dieser Anzahl an Minuten eine E-Mail, damit wiederholte oder massenhafte Anfragen das Postfach des Kunden nicht überfluten. 0 hebt die Begrenzung auf (Standard: 60).",module,MagoAssistant_Mago
@@ -8963,6 +9052,8 @@ Marketing,Marketing,module,Magento_Search
 Marketing,Marketing,module,Magento_Backend
 Marketing,Marketing,module,Magento_Reports
 Marketing Automation Log,Protokoll der Marketing-Automatisierung,module,Dotdigitalgroup_Email
+Marquee,Laufband,module,MageOS_Widgetkit
+Marquee items,Einträge des Laufbands,module,MageOS_Widgetkit
 Mask for Meta Description,Maske für Meta-Beschreibung,,
 Mask for Meta Keywords,Maske für Meta-Schlüsselworte,,
 Mask for Meta Title,Maske für Meta-Titel,,
@@ -9247,6 +9338,7 @@ Mins,Minuten,,
 Minute,Minute,,
 Minute Intervals,Minutenintervalle,,
 Minute of the Hour,Minute der Stunde,,
+Minutes,Minuten,module,MageOS_Widgetkit
 Miscellaneous Feeds,Sonstige Feeds,,
 Miscellaneous HTML,Diverses HTML,,
 Miscellaneous Scripts,Sonstige Scripte,,
@@ -9384,6 +9476,7 @@ My Passkeys,Meine Passkeys,module,MageOS_PasskeyAuth
 My Product Reviews,Meine Produktbewertungen,,
 My Recent Reviews,Meine letzten Bewertungen,,
 My Returns,Meine Rücksendungen,,
+My saved carts,Meine gespeicherten Warenkörbe,module,Maisondunet_SaveQuote
 My shipping and billing address are the same,Versand- und Rechnungsadresse sind identisch,module,Hyva_Checkout
 My special attribute,Mein Spezialattribut,,
 My Wish List,Mein Wunschzettel,,
@@ -9423,6 +9516,7 @@ Name in %1,Name in %1,,
 Name is required,Name wird benötigt,,
 Name Prefix,Namenspräfix,module,Magento_Customer
 Name Suffix,Namenssuffix,module,Magento_Customer
+Name: ,Name: ,module,Maisondunet_SaveQuote
 Name: %name,Name: %name,,
 Name: A to Z,Name: A bis Z,module,Magento_MediaGalleryUi
 Name: Z to A,Name: Z bis A,module,Magento_MediaGalleryUi
@@ -9645,6 +9739,7 @@ Next Message,Nächste Meldung,module,Hyva_Checkout
 Next page,Nächste Seite,,
 Next Page,Nächste Seite,module,frontend/Hyva/default
 Next slide,Nächste Folie,module,frontend/Hyva/default
+Next Slide,Nächste Folie,module,MageOS_Widgetkit
 next step,nächster Schritt,module,Hyva_Checkout
 Next steps,Nächste Schritte,module,Magento_Backend
 Next →,Nächste →,module,MageOS_BlogHyva
@@ -9860,6 +9955,7 @@ Non-rectangular,Nicht rechteckig,,
 None,Keine,,
 none,Keine,,
 NONE,KEINE,module,Magento_Email
+None (0),Keiner (0),module,MageOS_Widgetkit
 None of the address information matched,Keine der Adressinformationen übereinstimmend,,
 "None of the configured AI services can be used through the bundled client: %1. Install the bridge package for one of them, or request a specific service by code.",Keiner der konfigurierten KI-Dienste kann über den mitgelieferten Client verwendet werden: %1. Installieren Sie das Bridge-Paket für einen davon oder fordern Sie einen bestimmten Dienst per Code an.,module,MageOS_AiBase
 None of the given checkout types were found,Keiner der angegebenen Checkout-Typen wurde gefunden,module,Hyva_Checkout
@@ -9879,11 +9975,13 @@ Not all browsers support all these formats!,Nicht alle Browser unterstützen all
 Not all browsers support all these formats! Note: ICO file type is supported by ImageMagik adapter that can be set from Store / Configuration / Developer / Image Processing Settings.,"Nicht alle Browser unterstützen alle diese Formate! Hinweis: Der Dateityp ICO wird vom ImageMagik-Adapter unterstützt, der unter Shop / Konfiguration / Entwickler / Bildverarbeitungs-Einstellungen eingestellt werden kann.",module,Magento_Theme
 Not all items were included.,Nicht alle Artikel wurden berücksichtigt.,module,Magento_Multishipping
 Not all of your products are available in the requested quantity.,Nicht alle Ihrer Produkte sind in der gewünschten Menge verfügbar.,,
+Not allowed,Nicht erlaubt,module,Maisondunet_SaveQuote
 Not allowed parameters: %1. Please use only %2 and %3.,Nicht erlaubte Parameter: %1. Bitte benutzen Sie nur %2 und %3.,,
 Not allowed to edit the category's design attributes,"Es ist nicht erlaubt, die Design-Attribute der Kategorie zu bearbeiten",module,Magento_Catalog
 Not allowed to edit the product's design attributes,"Es ist nicht erlaubt, die Design-Attribute des Produkts zu bearbeiten",module,Magento_Catalog
 Not Approved,Nicht genehmigt,,
 not assigned,nicht zugewiesen,module,Magento_InventorySales
+Not authorized,Nicht berechtigt,module,Maisondunet_SaveQuote
 Not authorized to access %1.,Keine Berechtigung für den Zugriff auf %1.,module,MageOS_Blog
 Not Available,Nicht verfügbar,module,Temando_Shipping
 Not available,Nicht verfügbar,module,Dotdigitalgroup_Email
@@ -10494,6 +10592,7 @@ Page View Optimization,Optimierung der Seitenansicht,,
 Page with ID: %s doesn't exist,Seite mit ID: %s existiert nicht,module,Magento_PageBuilder
 Page:,Seite:,,
 PageBuilder,PageBuilder,module,Hyva_Theme
+PageBuilder Preview,PageBuilder-Vorschau,module,MageOS_Widgetkit
 Pagebuilder template import/export,Import/Export von Pagebuilder-Vorlagen,module,MageOS_PageBuilderTemplateImportExport
 Pages,Seiten,,
 Pages Hierarchy,Seitenhierarchie,,
@@ -10509,6 +10608,7 @@ Paid Amount,Gezahlter Betrag,,
 Paid Invoices,Bezahlte Rechnungen,,
 PAK,PAK,,
 Pallet,Palette,,
+Panel,Panel,module,MageOS_Widgetkit
 Panoramic,Panoramisch,module,Magento_AdobeStockImageAdminUi
 Paperless Shipment - Customs documentation has been submitted electronically and is not required to be physically attached to the shipment.,Papierloser Versand - Die Zolldokumentation wurde elektronisch übermittelt und muss nicht physisch an der Sendung angebracht werden.,module,Temando_Shipping
 Parallax Background,Parallax-Hintergrund,module,Magento_PageBuilder
@@ -10538,6 +10638,8 @@ Partial Capture Offline,Partielles Erfassen offline,,
 Partial Capture Online,Partielles Erfassen online,,
 Partial commit,Partielles Einchecken,,
 "Partial commit mode affects time of indexation, but allows indexed products to be visible on Storefront before indexation is completed.","Partielles Einchecken beeinflusst die Zeit der Indexierung, aber indizierte Produkte sind im Frontend sichtbar, bevor die Indexierung abgeschlossen ist.",,
+"Partial overlay left – image right 3/4, card overlapping the left edge","Teilüberlagerung links – Bild rechts auf 3/4, Karte überlappt den linken Rand",module,MageOS_Widgetkit
+"Partial overlay right – image left 3/4, card overlapping the right edge","Teilüberlagerung rechts – Bild links auf 3/4, Karte überlappt den rechten Rand",module,MageOS_Widgetkit
 Partial Refund Offline,Teilweise Rückerstattung offline,,
 Partial Refund Online,Teilweise Rückerstattung online,,
 Partial settlements are not supported by this processor.,Teilabrechnungen werden von diesem Prozessor nicht unterstützt.,module,Magento_Braintree
@@ -11569,6 +11671,7 @@ Preview is not available.,Vorschau ist nicht verfügbar,,
 "Preview Page Builder content on product and category editing pages. Setting to ""No"" can improve performance in case several attributes are editable by Page Builder.","Vorschau von Page Builder-Inhalten auf den Bearbeitungsseiten von Produkten und Kategorien. Die Einstellung ""Nein"" kann die Performance verbessern, wenn mehrere Attribute mit Page Builder bearbeitet werden können.",module,Magento_PageBuilder
 Preview Sale,Verkaufsvorschau,,
 Preview Template,Vorlagenvorschau,,
+Preview Theme,Theme für die Vorschau,module,MageOS_Widgetkit
 Previous,Zurück,,
 Previous image,Vorheriges Bild,module,frontend/Hyva/default
 Previous Message,Vorherige Meldung,module,Hyva_Checkout
@@ -11577,6 +11680,7 @@ previous page,vorherige Seite,module,Magento_Backend
 Previous Page,Vorherige Seite,module,frontend/Hyva/default
 Previous selected shipping method is no longer available. Please select a different shipping method and try again.,Die zuvor gewählte Versandmethode ist nicht mehr verfügbar. Bitte wählen Sie eine andere Versandmethode und versuchen Sie es erneut.,module,Hyva_Checkout
 Previous slide,Vorherige Folie,module,frontend/Hyva/default
+Previous Slide,Vorherige Folie,module,MageOS_Widgetkit
 previous step,vorheriger Schritt,module,Hyva_Checkout
 Price,Preis,,
 Price (percentage),Preis (Prozentsatz),,
@@ -11777,6 +11881,7 @@ Product Info,Produktinformationen,,
 Product Info Column,Produktinfo-Spalte,,
 Product is not loaded,Das Produkt ist nicht geladen,,
 Product is not salable.,Das Produkt ist nicht verkäuflich.,,
+Product items,Produkteinträge,module,MageOS_Widgetkit
 Product Link,Produkt-Link,module,Dotdigitalgroup_Email
 Product Link Block Template,Produktlink-Block-Vorlage,,
 Product Link Inline Template,Produktlink-Inline-Vorlage,,
@@ -11830,6 +11935,7 @@ Product schema templates: %1,Schema-Vorlagen für Produkte: %1,module,MageOS_Aeo
 Product search has been disabled.,Die Produktsuche wurde deaktiviert.,module,Magento_CatalogGraphQl
 Product select/multiselect attributes to translate,Zu übersetzende Produktattribute vom Typ Auswahl/Mehrfachauswahl,module,MageOS_AutomaticTranslation
 Product SKUs,Produkt-SKUs,module,Magento_PageBuilder
+Product Slider,Produkt-Slider,module,MageOS_Widgetkit
 Product Special,Spezielles Produkt,,
 Product Status Mode,Modus für den Produktstatus,module,Akeneo_Connector
 Product Stock Options,Produktbestandsoptionen,,
@@ -12060,6 +12166,7 @@ Quick Checkout,Express-Checkout,,
 Quick Search Form Types,Formulartypen der schnellen Suche,,
 "Quote address for failed order ID ""%1"" not found.","Die Warenkorbadresse für die fehlgeschlagene Bestellung mit der ID ""%1"" wurde nicht gefunden.",module,Magento_Multishipping
 Quote address for failed order not found.,Angebotsadresse für fehlgeschlagene Bestellung nicht gefunden.,module,Magento_Multishipping
+Quote Description Management,Verwaltung gespeicherter Warenkörbe,module,Maisondunet_SaveQuote
 Quote does not have Pickup Location assigned.,Dem Warenkorb ist kein Abholort zugewiesen.,module,Magento_InventoryInStorePickupQuote
 Quote Id,Angebots-ID,module,Dotdigitalgroup_Email
 Quote item id is not received.,Angebotsartikel-ID wird nicht empfangen.,,
@@ -12568,6 +12675,8 @@ Responsive,Reaktionsschnell,module,Magento_Paypal
 "REST and SOAP configurations, generated WSDL file","REST und SOAP Konfigurationen, erzeugte WSDL Datei",module,Magento_Webapi
 "REST and SOAP configurations, generated WSDL file.","REST und SOAP-Konfigurationen, generierte WSDL-Datei",,
 Restart,Neu starten,module,Mollie_HyvaCompatibility
+Restore,Wiederherstellen,module,Maisondunet_SaveQuote
+Restore Defaults,Standardwerte wiederherstellen,module,BitExpert_ForceCustomerLogin
 Restrict by Banner Types,Nach Bannertypen einschränken,,
 Restriction Mode,Einschränkungsmodus,,
 Result,Ergebnis,,
@@ -12898,6 +13007,7 @@ Save Attribute,Attribut speichern,,
 Save Banner,Banner speichern,,
 Save Block,Block speichern,,
 Save Cache Settings,Cache-Einstellungen speichern,,
+Save Cart,Warenkorb speichern,module,Maisondunet_SaveQuote
 Save Category,Kategorie speichern,,
 Save Condition,Bedingung speichern,,
 Save Config,Konfiguration speichern,,
@@ -12948,6 +13058,8 @@ Save User,Benutzer speichern,,
 Save View As...,View speichern als...,,
 Save Web Site,Website speichern,,
 Save Widget Configuration,Widget-Konfiguration speichern,module,MageOS_PageBuilderWidget
+Save Your Cart,Warenkorb speichern,module,Maisondunet_SaveQuote
+Save your cart,Warenkorb speichern,module,Maisondunet_SaveQuote
 "Save your colums before adding rules here. The find & replace will apply at column output. The more rules you apply the slower your feed will be, not recommended for large catalogs.","Speichern Sie Ihre Spalten, bevor Sie hier Regeln hinzufügen. Suchen und Ersetzen wird bei der Spaltenausgabe angewendet. Je mehr Regeln Sie anwenden, desto langsamer wird Ihr Feed; für große Kataloge nicht empfohlen.",module,MageOS_ShoppingFeed
 saved successfully,erfolgreich gespeichert,module,Hyva_Checkout
 saving,wird gespeichert,module,Hyva_Checkout
@@ -13037,6 +13149,7 @@ Searching for customer...,Kunde wird gesucht...,module,MagoAssistant_Mago
 Searching products...,Produkte werden gesucht...,module,MagoAssistant_Mago
 Sec,Sek,,
 Secondary,Sekundär,module,Magento_PageBuilder
+Seconds,Sekunden,module,MageOS_Widgetkit
 Secret Access Key,Geheimer Zugriffsschlüssel,module,Amazon_Core
 Secret for user with ID#%1 was not found,Das Secret für den Benutzer mit der ID#%1 wurde nicht gefunden,module,Magento_TwoFactorAuth
 Secret Key,Geheimschlüssel,,
@@ -13198,6 +13311,8 @@ Selected products are not assigned to any source.,Ausgewählte Produkte sind kei
 Selected shipping method is not available. Please select another shipping method for this order.,Die ausgewählte Versandart ist nicht verfügbar. Bitte wählen Sie für diese Bestellung eine andere Versandart aus.,module,Magento_Checkout
 Selected variant (choose options to see stock),"Ausgewählte Variante (Optionen wählen, um den Lagerbestand zu sehen)",module,Magento_InventoryStockVisualizer
 Selector,Selektor,module,Hyva_Theme
+"Selects the frontend theme whose already-compiled Tailwind CSS (<code>web/css/styles.css</code>) is used to style widget previews in the PageBuilder stage. The theme's CSS must be built (<code>npm run build</code> in its <code>web/tailwind</code> directory) for this to take effect; previews reflect whatever was last built, not unsaved template edits. Leave unset for unstyled previews.","Legt das Frontend-Theme fest, dessen bereits kompiliertes Tailwind-CSS (<code>web/css/styles.css</code>) die Widget-Vorschau im PageBuilder gestaltet. Das CSS des Themes muss dafür gebaut sein (<code>npm run build</code> im Verzeichnis <code>web/tailwind</code>); die Vorschau zeigt den zuletzt gebauten Stand, nicht ungespeicherte Änderungen an Vorlagen. Ohne Auswahl bleibt die Vorschau ungestaltet.",module,MageOS_Widgetkit
+Self,Gleiches Fenster,module,MageOS_Widgetkit
 Sellable bundles (how many of the current selection),Verkaufbare Bündel (Anzahl für die aktuelle Auswahl),module,Magento_InventoryStockVisualizer
 Semicolon (;) separated values.<br/>Leave empty for open text field.,Semikolon (;) getrennte Werte.<br/>Leave empty für offenes Textfeld.,module,Magento_Customer
 Semicolon (;) separated values.<br/>Put semicolon in the beginning for empty first option.<br/>Leave empty for open text field.,Durch Semikolon (;) getrennte Werte <br/> Semikolon am Anfang für leere erste Option setzen <br/> Leer lassen für freies Textfeld...,,
@@ -13810,10 +13925,15 @@ SKU not found in catalog.,SKU nicht im Katalog gefunden.,,
 SKU number,SKU-Nummer,,
 SKU:,SKU:,,
 Slide,Slide,module,Magento_PageBuilder
+slide,Folie,module,MageOS_Widgetkit
 Slide %1,Folie %1,module,frontend/Hyva/default
 Slide Name,Name des Slides,module,Magento_PageBuilder
+Slide navigation,Navigation der Folien,module,MageOS_Widgetkit
 Slider,Slider,module,Magento_PageBuilder
+Slider Full Aside (panel as first slide),Slider in voller Breite mit Seitenbereich (Panel als erste Folie),module,MageOS_Widgetkit
+Slider items,Einträge des Sliders,module,MageOS_Widgetkit
 Slider Settings,Slider-Einstellungen,module,Magento_PageBuilder
+Slideshow items,Einträge der Slideshow,module,MageOS_Widgetkit
 Slug,Slug,module,MageOS_Blog
 Small,Klein,,
 Small Express Box,Small Express Box,,
@@ -14052,6 +14172,7 @@ Sort Custom Option,Benutzerdefinierte Optionen sortieren,,
 Sort Custom Options,Benutzerdefinierte Optionen sortieren,,
 Sort Option,Optionen sortieren,,
 Sort Order,Sortierreihenfolge,,
+Sort order,Reihenfolge,module,MageOS_AdvancedWidget
 Sort order must be a positive integer.,Sortierreihenfolge muss eine positive ganze Zahl sein.,,
 Sort Order of widget instances in the same container,Sortierung der Widget-Instanzen im selben Container,,
 Sort Order PayPal Credit,Sort Order PayPal Credit,module,Magento_Paypal
@@ -14340,6 +14461,7 @@ Stores affected:,Betroffene Filialen:,module,Vertex_Tax
 Stores affected: ,Betroffene Filialen:,module,Vertex_Tax
 Stores Configuration,Shop-Konfiguration,,
 Stores List,Liste der Shops,,
+Strategy,Strategie,module,BitExpert_ForceCustomerLogin
 Stream AI responses in real-time via SSE,KI-Antworten in Echtzeit per SSE streamen,module,MagoAssistant_Mago
 Streamed,Gestreamt,module,MageOS_AiBase
 Street,Straße,,
@@ -14449,6 +14571,7 @@ successful.,Erfolgreich.,,
 Successfully cancelled Amazon Pay.,Amazon Pay wurde erfolgreich storniert.,module,Amazon_Payment
 Successfully Ordered,Erfolgreich bestellt,module,Magento_Multishipping
 Successfully ordered,Erfolgreich bestellt,module,Magento_Multishipping
+Successfully restored whitelist defaults.,Die Standardwerte der Ausnahmeliste wurden wiederhergestellt.,module,BitExpert_ForceCustomerLogin
 Such image doesn't exist,Ein solches Bild ist nicht vorhanden.,,
 Such product doesn't exist,Ein solches Produkt ist nicht vorhanden.,,
 Suffix Dropdown Options,Suffix Drop Down-Optionen,,
@@ -14536,6 +14659,7 @@ System Section,Abschnitt System,module,Magento_Config
 System Values,Systemwerte,module,Dotdigitalgroup_Email
 T,T,module,Magento_Customer
 Tab,Tabulator,module,MageOS_ShoppingFeed
+Tab items,Einträge der Reiter,module,MageOS_Widgetkit
 Tab Label,Tab-Label,,
 Tab Name,Tab-Name,module,Magento_PageBuilder
 Tab Navigation Alignment,Ausrichtung der Tab-Navigation,module,Magento_PageBuilder
@@ -15877,6 +16001,7 @@ There is no order with provided id,Es gibt keine Bestellung mit der angegebenen 
 There is no order with provided id or gift message isn't allowed,Es gibt keine Bestellung mit der angegebenen ID oder eine Geschenk-Nachricht ist nicht erlaubt,,
 There is no product with provided  itemId: %1 in the cart,Es gibt keine Artikel mit der vorgesehenen Artikel-ID: %1 im Einkaufswagen,,
 There is no sample file for this entity.,Es gibt keine Beispieldatei für diesen Datensatz.,,
+There is no saved cart,Es gibt keinen gespeicherten Warenkorb,module,Maisondunet_SaveQuote
 "There is no stock with ""%fieldValue"" for ""%fieldName"". Verify and try again.","Es gibt keinen Bestand mit ""%fieldValue"" für ""%fieldName"". Überprüfen Sie und versuchen Sie es erneut.",module,Magento_Inventory
 There is no store with provided ID.,Es ist kein Shop mit der angegebenen ID vorhanden.,,
 There is no such address entity to delete.,Es gibt keine solche Adresse zu löschen.,module,Magento_Customer
@@ -16167,6 +16292,7 @@ Threshold Amount,Grenzbetrag,module,Magento_Braintree
 Thumbnail,Thumbnail,,
 thumbnail,Vorschaubild,module,Magento_Theme
 Thumbnail Image,Miniaturbild,module,Magento_AdobeStockImageAdminUi
+Thumbnav,Vorschaubild-Navigation,module,MageOS_Widgetkit
 Thumbs down,Daumen runter,module,MagoAssistant_Mago
 Thumbs up,Daumen hoch,module,MagoAssistant_Mago
 Tier Price,Preisstufen,,
@@ -16322,6 +16448,7 @@ Total Ordered Report,Bericht über gesamte Bestellungen,,
 Total orders synced with Yotpo: %1,Aufträge insgesamt synchronisiert mit Yotpo: %1,module,Yotpo_Yotpo
 Total Packages,Gesamt Pakete,module,Temando_Shipping
 Total Paid,Gesamt bezahlt,,
+Total price,Gesamtpreis,module,Maisondunet_SaveQuote
 total quantity,Gesamtmenge,,
 Total Quantity,Gesamtmenge,,
 Total Refund,Gesamterstattung,,
@@ -16889,6 +17016,8 @@ Url Options,URL-Optionen,,
 URL Rewrite Information,URL-Rewrite-Informationen,,
 URL Rewrite Management,URL-Rewrite-Verwaltung,,
 URL Rewrites,URL-Rewrites,,
+Url Rule,URL-Regel,module,BitExpert_ForceCustomerLogin
+URL Rule,URL-Regel,module,BitExpert_ForceCustomerLogin
 URL should be in correct format and must start with HTTPS.,Die URL muss im korrekten Format vorliegen und mit HTTPS beginnen.,module,Magento_Securitytxt
 URL to redirect user to link their 3rd party account with this Magento integration credentials.,URL um Nutzer zu ihrem Drittpartei-Konto umzuleiten mit den Anmeldeinformationen dieser Magento-Integration,,
 Url-Optionen speichern,module,Magento_Sitemap,
@@ -17100,8 +17229,11 @@ USPS Web Tools API,USPS Web Tools API,module,Magento_Usps
 UTF-8 is the only supported charset.,UTF-8 ist der einzige unterstützte Zeichensatz,,
 "UTF-8 TSV product catalog for Meta Commerce Manager scheduled data feeds. Review brand, identifiers, condition, and variant mappings before upload.","UTF-8-TSV-Produktkatalog für geplante Datenfeeds im Meta Commerce Manager. Prüfen Sie vor dem Upload die Zuordnungen für Marke, Kennungen, Zustand und Varianten.",module,MageOS_ShoppingFeed
 Utility %1 not found,Utility %1 wurde nicht gefunden,,
+"V1 – Simple (1/2 image, 1/2 content)","V1 – Einfach (1/2 Bild, 1/2 Inhalt)",module,MageOS_Widgetkit
 v. %1,v. %1,module,Dotdigitalgroup_Email
 v2 REST (Legacy),v2 REST (veraltet),module,Magento_NewRelicReporting
+V2 – 3 columns (image / title / content),V2 – 3 Spalten (Bild / Titel / Inhalt),module,MageOS_Widgetkit
+"V3 – Sticky title, stacked items (alternate setting is ignored)","V3 – Fixierter Titel, gestapelte Einträge (die Einstellung zum Abwechseln wird ignoriert)",module,MageOS_Widgetkit
 "Valid defer until values: <strong>interact</strong>, <strong>intersect</strong>, <strong>idle</strong>, <strong>event:eventname</strong>.<br/>Configuring many deferred components here may increase the Total Blocking Time. Consider deferring components by changing the PHTML templates instead.","Gültige Werte für die Verzögerung: <strong>interact</strong>, <strong>intersect</strong>, <strong>idle</strong>, <strong>event:eventname</strong>.<br/>Wenn Sie hier viele verzögerte Komponenten konfigurieren, kann sich die Total Blocking Time erhöhen. Verzögern Sie Komponenten stattdessen besser durch Anpassen der PHTML-Vorlagen.",module,Hyva_Theme
 Valid range 2-20,gültiger Bereich: 2-20,,
 Valid range: 0-59 (default 0).,gültiger Bereich: 0-59 (voreingestellt 0).,,
@@ -17950,6 +18082,8 @@ Which product ?,Welches Produkt?,module,MageOS_ShoppingFeed
 Which product?,Welches Produkt?,module,MageOS_ShoppingFeed
 Which products are running low on stock?,Welche Produkte haben einen niedrigen Lagerbestand?,module,MagoAssistant_Mago
 White No Border,Weiß ohne Rahmen,module,Magento_Paypal
+Whitelist entry successfully removed.,Der Eintrag der Ausnahmeliste wurde entfernt.,module,BitExpert_ForceCustomerLogin
+Whitelist entry successfully saved.,Der Eintrag der Ausnahmeliste wurde gespeichert.,module,BitExpert_ForceCustomerLogin
 "Whoops, our bad... the step you requested was not found.","Hoppla, der angeforderte Schritt wurde nicht gefunden.",module,Hyva_Checkout
 Widget,Widget,,
 "Widget ""%1""","Widget ""%1""",,
@@ -18530,6 +18664,7 @@ You will no longer receive price alerts for this product.,Sie werden keine weite
 You will no longer receive stock alerts for this product.,Sie werden keine weiteren Verfügbarkeitsbenachrichtigungen zu diesem Produkt erhalten.,,
 You will no longer receive stock alerts.,Sie werden Verfügbarkeitsbenachrichtigungen nicht mehr erhalten.,,
 You will not be charged tax.,Es werden keine Steuern erhoben.,,
+You will remove all existing whitelist entries and restore the defaults.,Damit entfernen Sie alle vorhandenen Einträge der Ausnahmeliste und stellen die Standardwerte wieder her.,module,BitExpert_ForceCustomerLogin
 You will see the order total before you submit the order.,"Sie werden die Auftragssumme sehen, bevor Sie die Bestellung aufgeben.",,
 You're currently reading page,Sie lesen gerade Seite,,
 You're reviewing:,Sie bewerten:,,
